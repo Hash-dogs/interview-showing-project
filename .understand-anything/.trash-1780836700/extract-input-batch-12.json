@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "language": "java",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "language": "java",
+      "sizeLines": 406,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "language": "java",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "language": "java",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "language": "java",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java",
+      "language": "java",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java",
+      "language": "java",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "language": "java",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java",
+      "language": "java",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java",
+      "language": "java",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java",
+      "language": "java",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "language": "java",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java",
+      "language": "java",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java",
+      "language": "java",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java",
+      "language": "java",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "language": "java",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "language": "java",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "language": "java",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "language": "java",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "language": "java",
+      "sizeLines": 362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "language": "java",
+      "sizeLines": 692,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java": [],
+    "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java": [],
+    "app/src/main/java/interview/guide/modules/interview/InterviewController.java": [],
+    "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java": [],
+    "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java": [],
+    "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java": [],
+    "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java": [],
+    "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java": [],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java": [],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java": [],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java": [],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java": []
+  }
+}

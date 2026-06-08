@@ -1,0 +1,105 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "frontend/.dockerignore",
+      "language": "unknown",
+      "fileCategory": "infra",
+      "totalLines": 37,
+      "nonEmptyLines": 30,
+      "metrics": {}
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "language": "dockerfile",
+      "fileCategory": "infra",
+      "totalLines": 43,
+      "nonEmptyLines": 35,
+      "services": [
+        {
+          "name": "builder",
+          "image": "node:20-alpine",
+          "ports": [],
+          "startLine": 5,
+          "endLine": 28
+        },
+        {
+          "name": "nginx",
+          "image": "nginx:alpine",
+          "ports": [
+            80
+          ],
+          "startLine": 29,
+          "endLine": 44
+        }
+      ],
+      "steps": [
+        {
+          "name": "FROM node:20-alpine AS builder",
+          "startLine": 5,
+          "endLine": 5
+        },
+        {
+          "name": "WORKDIR /app",
+          "startLine": 6,
+          "endLine": 6
+        },
+        {
+          "name": "COPY package.json pnpm-lock.yaml ./",
+          "startLine": 11,
+          "endLine": 11
+        },
+        {
+          "name": "RUN npm install -g pnpm && pnpm install",
+          "startLine": 17,
+          "endLine": 17
+        },
+        {
+          "name": "COPY . .",
+          "startLine": 20,
+          "endLine": 20
+        },
+        {
+          "name": "RUN pnpm build",
+          "startLine": 22,
+          "endLine": 22
+        },
+        {
+          "name": "FROM nginx:alpine",
+          "startLine": 29,
+          "endLine": 29
+        },
+        {
+          "name": "COPY --from=builder /app/dist /usr/share/nginx/html",
+          "startLine": 32,
+          "endLine": 32
+        },
+        {
+          "name": "COPY nginx.conf /etc/nginx/conf.d/default.conf",
+          "startLine": 36,
+          "endLine": 36
+        },
+        {
+          "name": "EXPOSE 80",
+          "startLine": 39,
+          "endLine": 39
+        },
+        {
+          "name": "CMD [\"nginx\", \"-g\", \"daemon off;\"]",
+          "startLine": 43,
+          "endLine": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "serviceCount": 2,
+        "stepCount": 11
+      }
+    }
+  ]
+}

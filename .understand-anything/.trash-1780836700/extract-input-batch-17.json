@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptService.java",
+      "language": "java",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewService.java",
+      "language": "java",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-evaluation-summary-system.st",
+      "language": "st",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-evaluation-summary-user.st",
+      "language": "st",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-evaluation-system.st",
+      "language": "st",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-evaluation-user.st",
+      "language": "st",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-question-resume-system.st",
+      "language": "st",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-question-resume-user.st",
+      "language": "st",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-question-skill-system.st",
+      "language": "st",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/interview-question-skill-user.st",
+      "language": "st",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/jd-parse-system.st",
+      "language": "st",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/knowledgebase-query-rewrite.st",
+      "language": "st",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/knowledgebase-query-system.st",
+      "language": "st",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/knowledgebase-query-user.st",
+      "language": "st",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/resume-analysis-system.st",
+      "language": "st",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/prompts/resume-analysis-user.st",
+      "language": "st",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/scripts/rate_limit_single.lua",
+      "language": "lua",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/resources/skills/algorithm/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/algorithm/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 37,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/ali-backend/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/ali-backend/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 50,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/bytedance-backend/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/bytedance-backend/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 40,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/frontend/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/frontend/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptService.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewService.java": [],
+    "app/src/main/resources/prompts/interview-evaluation-summary-system.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-summary-user.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-system.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-user.st": [],
+    "app/src/main/resources/prompts/interview-question-resume-system.st": [],
+    "app/src/main/resources/prompts/interview-question-resume-user.st": [],
+    "app/src/main/resources/prompts/interview-question-skill-system.st": [],
+    "app/src/main/resources/prompts/interview-question-skill-user.st": [],
+    "app/src/main/resources/prompts/jd-parse-system.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-rewrite.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-system.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-user.st": [],
+    "app/src/main/resources/prompts/resume-analysis-system.st": [],
+    "app/src/main/resources/prompts/resume-analysis-user.st": [],
+    "app/src/main/resources/scripts/rate_limit_single.lua": [],
+    "app/src/main/resources/skills/algorithm/SKILL.md": [],
+    "app/src/main/resources/skills/algorithm/skill.meta.yml": [],
+    "app/src/main/resources/skills/ali-backend/SKILL.md": [],
+    "app/src/main/resources/skills/ali-backend/skill.meta.yml": [],
+    "app/src/main/resources/skills/bytedance-backend/SKILL.md": [],
+    "app/src/main/resources/skills/bytedance-backend/skill.meta.yml": [],
+    "app/src/main/resources/skills/frontend/SKILL.md": [],
+    "app/src/main/resources/skills/frontend/skill.meta.yml": []
+  }
+}

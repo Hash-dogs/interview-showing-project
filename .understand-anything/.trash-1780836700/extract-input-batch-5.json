@@ -1,0 +1,140 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/browser.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/database.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/db-design.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/design-pattern.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/distributed.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/django-flask.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/high-availability.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/java.md",
+      "language": "markdown",
+      "sizeLines": 52,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/javascript.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/mq.md",
+      "language": "markdown",
+      "sizeLines": 42,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/mysql.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/network-os.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/python-basic.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/react-vue.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/redis.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/spring.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/system-design-scenarios.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/test-development.md",
+      "language": "markdown",
+      "sizeLines": 64,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md": [],
+    "app/src/main/resources/skills/_shared/references/browser.md": [],
+    "app/src/main/resources/skills/_shared/references/database.md": [],
+    "app/src/main/resources/skills/_shared/references/db-design.md": [],
+    "app/src/main/resources/skills/_shared/references/design-pattern.md": [],
+    "app/src/main/resources/skills/_shared/references/distributed.md": [],
+    "app/src/main/resources/skills/_shared/references/django-flask.md": [],
+    "app/src/main/resources/skills/_shared/references/high-availability.md": [],
+    "app/src/main/resources/skills/_shared/references/java.md": [],
+    "app/src/main/resources/skills/_shared/references/javascript.md": [],
+    "app/src/main/resources/skills/_shared/references/mq.md": [],
+    "app/src/main/resources/skills/_shared/references/mysql.md": [],
+    "app/src/main/resources/skills/_shared/references/network-os.md": [],
+    "app/src/main/resources/skills/_shared/references/python-basic.md": [],
+    "app/src/main/resources/skills/_shared/references/react-vue.md": [],
+    "app/src/main/resources/skills/_shared/references/redis.md": [],
+    "app/src/main/resources/skills/_shared/references/spring.md": [],
+    "app/src/main/resources/skills/_shared/references/system-design-scenarios.md": [],
+    "app/src/main/resources/skills/_shared/references/test-development.md": []
+  }
+}

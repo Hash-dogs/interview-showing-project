@@ -1,0 +1,1048 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/components/AudioRecorder.tsx",
+      "type": "file",
+      "name": "AudioRecorder.tsx",
+      "filePath": "frontend/src/components/AudioRecorder.tsx",
+      "summary": "定义函数/方法: AudioRecorder",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/AudioRecorder.tsx:AudioRecorder",
+      "type": "function",
+      "name": "AudioRecorder",
+      "filePath": "frontend/src/components/AudioRecorder.tsx",
+      "summary": "函数 AudioRecorder",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/CodeBlock.tsx",
+      "type": "file",
+      "name": "CodeBlock.tsx",
+      "filePath": "frontend/src/components/CodeBlock.tsx",
+      "summary": "定义函数/方法: CodeBlock",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/CodeBlock.tsx:CodeBlock",
+      "type": "function",
+      "name": "CodeBlock",
+      "filePath": "frontend/src/components/CodeBlock.tsx",
+      "summary": "函数 CodeBlock",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/ConfirmDialog.tsx",
+      "type": "file",
+      "name": "ConfirmDialog.tsx",
+      "filePath": "frontend/src/components/ConfirmDialog.tsx",
+      "summary": "定义函数/方法: ConfirmDialog",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/ConfirmDialog.tsx:ConfirmDialog",
+      "type": "function",
+      "name": "ConfirmDialog",
+      "filePath": "frontend/src/components/ConfirmDialog.tsx",
+      "summary": "函数 ConfirmDialog",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/DeleteConfirmDialog.tsx",
+      "type": "file",
+      "name": "DeleteConfirmDialog.tsx",
+      "filePath": "frontend/src/components/DeleteConfirmDialog.tsx",
+      "summary": "定义函数/方法: DeleteConfirmDialog",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/DeleteConfirmDialog.tsx:DeleteConfirmDialog",
+      "type": "function",
+      "name": "DeleteConfirmDialog",
+      "filePath": "frontend/src/components/DeleteConfirmDialog.tsx",
+      "summary": "函数 DeleteConfirmDialog",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/FileUploadCard.tsx",
+      "type": "file",
+      "name": "FileUploadCard.tsx",
+      "filePath": "frontend/src/components/FileUploadCard.tsx",
+      "summary": "定义函数/方法: FileUploadCard",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/FileUploadCard.tsx:FileUploadCard",
+      "type": "function",
+      "name": "FileUploadCard",
+      "filePath": "frontend/src/components/FileUploadCard.tsx",
+      "summary": "函数 FileUploadCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/HistoryList.tsx",
+      "type": "file",
+      "name": "HistoryList.tsx",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "定义函数/方法: formatFileSize, StatusIcon, getStatusText, StatCard, HistoryList",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/HistoryList.tsx:formatFileSize",
+      "type": "function",
+      "name": "formatFileSize",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "函数 formatFileSize",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/HistoryList.tsx:StatusIcon",
+      "type": "function",
+      "name": "StatusIcon",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "函数 StatusIcon",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/HistoryList.tsx:getStatusText",
+      "type": "function",
+      "name": "getStatusText",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "函数 getStatusText",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/HistoryList.tsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "函数 StatCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/HistoryList.tsx:HistoryList",
+      "type": "function",
+      "name": "HistoryList",
+      "filePath": "frontend/src/components/HistoryList.tsx",
+      "summary": "函数 HistoryList",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/components/InterviewChatPanel.tsx",
+      "type": "file",
+      "name": "InterviewChatPanel.tsx",
+      "filePath": "frontend/src/components/InterviewChatPanel.tsx",
+      "summary": "定义函数/方法: InterviewChatPanel",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewChatPanel.tsx:InterviewChatPanel",
+      "type": "function",
+      "name": "InterviewChatPanel",
+      "filePath": "frontend/src/components/InterviewChatPanel.tsx",
+      "summary": "函数 InterviewChatPanel",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "type": "file",
+      "name": "InterviewDetailPanel.tsx",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "定义函数/方法: InterviewDetailPanel, ScoreCard, StrengthsSection, ImprovementsSection, QuestionsSection",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:InterviewDetailPanel",
+      "type": "function",
+      "name": "InterviewDetailPanel",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 InterviewDetailPanel",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:ScoreCard",
+      "type": "function",
+      "name": "ScoreCard",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 ScoreCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:StrengthsSection",
+      "type": "function",
+      "name": "StrengthsSection",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 StrengthsSection",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:ImprovementsSection",
+      "type": "function",
+      "name": "ImprovementsSection",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 ImprovementsSection",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:QuestionsSection",
+      "type": "function",
+      "name": "QuestionsSection",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 QuestionsSection",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewDetailPanel.tsx:QuestionCard",
+      "type": "function",
+      "name": "QuestionCard",
+      "filePath": "frontend/src/components/InterviewDetailPanel.tsx",
+      "summary": "函数 QuestionCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/InterviewMessageBubble.tsx",
+      "type": "file",
+      "name": "InterviewMessageBubble.tsx",
+      "filePath": "frontend/src/components/InterviewMessageBubble.tsx",
+      "summary": "定义函数/方法: InterviewMessageBubble",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewMessageBubble.tsx:InterviewMessageBubble",
+      "type": "function",
+      "name": "InterviewMessageBubble",
+      "filePath": "frontend/src/components/InterviewMessageBubble.tsx",
+      "summary": "函数 InterviewMessageBubble",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/InterviewPageHeader.tsx",
+      "type": "file",
+      "name": "InterviewPageHeader.tsx",
+      "filePath": "frontend/src/components/InterviewPageHeader.tsx",
+      "summary": "定义函数/方法: InterviewPageHeader",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewPageHeader.tsx:InterviewPageHeader",
+      "type": "function",
+      "name": "InterviewPageHeader",
+      "filePath": "frontend/src/components/InterviewPageHeader.tsx",
+      "summary": "函数 InterviewPageHeader",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/InterviewPanel.tsx",
+      "type": "file",
+      "name": "InterviewPanel.tsx",
+      "filePath": "frontend/src/components/InterviewPanel.tsx",
+      "summary": "定义函数/方法: InterviewPanel, InterviewItemCard",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewPanel.tsx:InterviewPanel",
+      "type": "function",
+      "name": "InterviewPanel",
+      "filePath": "frontend/src/components/InterviewPanel.tsx",
+      "summary": "函数 InterviewPanel",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/InterviewPanel.tsx:InterviewItemCard",
+      "type": "function",
+      "name": "InterviewItemCard",
+      "filePath": "frontend/src/components/InterviewPanel.tsx",
+      "summary": "函数 InterviewItemCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+      "type": "file",
+      "name": "CalendarErrorBoundary.tsx",
+      "filePath": "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+      "summary": "定义类: CalendarErrorBoundary",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx:CalendarErrorBoundary",
+      "type": "class",
+      "name": "CalendarErrorBoundary",
+      "filePath": "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+      "summary": "类 CalendarErrorBoundary",
+      "tags": [
+        "class",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/InterviewEvent.tsx",
+      "type": "file",
+      "name": "InterviewEvent.tsx",
+      "filePath": "frontend/src/components/interviewschedule/InterviewEvent.tsx",
+      "summary": "定义函数/方法: InterviewEvent",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/InterviewEvent.tsx:InterviewEvent",
+      "type": "function",
+      "name": "InterviewEvent",
+      "filePath": "frontend/src/components/interviewschedule/InterviewEvent.tsx",
+      "summary": "函数 InterviewEvent",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+      "type": "file",
+      "name": "InterviewFormModal.tsx",
+      "filePath": "frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+      "summary": "定义函数/方法: InterviewFormModal",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/InterviewFormModal.tsx:InterviewFormModal",
+      "type": "function",
+      "name": "InterviewFormModal",
+      "filePath": "frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+      "summary": "函数 InterviewFormModal",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/InterviewListItem.tsx",
+      "type": "file",
+      "name": "InterviewListItem.tsx",
+      "filePath": "frontend/src/components/interviewschedule/InterviewListItem.tsx",
+      "summary": "定义函数/方法: InterviewListItem",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/InterviewListItem.tsx:InterviewListItem",
+      "type": "function",
+      "name": "InterviewListItem",
+      "filePath": "frontend/src/components/interviewschedule/InterviewListItem.tsx",
+      "summary": "函数 InterviewListItem",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/ScheduleCalendar.css",
+      "type": "file",
+      "name": "ScheduleCalendar.css",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleCalendar.css",
+      "summary": "CSS 样式文件",
+      "tags": [
+        "css",
+        "markup",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+      "type": "file",
+      "name": "ScheduleCalendar.tsx",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+      "summary": "定义函数/方法: ScheduleCalendar",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/ScheduleCalendar.tsx:ScheduleCalendar",
+      "type": "function",
+      "name": "ScheduleCalendar",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+      "summary": "函数 ScheduleCalendar",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+      "type": "file",
+      "name": "ScheduleHeader.tsx",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+      "summary": "定义函数/方法: ScheduleHeader",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/ScheduleHeader.tsx:ScheduleHeader",
+      "type": "function",
+      "name": "ScheduleHeader",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+      "summary": "函数 ScheduleHeader",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/interviewschedule/ScheduleList.tsx",
+      "type": "file",
+      "name": "ScheduleList.tsx",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleList.tsx",
+      "summary": "定义函数/方法: ScheduleList",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/interviewschedule/ScheduleList.tsx:ScheduleList",
+      "type": "function",
+      "name": "ScheduleList",
+      "filePath": "frontend/src/components/interviewschedule/ScheduleList.tsx",
+      "summary": "函数 ScheduleList",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Layout.tsx",
+      "type": "file",
+      "name": "Layout.tsx",
+      "filePath": "frontend/src/components/Layout.tsx",
+      "summary": "定义函数/方法: Layout",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/Layout.tsx:Layout",
+      "type": "function",
+      "name": "Layout",
+      "filePath": "frontend/src/components/Layout.tsx",
+      "summary": "函数 Layout",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/RadarChart.tsx",
+      "type": "file",
+      "name": "RadarChart.tsx",
+      "filePath": "frontend/src/components/RadarChart.tsx",
+      "summary": "定义函数/方法: RadarChart",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/RadarChart.tsx:RadarChart",
+      "type": "function",
+      "name": "RadarChart",
+      "filePath": "frontend/src/components/RadarChart.tsx",
+      "summary": "函数 RadarChart",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/RealtimeSubtitle.tsx",
+      "type": "file",
+      "name": "RealtimeSubtitle.tsx",
+      "filePath": "frontend/src/components/RealtimeSubtitle.tsx",
+      "summary": "定义函数/方法: RealtimeSubtitle",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/RealtimeSubtitle.tsx:RealtimeSubtitle",
+      "type": "function",
+      "name": "RealtimeSubtitle",
+      "filePath": "frontend/src/components/RealtimeSubtitle.tsx",
+      "summary": "函数 RealtimeSubtitle",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/components/ScoreProgressBar.tsx",
+      "type": "file",
+      "name": "ScoreProgressBar.tsx",
+      "filePath": "frontend/src/components/ScoreProgressBar.tsx",
+      "summary": "定义函数/方法: ScoreProgressBar",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ScoreProgressBar.tsx:ScoreProgressBar",
+      "type": "function",
+      "name": "ScoreProgressBar",
+      "filePath": "frontend/src/components/ScoreProgressBar.tsx",
+      "summary": "函数 ScoreProgressBar",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/UnifiedInterviewModal.tsx",
+      "type": "file",
+      "name": "UnifiedInterviewModal.tsx",
+      "filePath": "frontend/src/components/UnifiedInterviewModal.tsx",
+      "summary": "定义函数/方法: UnifiedInterviewModal",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/UnifiedInterviewModal.tsx:UnifiedInterviewModal",
+      "type": "function",
+      "name": "UnifiedInterviewModal",
+      "filePath": "frontend/src/components/UnifiedInterviewModal.tsx",
+      "summary": "函数 UnifiedInterviewModal",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/constants/routes.ts",
+      "type": "file",
+      "name": "routes.ts",
+      "filePath": "frontend/src/constants/routes.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/components/AudioRecorder.tsx",
+      "target": "function:frontend/src/components/AudioRecorder.tsx:AudioRecorder",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/CodeBlock.tsx",
+      "target": "function:frontend/src/components/CodeBlock.tsx:CodeBlock",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/ConfirmDialog.tsx",
+      "target": "function:frontend/src/components/ConfirmDialog.tsx:ConfirmDialog",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/DeleteConfirmDialog.tsx",
+      "target": "function:frontend/src/components/DeleteConfirmDialog.tsx:DeleteConfirmDialog",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/FileUploadCard.tsx",
+      "target": "function:frontend/src/components/FileUploadCard.tsx:FileUploadCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/HistoryList.tsx",
+      "target": "function:frontend/src/components/HistoryList.tsx:formatFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/HistoryList.tsx",
+      "target": "function:frontend/src/components/HistoryList.tsx:StatusIcon",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/HistoryList.tsx",
+      "target": "function:frontend/src/components/HistoryList.tsx:getStatusText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/HistoryList.tsx",
+      "target": "function:frontend/src/components/HistoryList.tsx:StatCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/HistoryList.tsx",
+      "target": "function:frontend/src/components/HistoryList.tsx:HistoryList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewChatPanel.tsx",
+      "target": "function:frontend/src/components/InterviewChatPanel.tsx:InterviewChatPanel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:InterviewDetailPanel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:ScoreCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:StrengthsSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:ImprovementsSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:QuestionsSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewDetailPanel.tsx",
+      "target": "function:frontend/src/components/InterviewDetailPanel.tsx:QuestionCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewMessageBubble.tsx",
+      "target": "function:frontend/src/components/InterviewMessageBubble.tsx:InterviewMessageBubble",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewPageHeader.tsx",
+      "target": "function:frontend/src/components/InterviewPageHeader.tsx:InterviewPageHeader",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewPanel.tsx",
+      "target": "function:frontend/src/components/InterviewPanel.tsx:InterviewPanel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/InterviewPanel.tsx",
+      "target": "function:frontend/src/components/InterviewPanel.tsx:InterviewItemCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+      "target": "class:frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx:CalendarErrorBoundary",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/InterviewEvent.tsx",
+      "target": "function:frontend/src/components/interviewschedule/InterviewEvent.tsx:InterviewEvent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+      "target": "function:frontend/src/components/interviewschedule/InterviewFormModal.tsx:InterviewFormModal",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/InterviewListItem.tsx",
+      "target": "function:frontend/src/components/interviewschedule/InterviewListItem.tsx:InterviewListItem",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+      "target": "function:frontend/src/components/interviewschedule/ScheduleCalendar.tsx:ScheduleCalendar",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+      "target": "function:frontend/src/components/interviewschedule/ScheduleHeader.tsx:ScheduleHeader",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/interviewschedule/ScheduleList.tsx",
+      "target": "function:frontend/src/components/interviewschedule/ScheduleList.tsx:ScheduleList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/Layout.tsx",
+      "target": "function:frontend/src/components/Layout.tsx:Layout",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/RadarChart.tsx",
+      "target": "function:frontend/src/components/RadarChart.tsx:RadarChart",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/RealtimeSubtitle.tsx",
+      "target": "function:frontend/src/components/RealtimeSubtitle.tsx:RealtimeSubtitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/ScoreProgressBar.tsx",
+      "target": "function:frontend/src/components/ScoreProgressBar.tsx:ScoreProgressBar",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/UnifiedInterviewModal.tsx",
+      "target": "function:frontend/src/components/UnifiedInterviewModal.tsx:UnifiedInterviewModal",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    }
+  ]
+}

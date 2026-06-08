@@ -1,0 +1,4043 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "louvain",
+  "totalFiles": 364,
+  "totalBatches": 22,
+  "exportsByPath": {
+    ".gitattributes": [],
+    ".understand-anything/.understandignore": [],
+    "app/src/main/java/interview/guide/App.java": [
+      "main",
+      "App"
+    ],
+    "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java": [
+      "AgentUtilsConfiguration",
+      "interviewSkillsToolCallback",
+      "AgentUtilsConfiguration"
+    ],
+    "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java": [
+      "AgentUtilsProperties"
+    ],
+    "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java": [
+      "buildOpenAiApi",
+      "buildOpenAiApi",
+      "baseUrlContainsVersion",
+      "stripTrailingSlashes",
+      "ApiPathResolver"
+    ],
+    "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java": [
+      "LlmProviderRegistry",
+      "LlmProviderRegistry",
+      "getChatClient",
+      "getDefaultChatClient",
+      "getChatClientOrDefault",
+      "getPlainChatClient",
+      "getVoiceChatClient",
+      "reload",
+      "getEmbeddingModel",
+      "getDefaultEmbeddingModel",
+      "LlmProviderRegistry"
+    ],
+    "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java": [
+      "PromptSanitizer",
+      "sanitize",
+      "wrapWithDelimiters",
+      "detectInjectionAttempt",
+      "PromptSanitizer"
+    ],
+    "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java": [
+      "ANTI_INJECTION_INSTRUCTION",
+      "DATA_BOUNDARY_INSTRUCTION",
+      "PromptSecurityConstants"
+    ],
+    "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java": [
+      "StructuredOutputInvoker",
+      "invoke",
+      "StructuredOutputInvoker"
+    ],
+    "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java": [
+      "StructuredOutputProperties"
+    ],
+    "app/src/main/java/interview/guide/common/annotation/RateLimit.java": [],
+    "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java": [
+      "init",
+      "around",
+      "RateLimitAspect"
+    ],
+    "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java": [
+      "init",
+      "shutdown",
+      "AbstractStreamConsumer"
+    ],
+    "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java": [
+      "AbstractStreamProducer"
+    ],
+    "app/src/main/java/interview/guide/common/config/AppConfigProperties.java": [
+      "getUploadDir",
+      "setUploadDir",
+      "getAllowedTypes",
+      "setAllowedTypes",
+      "AppConfigProperties"
+    ],
+    "app/src/main/java/interview/guide/common/config/CorsConfig.java": [
+      "CorsConfig",
+      "corsFilter",
+      "CorsConfig"
+    ],
+    "app/src/main/java/interview/guide/common/config/CorsProperties.java": [
+      "CorsProperties"
+    ],
+    "app/src/main/java/interview/guide/common/config/JacksonConfig.java": [
+      "objectMapper",
+      "JacksonConfig"
+    ],
+    "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java": [
+      "embeddingModel",
+      "LlmEmbeddingConfig"
+    ],
+    "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java": [
+      "LlmProviderProperties"
+    ],
+    "app/src/main/java/interview/guide/common/config/OpenApiConfig.java": [
+      "customOpenAPI",
+      "OpenApiConfig"
+    ],
+    "app/src/main/java/interview/guide/common/config/S3Config.java": [
+      "s3Client",
+      "S3Config"
+    ],
+    "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java": [
+      "StorageConfigProperties"
+    ],
+    "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java": [
+      "FIELD_RETRY_COUNT",
+      "FIELD_CONTENT",
+      "MAX_RETRY_COUNT",
+      "BATCH_SIZE",
+      "POLL_INTERVAL_MS",
+      "STREAM_MAX_LEN",
+      "KB_VECTORIZE_STREAM_KEY",
+      "KB_VECTORIZE_GROUP_NAME",
+      "KB_VECTORIZE_CONSUMER_PREFIX",
+      "FIELD_KB_ID",
+      "RESUME_ANALYZE_STREAM_KEY",
+      "RESUME_ANALYZE_GROUP_NAME",
+      "RESUME_ANALYZE_CONSUMER_PREFIX",
+      "FIELD_RESUME_ID",
+      "INTERVIEW_EVALUATE_STREAM_KEY",
+      "INTERVIEW_EVALUATE_GROUP_NAME",
+      "INTERVIEW_EVALUATE_CONSUMER_PREFIX",
+      "FIELD_SESSION_ID",
+      "VOICE_EVALUATE_STREAM_KEY",
+      "VOICE_EVALUATE_GROUP_NAME",
+      "VOICE_EVALUATE_CONSUMER_PREFIX",
+      "FIELD_VOICE_SESSION_ID",
+      "AsyncTaskStreamConstants"
+    ],
+    "app/src/main/java/interview/guide/common/constant/CommonConstants.java": [
+      "CommonConstants"
+    ],
+    "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java": [
+      "InterviewEvaluationProperties"
+    ],
+    "app/src/main/java/interview/guide/common/evaluation/QaRecord.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java": [
+      "UnifiedEvaluationService",
+      "evaluate",
+      "evaluate",
+      "UnifiedEvaluationService"
+    ],
+    "app/src/main/java/interview/guide/common/exception/BusinessException.java": [
+      "BusinessException",
+      "BusinessException",
+      "BusinessException",
+      "BusinessException",
+      "BusinessException",
+      "BusinessException",
+      "BusinessException"
+    ],
+    "app/src/main/java/interview/guide/common/exception/ErrorCode.java": [],
+    "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java": [
+      "handleBusinessException",
+      "handleValidationException",
+      "handleBindException",
+      "handleMaxUploadSizeExceededException",
+      "handleIllegalArgumentException",
+      "handleResourceAccessException",
+      "handleRestClientException",
+      "handleNoResourceFoundException",
+      "handleHttpRequestMethodNotSupportedException",
+      "handleException",
+      "GlobalExceptionHandler"
+    ],
+    "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java": [
+      "RateLimitExceededException",
+      "RateLimitExceededException",
+      "RateLimitExceededException",
+      "RateLimitExceededException"
+    ],
+    "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java": [],
+    "app/src/main/java/interview/guide/common/result/Result.java": [
+      "success",
+      "success",
+      "success",
+      "error",
+      "error",
+      "error",
+      "error",
+      "isSuccess",
+      "Result"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java": [
+      "exportResumeAnalysis",
+      "exportInterviewReport",
+      "PdfExportService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java": [
+      "ContentTypeDetectionService",
+      "detectContentType",
+      "detectContentType",
+      "detectContentType",
+      "isPdf",
+      "isWordDocument",
+      "isPlainText",
+      "isMarkdown",
+      "ContentTypeDetectionService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java": [
+      "DocumentParseService",
+      "parseContent",
+      "parseContent",
+      "downloadAndParseContent",
+      "DocumentParseService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java": [
+      "calculateHash",
+      "calculateHash",
+      "calculateHash",
+      "FileHashService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java": [
+      "uploadResume",
+      "deleteResume",
+      "uploadKnowledgeBase",
+      "deleteKnowledgeBase",
+      "downloadFile",
+      "fileExists",
+      "getFileSize",
+      "getFileUrl",
+      "ensureBucketExists",
+      "FileStorageService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java": [
+      "validateFile",
+      "validateContentTypeByList",
+      "validateContentType",
+      "isMarkdownExtension",
+      "isKnowledgeBaseMimeType",
+      "FileValidationService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java": [
+      "shouldParseEmbedded",
+      "parseEmbedded",
+      "NoOpEmbeddedDocumentExtractor"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java": [
+      "cleanText",
+      "cleanTextWithLimit",
+      "cleanToSingleLine",
+      "stripHtml",
+      "TextCleaningService"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java": [
+      "InterviewMapper"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java": [
+      "KnowledgeBaseMapper"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java": [
+      "RagChatMapper"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java": [
+      "ResumeMapper"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java": [
+      "saveSession",
+      "getSession",
+      "updateSessionStatus",
+      "updateCurrentIndex",
+      "updateQuestions",
+      "deleteSession",
+      "findUnfinishedSessionId",
+      "refreshSessionTTL",
+      "exists",
+      "InterviewSessionCache"
+    ],
+    "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java": [
+      "set",
+      "set",
+      "get",
+      "getOrLoad",
+      "delete",
+      "exists",
+      "expire",
+      "getTimeToLive",
+      "hSet",
+      "hGet",
+      "hGetAll",
+      "hDelete",
+      "hExists",
+      "getLock",
+      "tryLock",
+      "unlock",
+      "executeWithLock",
+      "streamConsumeMessages",
+      "createStreamGroup",
+      "streamAdd",
+      "streamAdd",
+      "streamReadGroup",
+      "streamAck",
+      "streamLen",
+      "getAtomicLong",
+      "increment",
+      "decrement",
+      "listRightPush",
+      "listGetAll",
+      "getClient",
+      "deleteByPattern",
+      "findKeysByPattern",
+      "RedisService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/InterviewController.java": [
+      "listSessions",
+      "createSession",
+      "getSession",
+      "getCurrentQuestion",
+      "submitAnswer",
+      "getReport",
+      "findUnfinishedSession",
+      "saveAnswer",
+      "completeInterview",
+      "getInterviewDetail",
+      "exportInterviewPdf",
+      "deleteInterview",
+      "InterviewController"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java": [
+      "EvaluateStreamConsumer",
+      "EvaluateStreamConsumer"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java": [
+      "EvaluateStreamProducer",
+      "sendEvaluateTask",
+      "EvaluateStreamProducer"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java": [
+      "getId",
+      "setId",
+      "getSession",
+      "setSession",
+      "getQuestionIndex",
+      "setQuestionIndex",
+      "getQuestion",
+      "setQuestion",
+      "getCategory",
+      "setCategory",
+      "getUserAnswer",
+      "setUserAnswer",
+      "getScore",
+      "setScore",
+      "getFeedback",
+      "setFeedback",
+      "getReferenceAnswer",
+      "setReferenceAnswer",
+      "getKeyPointsJson",
+      "setKeyPointsJson",
+      "getAnsweredAt",
+      "setAnsweredAt",
+      "InterviewAnswerEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java": [
+      "getId",
+      "setId",
+      "getSessionId",
+      "setSessionId",
+      "getResumeId",
+      "getResume",
+      "setResume",
+      "getTotalQuestions",
+      "setTotalQuestions",
+      "getCurrentQuestionIndex",
+      "setCurrentQuestionIndex",
+      "getStatus",
+      "setStatus",
+      "getQuestionsJson",
+      "setQuestionsJson",
+      "getOverallScore",
+      "setOverallScore",
+      "getOverallFeedback",
+      "setOverallFeedback",
+      "getStrengthsJson",
+      "setStrengthsJson",
+      "getImprovementsJson",
+      "setImprovementsJson",
+      "getReferenceAnswersJson",
+      "setReferenceAnswersJson",
+      "getAnswers",
+      "setAnswers",
+      "getCreatedAt",
+      "setCreatedAt",
+      "getCompletedAt",
+      "setCompletedAt",
+      "getEvaluateStatus",
+      "setEvaluateStatus",
+      "getEvaluateError",
+      "setEvaluateError",
+      "getLlmProvider",
+      "setLlmProvider",
+      "getSkillId",
+      "setSkillId",
+      "getDifficulty",
+      "setDifficulty",
+      "addAnswer",
+      "InterviewSessionEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java": [],
+    "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java": [
+      "InterviewAnswerRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java": [
+      "InterviewSessionRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java": [
+      "AnswerEvaluationService",
+      "evaluateInterview",
+      "AnswerEvaluationService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java": [
+      "getInterviewDetail",
+      "exportInterviewPdf",
+      "InterviewHistoryService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java": [
+      "saveSession",
+      "updateSessionStatus",
+      "updateEvaluateStatus",
+      "updateCurrentQuestionIndex",
+      "saveAnswer",
+      "saveReport",
+      "findBySessionId",
+      "findByResumeId",
+      "findAll",
+      "deleteSessionsByResumeId",
+      "deleteSessionBySessionId",
+      "findUnfinishedSession",
+      "findAnswersBySessionId",
+      "getHistoricalQuestions",
+      "InterviewPersistenceService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java": [
+      "InterviewQuestionProperties"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java": [
+      "InterviewQuestionService",
+      "generateQuestionsBySkill",
+      "InterviewQuestionService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java": [
+      "createSession",
+      "getSession",
+      "findUnfinishedSession",
+      "findUnfinishedSessionOrThrow",
+      "getCurrentQuestionResponse",
+      "getCurrentQuestion",
+      "submitAnswer",
+      "saveAnswer",
+      "completeInterview",
+      "generateReport",
+      "InterviewSessionService"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java": [
+      "InterviewSkillController",
+      "listSkills",
+      "getSkill",
+      "parseJd",
+      "InterviewSkillController"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java": [
+      "InterviewSkillProperties"
+    ],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java": [
+      "CUSTOM_SKILL_ID",
+      "InterviewSkillService",
+      "getAllSkills",
+      "getSkill",
+      "buildCustomSkill",
+      "parseJd",
+      "calculateAllocation",
+      "calculateAllocation",
+      "buildAllocationDescription",
+      "buildReferenceSection",
+      "buildEvaluationReferenceSection",
+      "buildEvaluationReferenceSectionSafe",
+      "InterviewSkillService"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java": [
+      "parse",
+      "create",
+      "getById",
+      "getAll",
+      "update",
+      "delete",
+      "updateStatus",
+      "InterviewScheduleController"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java": [
+      "CreateInterviewRequest"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java": [
+      "InterviewScheduleDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java": [
+      "InterviewScheduleEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java": [
+      "ParseRequest"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java": [
+      "ParseResponse"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java": [
+      "InterviewScheduleRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java": [
+      "parse",
+      "InterviewParseService"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java": [
+      "create",
+      "update",
+      "delete",
+      "updateStatus",
+      "getAll",
+      "getById",
+      "InterviewScheduleService"
+    ],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java": [
+      "updateExpiredInterviews",
+      "ScheduleStatusUpdater"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java": [
+      "getAllKnowledgeBases",
+      "getKnowledgeBase",
+      "deleteKnowledgeBase",
+      "queryKnowledgeBase",
+      "queryKnowledgeBaseStream",
+      "getAllCategories",
+      "getByCategory",
+      "getUncategorized",
+      "updateCategory",
+      "uploadKnowledgeBase",
+      "downloadKnowledgeBase",
+      "search",
+      "getStatistics",
+      "revectorize",
+      "KnowledgeBaseController"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java": [
+      "VectorizeStreamConsumer",
+      "VectorizeStreamConsumer"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java": [
+      "VectorizeStreamProducer",
+      "sendVectorizeTask",
+      "VectorizeStreamProducer"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java": [
+      "getId",
+      "setId",
+      "getFileHash",
+      "setFileHash",
+      "getName",
+      "setName",
+      "getOriginalFilename",
+      "setOriginalFilename",
+      "getFileSize",
+      "setFileSize",
+      "getContentType",
+      "setContentType",
+      "getStorageKey",
+      "setStorageKey",
+      "getStorageUrl",
+      "setStorageUrl",
+      "getUploadedAt",
+      "setUploadedAt",
+      "getLastAccessedAt",
+      "setLastAccessedAt",
+      "getAccessCount",
+      "setAccessCount",
+      "getQuestionCount",
+      "setQuestionCount",
+      "incrementAccessCount",
+      "incrementQuestionCount",
+      "getCategory",
+      "setCategory",
+      "getVectorStatus",
+      "setVectorStatus",
+      "getVectorError",
+      "setVectorError",
+      "getChunkCount",
+      "setChunkCount",
+      "KnowledgeBaseEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java": [
+      "RagChatDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java": [
+      "getTypeString",
+      "RagChatMessageEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java": [
+      "addMessage",
+      "getKnowledgeBaseIds",
+      "RagChatSessionEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java": [
+      "createSession",
+      "listSessions",
+      "getSessionDetail",
+      "updateSessionTitle",
+      "togglePin",
+      "updateSessionKnowledgeBases",
+      "deleteSession",
+      "sendMessageStream",
+      "RagChatController"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java": [
+      "KnowledgeBaseRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java": [
+      "RagChatMessageRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java": [
+      "RagChatSessionRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java": [
+      "deleteByKnowledgeBaseId",
+      "VectorRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java": [
+      "updateQuestionCounts",
+      "KnowledgeBaseCountService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java": [
+      "deleteKnowledgeBase",
+      "KnowledgeBaseDeleteService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java": [
+      "listKnowledgeBases",
+      "listKnowledgeBases",
+      "listKnowledgeBasesByStatus",
+      "getKnowledgeBase",
+      "getKnowledgeBaseEntity",
+      "getKnowledgeBaseNames",
+      "getAllCategories",
+      "listByCategory",
+      "updateCategory",
+      "search",
+      "listSorted",
+      "getStatistics",
+      "downloadFile",
+      "getEntityForDownload",
+      "KnowledgeBaseListService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java": [
+      "parseContent",
+      "parseContent",
+      "downloadAndParseContent",
+      "detectContentType",
+      "KnowledgeBaseParseService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java": [
+      "handleDuplicateKnowledgeBase",
+      "saveKnowledgeBase",
+      "updateVectorStatusToPending",
+      "KnowledgeBasePersistenceService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java": [
+      "KnowledgeBaseQueryProperties"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java": [
+      "KnowledgeBaseQueryService",
+      "answerQuestion",
+      "answerQuestion",
+      "queryKnowledgeBase",
+      "answerQuestionStream",
+      "answerQuestionStream",
+      "KnowledgeBaseQueryService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java": [
+      "uploadKnowledgeBase",
+      "revectorize",
+      "KnowledgeBaseUploadService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java": [
+      "KnowledgeBaseVectorService",
+      "vectorizeAndStore",
+      "similaritySearch",
+      "deleteByKnowledgeBaseId",
+      "KnowledgeBaseVectorService"
+    ],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java": [
+      "createSession",
+      "listSessions",
+      "getSessionDetail",
+      "prepareStreamMessage",
+      "completeStreamMessage",
+      "getStreamAnswer",
+      "updateSessionTitle",
+      "togglePin",
+      "updateSessionKnowledgeBases",
+      "deleteSession",
+      "RagChatSessionService"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java": [
+      "listProviders",
+      "getProvider",
+      "createProvider",
+      "updateProvider",
+      "deleteProvider",
+      "testProvider",
+      "reloadProviders",
+      "getDefaultProvider",
+      "updateDefaultProvider",
+      "updateDefaultEmbeddingProvider",
+      "getAsrConfig",
+      "updateAsrConfig",
+      "getTtsConfig",
+      "updateTtsConfig",
+      "testAsrConfig",
+      "LlmProviderController"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java": [
+      "AsrConfigDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java": [
+      "TtsConfigDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java": [
+      "SINGLETON_ID",
+      "LlmGlobalSettingEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java": [
+      "LlmProviderEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java": [
+      "LlmGlobalSettingRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java": [
+      "LlmProviderRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java": [
+      "ApiKeyEncryptionService",
+      "encrypt",
+      "decrypt",
+      "ApiKeyEncryptionService"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java": [
+      "seedProvidersIfNecessary",
+      "LlmProviderBootstrapService"
+    ],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java": [
+      "LlmProviderConfigService",
+      "LlmProviderConfigService",
+      "listProviders",
+      "getProvider",
+      "getDefaultProvider",
+      "getAsrConfig",
+      "getTtsConfig",
+      "testProvider",
+      "testAsrConfig",
+      "createProvider",
+      "updateProvider",
+      "deleteProvider",
+      "updateDefaultProvider",
+      "updateDefaultEmbeddingProvider",
+      "updateAsrConfig",
+      "updateTtsConfig",
+      "reloadProviders",
+      "LlmProviderConfigService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java": [
+      "AnalyzeStreamConsumer",
+      "AnalyzeStreamConsumer"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java": [
+      "AnalyzeStreamProducer",
+      "sendAnalyzeTask",
+      "AnalyzeStreamProducer"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java": [
+      "getId",
+      "setId",
+      "getResume",
+      "setResume",
+      "getOverallScore",
+      "setOverallScore",
+      "getContentScore",
+      "setContentScore",
+      "getStructureScore",
+      "setStructureScore",
+      "getSkillMatchScore",
+      "setSkillMatchScore",
+      "getExpressionScore",
+      "setExpressionScore",
+      "getProjectScore",
+      "setProjectScore",
+      "getSummary",
+      "setSummary",
+      "getStrengthsJson",
+      "setStrengthsJson",
+      "getSuggestionsJson",
+      "setSuggestionsJson",
+      "getAnalyzedAt",
+      "setAnalyzedAt",
+      "ResumeAnalysisEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java": [],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java": [
+      "getId",
+      "setId",
+      "getFileHash",
+      "setFileHash",
+      "getOriginalFilename",
+      "setOriginalFilename",
+      "getFileSize",
+      "setFileSize",
+      "getContentType",
+      "setContentType",
+      "getStorageKey",
+      "setStorageKey",
+      "getStorageUrl",
+      "setStorageUrl",
+      "getResumeText",
+      "setResumeText",
+      "getUploadedAt",
+      "setUploadedAt",
+      "getLastAccessedAt",
+      "setLastAccessedAt",
+      "getAccessCount",
+      "setAccessCount",
+      "incrementAccessCount",
+      "getAnalyzeStatus",
+      "setAnalyzeStatus",
+      "getAnalyzeError",
+      "setAnalyzeError",
+      "ResumeEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java": [
+      "ResumeAnalysisRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java": [
+      "ResumeRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/ResumeController.java": [
+      "uploadAndAnalyze",
+      "getAllResumes",
+      "getResumeDetail",
+      "exportAnalysisPdf",
+      "deleteResume",
+      "reanalyze",
+      "health",
+      "ResumeController"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java": [
+      "ResumeAnalysisProperties"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java": [
+      "deleteResume",
+      "ResumeDeleteService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java": [
+      "ResumeGradingService",
+      "analyzeResume",
+      "ResumeGradingService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java": [
+      "getAllResumes",
+      "getResumeDetail",
+      "exportAnalysisPdf",
+      "ResumeHistoryService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java": [
+      "parseResume",
+      "parseResume",
+      "downloadAndParseContent",
+      "detectContentType",
+      "ResumeParseService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java": [
+      "findExistingResume",
+      "saveResume",
+      "saveAnalysis",
+      "getLatestAnalysis",
+      "getLatestAnalysisAsDTO",
+      "findAllResumes",
+      "findAnalysesByResumeId",
+      "entityToDTO",
+      "findById",
+      "deleteResume",
+      "ResumePersistenceService"
+    ],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java": [
+      "uploadAndAnalyze",
+      "reanalyze",
+      "ResumeUploadService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java": [
+      "VoiceInterviewProperties"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java": [
+      "registerWebSocketHandlers",
+      "WebSocketConfig"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java": [
+      "createSession",
+      "getSession",
+      "endSession",
+      "pauseSession",
+      "resumeSession",
+      "getAllSessions",
+      "deleteSession",
+      "getMessages",
+      "getEvaluation",
+      "generateEvaluation",
+      "VoiceInterviewController"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java": [
+      "CreateSessionRequest"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java": [
+      "SessionMetaDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java": [
+      "SessionResponseDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java": [
+      "VoiceEvaluationDetailDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java": [
+      "VoiceEvaluationStatusDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java": [
+      "VoiceInterviewMessageDTO"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java": [
+      "WebSocketControlMessage"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java": [
+      "WebSocketSubtitleMessage"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java": [
+      "afterConnectionEstablished",
+      "destroy",
+      "afterConnectionClosed",
+      "handleTransportError",
+      "checkPauseTimeout",
+      "VoiceInterviewWebSocketHandler"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java": [
+      "VoiceEvaluateStreamConsumer",
+      "VoiceEvaluateStreamConsumer"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java": [
+      "VoiceEvaluateStreamProducer",
+      "sendEvaluateTask",
+      "VoiceEvaluateStreamProducer"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java": [
+      "VoiceInterviewEvaluationEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java": [
+      "VoiceInterviewMessageEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java": [
+      "VoiceInterviewSessionEntity"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java": [
+      "VoiceInterviewEvaluationRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java": [
+      "VoiceInterviewMessageRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java": [
+      "VoiceInterviewSessionRepository"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java": [
+      "chat",
+      "chatStream",
+      "chatStreamSentences",
+      "DashscopeLlmService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java": [
+      "QwenAsrService",
+      "reload",
+      "init",
+      "startTranscription",
+      "startTranscription",
+      "restartTranscription",
+      "sendAudio",
+      "stopTranscription",
+      "hasActiveSession",
+      "destroy",
+      "setUrl",
+      "setModel",
+      "setApiKey",
+      "setLanguage",
+      "setFormat",
+      "setSampleRate",
+      "setEnableTurnDetection",
+      "setTurnDetectionType",
+      "setTurnDetectionThreshold",
+      "setTurnDetectionSilenceDurationMs",
+      "QwenAsrService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java": [
+      "QwenTtsService",
+      "reload",
+      "init",
+      "synthesize",
+      "destroy",
+      "setModel",
+      "setApiKey",
+      "setVoice",
+      "setFormat",
+      "setSampleRate",
+      "setMode",
+      "setLanguageType",
+      "setSpeechRate",
+      "setVolume",
+      "QwenTtsService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java": [
+      "generateEvaluation",
+      "getEvaluation",
+      "saveEvaluationTransactional",
+      "saveEmptyEvaluationTransactional",
+      "VoiceInterviewEvaluationService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptService.java": [
+      "VoiceInterviewPromptService",
+      "generateSystemPromptWithContext",
+      "VoiceInterviewPromptService"
+    ],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewService.java": [
+      "createSession",
+      "endSessionIfInProgress",
+      "endSession",
+      "getSession",
+      "getSession",
+      "startPhase",
+      "getCurrentPhase",
+      "saveMessage",
+      "getConversationHistory",
+      "getConversationHistoryDTO",
+      "pauseSession",
+      "resumeSession",
+      "getAllSessions",
+      "getSessionDTO",
+      "shouldTransitionToNextPhase",
+      "getNextPhase",
+      "updateEvaluateStatus",
+      "triggerEvaluation",
+      "deleteSession",
+      "VoiceInterviewService"
+    ],
+    "app/src/main/resources/prompts/interview-evaluation-summary-system.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-summary-user.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-system.st": [],
+    "app/src/main/resources/prompts/interview-evaluation-user.st": [],
+    "app/src/main/resources/prompts/interview-question-resume-system.st": [],
+    "app/src/main/resources/prompts/interview-question-resume-user.st": [],
+    "app/src/main/resources/prompts/interview-question-skill-system.st": [],
+    "app/src/main/resources/prompts/interview-question-skill-user.st": [],
+    "app/src/main/resources/prompts/jd-parse-system.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-rewrite.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-system.st": [],
+    "app/src/main/resources/prompts/knowledgebase-query-user.st": [],
+    "app/src/main/resources/prompts/resume-analysis-system.st": [],
+    "app/src/main/resources/prompts/resume-analysis-user.st": [],
+    "app/src/main/resources/scripts/rate_limit_single.lua": [],
+    "app/src/test/java/interview/guide/AppTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java": [],
+    "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java": [],
+    "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java": [],
+    "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java": [],
+    "frontend/eslint.config.js": [],
+    "frontend/nginx.conf": [],
+    "frontend/postcss.config.js": [],
+    "frontend/src/api/history.ts": [
+      "historyApi"
+    ],
+    "frontend/src/api/interview.ts": [
+      "interviewApi"
+    ],
+    "frontend/src/api/interviewSchedule.ts": [
+      "interviewScheduleApi"
+    ],
+    "frontend/src/api/knowledgebase.ts": [
+      "knowledgeBaseApi"
+    ],
+    "frontend/src/api/llmProvider.ts": [
+      "llmProviderApi"
+    ],
+    "frontend/src/api/ragChat.ts": [
+      "ragChatApi"
+    ],
+    "frontend/src/api/request.ts": [
+      "request",
+      "getErrorMessage"
+    ],
+    "frontend/src/api/resume.ts": [
+      "resumeApi"
+    ],
+    "frontend/src/api/skill.ts": [
+      "skillApi"
+    ],
+    "frontend/src/api/voiceInterview.ts": [
+      "voiceInterviewApi",
+      "VoiceInterviewWebSocket",
+      "connectWebSocket"
+    ],
+    "frontend/src/App.tsx": [],
+    "frontend/src/components/AnalysisPanel.tsx": [
+      "AnalysisPanel"
+    ],
+    "frontend/src/components/AudioPlayer.tsx": [
+      "AudioPlayer"
+    ],
+    "frontend/src/components/AudioRecorder.tsx": [
+      "AudioRecorder"
+    ],
+    "frontend/src/components/CodeBlock.tsx": [
+      "CodeBlock"
+    ],
+    "frontend/src/components/ConfirmDialog.tsx": [
+      "ConfirmDialog"
+    ],
+    "frontend/src/components/DeleteConfirmDialog.tsx": [
+      "DeleteConfirmDialog"
+    ],
+    "frontend/src/components/FileUploadCard.tsx": [
+      "FileUploadCard"
+    ],
+    "frontend/src/components/HistoryList.tsx": [
+      "HistoryList"
+    ],
+    "frontend/src/components/InterviewChatPanel.tsx": [
+      "InterviewChatPanel"
+    ],
+    "frontend/src/components/InterviewDetailPanel.tsx": [
+      "InterviewDetailPanel"
+    ],
+    "frontend/src/components/InterviewMessageBubble.tsx": [
+      "InterviewMessageBubble"
+    ],
+    "frontend/src/components/InterviewPageHeader.tsx": [
+      "InterviewPageHeader"
+    ],
+    "frontend/src/components/InterviewPanel.tsx": [
+      "InterviewPanel"
+    ],
+    "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx": [
+      "CalendarErrorBoundary"
+    ],
+    "frontend/src/components/interviewschedule/InterviewEvent.tsx": [
+      "InterviewEvent"
+    ],
+    "frontend/src/components/interviewschedule/InterviewFormModal.tsx": [
+      "InterviewFormModal"
+    ],
+    "frontend/src/components/interviewschedule/InterviewListItem.tsx": [
+      "InterviewListItem"
+    ],
+    "frontend/src/components/interviewschedule/ScheduleCalendar.tsx": [
+      "ScheduleCalendar"
+    ],
+    "frontend/src/components/interviewschedule/ScheduleHeader.tsx": [
+      "ScheduleHeader"
+    ],
+    "frontend/src/components/interviewschedule/ScheduleList.tsx": [
+      "ScheduleList"
+    ],
+    "frontend/src/components/Layout.tsx": [
+      "Layout"
+    ],
+    "frontend/src/components/RadarChart.tsx": [
+      "RadarChart"
+    ],
+    "frontend/src/components/RealtimeSubtitle.tsx": [
+      "RealtimeSubtitle"
+    ],
+    "frontend/src/components/ScoreProgressBar.tsx": [
+      "ScoreProgressBar"
+    ],
+    "frontend/src/components/UnifiedInterviewModal.tsx": [
+      "InterviewMode",
+      "Difficulty",
+      "DIFFICULTY_OPTIONS",
+      "UnifiedInterviewModal"
+    ],
+    "frontend/src/constants/routes.ts": [
+      "ROUTES"
+    ],
+    "frontend/src/hooks/useInterviewConfig.ts": [
+      "DIFFICULTY_OPTIONS",
+      "CUSTOM_SKILL_ID",
+      "DEFAULT_SKILL_ID",
+      "DEFAULT_LLM_PROVIDER",
+      "MIN_JD_LENGTH",
+      "useInterviewConfig"
+    ],
+    "frontend/src/hooks/useInterviewSchedule.ts": [
+      "useInterviewSchedule"
+    ],
+    "frontend/src/hooks/useTheme.ts": [
+      "useTheme"
+    ],
+    "frontend/src/main.tsx": [],
+    "frontend/src/pages/HistoryPage.tsx": [
+      "HistoryList"
+    ],
+    "frontend/src/pages/InterviewHistoryPage.tsx": [
+      "InterviewHistoryPage"
+    ],
+    "frontend/src/pages/InterviewHubPage.tsx": [
+      "InterviewHubPage"
+    ],
+    "frontend/src/pages/InterviewPage.tsx": [
+      "Interview"
+    ],
+    "frontend/src/pages/InterviewSchedulePage.tsx": [
+      "InterviewSchedulePage"
+    ],
+    "frontend/src/pages/KnowledgeBaseManagePage.tsx": [
+      "KnowledgeBaseManagePage"
+    ],
+    "frontend/src/pages/KnowledgeBaseQueryPage.tsx": [
+      "KnowledgeBaseQueryPage"
+    ],
+    "frontend/src/pages/KnowledgeBaseUploadPage.tsx": [
+      "KnowledgeBaseUploadPage"
+    ],
+    "frontend/src/pages/ResumeDetailPage.tsx": [
+      "ResumeDetailPage"
+    ],
+    "frontend/src/pages/SettingsPage.tsx": [
+      "SettingsPage"
+    ],
+    "frontend/src/pages/UploadPage.tsx": [
+      "UploadPage"
+    ],
+    "frontend/src/pages/VoiceInterviewEvaluationPage.tsx": [
+      "VoiceInterviewEvaluationPage"
+    ],
+    "frontend/src/pages/VoiceInterviewPage.tsx": [
+      "VoiceInterviewPage"
+    ],
+    "frontend/src/types/interview.ts": [],
+    "frontend/src/types/interviewSchedule.ts": [],
+    "frontend/src/types/llmProvider.ts": [],
+    "frontend/src/types/resume.ts": [],
+    "frontend/src/utils/date.ts": [
+      "formatDate",
+      "formatDateTime",
+      "formatDateOnly"
+    ],
+    "frontend/src/utils/score.ts": [
+      "calculatePercentage",
+      "normalizeScore",
+      "getScoreColor",
+      "getScoreProgressColor",
+      "getScoreTextColor"
+    ],
+    "frontend/src/utils/skillIcons.tsx": [
+      "getSkillIcon"
+    ],
+    "frontend/src/utils/voiceInterview.ts": [
+      "getTemplateName"
+    ],
+    "frontend/src/vite-env.d.ts": [],
+    "frontend/vite.config.ts": [],
+    "gradle/wrapper/gradle-wrapper.jar": [],
+    "gradlew": []
+  },
+  "batches": [
+    {
+      "batchIndex": 1,
+      "files": [
+        {
+          "path": "app/Dockerfile",
+          "language": "dockerfile",
+          "sizeLines": 55,
+          "fileCategory": "infra"
+        }
+      ],
+      "batchImportData": {
+        "app/Dockerfile": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 2,
+      "files": [
+        {
+          "path": "frontend/.dockerignore",
+          "language": "unknown",
+          "sizeLines": 37,
+          "fileCategory": "infra"
+        },
+        {
+          "path": "frontend/Dockerfile",
+          "language": "dockerfile",
+          "sizeLines": 43,
+          "fileCategory": "infra"
+        }
+      ],
+      "batchImportData": {
+        "frontend/.dockerignore": [],
+        "frontend/Dockerfile": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 3,
+      "files": [
+        {
+          "path": ".dockerignore",
+          "language": "unknown",
+          "sizeLines": 85,
+          "fileCategory": "infra"
+        },
+        {
+          "path": ".env.example",
+          "language": "config",
+          "sizeLines": 57,
+          "fileCategory": "config"
+        },
+        {
+          "path": "AGENTS.md",
+          "language": "markdown",
+          "sizeLines": 250,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "README.md",
+          "language": "markdown",
+          "sizeLines": 265,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "docker-compose.dev.yml",
+          "language": "yaml",
+          "sizeLines": 63,
+          "fileCategory": "infra"
+        },
+        {
+          "path": "docker-compose.yml",
+          "language": "yaml",
+          "sizeLines": 196,
+          "fileCategory": "infra"
+        },
+        {
+          "path": "gradlew.bat",
+          "language": "batch",
+          "sizeLines": 92,
+          "fileCategory": "script"
+        },
+        {
+          "path": "settings.gradle",
+          "language": "gradle",
+          "sizeLines": 23,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        ".dockerignore": [],
+        ".env.example": [],
+        "AGENTS.md": [],
+        "README.md": [],
+        "docker-compose.dev.yml": [],
+        "docker-compose.yml": [],
+        "gradlew.bat": [],
+        "settings.gradle": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 4,
+      "files": [
+        {
+          "path": "app/src/main/resources/application.yml",
+          "language": "yaml",
+          "sizeLines": 281,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/logback-spring.xml",
+          "language": "xml",
+          "sizeLines": 10,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/voice-interview-opening.yml",
+          "language": "yaml",
+          "sizeLines": 44,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/resources/application.yml": [],
+        "app/src/main/resources/logback-spring.xml": [],
+        "app/src/main/resources/voice-interview-opening.yml": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 5,
+      "files": [
+        {
+          "path": "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md",
+          "language": "markdown",
+          "sizeLines": 36,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/browser.md",
+          "language": "markdown",
+          "sizeLines": 37,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/database.md",
+          "language": "markdown",
+          "sizeLines": 44,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/db-design.md",
+          "language": "markdown",
+          "sizeLines": 37,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/design-pattern.md",
+          "language": "markdown",
+          "sizeLines": 32,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/distributed.md",
+          "language": "markdown",
+          "sizeLines": 39,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/django-flask.md",
+          "language": "markdown",
+          "sizeLines": 43,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/high-availability.md",
+          "language": "markdown",
+          "sizeLines": 39,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/java.md",
+          "language": "markdown",
+          "sizeLines": 52,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/javascript.md",
+          "language": "markdown",
+          "sizeLines": 43,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/mq.md",
+          "language": "markdown",
+          "sizeLines": 42,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/mysql.md",
+          "language": "markdown",
+          "sizeLines": 34,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/network-os.md",
+          "language": "markdown",
+          "sizeLines": 22,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/python-basic.md",
+          "language": "markdown",
+          "sizeLines": 40,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/react-vue.md",
+          "language": "markdown",
+          "sizeLines": 46,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/redis.md",
+          "language": "markdown",
+          "sizeLines": 34,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/spring.md",
+          "language": "markdown",
+          "sizeLines": 40,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/system-design-scenarios.md",
+          "language": "markdown",
+          "sizeLines": 73,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/_shared/references/test-development.md",
+          "language": "markdown",
+          "sizeLines": 64,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md": [],
+        "app/src/main/resources/skills/_shared/references/browser.md": [],
+        "app/src/main/resources/skills/_shared/references/database.md": [],
+        "app/src/main/resources/skills/_shared/references/db-design.md": [],
+        "app/src/main/resources/skills/_shared/references/design-pattern.md": [],
+        "app/src/main/resources/skills/_shared/references/distributed.md": [],
+        "app/src/main/resources/skills/_shared/references/django-flask.md": [],
+        "app/src/main/resources/skills/_shared/references/high-availability.md": [],
+        "app/src/main/resources/skills/_shared/references/java.md": [],
+        "app/src/main/resources/skills/_shared/references/javascript.md": [],
+        "app/src/main/resources/skills/_shared/references/mq.md": [],
+        "app/src/main/resources/skills/_shared/references/mysql.md": [],
+        "app/src/main/resources/skills/_shared/references/network-os.md": [],
+        "app/src/main/resources/skills/_shared/references/python-basic.md": [],
+        "app/src/main/resources/skills/_shared/references/react-vue.md": [],
+        "app/src/main/resources/skills/_shared/references/redis.md": [],
+        "app/src/main/resources/skills/_shared/references/spring.md": [],
+        "app/src/main/resources/skills/_shared/references/system-design-scenarios.md": [],
+        "app/src/main/resources/skills/_shared/references/test-development.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 6,
+      "files": [
+        {
+          "path": "app/src/main/resources/skills/ai-agent-dev/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 18,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md",
+          "language": "markdown",
+          "sizeLines": 161,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 34,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/resources/skills/ai-agent-dev/SKILL.md": [],
+        "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md": [],
+        "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 7,
+      "files": [
+        {
+          "path": "app/src/test/resources/test-files/README.md",
+          "language": "markdown",
+          "sizeLines": 103,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/test/resources/test-files/sample-resume.md",
+          "language": "markdown",
+          "sizeLines": 186,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/test/resources/test-files/sample-resume.txt",
+          "language": "txt",
+          "sizeLines": 75,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "app/src/test/resources/test-files/README.md": [],
+        "app/src/test/resources/test-files/sample-resume.md": [],
+        "app/src/test/resources/test-files/sample-resume.txt": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 8,
+      "files": [
+        {
+          "path": "frontend/README.md",
+          "language": "markdown",
+          "sizeLines": 73,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "frontend/index.html",
+          "language": "html",
+          "sizeLines": 17,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "frontend/package.json",
+          "language": "json",
+          "sizeLines": 46,
+          "fileCategory": "config"
+        },
+        {
+          "path": "frontend/tsconfig.app.json",
+          "language": "json",
+          "sizeLines": 28,
+          "fileCategory": "config"
+        },
+        {
+          "path": "frontend/tsconfig.json",
+          "language": "json",
+          "sizeLines": 21,
+          "fileCategory": "config"
+        },
+        {
+          "path": "frontend/tsconfig.node.json",
+          "language": "json",
+          "sizeLines": 10,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "frontend/README.md": [],
+        "frontend/index.html": [],
+        "frontend/package.json": [],
+        "frontend/tsconfig.app.json": [],
+        "frontend/tsconfig.json": [],
+        "frontend/tsconfig.node.json": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 9,
+      "files": [
+        {
+          "path": "markdown/RAG知识库.md",
+          "language": "markdown",
+          "sizeLines": 193,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/SQl数据库.md",
+          "language": "markdown",
+          "sizeLines": 682,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/redis.md",
+          "language": "markdown",
+          "sizeLines": 347,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/力扣HOT100记录.md",
+          "language": "markdown",
+          "sizeLines": 66,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/基础知识.md",
+          "language": "markdown",
+          "sizeLines": 296,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/大模型.md",
+          "language": "markdown",
+          "sizeLines": 23,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/工具类与注解.md",
+          "language": "markdown",
+          "sizeLines": 80,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/模拟面试.md",
+          "language": "markdown",
+          "sizeLines": 50,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/环境配置.md",
+          "language": "markdown",
+          "sizeLines": 57,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/简历上传与评估.md",
+          "language": "markdown",
+          "sizeLines": 142,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/计算机网络.md",
+          "language": "markdown",
+          "sizeLines": 66,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "markdown/项目简历书写汇总.md",
+          "language": "markdown",
+          "sizeLines": 755,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "markdown/RAG知识库.md": [],
+        "markdown/SQl数据库.md": [],
+        "markdown/redis.md": [],
+        "markdown/力扣HOT100记录.md": [],
+        "markdown/基础知识.md": [],
+        "markdown/大模型.md": [],
+        "markdown/工具类与注解.md": [],
+        "markdown/模拟面试.md": [],
+        "markdown/环境配置.md": [],
+        "markdown/简历上传与评估.md": [],
+        "markdown/计算机网络.md": [],
+        "markdown/项目简历书写汇总.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 10,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "language": "unknown",
+          "sizeLines": 9,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".understand-anything/.understandignore",
+          "language": "unknown",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": ".understand-anything/config.json",
+          "language": "json",
+          "sizeLines": 1,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/build.gradle",
+          "language": "gradle",
+          "sizeLines": 154,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/App.java",
+          "language": "java",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+          "language": "java",
+          "sizeLines": 69,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+          "language": "java",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+          "language": "java",
+          "sizeLines": 59,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+          "language": "java",
+          "sizeLines": 448,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+          "language": "java",
+          "sizeLines": 123,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+          "language": "java",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+          "language": "java",
+          "sizeLines": 284,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+          "language": "java",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/annotation/RateLimit.java",
+          "language": "java",
+          "sizeLines": 119,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+          "language": "java",
+          "sizeLines": 264,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+          "language": "java",
+          "sizeLines": 222,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+          "language": "java",
+          "sizeLines": 57,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+          "language": "java",
+          "sizeLines": 33,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+          "language": "java",
+          "sizeLines": 43,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/CorsProperties.java",
+          "language": "java",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+          "language": "java",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+          "language": "java",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+          "language": "java",
+          "sizeLines": 70,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+          "language": "java",
+          "sizeLines": 19,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/config/S3Config.java",
+          "language": "java",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        ".gitattributes": [],
+        ".understand-anything/.understandignore": [],
+        ".understand-anything/config.json": [],
+        "app/build.gradle": [],
+        "app/src/main/java/interview/guide/App.java": [],
+        "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java": [],
+        "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java": [],
+        "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java": [],
+        "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java": [],
+        "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java": [],
+        "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java": [],
+        "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java": [],
+        "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java": [],
+        "app/src/main/java/interview/guide/common/annotation/RateLimit.java": [],
+        "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java": [],
+        "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java": [],
+        "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java": [],
+        "app/src/main/java/interview/guide/common/config/AppConfigProperties.java": [],
+        "app/src/main/java/interview/guide/common/config/CorsConfig.java": [],
+        "app/src/main/java/interview/guide/common/config/CorsProperties.java": [],
+        "app/src/main/java/interview/guide/common/config/JacksonConfig.java": [],
+        "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java": [],
+        "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java": [],
+        "app/src/main/java/interview/guide/common/config/OpenApiConfig.java": [],
+        "app/src/main/java/interview/guide/common/config/S3Config.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 11,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+          "language": "java",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+          "language": "java",
+          "sizeLines": 134,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+          "language": "java",
+          "sizeLines": 44,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java",
+          "language": "java",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+          "language": "java",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/evaluation/QaRecord.java",
+          "language": "java",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+          "language": "java",
+          "sizeLines": 546,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+          "language": "java",
+          "sizeLines": 49,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+          "language": "java",
+          "sizeLines": 86,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+          "language": "java",
+          "sizeLines": 160,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+          "language": "java",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java",
+          "language": "java",
+          "sizeLines": 12,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/common/result/Result.java",
+          "language": "java",
+          "sizeLines": 60,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+          "language": "java",
+          "sizeLines": 309,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+          "language": "java",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+          "language": "java",
+          "sizeLines": 164,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+          "language": "java",
+          "sizeLines": 88,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+          "language": "java",
+          "sizeLines": 281,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+          "language": "java",
+          "sizeLines": 128,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+          "language": "java",
+          "sizeLines": 51,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+          "language": "java",
+          "sizeLines": 161,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+          "language": "java",
+          "sizeLines": 147,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+          "language": "java",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+          "language": "java",
+          "sizeLines": 108,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+          "language": "java",
+          "sizeLines": 146,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java": [],
+        "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java": [],
+        "app/src/main/java/interview/guide/common/constant/CommonConstants.java": [],
+        "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java": [],
+        "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java": [],
+        "app/src/main/java/interview/guide/common/evaluation/QaRecord.java": [],
+        "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java": [],
+        "app/src/main/java/interview/guide/common/exception/BusinessException.java": [],
+        "app/src/main/java/interview/guide/common/exception/ErrorCode.java": [],
+        "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java": [],
+        "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java": [],
+        "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java": [],
+        "app/src/main/java/interview/guide/common/result/Result.java": [],
+        "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java": [],
+        "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java": [],
+        "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java": [],
+        "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java": [],
+        "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java": [],
+        "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 12,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+          "language": "java",
+          "sizeLines": 254,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+          "language": "java",
+          "sizeLines": 406,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+          "language": "java",
+          "sizeLines": 187,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+          "language": "java",
+          "sizeLines": 184,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+          "language": "java",
+          "sizeLines": 77,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java",
+          "language": "java",
+          "sizeLines": 34,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java",
+          "language": "java",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+          "language": "java",
+          "sizeLines": 156,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java",
+          "language": "java",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java",
+          "language": "java",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java",
+          "language": "java",
+          "sizeLines": 49,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java",
+          "language": "java",
+          "sizeLines": 49,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java",
+          "language": "java",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+          "language": "java",
+          "sizeLines": 286,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java",
+          "language": "java",
+          "sizeLines": 48,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java",
+          "language": "java",
+          "sizeLines": 39,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java",
+          "language": "java",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java",
+          "language": "java",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+          "language": "java",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+          "language": "java",
+          "sizeLines": 77,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+          "language": "java",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+          "language": "java",
+          "sizeLines": 162,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+          "language": "java",
+          "sizeLines": 362,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+          "language": "java",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+          "language": "java",
+          "sizeLines": 692,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java": [],
+        "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java": [],
+        "app/src/main/java/interview/guide/modules/interview/InterviewController.java": [],
+        "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java": [],
+        "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java": [],
+        "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java": [],
+        "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java": [],
+        "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java": [],
+        "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java": [],
+        "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java": [],
+        "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java": [],
+        "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java": [],
+        "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 13,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+          "language": "java",
+          "sizeLines": 510,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+          "language": "java",
+          "sizeLines": 43,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+          "language": "java",
+          "sizeLines": 73,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+          "language": "java",
+          "sizeLines": 676,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+          "language": "java",
+          "sizeLines": 144,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+          "language": "java",
+          "sizeLines": 29,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+          "language": "java",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+          "language": "java",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java",
+          "language": "java",
+          "sizeLines": 8,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+          "language": "java",
+          "sizeLines": 12,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+          "language": "java",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+          "language": "java",
+          "sizeLines": 28,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+          "language": "java",
+          "sizeLines": 435,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+          "language": "java",
+          "sizeLines": 88,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+          "language": "java",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+          "language": "java",
+          "sizeLines": 217,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+          "language": "java",
+          "sizeLines": 139,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+          "language": "java",
+          "sizeLines": 81,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+          "language": "java",
+          "sizeLines": 222,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java",
+          "language": "java",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java",
+          "language": "java",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java",
+          "language": "java",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java",
+          "language": "java",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+          "language": "java",
+          "sizeLines": 95,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+          "language": "java",
+          "sizeLines": 92,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java": [],
+        "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java": [],
+        "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java": [],
+        "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java": [],
+        "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 14,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+          "language": "java",
+          "sizeLines": 126,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java",
+          "language": "java",
+          "sizeLines": 11,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+          "language": "java",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+          "language": "java",
+          "sizeLines": 107,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+          "language": "java",
+          "sizeLines": 54,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+          "language": "java",
+          "sizeLines": 53,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+          "language": "java",
+          "sizeLines": 65,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+          "language": "java",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+          "language": "java",
+          "sizeLines": 71,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+          "language": "java",
+          "sizeLines": 218,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+          "language": "java",
+          "sizeLines": 65,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+          "language": "java",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+          "language": "java",
+          "sizeLines": 39,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+          "language": "java",
+          "sizeLines": 589,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+          "language": "java",
+          "sizeLines": 144,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+          "language": "java",
+          "sizeLines": 231,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+          "language": "java",
+          "sizeLines": 274,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+          "language": "java",
+          "sizeLines": 138,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+          "language": "java",
+          "sizeLines": 19,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java",
+          "language": "java",
+          "sizeLines": 14,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java",
+          "language": "java",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java",
+          "language": "java",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java",
+          "language": "java",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java",
+          "language": "java",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+          "language": "java",
+          "sizeLines": 18,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java": [],
+        "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 15,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java",
+          "language": "java",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java",
+          "language": "java",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+          "language": "java",
+          "sizeLines": 51,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+          "language": "java",
+          "sizeLines": 73,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+          "language": "java",
+          "sizeLines": 7,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+          "language": "java",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+          "language": "java",
+          "sizeLines": 109,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+          "language": "java",
+          "sizeLines": 134,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+          "language": "java",
+          "sizeLines": 1184,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+          "language": "java",
+          "sizeLines": 157,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+          "language": "java",
+          "sizeLines": 85,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+          "language": "java",
+          "sizeLines": 151,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java",
+          "language": "java",
+          "sizeLines": 43,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+          "language": "java",
+          "sizeLines": 183,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java",
+          "language": "java",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+          "language": "java",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+          "language": "java",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+          "language": "java",
+          "sizeLines": 136,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+          "language": "java",
+          "sizeLines": 14,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+          "language": "java",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+          "language": "java",
+          "sizeLines": 181,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+          "language": "java",
+          "sizeLines": 185,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+          "language": "java",
+          "sizeLines": 65,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+          "language": "java",
+          "sizeLines": 210,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+          "language": "java",
+          "sizeLines": 200,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java": [],
+        "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java": [],
+        "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java": [],
+        "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java": [],
+        "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java": [],
+        "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java": [],
+        "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java": [],
+        "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java": [],
+        "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java": [],
+        "app/src/main/java/interview/guide/modules/resume/ResumeController.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java": [],
+        "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 16,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+          "language": "java",
+          "sizeLines": 157,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+          "language": "java",
+          "sizeLines": 26,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+          "language": "java",
+          "sizeLines": 218,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+          "language": "java",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+          "language": "java",
+          "sizeLines": 28,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+          "language": "java",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+          "language": "java",
+          "sizeLines": 42,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+          "language": "java",
+          "sizeLines": 32,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+          "language": "java",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+          "language": "java",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+          "language": "java",
+          "sizeLines": 16,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+          "language": "java",
+          "sizeLines": 1169,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+          "language": "java",
+          "sizeLines": 120,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+          "language": "java",
+          "sizeLines": 61,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+          "language": "java",
+          "sizeLines": 66,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+          "language": "java",
+          "sizeLines": 53,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+          "language": "java",
+          "sizeLines": 121,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java",
+          "language": "java",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+          "language": "java",
+          "sizeLines": 19,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+          "language": "java",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+          "language": "java",
+          "sizeLines": 45,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+          "language": "java",
+          "sizeLines": 248,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+          "language": "java",
+          "sizeLines": 632,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+          "language": "java",
+          "sizeLines": 404,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+          "language": "java",
+          "sizeLines": 240,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 17,
+      "files": [
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptService.java",
+          "language": "java",
+          "sizeLines": 54,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewService.java",
+          "language": "java",
+          "sizeLines": 617,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-evaluation-summary-system.st",
+          "language": "st",
+          "sizeLines": 10,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-evaluation-summary-user.st",
+          "language": "st",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-evaluation-system.st",
+          "language": "st",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-evaluation-user.st",
+          "language": "st",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-question-resume-system.st",
+          "language": "st",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-question-resume-user.st",
+          "language": "st",
+          "sizeLines": 25,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-question-skill-system.st",
+          "language": "st",
+          "sizeLines": 24,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/interview-question-skill-user.st",
+          "language": "st",
+          "sizeLines": 32,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/jd-parse-system.st",
+          "language": "st",
+          "sizeLines": 19,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/knowledgebase-query-rewrite.st",
+          "language": "st",
+          "sizeLines": 13,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/knowledgebase-query-system.st",
+          "language": "st",
+          "sizeLines": 72,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/knowledgebase-query-user.st",
+          "language": "st",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/resume-analysis-system.st",
+          "language": "st",
+          "sizeLines": 47,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/prompts/resume-analysis-user.st",
+          "language": "st",
+          "sizeLines": 50,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/scripts/rate_limit_single.lua",
+          "language": "lua",
+          "sizeLines": 60,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/main/resources/skills/algorithm/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 17,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/algorithm/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 37,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/ali-backend/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 21,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/ali-backend/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 50,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/bytedance-backend/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 19,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/bytedance-backend/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 40,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/frontend/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 20,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/frontend/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 34,
+          "fileCategory": "config"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptService.java": [],
+        "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewService.java": [],
+        "app/src/main/resources/prompts/interview-evaluation-summary-system.st": [],
+        "app/src/main/resources/prompts/interview-evaluation-summary-user.st": [],
+        "app/src/main/resources/prompts/interview-evaluation-system.st": [],
+        "app/src/main/resources/prompts/interview-evaluation-user.st": [],
+        "app/src/main/resources/prompts/interview-question-resume-system.st": [],
+        "app/src/main/resources/prompts/interview-question-resume-user.st": [],
+        "app/src/main/resources/prompts/interview-question-skill-system.st": [],
+        "app/src/main/resources/prompts/interview-question-skill-user.st": [],
+        "app/src/main/resources/prompts/jd-parse-system.st": [],
+        "app/src/main/resources/prompts/knowledgebase-query-rewrite.st": [],
+        "app/src/main/resources/prompts/knowledgebase-query-system.st": [],
+        "app/src/main/resources/prompts/knowledgebase-query-user.st": [],
+        "app/src/main/resources/prompts/resume-analysis-system.st": [],
+        "app/src/main/resources/prompts/resume-analysis-user.st": [],
+        "app/src/main/resources/scripts/rate_limit_single.lua": [],
+        "app/src/main/resources/skills/algorithm/SKILL.md": [],
+        "app/src/main/resources/skills/algorithm/skill.meta.yml": [],
+        "app/src/main/resources/skills/ali-backend/SKILL.md": [],
+        "app/src/main/resources/skills/ali-backend/skill.meta.yml": [],
+        "app/src/main/resources/skills/bytedance-backend/SKILL.md": [],
+        "app/src/main/resources/skills/bytedance-backend/skill.meta.yml": [],
+        "app/src/main/resources/skills/frontend/SKILL.md": [],
+        "app/src/main/resources/skills/frontend/skill.meta.yml": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 18,
+      "files": [
+        {
+          "path": "app/src/main/resources/skills/java-backend-tencent/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 21,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/java-backend-tencent/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 45,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/java-backend/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 21,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/java-backend/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 35,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/python-backend/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 20,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/python-backend/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 38,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/system-design/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 20,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/system-design/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 38,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/main/resources/skills/test-development/SKILL.md",
+          "language": "markdown",
+          "sizeLines": 20,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/main/resources/skills/test-development/skill.meta.yml",
+          "language": "yaml",
+          "sizeLines": 40,
+          "fileCategory": "config"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/AppTest.java",
+          "language": "java",
+          "sizeLines": 17,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+          "language": "java",
+          "sizeLines": 140,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+          "language": "java",
+          "sizeLines": 127,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+          "language": "java",
+          "sizeLines": 214,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+          "language": "java",
+          "sizeLines": 158,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+          "language": "java",
+          "sizeLines": 86,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+          "language": "java",
+          "sizeLines": 57,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+          "language": "java",
+          "sizeLines": 403,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+          "language": "java",
+          "sizeLines": 420,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/infrastructure/file/README.md",
+          "language": "markdown",
+          "sizeLines": 307,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+          "language": "java",
+          "sizeLines": 408,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+          "language": "java",
+          "sizeLines": 592,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+          "language": "java",
+          "sizeLines": 68,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+          "language": "java",
+          "sizeLines": 471,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+          "language": "java",
+          "sizeLines": 325,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/main/resources/skills/java-backend-tencent/SKILL.md": [],
+        "app/src/main/resources/skills/java-backend-tencent/skill.meta.yml": [],
+        "app/src/main/resources/skills/java-backend/SKILL.md": [],
+        "app/src/main/resources/skills/java-backend/skill.meta.yml": [],
+        "app/src/main/resources/skills/python-backend/SKILL.md": [],
+        "app/src/main/resources/skills/python-backend/skill.meta.yml": [],
+        "app/src/main/resources/skills/system-design/SKILL.md": [],
+        "app/src/main/resources/skills/system-design/skill.meta.yml": [],
+        "app/src/main/resources/skills/test-development/SKILL.md": [],
+        "app/src/main/resources/skills/test-development/skill.meta.yml": [],
+        "app/src/test/java/interview/guide/AppTest.java": [],
+        "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java": [],
+        "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java": [],
+        "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java": [],
+        "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java": [],
+        "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java": [],
+        "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java": [],
+        "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java": [],
+        "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java": [],
+        "app/src/test/java/interview/guide/infrastructure/file/README.md": [],
+        "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java": [],
+        "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 19,
+      "files": [
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+          "language": "java",
+          "sizeLines": 21,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+          "language": "java",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+          "language": "java",
+          "sizeLines": 190,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+          "language": "java",
+          "sizeLines": 113,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+          "language": "java",
+          "sizeLines": 24,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+          "language": "java",
+          "sizeLines": 22,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+          "language": "java",
+          "sizeLines": 865,
+          "fileCategory": "code"
+        },
+        {
+          "path": "app/src/test/resources/application-test.yml",
+          "language": "yaml",
+          "sizeLines": 164,
+          "fileCategory": "config"
+        },
+        {
+          "path": "docker/postgres/init.sql",
+          "language": "sql",
+          "sizeLines": 1,
+          "fileCategory": "data"
+        },
+        {
+          "path": "frontend/eslint.config.js",
+          "language": "javascript",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/nginx.conf",
+          "language": "conf",
+          "sizeLines": 31,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/postcss.config.js",
+          "language": "javascript",
+          "sizeLines": 6,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/history.ts",
+          "language": "typescript",
+          "sizeLines": 161,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/interview.ts",
+          "language": "typescript",
+          "sizeLines": 106,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/interviewSchedule.ts",
+          "language": "typescript",
+          "sizeLines": 47,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/knowledgebase.ts",
+          "language": "typescript",
+          "sizeLines": 280,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/llmProvider.ts",
+          "language": "typescript",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/ragChat.ts",
+          "language": "typescript",
+          "sizeLines": 217,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/request.ts",
+          "language": "typescript",
+          "sizeLines": 127,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/resume.ts",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/skill.ts",
+          "language": "typescript",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/api/voiceInterview.ts",
+          "language": "typescript",
+          "sizeLines": 389,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "language": "typescript",
+          "sizeLines": 374,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/AnalysisPanel.tsx",
+          "language": "typescript",
+          "sizeLines": 462,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/AudioPlayer.tsx",
+          "language": "typescript",
+          "sizeLines": 124,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java": [],
+        "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java": [],
+        "app/src/test/resources/application-test.yml": [],
+        "docker/postgres/init.sql": [],
+        "frontend/eslint.config.js": [],
+        "frontend/nginx.conf": [],
+        "frontend/postcss.config.js": [],
+        "frontend/src/api/history.ts": [],
+        "frontend/src/api/interview.ts": [],
+        "frontend/src/api/interviewSchedule.ts": [],
+        "frontend/src/api/knowledgebase.ts": [],
+        "frontend/src/api/llmProvider.ts": [],
+        "frontend/src/api/ragChat.ts": [],
+        "frontend/src/api/request.ts": [],
+        "frontend/src/api/resume.ts": [],
+        "frontend/src/api/skill.ts": [],
+        "frontend/src/api/voiceInterview.ts": [],
+        "frontend/src/App.tsx": [],
+        "frontend/src/components/AnalysisPanel.tsx": [],
+        "frontend/src/components/AudioPlayer.tsx": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 20,
+      "files": [
+        {
+          "path": "frontend/src/components/AudioRecorder.tsx",
+          "language": "typescript",
+          "sizeLines": 254,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/CodeBlock.tsx",
+          "language": "typescript",
+          "sizeLines": 83,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/ConfirmDialog.tsx",
+          "language": "typescript",
+          "sizeLines": 116,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/DeleteConfirmDialog.tsx",
+          "language": "typescript",
+          "sizeLines": 59,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/FileUploadCard.tsx",
+          "language": "typescript",
+          "sizeLines": 291,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/HistoryList.tsx",
+          "language": "typescript",
+          "sizeLines": 451,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/InterviewChatPanel.tsx",
+          "language": "typescript",
+          "sizeLines": 150,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/InterviewDetailPanel.tsx",
+          "language": "typescript",
+          "sizeLines": 350,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/InterviewMessageBubble.tsx",
+          "language": "typescript",
+          "sizeLines": 82,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/InterviewPageHeader.tsx",
+          "language": "typescript",
+          "sizeLines": 30,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/InterviewPanel.tsx",
+          "language": "typescript",
+          "sizeLines": 294,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+          "language": "typescript",
+          "sizeLines": 56,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/InterviewEvent.tsx",
+          "language": "typescript",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+          "language": "typescript",
+          "sizeLines": 510,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/InterviewListItem.tsx",
+          "language": "typescript",
+          "sizeLines": 151,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/ScheduleCalendar.css",
+          "language": "css",
+          "sizeLines": 75,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+          "language": "typescript",
+          "sizeLines": 177,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+          "language": "typescript",
+          "sizeLines": 146,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/interviewschedule/ScheduleList.tsx",
+          "language": "typescript",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/Layout.tsx",
+          "language": "typescript",
+          "sizeLines": 257,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/RadarChart.tsx",
+          "language": "typescript",
+          "sizeLines": 102,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/RealtimeSubtitle.tsx",
+          "language": "typescript",
+          "sizeLines": 150,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/ScoreProgressBar.tsx",
+          "language": "typescript",
+          "sizeLines": 44,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/components/UnifiedInterviewModal.tsx",
+          "language": "typescript",
+          "sizeLines": 475,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/constants/routes.ts",
+          "language": "typescript",
+          "sizeLines": 5,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "frontend/src/components/AudioRecorder.tsx": [],
+        "frontend/src/components/CodeBlock.tsx": [],
+        "frontend/src/components/ConfirmDialog.tsx": [],
+        "frontend/src/components/DeleteConfirmDialog.tsx": [],
+        "frontend/src/components/FileUploadCard.tsx": [],
+        "frontend/src/components/HistoryList.tsx": [],
+        "frontend/src/components/InterviewChatPanel.tsx": [],
+        "frontend/src/components/InterviewDetailPanel.tsx": [],
+        "frontend/src/components/InterviewMessageBubble.tsx": [],
+        "frontend/src/components/InterviewPageHeader.tsx": [],
+        "frontend/src/components/InterviewPanel.tsx": [],
+        "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx": [],
+        "frontend/src/components/interviewschedule/InterviewEvent.tsx": [],
+        "frontend/src/components/interviewschedule/InterviewFormModal.tsx": [],
+        "frontend/src/components/interviewschedule/InterviewListItem.tsx": [],
+        "frontend/src/components/interviewschedule/ScheduleCalendar.css": [],
+        "frontend/src/components/interviewschedule/ScheduleCalendar.tsx": [],
+        "frontend/src/components/interviewschedule/ScheduleHeader.tsx": [],
+        "frontend/src/components/interviewschedule/ScheduleList.tsx": [],
+        "frontend/src/components/Layout.tsx": [],
+        "frontend/src/components/RadarChart.tsx": [],
+        "frontend/src/components/RealtimeSubtitle.tsx": [],
+        "frontend/src/components/ScoreProgressBar.tsx": [],
+        "frontend/src/components/UnifiedInterviewModal.tsx": [],
+        "frontend/src/constants/routes.ts": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 21,
+      "files": [
+        {
+          "path": "frontend/src/hooks/useInterviewConfig.ts",
+          "language": "typescript",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/hooks/useInterviewSchedule.ts",
+          "language": "typescript",
+          "sizeLines": 71,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/hooks/useTheme.ts",
+          "language": "typescript",
+          "sizeLines": 36,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/index.css",
+          "language": "css",
+          "sizeLines": 269,
+          "fileCategory": "markup"
+        },
+        {
+          "path": "frontend/src/main.tsx",
+          "language": "typescript",
+          "sizeLines": 20,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/HistoryPage.tsx",
+          "language": "typescript",
+          "sizeLines": 337,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/InterviewHistoryPage.tsx",
+          "language": "typescript",
+          "sizeLines": 615,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/InterviewHubPage.tsx",
+          "language": "typescript",
+          "sizeLines": 550,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/InterviewPage.tsx",
+          "language": "typescript",
+          "sizeLines": 291,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/InterviewSchedulePage.tsx",
+          "language": "typescript",
+          "sizeLines": 234,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+          "language": "typescript",
+          "sizeLines": 603,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+          "language": "typescript",
+          "sizeLines": 842,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+          "language": "typescript",
+          "sizeLines": 47,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/ResumeDetailPage.tsx",
+          "language": "typescript",
+          "sizeLines": 360,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/SettingsPage.tsx",
+          "language": "typescript",
+          "sizeLines": 1500,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/UploadPage.tsx",
+          "language": "typescript",
+          "sizeLines": 48,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+          "language": "typescript",
+          "sizeLines": 199,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/pages/VoiceInterviewPage.tsx",
+          "language": "typescript",
+          "sizeLines": 734,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/types/interview.ts",
+          "language": "typescript",
+          "sizeLines": 87,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/types/interviewSchedule.ts",
+          "language": "typescript",
+          "sizeLines": 48,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/types/llmProvider.ts",
+          "language": "typescript",
+          "sizeLines": 94,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/types/resume.ts",
+          "language": "typescript",
+          "sizeLines": 45,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/utils/date.ts",
+          "language": "typescript",
+          "sizeLines": 59,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/utils/score.ts",
+          "language": "typescript",
+          "sizeLines": 86,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/utils/skillIcons.tsx",
+          "language": "typescript",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "frontend/src/hooks/useInterviewConfig.ts": [],
+        "frontend/src/hooks/useInterviewSchedule.ts": [],
+        "frontend/src/hooks/useTheme.ts": [],
+        "frontend/src/index.css": [],
+        "frontend/src/main.tsx": [],
+        "frontend/src/pages/HistoryPage.tsx": [],
+        "frontend/src/pages/InterviewHistoryPage.tsx": [],
+        "frontend/src/pages/InterviewHubPage.tsx": [],
+        "frontend/src/pages/InterviewPage.tsx": [],
+        "frontend/src/pages/InterviewSchedulePage.tsx": [],
+        "frontend/src/pages/KnowledgeBaseManagePage.tsx": [],
+        "frontend/src/pages/KnowledgeBaseQueryPage.tsx": [],
+        "frontend/src/pages/KnowledgeBaseUploadPage.tsx": [],
+        "frontend/src/pages/ResumeDetailPage.tsx": [],
+        "frontend/src/pages/SettingsPage.tsx": [],
+        "frontend/src/pages/UploadPage.tsx": [],
+        "frontend/src/pages/VoiceInterviewEvaluationPage.tsx": [],
+        "frontend/src/pages/VoiceInterviewPage.tsx": [],
+        "frontend/src/types/interview.ts": [],
+        "frontend/src/types/interviewSchedule.ts": [],
+        "frontend/src/types/llmProvider.ts": [],
+        "frontend/src/types/resume.ts": [],
+        "frontend/src/utils/date.ts": [],
+        "frontend/src/utils/score.ts": [],
+        "frontend/src/utils/skillIcons.tsx": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 22,
+      "files": [
+        {
+          "path": "frontend/src/utils/voiceInterview.ts",
+          "language": "typescript",
+          "sizeLines": 5,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/src/vite-env.d.ts",
+          "language": "typescript",
+          "sizeLines": 1,
+          "fileCategory": "code"
+        },
+        {
+          "path": "frontend/vite.config.ts",
+          "language": "typescript",
+          "sizeLines": 41,
+          "fileCategory": "code"
+        },
+        {
+          "path": "gradle/libs.versions.toml",
+          "language": "toml",
+          "sizeLines": 31,
+          "fileCategory": "config"
+        },
+        {
+          "path": "gradle/wrapper/gradle-wrapper.jar",
+          "language": "jar",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "gradle/wrapper/gradle-wrapper.properties",
+          "language": "properties",
+          "sizeLines": 9,
+          "fileCategory": "config"
+        },
+        {
+          "path": "gradlew",
+          "language": "unknown",
+          "sizeLines": 249,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "frontend/src/utils/voiceInterview.ts": [],
+        "frontend/src/vite-env.d.ts": [],
+        "frontend/vite.config.ts": [],
+        "gradle/libs.versions.toml": [],
+        "gradle/wrapper/gradle-wrapper.jar": [],
+        "gradle/wrapper/gradle-wrapper.properties": [],
+        "gradlew": []
+      },
+      "neighborMap": {}
+    }
+  ]
+}

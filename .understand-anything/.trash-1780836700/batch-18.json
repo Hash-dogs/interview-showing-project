@@ -1,0 +1,2106 @@
+{
+  "nodes": [
+    {
+      "id": "document:app/src/main/resources/skills/java-backend-tencent/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/java-backend-tencent/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/java-backend-tencent/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/java-backend-tencent/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/java-backend/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/java-backend/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/java-backend/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/java-backend/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/python-backend/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/python-backend/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/python-backend/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/python-backend/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/system-design/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/system-design/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/system-design/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/system-design/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/test-development/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/test-development/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/test-development/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/test-development/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/AppTest.java",
+      "type": "file",
+      "name": "AppTest.java",
+      "filePath": "app/src/test/java/interview/guide/AppTest.java",
+      "summary": "定义类: AppTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/AppTest.java:contextLoads",
+      "type": "function",
+      "name": "contextLoads",
+      "filePath": "app/src/test/java/interview/guide/AppTest.java",
+      "summary": "函数 contextLoads",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/AppTest.java:AppTest",
+      "type": "class",
+      "name": "AppTest",
+      "filePath": "app/src/test/java/interview/guide/AppTest.java",
+      "summary": "类 AppTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+      "type": "file",
+      "name": "ApiPathResolverTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+      "summary": "定义类: ApiPathResolverTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java:ApiPathResolverTest",
+      "type": "class",
+      "name": "ApiPathResolverTest",
+      "filePath": "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+      "summary": "类 ApiPathResolverTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "type": "file",
+      "name": "LlmProviderRegistryPathIntegrationTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "定义类: LlmProviderRegistryPathIntegrationTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:startServer",
+      "type": "function",
+      "name": "startServer",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 startServer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:stopServer",
+      "type": "function",
+      "name": "stopServer",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 stopServer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:buildRegistryFor",
+      "type": "function",
+      "name": "buildRegistryFor",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 buildRegistryFor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithV1_noDoubleVersion",
+      "type": "function",
+      "name": "baseUrlWithV1_noDoubleVersion",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 baseUrlWithV1_noDoubleVersion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithoutVersion_defaultPath",
+      "type": "function",
+      "name": "baseUrlWithoutVersion_defaultPath",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 baseUrlWithoutVersion_defaultPath",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithV3_noDoubleVersion",
+      "type": "function",
+      "name": "baseUrlWithV3_noDoubleVersion",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "函数 baseUrlWithV3_noDoubleVersion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:LlmProviderRegistryPathIntegrationTest",
+      "type": "class",
+      "name": "LlmProviderRegistryPathIntegrationTest",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "summary": "类 LlmProviderRegistryPathIntegrationTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "type": "file",
+      "name": "LlmProviderRegistryTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "定义类: LlmProviderRegistryTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_Success",
+      "type": "function",
+      "name": "testGetChatClient_Success",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testGetChatClient_Success",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_Caching",
+      "type": "function",
+      "name": "testGetChatClient_Caching",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testGetChatClient_Caching",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_UnknownProvider",
+      "type": "function",
+      "name": "testGetChatClient_UnknownProvider",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testGetChatClient_UnknownProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetDefaultChatClient",
+      "type": "function",
+      "name": "testGetDefaultChatClient",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testGetDefaultChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testReload",
+      "type": "function",
+      "name": "testReload",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testReload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_disabledProvider",
+      "type": "function",
+      "name": "testGetChatClient_disabledProvider",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "函数 testGetChatClient_disabledProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:LlmProviderRegistryTest",
+      "type": "class",
+      "name": "LlmProviderRegistryTest",
+      "filePath": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "summary": "类 LlmProviderRegistryTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "type": "file",
+      "name": "RateLimitIntegrationTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "定义类: RateLimitIntegrationTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testRateLimit",
+      "type": "function",
+      "name": "testRateLimit",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 testRateLimit",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testMultiRule",
+      "type": "function",
+      "name": "testMultiRule",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 testMultiRule",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testIndependentCountPerDimension",
+      "type": "function",
+      "name": "testIndependentCountPerDimension",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 testIndependentCountPerDimension",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:executeLuaScript",
+      "type": "function",
+      "name": "executeLuaScript",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 executeLuaScript",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:tearDown",
+      "type": "function",
+      "name": "tearDown",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "函数 tearDown",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:RateLimitIntegrationTest",
+      "type": "class",
+      "name": "RateLimitIntegrationTest",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "summary": "类 RateLimitIntegrationTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "type": "file",
+      "name": "RateLimitScriptTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "定义类: RateLimitScriptTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testAnnotationMetadata",
+      "type": "function",
+      "name": "testAnnotationMetadata",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "函数 testAnnotationMetadata",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testDefaultValues",
+      "type": "function",
+      "name": "testDefaultValues",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "函数 testDefaultValues",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testCustomValues",
+      "type": "function",
+      "name": "testCustomValues",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "函数 testCustomValues",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testRepeatableAnnotations",
+      "type": "function",
+      "name": "testRepeatableAnnotations",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "函数 testRepeatableAnnotations",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:RateLimitScriptTest",
+      "type": "class",
+      "name": "RateLimitScriptTest",
+      "filePath": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "summary": "类 RateLimitScriptTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "type": "file",
+      "name": "RateLimitExceededExceptionTest.java",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "定义类: RateLimitExceededExceptionTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testDefaultConstructor",
+      "type": "function",
+      "name": "testDefaultConstructor",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "函数 testDefaultConstructor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testMessageConstructor",
+      "type": "function",
+      "name": "testMessageConstructor",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "函数 testMessageConstructor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testMessageWithCauseConstructor",
+      "type": "function",
+      "name": "testMessageWithCauseConstructor",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "函数 testMessageWithCauseConstructor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testInheritance",
+      "type": "function",
+      "name": "testInheritance",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "函数 testInheritance",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testErrorCode",
+      "type": "function",
+      "name": "testErrorCode",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "函数 testErrorCode",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:RateLimitExceededExceptionTest",
+      "type": "class",
+      "name": "RateLimitExceededExceptionTest",
+      "filePath": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "summary": "类 RateLimitExceededExceptionTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "type": "file",
+      "name": "DocumentParseIntegrationTest.java",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "定义类: DocumentParseIntegrationTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseTxtResume",
+      "type": "function",
+      "name": "testParseTxtResume",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testParseTxtResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseMarkdownResume",
+      "type": "function",
+      "name": "testParseMarkdownResume",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testParseMarkdownResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseTextWithSpecialCharacters",
+      "type": "function",
+      "name": "testParseTextWithSpecialCharacters",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testParseTextWithSpecialCharacters",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testTextCleaningIntegration",
+      "type": "function",
+      "name": "testTextCleaningIntegration",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testTextCleaningIntegration",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseMultilingualText",
+      "type": "function",
+      "name": "testParseMultilingualText",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testParseMultilingualText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testLargeFilePerformance",
+      "type": "function",
+      "name": "testLargeFilePerformance",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testLargeFilePerformance",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testEmptyContentHandling",
+      "type": "function",
+      "name": "testEmptyContentHandling",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testEmptyContentHandling",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testNoiseOnlyDocument",
+      "type": "function",
+      "name": "testNoiseOnlyDocument",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "函数 testNoiseOnlyDocument",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:DocumentParseIntegrationTest",
+      "type": "class",
+      "name": "DocumentParseIntegrationTest",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "summary": "类 DocumentParseIntegrationTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "type": "file",
+      "name": "DocumentParseServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "定义类: DocumentParseServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseTxtFile",
+      "type": "function",
+      "name": "testParseTxtFile",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseTxtFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseMarkdownFile",
+      "type": "function",
+      "name": "testParseMarkdownFile",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseMarkdownFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFromByteArray",
+      "type": "function",
+      "name": "testParseFromByteArray",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseFromByteArray",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseEmptyFile",
+      "type": "function",
+      "name": "testParseEmptyFile",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseEmptyFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFileWithSpecialCharacters",
+      "type": "function",
+      "name": "testParseFileWithSpecialCharacters",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseFileWithSpecialCharacters",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFailureWithIOException",
+      "type": "function",
+      "name": "testParseFailureWithIOException",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseFailureWithIOException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseChineseResume",
+      "type": "function",
+      "name": "testParseChineseResume",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseChineseResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseContent",
+      "type": "function",
+      "name": "testDownloadAndParseContent",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testDownloadAndParseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseContentFailure",
+      "type": "function",
+      "name": "testDownloadAndParseContentFailure",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testDownloadAndParseContentFailure",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseEmptyContent",
+      "type": "function",
+      "name": "testDownloadAndParseEmptyContent",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testDownloadAndParseEmptyContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testTextCleaningServiceIsCalled",
+      "type": "function",
+      "name": "testTextCleaningServiceIsCalled",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testTextCleaningServiceIsCalled",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseDocumentWithUrls",
+      "type": "function",
+      "name": "testParseDocumentWithUrls",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testParseDocumentWithUrls",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testIntegrationWithRealFile",
+      "type": "function",
+      "name": "testIntegrationWithRealFile",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "函数 testIntegrationWithRealFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:DocumentParseServiceTest",
+      "type": "class",
+      "name": "DocumentParseServiceTest",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "summary": "类 DocumentParseServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "document:app/src/test/java/interview/guide/infrastructure/file/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/README.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "type": "file",
+      "name": "TextCleaningServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "summary": "定义类: TextCleaningServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java:TextCleaningServiceTest",
+      "type": "class",
+      "name": "TextCleaningServiceTest",
+      "filePath": "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "summary": "类 TextCleaningServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "type": "file",
+      "name": "KnowledgeBaseVectorServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "定义类: KnowledgeBaseVectorServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:generateLongContent",
+      "type": "function",
+      "name": "generateLongContent",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 generateLongContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createMockDocuments",
+      "type": "function",
+      "name": "createMockDocuments",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 createMockDocuments",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createMockDocuments",
+      "type": "function",
+      "name": "createMockDocuments",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 createMockDocuments",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createDocumentWithLongKbId",
+      "type": "function",
+      "name": "createDocumentWithLongKbId",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 createDocumentWithLongKbId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createDocumentWithInvalidKbId",
+      "type": "function",
+      "name": "createDocumentWithInvalidKbId",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 createDocumentWithInvalidKbId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:filterDocuments",
+      "type": "function",
+      "name": "filterDocuments",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "函数 filterDocuments",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:KnowledgeBaseVectorServiceTest",
+      "type": "class",
+      "name": "KnowledgeBaseVectorServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "summary": "类 KnowledgeBaseVectorServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "type": "file",
+      "name": "LlmProviderControllerTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "summary": "定义类: LlmProviderControllerTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:listProvidersReturnsProviderList",
+      "type": "function",
+      "name": "listProvidersReturnsProviderList",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "summary": "函数 listProvidersReturnsProviderList",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:getDefaultProviderReturnsDefaultProvider",
+      "type": "function",
+      "name": "getDefaultProviderReturnsDefaultProvider",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "summary": "函数 getDefaultProviderReturnsDefaultProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:deleteProviderCallsService",
+      "type": "function",
+      "name": "deleteProviderCallsService",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "summary": "函数 deleteProviderCallsService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:LlmProviderControllerTest",
+      "type": "class",
+      "name": "LlmProviderControllerTest",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "summary": "类 LlmProviderControllerTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "type": "file",
+      "name": "LlmProviderConfigServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "定义类: LlmProviderConfigServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:createProviderConfig",
+      "type": "function",
+      "name": "createProviderConfig",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "函数 createProviderConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeConnectivityUrls",
+      "type": "function",
+      "name": "invokeConnectivityUrls",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "函数 invokeConnectivityUrls",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeMethod",
+      "type": "function",
+      "name": "invokeMethod",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "函数 invokeMethod",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeConnectivityRequestBody",
+      "type": "function",
+      "name": "invokeConnectivityRequestBody",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "函数 invokeConnectivityRequestBody",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:LlmProviderConfigServiceTest",
+      "type": "class",
+      "name": "LlmProviderConfigServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "summary": "类 LlmProviderConfigServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "type": "file",
+      "name": "VoiceInterviewIntegrationTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "summary": "定义类: VoiceInterviewIntegrationTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:tearDown",
+      "type": "function",
+      "name": "tearDown",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "summary": "函数 tearDown",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:VoiceInterviewIntegrationTest",
+      "type": "class",
+      "name": "VoiceInterviewIntegrationTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "summary": "类 VoiceInterviewIntegrationTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/test/java/interview/guide/AppTest.java",
+      "target": "function:app/src/test/java/interview/guide/AppTest.java:contextLoads",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/AppTest.java",
+      "target": "class:app/src/test/java/interview/guide/AppTest.java:AppTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java:ApiPathResolverTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:startServer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:stopServer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:buildRegistryFor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithV1_noDoubleVersion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithoutVersion_defaultPath",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:baseUrlWithV3_noDoubleVersion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java:LlmProviderRegistryPathIntegrationTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_Success",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_Caching",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_UnknownProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetDefaultChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testReload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:testGetChatClient_disabledProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java:LlmProviderRegistryTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testRateLimit",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testMultiRule",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:testIndependentCountPerDimension",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:executeLuaScript",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:tearDown",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java:RateLimitIntegrationTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testAnnotationMetadata",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testDefaultValues",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testCustomValues",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:testRepeatableAnnotations",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java:RateLimitScriptTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testDefaultConstructor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testMessageConstructor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testMessageWithCauseConstructor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testInheritance",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "function:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:testErrorCode",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "target": "class:app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java:RateLimitExceededExceptionTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseTxtResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseMarkdownResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseTextWithSpecialCharacters",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testTextCleaningIntegration",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testParseMultilingualText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testLargeFilePerformance",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testEmptyContentHandling",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:testNoiseOnlyDocument",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "target": "class:app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java:DocumentParseIntegrationTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseTxtFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseMarkdownFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFromByteArray",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseEmptyFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFileWithSpecialCharacters",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseFailureWithIOException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseChineseResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseContentFailure",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testDownloadAndParseEmptyContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testTextCleaningServiceIsCalled",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testParseDocumentWithUrls",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:testIntegrationWithRealFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java:DocumentParseServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java:TextCleaningServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:generateLongContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createMockDocuments",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createMockDocuments",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createDocumentWithLongKbId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:createDocumentWithInvalidKbId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:filterDocuments",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java:KnowledgeBaseVectorServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:listProvidersReturnsProviderList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:getDefaultProviderReturnsDefaultProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:deleteProviderCallsService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java:LlmProviderControllerTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:createProviderConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeConnectivityUrls",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeMethod",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:invokeConnectivityRequestBody",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java:LlmProviderConfigServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:tearDown",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java:VoiceInterviewIntegrationTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

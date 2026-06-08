@@ -1,0 +1,77 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/resources/application.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 281,
+      "nonEmptyLines": 260,
+      "sections": [
+        {
+          "heading": "logging",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "server",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "springdoc",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "spring",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "app",
+          "level": 1,
+          "line": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "app/src/main/resources/logback-spring.xml",
+      "language": "xml",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "app/src/main/resources/voice-interview-opening.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 44,
+      "nonEmptyLines": 44,
+      "sections": [
+        {
+          "heading": "app",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

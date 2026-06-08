@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "language": "java",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "language": "java",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "language": "java",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "language": "java",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "language": "java",
+      "sizeLines": 865,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/resources/application-test.yml",
+      "language": "yaml",
+      "sizeLines": 164,
+      "fileCategory": "config"
+    },
+    {
+      "path": "docker/postgres/init.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "language": "conf",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "language": "javascript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/history.ts",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/interview.ts",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/interviewSchedule.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/knowledgebase.ts",
+      "language": "typescript",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/llmProvider.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/ragChat.ts",
+      "language": "typescript",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/request.ts",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/resume.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/skill.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/api/voiceInterview.ts",
+      "language": "typescript",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "language": "typescript",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/AnalysisPanel.tsx",
+      "language": "typescript",
+      "sizeLines": 462,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/components/AudioPlayer.tsx",
+      "language": "typescript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java": [],
+    "app/src/test/resources/application-test.yml": [],
+    "docker/postgres/init.sql": [],
+    "frontend/eslint.config.js": [],
+    "frontend/nginx.conf": [],
+    "frontend/postcss.config.js": [],
+    "frontend/src/api/history.ts": [],
+    "frontend/src/api/interview.ts": [],
+    "frontend/src/api/interviewSchedule.ts": [],
+    "frontend/src/api/knowledgebase.ts": [],
+    "frontend/src/api/llmProvider.ts": [],
+    "frontend/src/api/ragChat.ts": [],
+    "frontend/src/api/request.ts": [],
+    "frontend/src/api/resume.ts": [],
+    "frontend/src/api/skill.ts": [],
+    "frontend/src/api/voiceInterview.ts": [],
+    "frontend/src/App.tsx": [],
+    "frontend/src/components/AnalysisPanel.tsx": [],
+    "frontend/src/components/AudioPlayer.tsx": []
+  }
+}

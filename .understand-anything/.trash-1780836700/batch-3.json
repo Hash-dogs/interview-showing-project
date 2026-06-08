@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "config:.dockerignore",
+      "type": "config",
+      "name": ".dockerignore",
+      "filePath": ".dockerignore",
+      "summary": ".dockerignore 文件",
+      "tags": [
+        "unknown",
+        "infra"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.env.example",
+      "type": "config",
+      "name": ".env.example",
+      "filePath": ".env.example",
+      "summary": ".env.example 文件",
+      "tags": [
+        "config",
+        "example"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "AGENTS.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "service:docker-compose.dev.yml",
+      "type": "service",
+      "name": "docker-compose.dev.yml",
+      "filePath": "docker-compose.dev.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "infra",
+        "yml"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:docker-compose.yml",
+      "type": "service",
+      "name": "docker-compose.yml",
+      "filePath": "docker-compose.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "infra",
+        "yml"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:gradlew.bat",
+      "type": "file",
+      "name": "gradlew.bat",
+      "filePath": "gradlew.bat",
+      "summary": "批处理脚本",
+      "tags": [
+        "batch",
+        "script",
+        "bat"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:settings.gradle",
+      "type": "config",
+      "name": "settings.gradle",
+      "filePath": "settings.gradle",
+      "summary": "Gradle 构建配置",
+      "tags": [
+        "gradle",
+        "config"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

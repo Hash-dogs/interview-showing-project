@@ -1,0 +1,126 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "frontend/src/utils/voiceInterview.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "functions": [
+        {
+          "name": "getTemplateName",
+          "startLine": 3,
+          "endLine": 5,
+          "params": [
+            "skillId",
+            "skills"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getTemplateName",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getTemplateName",
+          "callee": "skills.find",
+          "lineNumber": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 40,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 31,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "versions",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "libraries",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "plugins",
+          "level": 1,
+          "line": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "language": "jar",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 150,
+      "metrics": {}
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "language": "properties",
+      "fileCategory": "config",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "metrics": {}
+    },
+    {
+      "path": "gradlew",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 249,
+      "nonEmptyLines": 221,
+      "metrics": {}
+    }
+  ]
+}

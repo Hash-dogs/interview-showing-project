@@ -1,0 +1,21 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "frontend/.dockerignore",
+      "language": "unknown",
+      "sizeLines": 37,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "language": "dockerfile",
+      "sizeLines": 43,
+      "fileCategory": "infra"
+    }
+  ],
+  "batchImportData": {
+    "frontend/.dockerignore": [],
+    "frontend/Dockerfile": []
+  }
+}

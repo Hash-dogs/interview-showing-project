@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/utils/voiceInterview.ts",
+      "type": "file",
+      "name": "voiceInterview.ts",
+      "filePath": "frontend/src/utils/voiceInterview.ts",
+      "summary": "定义函数/方法: getTemplateName",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/voiceInterview.ts:getTemplateName",
+      "type": "function",
+      "name": "getTemplateName",
+      "filePath": "frontend/src/utils/voiceInterview.ts",
+      "summary": "函数 getTemplateName",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "frontend/src/vite-env.d.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "frontend/vite.config.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:gradle/libs.versions.toml",
+      "type": "config",
+      "name": "libs.versions.toml",
+      "filePath": "gradle/libs.versions.toml",
+      "summary": "TOML 配置文件",
+      "tags": [
+        "toml",
+        "config",
+        "gradle"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:gradle/wrapper/gradle-wrapper.jar",
+      "type": "file",
+      "name": "gradle-wrapper.jar",
+      "filePath": "gradle/wrapper/gradle-wrapper.jar",
+      "summary": "gradle-wrapper.jar 文件",
+      "tags": [
+        "jar",
+        "code",
+        "gradle"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:gradle/wrapper/gradle-wrapper.properties",
+      "type": "config",
+      "name": "gradle-wrapper.properties",
+      "filePath": "gradle/wrapper/gradle-wrapper.properties",
+      "summary": "Properties 配置文件",
+      "tags": [
+        "properties",
+        "config",
+        "gradle"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:gradlew",
+      "type": "file",
+      "name": "gradlew",
+      "filePath": "gradlew",
+      "summary": "gradlew 文件",
+      "tags": [
+        "unknown",
+        "code"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/utils/voiceInterview.ts",
+      "target": "function:frontend/src/utils/voiceInterview.ts:getTemplateName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    }
+  ]
+}

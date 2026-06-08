@@ -1,0 +1,519 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".dockerignore",
+      "language": "unknown",
+      "fileCategory": "infra",
+      "totalLines": 85,
+      "nonEmptyLines": 73,
+      "metrics": {}
+    },
+    {
+      "path": ".env.example",
+      "language": "config",
+      "fileCategory": "config",
+      "totalLines": 57,
+      "nonEmptyLines": 44,
+      "definitions": [
+        {
+          "name": "AI_BAILIAN_API_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 6,
+          "endLine": 6
+        },
+        {
+          "name": "PROVIDER_KIMI_API_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 16,
+          "endLine": 16
+        },
+        {
+          "name": "PROVIDER_KIMI_MODEL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 17,
+          "endLine": 17
+        },
+        {
+          "name": "PROVIDER_DEEPSEEK_API_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 20,
+          "endLine": 20
+        },
+        {
+          "name": "PROVIDER_DEEPSEEK_MODEL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 21,
+          "endLine": 21
+        },
+        {
+          "name": "PROVIDER_GLM_API_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 24,
+          "endLine": 24
+        },
+        {
+          "name": "PROVIDER_GLM_MODEL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 25,
+          "endLine": 25
+        },
+        {
+          "name": "POSTGRES_HOST",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 36,
+          "endLine": 36
+        },
+        {
+          "name": "POSTGRES_PORT",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 37,
+          "endLine": 37
+        },
+        {
+          "name": "POSTGRES_DB",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 38,
+          "endLine": 38
+        },
+        {
+          "name": "POSTGRES_USER",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 39,
+          "endLine": 39
+        },
+        {
+          "name": "POSTGRES_PASSWORD",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 40,
+          "endLine": 40
+        },
+        {
+          "name": "REDIS_HOST",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 43,
+          "endLine": 43
+        },
+        {
+          "name": "REDIS_PORT",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 44,
+          "endLine": 44
+        },
+        {
+          "name": "APP_STORAGE_ENDPOINT",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 47,
+          "endLine": 47
+        },
+        {
+          "name": "APP_STORAGE_ACCESS_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 48,
+          "endLine": 48
+        },
+        {
+          "name": "APP_STORAGE_SECRET_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 49,
+          "endLine": 49
+        },
+        {
+          "name": "APP_STORAGE_BUCKET",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 50,
+          "endLine": 50
+        },
+        {
+          "name": "AI_MODEL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 53,
+          "endLine": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 19
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 250,
+      "nonEmptyLines": 184,
+      "sections": [
+        {
+          "heading": "AI Interview Platform 编码规范",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、项目结构",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "二、分层架构",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Controller 层",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "Service 层",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "Repository 层",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "三、JavaBean 后缀规则",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "四、异常与错误码",
+          "level": 2,
+          "line": 93
+        },
+        {
+          "heading": "ErrorCode 分域规则",
+          "level": 3,
+          "line": 95
+        },
+        {
+          "heading": "异常处理规则",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "五、限流组件",
+          "level": 2,
+          "line": 119
+        },
+        {
+          "heading": "六、异步任务（Redis Stream）",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "七、AI 服务调用",
+          "level": 2,
+          "line": 155
+        },
+        {
+          "heading": "LLM Provider",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "结构化输出",
+          "level": 3,
+          "line": 167
+        },
+        {
+          "heading": "Prompt 模板",
+          "level": 3,
+          "line": 174
+        },
+        {
+          "heading": "八、格式与命名",
+          "level": 2,
+          "line": 181
+        },
+        {
+          "heading": "九、事务规则",
+          "level": 2,
+          "line": 192
+        },
+        {
+          "heading": "十、日志规范",
+          "level": 2,
+          "line": 201
+        },
+        {
+          "heading": "十一、数据库",
+          "level": 2,
+          "line": 210
+        },
+        {
+          "heading": "十二、配置管理",
+          "level": 2,
+          "line": 218
+        },
+        {
+          "heading": "十三、测试",
+          "level": 2,
+          "line": 227
+        },
+        {
+          "heading": "速查：禁止清单",
+          "level": 2,
+          "line": 237
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 265,
+      "nonEmptyLines": 185,
+      "sections": [
+        {
+          "heading": "🤖 AI 智能面试辅助平台",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "目录",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "技术栈概览",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "项目功能简介",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "1. 简历智能分析",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "2. AI 模拟面试",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "3. RAG 知识库检索",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "4. 功能结构速览",
+          "level": 3,
+          "line": 61
+        },
+        {
+          "heading": "系统架构与核心逻辑",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "异步处理流（Redis Stream）",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "RAG 检索链路",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "统一 AI 评估引擎",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "项目配置与本地启动",
+          "level": 2,
+          "line": 118
+        },
+        {
+          "heading": "环境依赖",
+          "level": 3,
+          "line": 120
+        },
+        {
+          "heading": "快速启动（Docker 全量部署）",
+          "level": 3,
+          "line": 127
+        },
+        {
+          "heading": "仅启动中间件（本地开发模式）",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "关键配置项说明（application.yml）",
+          "level": 3,
+          "line": 164
+        },
+        {
+          "heading": "环境变量速查",
+          "level": 3,
+          "line": 188
+        },
+        {
+          "heading": "项目亮点与设计优势",
+          "level": 2,
+          "line": 205
+        },
+        {
+          "heading": "1. 精简但完整的技术选型",
+          "level": 3,
+          "line": 207
+        },
+        {
+          "heading": "2. 可复用的异步框架抽象",
+          "level": 3,
+          "line": 211
+        },
+        {
+          "heading": "3. 多轮面试的真实感模拟",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "4. 可靠性保障",
+          "level": 3,
+          "line": 219
+        },
+        {
+          "heading": "5. 前后端完整交付",
+          "level": 3,
+          "line": 225
+        },
+        {
+          "heading": "未来可改进方向",
+          "level": 2,
+          "line": 231
+        },
+        {
+          "heading": "功能层面",
+          "level": 3,
+          "line": 233
+        },
+        {
+          "heading": "工程层面",
+          "level": 3,
+          "line": 247
+        },
+        {
+          "heading": "License",
+          "level": 2,
+          "line": 263
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 28
+      }
+    },
+    {
+      "path": "docker-compose.dev.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "totalLines": 63,
+      "nonEmptyLines": 58,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "volumes",
+          "level": 1,
+          "line": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "docker-compose.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "totalLines": 196,
+      "nonEmptyLines": 186,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "volumes",
+          "level": 1,
+          "line": 193
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "gradlew.bat",
+      "language": "batch",
+      "fileCategory": "script",
+      "totalLines": 92,
+      "nonEmptyLines": 71,
+      "metrics": {}
+    },
+    {
+      "path": "settings.gradle",
+      "language": "gradle",
+      "fileCategory": "config",
+      "totalLines": 23,
+      "nonEmptyLines": 20,
+      "metrics": {}
+    }
+  ]
+}

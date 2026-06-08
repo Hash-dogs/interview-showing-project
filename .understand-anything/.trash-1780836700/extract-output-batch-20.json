@@ -1,0 +1,3094 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "frontend/src/components/AudioRecorder.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 254,
+      "nonEmptyLines": 220,
+      "functions": [
+        {
+          "name": "AudioRecorder",
+          "startLine": 28,
+          "endLine": 254,
+          "params": [
+            "{\n  isRecording,\n  onRecordingChange,\n  onAudioData,\n  onSpeechStart,\n  onSpeechEnd,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AudioRecorder",
+          "line": 28,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AudioRecorder",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 36
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 37
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 38
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 39
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 40
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useRef",
+          "lineNumber": 41
+        },
+        {
+          "caller": "float32ToInt16Pcm",
+          "callee": "Math.max",
+          "lineNumber": 51
+        },
+        {
+          "caller": "float32ToInt16Pcm",
+          "callee": "Math.min",
+          "lineNumber": 51
+        },
+        {
+          "caller": "int16ToBase64",
+          "callee": "String.fromCharCode",
+          "lineNumber": 64
+        },
+        {
+          "caller": "int16ToBase64",
+          "callee": "btoa",
+          "lineNumber": 66
+        },
+        {
+          "caller": "startRecording",
+          "callee": "navigator.mediaDevices.getUserMedia",
+          "lineNumber": 72
+        },
+        {
+          "caller": "startRecording",
+          "callee": "window.vad.MicVAD.new",
+          "lineNumber": 87
+        },
+        {
+          "caller": "startRecording",
+          "callee": "onSpeechStart",
+          "lineNumber": 92
+        },
+        {
+          "caller": "startRecording",
+          "callee": "onSpeechEnd",
+          "lineNumber": 95
+        },
+        {
+          "caller": "startRecording",
+          "callee": "vadInstance.start",
+          "lineNumber": 99
+        },
+        {
+          "caller": "startRecording",
+          "callee": "audioContext.createMediaStreamSource",
+          "lineNumber": 103
+        },
+        {
+          "caller": "startRecording",
+          "callee": "audioContext.createAnalyser",
+          "lineNumber": 106
+        },
+        {
+          "caller": "startRecording",
+          "callee": "source.connect",
+          "lineNumber": 108
+        },
+        {
+          "caller": "startRecording",
+          "callee": "setInterval",
+          "lineNumber": 115
+        },
+        {
+          "caller": "startRecording",
+          "callee": "analyser.getByteFrequencyData",
+          "lineNumber": 116
+        },
+        {
+          "caller": "startRecording",
+          "callee": "dataArray.reduce",
+          "lineNumber": 117
+        },
+        {
+          "caller": "startRecording",
+          "callee": "setVolume",
+          "lineNumber": 118
+        },
+        {
+          "caller": "startRecording",
+          "callee": "audioContext.createScriptProcessor",
+          "lineNumber": 123
+        },
+        {
+          "caller": "startRecording",
+          "callee": "e.inputBuffer.getChannelData",
+          "lineNumber": 130
+        },
+        {
+          "caller": "startRecording",
+          "callee": "float32ToInt16Pcm",
+          "lineNumber": 131
+        },
+        {
+          "caller": "startRecording",
+          "callee": "combined.set",
+          "lineNumber": 135
+        },
+        {
+          "caller": "startRecording",
+          "callee": "combined.set",
+          "lineNumber": 136
+        },
+        {
+          "caller": "startRecording",
+          "callee": "combined.subarray",
+          "lineNumber": 141
+        },
+        {
+          "caller": "startRecording",
+          "callee": "int16ToBase64",
+          "lineNumber": 144
+        },
+        {
+          "caller": "startRecording",
+          "callee": "onAudioData",
+          "lineNumber": 145
+        },
+        {
+          "caller": "startRecording",
+          "callee": "combined.subarray",
+          "lineNumber": 148
+        },
+        {
+          "caller": "startRecording",
+          "callee": "audioContext.createGain",
+          "lineNumber": 153
+        },
+        {
+          "caller": "startRecording",
+          "callee": "source.connect",
+          "lineNumber": 156
+        },
+        {
+          "caller": "startRecording",
+          "callee": "scriptProcessor.connect",
+          "lineNumber": 157
+        },
+        {
+          "caller": "startRecording",
+          "callee": "gainNode.connect",
+          "lineNumber": 158
+        },
+        {
+          "caller": "startRecording",
+          "callee": "scriptProcessor.disconnect",
+          "lineNumber": 162
+        },
+        {
+          "caller": "startRecording",
+          "callee": "source.disconnect",
+          "lineNumber": 163
+        },
+        {
+          "caller": "startRecording",
+          "callee": "gainNode.disconnect",
+          "lineNumber": 164
+        },
+        {
+          "caller": "startRecording",
+          "callee": "stream.getTracks().forEach",
+          "lineNumber": 165
+        },
+        {
+          "caller": "startRecording",
+          "callee": "stream.getTracks",
+          "lineNumber": 165
+        },
+        {
+          "caller": "startRecording",
+          "callee": "track.stop",
+          "lineNumber": 165
+        },
+        {
+          "caller": "startRecording",
+          "callee": "onRecordingChange",
+          "lineNumber": 170
+        },
+        {
+          "caller": "startRecording",
+          "callee": "console.error",
+          "lineNumber": 173
+        },
+        {
+          "caller": "startRecording",
+          "callee": "alert",
+          "lineNumber": 174
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "vadRef.current.pause",
+          "lineNumber": 181
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "mediaStreamRef.current.getTracks().forEach",
+          "lineNumber": 186
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "mediaStreamRef.current.getTracks",
+          "lineNumber": 186
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "track.stop",
+          "lineNumber": 186
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "audioContextRef.current.close",
+          "lineNumber": 192
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "clearInterval",
+          "lineNumber": 197
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "setVolume",
+          "lineNumber": 201
+        },
+        {
+          "caller": "stopRecording",
+          "callee": "onRecordingChange",
+          "lineNumber": 202
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "useEffect",
+          "lineNumber": 205
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "stopRecording",
+          "lineNumber": 207
+        },
+        {
+          "caller": "toggleRecording",
+          "callee": "stopRecording",
+          "lineNumber": 213
+        },
+        {
+          "caller": "toggleRecording",
+          "callee": "startRecording",
+          "lineNumber": 215
+        },
+        {
+          "caller": "AudioRecorder",
+          "callee": "Math.max",
+          "lineNumber": 228
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/CodeBlock.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "CodeBlock",
+          "startLine": 15,
+          "endLine": 83,
+          "params": [
+            "{ language, children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CodeBlock",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CodeBlock",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "handleCopy",
+          "callee": "navigator.clipboard.writeText",
+          "lineNumber": 20
+        },
+        {
+          "caller": "handleCopy",
+          "callee": "setCopied",
+          "lineNumber": 21
+        },
+        {
+          "caller": "handleCopy",
+          "callee": "setTimeout",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleCopy",
+          "callee": "setCopied",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleCopy",
+          "callee": "console.error",
+          "lineNumber": 24
+        },
+        {
+          "caller": "CodeBlock",
+          "callee": "children?.trim",
+          "lineNumber": 29
+        },
+        {
+          "caller": "CodeBlock",
+          "callee": "code.split",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ConfirmDialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 108,
+      "functions": [
+        {
+          "name": "ConfirmDialog",
+          "startLine": 17,
+          "endLine": 115,
+          "params": [
+            "{\n  open,\n  title,\n  message,\n  confirmText = '确定',\n  cancelText = '取消',\n  confirmVariant = 'primary',\n  onConfirm,\n  onCancel,\n  loading = false,\n  customContent,\n  hideButtons = false\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ConfirmDialog",
+          "line": 17,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ConfirmDialog",
+          "callee": "e.stopPropagation",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/DeleteConfirmDialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "DeleteConfirmDialog",
+          "startLine": 25,
+          "endLine": 58,
+          "params": [
+            "{\n  open,\n  item,\n  itemType,\n  loading = false,\n  onConfirm,\n  onCancel,\n  customMessage,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeleteConfirmDialog",
+          "line": 25,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DeleteConfirmDialog",
+          "callee": "getItemName",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/FileUploadCard.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 291,
+      "nonEmptyLines": 276,
+      "functions": [
+        {
+          "name": "FileUploadCard",
+          "startLine": 38,
+          "endLine": 291,
+          "params": [
+            "{\n  title,\n  subtitle,\n  accept,\n  formatHint,\n  maxSizeHint,\n  uploading = false,\n  uploadButtonText = '开始上传',\n  selectButtonText = '选择文件',\n  showNameInput = false,\n  namePlaceholder = '留空则使用文件名',\n  nameLabel = '名称（可选）',\n  error,\n  onFileSelect,\n  onUpload,\n  onBack,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "FileUploadCard",
+          "line": 38,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "FileUploadCard",
+          "callee": "useState",
+          "lineNumber": 55
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useState",
+          "lineNumber": 57
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useCallback",
+          "lineNumber": 59
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.preventDefault",
+          "lineNumber": 60
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setDragOver",
+          "lineNumber": 61
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useCallback",
+          "lineNumber": 64
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.preventDefault",
+          "lineNumber": 65
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setDragOver",
+          "lineNumber": 66
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useCallback",
+          "lineNumber": 69
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.preventDefault",
+          "lineNumber": 70
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setDragOver",
+          "lineNumber": 71
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setSelectedFile",
+          "lineNumber": 74
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "onFileSelect",
+          "lineNumber": 75
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "useCallback",
+          "lineNumber": 79
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setSelectedFile",
+          "lineNumber": 82
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "onFileSelect",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleUpload",
+          "callee": "onUpload",
+          "lineNumber": 89
+        },
+        {
+          "caller": "handleUpload",
+          "callee": "name.trim",
+          "lineNumber": 89
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "(bytes / 1024).toFixed",
+          "lineNumber": 94
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "(bytes / (1024 * 1024)).toFixed",
+          "lineNumber": 95
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "document.getElementById('file-upload-input')?.click",
+          "lineNumber": 132
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "document.getElementById",
+          "lineNumber": 132
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "formatFileSize",
+          "lineNumber": 172
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 177
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setSelectedFile",
+          "lineNumber": 178
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 211
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "document.getElementById('file-upload-input')?.click",
+          "lineNumber": 212
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "document.getElementById",
+          "lineNumber": 212
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "setName",
+          "lineNumber": 234
+        },
+        {
+          "caller": "FileUploadCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 238
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/HistoryList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 451,
+      "nonEmptyLines": 424,
+      "functions": [
+        {
+          "name": "formatFileSize",
+          "startLine": 29,
+          "endLine": 35,
+          "params": [
+            "bytes"
+          ]
+        },
+        {
+          "name": "StatusIcon",
+          "startLine": 38,
+          "endLine": 59,
+          "params": [
+            "{ status, hasScore }"
+          ]
+        },
+        {
+          "name": "getStatusText",
+          "startLine": 62,
+          "endLine": 83,
+          "params": [
+            "status",
+            "hasScore"
+          ]
+        },
+        {
+          "name": "StatCard",
+          "startLine": 86,
+          "endLine": 114,
+          "params": [
+            "{\n  icon: Icon,\n  label,\n  value,\n  color,\n}"
+          ]
+        },
+        {
+          "name": "HistoryList",
+          "startLine": 116,
+          "endLine": 451,
+          "params": [
+            "{ onSelectResume }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "HistoryList",
+          "line": 116,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "formatFileSize",
+          "callee": "Math.floor",
+          "lineNumber": 33
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "Math.log",
+          "lineNumber": 33
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "Math.log",
+          "lineNumber": 33
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "parseFloat",
+          "lineNumber": 34
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "(bytes / Math.pow(k, i)).toFixed",
+          "lineNumber": 34
+        },
+        {
+          "caller": "formatFileSize",
+          "callee": "Math.pow",
+          "lineNumber": 34
+        },
+        {
+          "caller": "StatCard",
+          "callee": "value.toLocaleString",
+          "lineNumber": 109
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 117
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 118
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 119
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 120
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 121
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 122
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useState",
+          "lineNumber": 123
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useCallback",
+          "lineNumber": 126
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "Promise.all",
+          "lineNumber": 128
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "historyApi.getResumes",
+          "lineNumber": 129
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "historyApi.getStatistics",
+          "lineNumber": 130
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setResumes",
+          "lineNumber": 132
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setStats",
+          "lineNumber": 133
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "console.error",
+          "lineNumber": 135
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useCallback",
+          "lineNumber": 140
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setLoading",
+          "lineNumber": 141
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "Promise.all",
+          "lineNumber": 143
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "historyApi.getResumes",
+          "lineNumber": 144
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "historyApi.getStatistics",
+          "lineNumber": 145
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setResumes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setStats",
+          "lineNumber": 148
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "console.error",
+          "lineNumber": 150
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setLoading",
+          "lineNumber": 152
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useEffect",
+          "lineNumber": 156
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "loadResumes",
+          "lineNumber": 157
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "useEffect",
+          "lineNumber": 162
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "resumes.some",
+          "lineNumber": 163
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setInterval",
+          "lineNumber": 170
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "loadDataSilent",
+          "lineNumber": 171
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "clearInterval",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "e.stopPropagation",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "document.createElement",
+          "lineNumber": 182
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "document.body.appendChild",
+          "lineNumber": 185
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "link.click",
+          "lineNumber": 186
+        },
+        {
+          "caller": "handleDownload",
+          "callee": "document.body.removeChild",
+          "lineNumber": 187
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "e.stopPropagation",
+          "lineNumber": 193
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "setReanalyzingId",
+          "lineNumber": 195
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "historyApi.reanalyze",
+          "lineNumber": 196
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "loadDataSilent",
+          "lineNumber": 197
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "console.error",
+          "lineNumber": 199
+        },
+        {
+          "caller": "handleReanalyze",
+          "callee": "setReanalyzingId",
+          "lineNumber": 201
+        },
+        {
+          "caller": "handleDeleteClick",
+          "callee": "e.stopPropagation",
+          "lineNumber": 206
+        },
+        {
+          "caller": "handleDeleteClick",
+          "callee": "setDeleteItem",
+          "lineNumber": 207
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeletingId",
+          "lineNumber": 213
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "historyApi.deleteResume",
+          "lineNumber": 215
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "loadResumes",
+          "lineNumber": 216
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeleteItem",
+          "lineNumber": 217
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "alert",
+          "lineNumber": 219
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeletingId",
+          "lineNumber": 221
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "resumes.filter",
+          "lineNumber": 225
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "resume.filename.toLowerCase().includes",
+          "lineNumber": 226
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "resume.filename.toLowerCase",
+          "lineNumber": 226
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "searchTerm.toLowerCase",
+          "lineNumber": 226
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setSearchTerm",
+          "lineNumber": 266
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "filteredResumes.map",
+          "lineNumber": 338
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "onSelectResume",
+          "lineNumber": 344
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "formatFileSize",
+          "lineNumber": 356
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "getStatusText",
+          "lineNumber": 362
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "getScoreColor(resume.latestScore).split",
+          "lineNumber": 371
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "getScoreColor",
+          "lineNumber": 371
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "formatDate",
+          "lineNumber": 395
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "handleDownload",
+          "lineNumber": 402
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "handleReanalyze",
+          "lineNumber": 412
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "handleDeleteClick",
+          "lineNumber": 422
+        },
+        {
+          "caller": "HistoryList",
+          "callee": "setDeleteItem",
+          "lineNumber": 447
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/InterviewChatPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 142,
+      "functions": [
+        {
+          "name": "InterviewChatPanel",
+          "startLine": 31,
+          "endLine": 150,
+          "params": [
+            "{\n  session,\n  currentQuestion,\n  messages,\n  answer,\n  onAnswerChange,\n  onSubmit,\n  // onCompleteEarly, // 暂时未使用\n  isSubmitting,\n  // showCompleteConfirm, // 暂时未使用\n  onShowCompleteConfirm\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewChatPanel",
+          "line": 31,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "useRef",
+          "lineNumber": 43
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "useMemo",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleKeyPress",
+          "callee": "onSubmit",
+          "lineNumber": 52
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "Math.round",
+          "lineNumber": 66
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "onAnswerChange",
+          "lineNumber": 104
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "answer.trim",
+          "lineNumber": 114
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "answer.trim",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "answer.trim",
+          "lineNumber": 117
+        },
+        {
+          "caller": "InterviewChatPanel",
+          "callee": "onShowCompleteConfirm",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/InterviewDetailPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 350,
+      "nonEmptyLines": 331,
+      "functions": [
+        {
+          "name": "InterviewDetailPanel",
+          "startLine": 13,
+          "endLine": 76,
+          "params": [
+            "{ interview }"
+          ]
+        },
+        {
+          "name": "ScoreCard",
+          "startLine": 79,
+          "endLine": 140,
+          "params": [
+            "{\n  score,\n  feedback,\n  // scorePercent, // 暂时未使用\n  circumference,\n  strokeDashoffset\n}"
+          ]
+        },
+        {
+          "name": "StrengthsSection",
+          "startLine": 143,
+          "endLine": 168,
+          "params": [
+            "{ strengths }"
+          ]
+        },
+        {
+          "name": "ImprovementsSection",
+          "startLine": 171,
+          "endLine": 197,
+          "params": [
+            "{ improvements }"
+          ]
+        },
+        {
+          "name": "QuestionsSection",
+          "startLine": 200,
+          "endLine": 231,
+          "params": [
+            "{\n  answers,\n  expandedQuestions,\n  toggleQuestion\n}"
+          ]
+        },
+        {
+          "name": "QuestionCard",
+          "startLine": 234,
+          "endLine": 350,
+          "params": [
+            "{\n  answer,\n  index,\n  isExpanded,\n  onToggle\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewDetailPanel",
+          "line": 13,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewDetailPanel",
+          "callee": "useState",
+          "lineNumber": 15
+        },
+        {
+          "caller": "InterviewDetailPanel",
+          "callee": "interview.answers.forEach",
+          "lineNumber": 18
+        },
+        {
+          "caller": "InterviewDetailPanel",
+          "callee": "allIndices.add",
+          "lineNumber": 18
+        },
+        {
+          "caller": "toggleQuestion",
+          "callee": "setExpandedQuestions",
+          "lineNumber": 24
+        },
+        {
+          "caller": "toggleQuestion",
+          "callee": "newSet.has",
+          "lineNumber": 26
+        },
+        {
+          "caller": "toggleQuestion",
+          "callee": "newSet.delete",
+          "lineNumber": 27
+        },
+        {
+          "caller": "toggleQuestion",
+          "callee": "newSet.add",
+          "lineNumber": 29
+        },
+        {
+          "caller": "InterviewDetailPanel",
+          "callee": "useMemo",
+          "lineNumber": 36
+        },
+        {
+          "caller": "StrengthsSection",
+          "callee": "strengths.map",
+          "lineNumber": 159
+        },
+        {
+          "caller": "ImprovementsSection",
+          "callee": "improvements.map",
+          "lineNumber": 188
+        },
+        {
+          "caller": "QuestionsSection",
+          "callee": "answers.map",
+          "lineNumber": 219
+        },
+        {
+          "caller": "QuestionsSection",
+          "callee": "expandedQuestions.has",
+          "lineNumber": 224
+        },
+        {
+          "caller": "QuestionsSection",
+          "callee": "toggleQuestion",
+          "lineNumber": 225
+        },
+        {
+          "caller": "QuestionCard",
+          "callee": "getScoreColor",
+          "lineNumber": 266
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/InterviewMessageBubble.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "InterviewMessageBubble",
+          "startLine": 16,
+          "endLine": 82,
+          "params": [
+            "{\n  role,\n  text,\n  category,\n  highlight = false,\n  italic = false,\n  suffix,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewMessageBubble",
+          "line": 16,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/InterviewPageHeader.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "InterviewPageHeader",
+          "startLine": 10,
+          "endLine": 30,
+          "params": [
+            "{\n  title,\n  subtitle,\n  icon,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewPageHeader",
+          "line": 10,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/InterviewPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 294,
+      "nonEmptyLines": 276,
+      "functions": [
+        {
+          "name": "InterviewPanel",
+          "startLine": 24,
+          "endLine": 201,
+          "params": [
+            "{\n  interviews,\n  onStartInterview,\n  onViewInterview,\n  onExportInterview,\n  onDeleteInterview,\n  exporting,\n  loadingInterview\n}"
+          ]
+        },
+        {
+          "name": "InterviewItemCard",
+          "startLine": 204,
+          "endLine": 294,
+          "params": [
+            "{\n  interview,\n  index,\n  total,\n  exporting,\n  deleting,\n  onView,\n  onExport,\n  onDelete\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewPanel",
+          "line": 24,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewPanel",
+          "callee": "useState",
+          "lineNumber": 33
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleDeleteClick",
+          "callee": "e.stopPropagation",
+          "lineNumber": 37
+        },
+        {
+          "caller": "handleDeleteClick",
+          "callee": "setDeleteConfirm",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeletingSessionId",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "historyApi.deleteInterview",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "onDeleteInterview",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeleteConfirm",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "alert",
+          "lineNumber": 51
+        },
+        {
+          "caller": "handleDeleteConfirm",
+          "callee": "setDeletingSessionId",
+          "lineNumber": 53
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "useMemo",
+          "lineNumber": 58
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "interviews\n      .filter(i => i.overallScore !== null)\n      .map((interview) => ({\n        name: formatDateOnly(interview.createdAt),\n        score: interview.overallScore || 0,\n        index: interviews.length - interviews.indexOf(interview)\n      }))\n      .reverse",
+          "lineNumber": 59
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "interviews\n      .filter(i => i.overallScore !== null)\n      .map",
+          "lineNumber": 59
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "interviews\n      .filter",
+          "lineNumber": 59
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "formatDateOnly",
+          "lineNumber": 62
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "interviews.indexOf",
+          "lineNumber": 64
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "interviews.map",
+          "lineNumber": 158
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "onViewInterview",
+          "lineNumber": 166
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "onExportInterview",
+          "lineNumber": 167
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "handleDeleteClick",
+          "lineNumber": 168
+        },
+        {
+          "caller": "InterviewPanel",
+          "callee": "setDeleteConfirm",
+          "lineNumber": 183
+        },
+        {
+          "caller": "InterviewItemCard",
+          "callee": "getScoreColor",
+          "lineNumber": 234
+        },
+        {
+          "caller": "InterviewItemCard",
+          "callee": "formatDateOnly",
+          "lineNumber": 248
+        },
+        {
+          "caller": "InterviewItemCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 261
+        },
+        {
+          "caller": "InterviewItemCard",
+          "callee": "onExport",
+          "lineNumber": 261
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/CalendarErrorBoundary.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 48,
+      "classes": [
+        {
+          "name": "CalendarErrorBoundary",
+          "startLine": 14,
+          "endLine": 56,
+          "methods": [
+            "getDerivedStateFromError",
+            "componentDidCatch",
+            "render"
+          ],
+          "properties": [
+            "state"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CalendarErrorBoundary",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "componentDidCatch",
+          "callee": "console.error",
+          "lineNumber": 25
+        },
+        {
+          "caller": "render",
+          "callee": "this.setState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "render",
+          "callee": "window.location.reload",
+          "lineNumber": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/InterviewEvent.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "InterviewEvent",
+          "startLine": 11,
+          "endLine": 55,
+          "params": [
+            "{ event }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewEvent",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/InterviewFormModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 510,
+      "nonEmptyLines": 474,
+      "functions": [
+        {
+          "name": "InterviewFormModal",
+          "startLine": 30,
+          "endLine": 510,
+          "params": [
+            "{\n  isOpen,\n  onClose,\n  onSubmit,\n  onDelete,\n  initialData,\n  mode,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewFormModal",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "useState",
+          "lineNumber": 45
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "React.useEffect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "setStep",
+          "lineNumber": 59
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "setRawText",
+          "lineNumber": 60
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "setParseResult",
+          "lineNumber": 61
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "setSubmitError",
+          "lineNumber": 62
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "setFormData",
+          "lineNumber": 63
+        },
+        {
+          "caller": "handleParse",
+          "callee": "rawText.trim",
+          "lineNumber": 79
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setParsing",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleParse",
+          "callee": "interviewScheduleApi.parse",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setParseResult",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setFormData",
+          "lineNumber": 87
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setStep",
+          "lineNumber": 93
+        },
+        {
+          "caller": "handleParse",
+          "callee": "console.error",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setParseResult",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setStep",
+          "lineNumber": 103
+        },
+        {
+          "caller": "handleParse",
+          "callee": "setParsing",
+          "lineNumber": 105
+        },
+        {
+          "caller": "handleFormChange",
+          "callee": "setFormData",
+          "lineNumber": 110
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 114
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitting",
+          "lineNumber": 115
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitError",
+          "lineNumber": 116
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onSubmit",
+          "lineNumber": 118
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onClose",
+          "lineNumber": 119
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "console.error",
+          "lineNumber": 121
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitError",
+          "lineNumber": 122
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitting",
+          "lineNumber": 124
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setStep",
+          "lineNumber": 129
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setRawText",
+          "lineNumber": 130
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setParseResult",
+          "lineNumber": 131
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setFormData",
+          "lineNumber": 132
+        },
+        {
+          "caller": "renderTextInput",
+          "callee": "setStep",
+          "lineNumber": 176
+        },
+        {
+          "caller": "renderTextInput",
+          "callee": "setRawText",
+          "lineNumber": 200
+        },
+        {
+          "caller": "renderTextInput",
+          "callee": "setRawText",
+          "lineNumber": 208
+        },
+        {
+          "caller": "renderTextInput",
+          "callee": "rawText.trim",
+          "lineNumber": 229
+        },
+        {
+          "caller": "renderParseResult",
+          "callee": "(parseResult.confidence * 100).toFixed",
+          "lineNumber": 258
+        },
+        {
+          "caller": "renderParseResult",
+          "callee": "dayjs(parseResult.data.interviewTime).format",
+          "lineNumber": 275
+        },
+        {
+          "caller": "renderParseResult",
+          "callee": "dayjs",
+          "lineNumber": 275
+        },
+        {
+          "caller": "renderParseResult",
+          "callee": "setStep",
+          "lineNumber": 303
+        },
+        {
+          "caller": "renderParseResult",
+          "callee": "setStep",
+          "lineNumber": 313
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 332
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 345
+        },
+        {
+          "caller": "renderForm",
+          "callee": "dayjs(formData.interviewTime).format",
+          "lineNumber": 357
+        },
+        {
+          "caller": "renderForm",
+          "callee": "dayjs",
+          "lineNumber": 357
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 358
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 368
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 382
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 394
+        },
+        {
+          "caller": "renderForm",
+          "callee": "parseInt",
+          "lineNumber": 394
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 404
+        },
+        {
+          "caller": "renderForm",
+          "callee": "handleFormChange",
+          "lineNumber": 414
+        },
+        {
+          "caller": "renderForm",
+          "callee": "onDelete",
+          "lineNumber": 443
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "renderTextInput",
+          "lineNumber": 503
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "renderParseResult",
+          "lineNumber": 504
+        },
+        {
+          "caller": "InterviewFormModal",
+          "callee": "renderForm",
+          "lineNumber": 505
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/InterviewListItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 151,
+      "nonEmptyLines": 140,
+      "functions": [
+        {
+          "name": "InterviewListItem",
+          "startLine": 41,
+          "endLine": 151,
+          "params": [
+            "{\n  interview,\n  onEdit,\n  onDelete,\n  onStatusChange,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewListItem",
+          "line": 41,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewListItem",
+          "callee": "dayjs(interview.interviewTime).format",
+          "lineNumber": 62
+        },
+        {
+          "caller": "InterviewListItem",
+          "callee": "dayjs",
+          "lineNumber": 62
+        },
+        {
+          "caller": "InterviewListItem",
+          "callee": "onStatusChange",
+          "lineNumber": 134
+        },
+        {
+          "caller": "InterviewListItem",
+          "callee": "onStatusChange",
+          "lineNumber": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/ScheduleCalendar.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 75,
+      "nonEmptyLines": 61,
+      "metrics": {}
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/ScheduleCalendar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 177,
+      "nonEmptyLines": 158,
+      "functions": [
+        {
+          "name": "ScheduleCalendar",
+          "startLine": 27,
+          "endLine": 177,
+          "params": [
+            "{\n  interviews = [],\n  onSelectEvent,\n  view,\n  onViewChange,\n  date,\n  onDateChange,\n  onEventDrop,\n  onEventResize,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScheduleCalendar",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "interviews\n    .filter(interview => {\n      if (!interview.interviewTime) return false;\n      const d = dayjs(interview.interviewTime);\n      return d.isValid();\n    })\n    .map",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "interviews\n    .filter",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "d.isValid",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(interview.interviewTime).toDate",
+          "lineNumber": 45
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 45
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(start).add(30, 'minute').toDate",
+          "lineNumber": 50
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(start).add",
+          "lineNumber": 50
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 50
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "dayjs(date).startOf",
+          "lineNumber": 56
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "dayjs",
+          "lineNumber": 56
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "events.forEach",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "dayjs",
+          "lineNumber": 65
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "dayjs",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "eventStart.isValid",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "eventEnd.isValid",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "eventStart.hour",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "eventEnd.hour",
+          "lineNumber": 70
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "Math.max",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "eventEnd.isAfter",
+          "lineNumber": 78
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "Math.min",
+          "lineNumber": 82
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(minHour).minute(0).second(0).toDate",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(minHour).minute(0).second",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(minHour).minute",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(23).minute(59).second(59).toDate",
+          "lineNumber": 96
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(23).minute(59).second",
+          "lineNumber": 96
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(23).minute",
+          "lineNumber": 96
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour",
+          "lineNumber": 96
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(maxHour).minute(0).second(0).toDate",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(maxHour).minute(0).second",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour(maxHour).minute",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getMinMaxTime",
+          "callee": "currentDay.hour",
+          "lineNumber": 97
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "getMinMaxTime",
+          "lineNumber": 102
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "isNaN",
+          "lineNumber": 105
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "minTime.getTime",
+          "lineNumber": 105
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "isNaN",
+          "lineNumber": 106
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "maxTime.getTime",
+          "lineNumber": 106
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "minTime.getTime",
+          "lineNumber": 107
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "maxTime.getTime",
+          "lineNumber": 107
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf('day').add(8, 'hour').toDate",
+          "lineNumber": 109
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf('day').add",
+          "lineNumber": 109
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf",
+          "lineNumber": 109
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 109
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf('day').add(22, 'hour').toDate",
+          "lineNumber": 110
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf('day').add",
+          "lineNumber": 110
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(date).startOf",
+          "lineNumber": 110
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 110
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(start).format",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs(end).format",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ScheduleCalendar",
+          "callee": "dayjs",
+          "lineNumber": 122
+        },
+        {
+          "caller": "handleSelectEvent",
+          "callee": "onSelectEvent",
+          "lineNumber": 126
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/ScheduleHeader.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 146,
+      "nonEmptyLines": 136,
+      "functions": [
+        {
+          "name": "ScheduleHeader",
+          "startLine": 16,
+          "endLine": 146,
+          "params": [
+            "{\n  view,\n  onViewChange,\n  date,\n  onDateChange,\n  onAddClick,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScheduleHeader",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.setDate",
+          "lineNumber": 26
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.getDate",
+          "lineNumber": 26
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.setDate",
+          "lineNumber": 28
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.getDate",
+          "lineNumber": 28
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.setMonth",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "newDate.getMonth",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handlePrevious",
+          "callee": "onDateChange",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.setDate",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.getDate",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.setDate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.getDate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.setMonth",
+          "lineNumber": 42
+        },
+        {
+          "caller": "handleNext",
+          "callee": "newDate.getMonth",
+          "lineNumber": 42
+        },
+        {
+          "caller": "handleNext",
+          "callee": "onDateChange",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleToday",
+          "callee": "onDateChange",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getTitle",
+          "callee": "dayjs(date).format",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getTitle",
+          "callee": "dayjs",
+          "lineNumber": 55
+        },
+        {
+          "caller": "ScheduleHeader",
+          "callee": "getTitle",
+          "lineNumber": 68
+        },
+        {
+          "caller": "ScheduleHeader",
+          "callee": "getTitle",
+          "lineNumber": 73
+        },
+        {
+          "caller": "ScheduleHeader",
+          "callee": "[\n              { key: 'day', icon: Calendar, label: '日视图' },\n              { key: 'week', icon: Calendar, label: '周视图' },\n              { key: 'month', icon: LayoutGrid, label: '月视图' },\n              { key: 'list', icon: List, label: '列表' },\n            ].map",
+          "lineNumber": 110
+        },
+        {
+          "caller": "ScheduleHeader",
+          "callee": "onViewChange",
+          "lineNumber": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/interviewschedule/ScheduleList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "ScheduleList",
+          "startLine": 15,
+          "endLine": 58,
+          "params": [
+            "{\n  interviews = [],\n  onEdit,\n  onDelete,\n  onStatusChange,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScheduleList",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScheduleList",
+          "callee": "[...interviews].sort",
+          "lineNumber": 21
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "new Date(a.interviewTime).getTime",
+          "lineNumber": 22
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "new Date(b.interviewTime).getTime",
+          "lineNumber": 22
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "sortedInterviews.map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "onEdit",
+          "lineNumber": 50
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "onDelete",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ScheduleList",
+          "callee": "onStatusChange",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 257,
+      "nonEmptyLines": 242,
+      "functions": [
+        {
+          "name": "Layout",
+          "startLine": 22,
+          "endLine": 257,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Layout",
+          "line": 22,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Layout",
+          "callee": "useLocation",
+          "lineNumber": 23
+        },
+        {
+          "caller": "Layout",
+          "callee": "useTheme",
+          "lineNumber": 25
+        },
+        {
+          "caller": "Layout",
+          "callee": "useNavigate",
+          "lineNumber": 26
+        },
+        {
+          "caller": "Layout",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "openInterviewModalWithResume",
+          "callee": "setInterviewModalPreset",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleInterviewStart",
+          "callee": "setInterviewModalPreset",
+          "lineNumber": 46
+        },
+        {
+          "caller": "handleInterviewStart",
+          "callee": "navigate",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleInterviewStart",
+          "callee": "navigate",
+          "lineNumber": 66
+        },
+        {
+          "caller": "handleInterviewStart",
+          "callee": "params.toString",
+          "lineNumber": 66
+        },
+        {
+          "caller": "isActive",
+          "callee": "path.startsWith",
+          "lineNumber": 113
+        },
+        {
+          "caller": "isActive",
+          "callee": "currentPath.startsWith",
+          "lineNumber": 117
+        },
+        {
+          "caller": "isActive",
+          "callee": "currentPath.startsWith",
+          "lineNumber": 123
+        },
+        {
+          "caller": "isActive",
+          "callee": "currentPath.startsWith",
+          "lineNumber": 124
+        },
+        {
+          "caller": "isActive",
+          "callee": "currentPath.startsWith",
+          "lineNumber": 129
+        },
+        {
+          "caller": "Layout",
+          "callee": "navGroups.map",
+          "lineNumber": 172
+        },
+        {
+          "caller": "Layout",
+          "callee": "group.items.map",
+          "lineNumber": 180
+        },
+        {
+          "caller": "Layout",
+          "callee": "isActive",
+          "lineNumber": 181
+        },
+        {
+          "caller": "Layout",
+          "callee": "setInterviewModalPreset",
+          "lineNumber": 246
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/RadarChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 102,
+      "nonEmptyLines": 93,
+      "functions": [
+        {
+          "name": "RadarChart",
+          "startLine": 26,
+          "endLine": 102,
+          "params": [
+            "{ data, height = 320, className = '' }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RadarChart",
+          "line": 26,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RadarChart",
+          "callee": "useMemo",
+          "lineNumber": 28
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "Math.max",
+          "lineNumber": 31
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "data.map",
+          "lineNumber": 31
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "data.map",
+          "lineNumber": 34
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "normalizeScore",
+          "lineNumber": 35
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "Math.max",
+          "lineNumber": 37
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "Math.max",
+          "lineNumber": 40
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "data.map",
+          "lineNumber": 42
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "normalizeScore",
+          "lineNumber": 44
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "document.documentElement.classList.contains",
+          "lineNumber": 52
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "value.toString",
+          "lineNumber": 72
+        },
+        {
+          "caller": "RadarChart",
+          "callee": "Math.round",
+          "lineNumber": 93
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/RealtimeSubtitle.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 137,
+      "functions": [
+        {
+          "name": "RealtimeSubtitle",
+          "startLine": 18,
+          "endLine": 150,
+          "params": [
+            "{\n  messages,\n  userText,\n  aiText,\n  isAiSpeaking\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RealtimeSubtitle",
+          "line": 18,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "useRef",
+          "lineNumber": 26
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "[...messages].reverse().find",
+          "lineNumber": 28
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "[...messages].reverse",
+          "lineNumber": 28
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "latestAiMessage?.text.trim",
+          "lineNumber": 32
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "activeAiText.trim",
+          "lineNumber": 32
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "useEffect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "setIsTyping",
+          "lineNumber": 37
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "setDisplayedAiText",
+          "lineNumber": 38
+        },
+        {
+          "caller": "typeWriter",
+          "callee": "setDisplayedAiText",
+          "lineNumber": 45
+        },
+        {
+          "caller": "typeWriter",
+          "callee": "aiText.substring",
+          "lineNumber": 45
+        },
+        {
+          "caller": "typeWriter",
+          "callee": "setTimeout",
+          "lineNumber": 47
+        },
+        {
+          "caller": "typeWriter",
+          "callee": "setIsTyping",
+          "lineNumber": 49
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "typeWriter",
+          "lineNumber": 53
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "setDisplayedAiText",
+          "lineNumber": 55
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "setIsTyping",
+          "lineNumber": 56
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "useEffect",
+          "lineNumber": 61
+        },
+        {
+          "caller": "RealtimeSubtitle",
+          "callee": "messages.map",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ScoreProgressBar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "ScoreProgressBar",
+          "startLine": 16,
+          "endLine": 44,
+          "params": [
+            "{\n  label,\n  score,\n  maxScore,\n  color = 'bg-primary-500',\n  delay = 0,\n  className = ''\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScoreProgressBar",
+          "line": 16,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScoreProgressBar",
+          "callee": "calculatePercentage",
+          "lineNumber": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/UnifiedInterviewModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 475,
+      "nonEmptyLines": 456,
+      "functions": [
+        {
+          "name": "UnifiedInterviewModal",
+          "startLine": 43,
+          "endLine": 475,
+          "params": [
+            "{\n  isOpen,\n  onClose,\n  onStart,\n  defaultMode = 'text',\n  defaultResumeId,\n  hideModeSwitch = false,\n  title = '开始模拟面试',\n  subtitle = '选择面试模式和主题，快速开始',\n  startButtonText = '开始面试',\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewMode",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "Difficulty",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "DIFFICULTY_OPTIONS",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "UnifiedInterviewModal",
+          "line": 43,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "useInterviewConfig",
+          "lineNumber": 54
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "useEffect",
+          "lineNumber": 56
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setMode",
+          "lineNumber": 58
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setResumeId",
+          "lineNumber": 60
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setShowMore",
+          "lineNumber": 61
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.loadSkills",
+          "lineNumber": 63
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.loadResumes",
+          "lineNumber": 64
+        },
+        {
+          "caller": "handleStart",
+          "callee": "onStart",
+          "lineNumber": 76
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "e.stopPropagation",
+          "lineNumber": 111
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "([\n                        {\n                          value: 'text' as InterviewMode,\n                          label: '文字面试',\n                          icon: FileText,\n                          desc: '推荐：更稳定，更适合系统化练习',\n                          recommended: true,\n                        },\n                        {\n                          value: 'voice' as InterviewMode,\n                          label: '语音面试',\n                          icon: Mic,\n                          desc: '实时语音对话，偏临场模拟',\n                          recommended: false,\n                        },\n                      ]).map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setMode",
+          "lineNumber": 168
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.skills.map",
+          "lineNumber": 206
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "getSkillIcon",
+          "lineNumber": 208
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setSkillId",
+          "lineNumber": 213
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setSkillId",
+          "lineNumber": 241
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "(() => {\n                            const CustomIcon = getSkillIcon(CUSTOM_SKILL_ID);\n                            return CustomIcon\n                              ? <CustomIcon className={`w-5 h-5 ${config.isCustomSkill ? 'text-primary-600 dark:text-primary-400' : 'text-slate-500 dark:text-slate-400'}`} />\n                              : <span className=\"text-base\">✨</span>;\n                          })",
+          "lineNumber": 251
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "getSkillIcon",
+          "lineNumber": 252
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setCustomJdText",
+          "lineNumber": 280
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.customCategories.map",
+          "lineNumber": 300
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "DIFFICULTY_OPTIONS.map",
+          "lineNumber": 327
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setDifficulty",
+          "lineNumber": 332
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setShowMore",
+          "lineNumber": 351
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setResumeId",
+          "lineNumber": 377
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "parseInt",
+          "lineNumber": 377
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.resumes.map",
+          "lineNumber": 383
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "[6, 8, 10, 12].map",
+          "lineNumber": 396
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setQuestionCount",
+          "lineNumber": 399
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "config.setPlannedDuration",
+          "lineNumber": 429
+        },
+        {
+          "caller": "UnifiedInterviewModal",
+          "callee": "parseInt",
+          "lineNumber": 429
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/constants/routes.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "exports": [
+        {
+          "name": "ROUTES",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

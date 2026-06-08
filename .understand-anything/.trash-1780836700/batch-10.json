@@ -1,0 +1,2913 @@
+{
+  "nodes": [
+    {
+      "id": "file:.gitattributes",
+      "type": "file",
+      "name": ".gitattributes",
+      "filePath": ".gitattributes",
+      "summary": ".gitattributes 文件",
+      "tags": [
+        "unknown",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore 文件",
+      "tags": [
+        "unknown",
+        "code",
+        ".understand-anything"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "JSON 配置文件",
+      "tags": [
+        "json",
+        "config",
+        ".understand-anything"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/build.gradle",
+      "type": "config",
+      "name": "build.gradle",
+      "filePath": "app/build.gradle",
+      "summary": "Gradle 构建配置",
+      "tags": [
+        "gradle",
+        "config",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/App.java",
+      "type": "file",
+      "name": "App.java",
+      "filePath": "app/src/main/java/interview/guide/App.java",
+      "summary": "定义类: App",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/App.java:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "app/src/main/java/interview/guide/App.java",
+      "summary": "函数 main",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/App.java:App",
+      "type": "class",
+      "name": "App",
+      "filePath": "app/src/main/java/interview/guide/App.java",
+      "summary": "类 App",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "type": "file",
+      "name": "AgentUtilsConfiguration.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "summary": "定义类: AgentUtilsConfiguration",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:AgentUtilsConfiguration",
+      "type": "function",
+      "name": "AgentUtilsConfiguration",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "summary": "函数 AgentUtilsConfiguration",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:interviewSkillsToolCallback",
+      "type": "function",
+      "name": "interviewSkillsToolCallback",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "summary": "函数 interviewSkillsToolCallback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:normalizeSkillsRoot",
+      "type": "function",
+      "name": "normalizeSkillsRoot",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "summary": "函数 normalizeSkillsRoot",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:AgentUtilsConfiguration",
+      "type": "class",
+      "name": "AgentUtilsConfiguration",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "summary": "类 AgentUtilsConfiguration",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "type": "file",
+      "name": "AgentUtilsProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "summary": "定义类: AgentUtilsProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java:AgentUtilsProperties",
+      "type": "class",
+      "name": "AgentUtilsProperties",
+      "filePath": "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "summary": "类 AgentUtilsProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "type": "file",
+      "name": "ApiPathResolver.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "定义类: ApiPathResolver",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:ApiPathResolver",
+      "type": "function",
+      "name": "ApiPathResolver",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "函数 ApiPathResolver",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:buildOpenAiApi",
+      "type": "function",
+      "name": "buildOpenAiApi",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "函数 buildOpenAiApi",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:buildOpenAiApi",
+      "type": "function",
+      "name": "buildOpenAiApi",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "函数 buildOpenAiApi",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:baseUrlContainsVersion",
+      "type": "function",
+      "name": "baseUrlContainsVersion",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "函数 baseUrlContainsVersion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:stripTrailingSlashes",
+      "type": "function",
+      "name": "stripTrailingSlashes",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "函数 stripTrailingSlashes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:ApiPathResolver",
+      "type": "class",
+      "name": "ApiPathResolver",
+      "filePath": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "summary": "类 ApiPathResolver",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "type": "file",
+      "name": "LlmProviderRegistry.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "定义类: LlmProviderRegistry",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "function",
+      "name": "LlmProviderRegistry",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 LlmProviderRegistry",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "function",
+      "name": "LlmProviderRegistry",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 LlmProviderRegistry",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getChatClient",
+      "type": "function",
+      "name": "getChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getDefaultChatClient",
+      "type": "function",
+      "name": "getDefaultChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getDefaultChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getChatClientOrDefault",
+      "type": "function",
+      "name": "getChatClientOrDefault",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getChatClientOrDefault",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getPlainChatClient",
+      "type": "function",
+      "name": "getPlainChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getPlainChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getVoiceChatClient",
+      "type": "function",
+      "name": "getVoiceChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getVoiceChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:reload",
+      "type": "function",
+      "name": "reload",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 reload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getEmbeddingModel",
+      "type": "function",
+      "name": "getEmbeddingModel",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getEmbeddingModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getDefaultEmbeddingModel",
+      "type": "function",
+      "name": "getDefaultEmbeddingModel",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 getDefaultEmbeddingModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createChatClient",
+      "type": "function",
+      "name": "createChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 createChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createPlainChatClient",
+      "type": "function",
+      "name": "createPlainChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 createPlainChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createVoiceChatClient",
+      "type": "function",
+      "name": "createVoiceChatClient",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 createVoiceChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildChatModel",
+      "type": "function",
+      "name": "buildChatModel",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 buildChatModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createEmbeddingModel",
+      "type": "function",
+      "name": "createEmbeddingModel",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 createEmbeddingModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildDefaultAdvisors",
+      "type": "function",
+      "name": "buildDefaultAdvisors",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 buildDefaultAdvisors",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildToolCallAdvisor",
+      "type": "function",
+      "name": "buildToolCallAdvisor",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 buildToolCallAdvisor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildSafeGuardAdvisor",
+      "type": "function",
+      "name": "buildSafeGuardAdvisor",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 buildSafeGuardAdvisor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveProviderId",
+      "type": "function",
+      "name": "resolveProviderId",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 resolveProviderId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveDefaultChatProviderId",
+      "type": "function",
+      "name": "resolveDefaultChatProviderId",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 resolveDefaultChatProviderId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveDefaultEmbeddingProviderId",
+      "type": "function",
+      "name": "resolveDefaultEmbeddingProviderId",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 resolveDefaultEmbeddingProviderId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:loadProviderOrThrow",
+      "type": "function",
+      "name": "loadProviderOrThrow",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 loadProviderOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:loadProviderFromPropertiesOrThrow",
+      "type": "function",
+      "name": "loadProviderFromPropertiesOrThrow",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 loadProviderFromPropertiesOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:isBlank",
+      "type": "function",
+      "name": "isBlank",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 isBlank",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveEmbeddingDimensions",
+      "type": "function",
+      "name": "resolveEmbeddingDimensions",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 resolveEmbeddingDimensions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:looksLikeChatModel",
+      "type": "function",
+      "name": "looksLikeChatModel",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "函数 looksLikeChatModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "class",
+      "name": "LlmProviderRegistry",
+      "filePath": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "summary": "类 LlmProviderRegistry",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "type": "file",
+      "name": "PromptSanitizer.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "定义类: PromptSanitizer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:PromptSanitizer",
+      "type": "function",
+      "name": "PromptSanitizer",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "函数 PromptSanitizer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:sanitize",
+      "type": "function",
+      "name": "sanitize",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "函数 sanitize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:wrapWithDelimiters",
+      "type": "function",
+      "name": "wrapWithDelimiters",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "函数 wrapWithDelimiters",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:detectInjectionAttempt",
+      "type": "function",
+      "name": "detectInjectionAttempt",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "函数 detectInjectionAttempt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:isSanitizerEnabled",
+      "type": "function",
+      "name": "isSanitizerEnabled",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "函数 isSanitizerEnabled",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:PromptSanitizer",
+      "type": "class",
+      "name": "PromptSanitizer",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "summary": "类 PromptSanitizer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "type": "file",
+      "name": "PromptSecurityConstants.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "summary": "定义类: PromptSecurityConstants",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java:PromptSecurityConstants",
+      "type": "function",
+      "name": "PromptSecurityConstants",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "summary": "函数 PromptSecurityConstants",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java:PromptSecurityConstants",
+      "type": "class",
+      "name": "PromptSecurityConstants",
+      "filePath": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "summary": "类 PromptSecurityConstants",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "type": "file",
+      "name": "StructuredOutputInvoker.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "定义类: StructuredOutputInvoker",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:StructuredOutputInvoker",
+      "type": "function",
+      "name": "StructuredOutputInvoker",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 StructuredOutputInvoker",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:invoke",
+      "type": "function",
+      "name": "invoke",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 invoke",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:convertWithRepair",
+      "type": "function",
+      "name": "convertWithRepair",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 convertWithRepair",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:repairUnescapedQuotesInJsonStrings",
+      "type": "function",
+      "name": "repairUnescapedQuotesInJsonStrings",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 repairUnescapedQuotesInJsonStrings",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:isLikelyJsonStringTerminator",
+      "type": "function",
+      "name": "isLikelyJsonStringTerminator",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 isLikelyJsonStringTerminator",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:buildRetrySystemPrompt",
+      "type": "function",
+      "name": "buildRetrySystemPrompt",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 buildRetrySystemPrompt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:sanitizeErrorMessage",
+      "type": "function",
+      "name": "sanitizeErrorMessage",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 sanitizeErrorMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:recordAttempt",
+      "type": "function",
+      "name": "recordAttempt",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 recordAttempt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:recordInvocation",
+      "type": "function",
+      "name": "recordInvocation",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 recordInvocation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:isMetricsAvailable",
+      "type": "function",
+      "name": "isMetricsAvailable",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 isMetricsAvailable",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:normalizeContextTag",
+      "type": "function",
+      "name": "normalizeContextTag",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "函数 normalizeContextTag",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:StructuredOutputInvoker",
+      "type": "class",
+      "name": "StructuredOutputInvoker",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "summary": "类 StructuredOutputInvoker",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "type": "file",
+      "name": "StructuredOutputProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "summary": "定义类: StructuredOutputProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java:StructuredOutputProperties",
+      "type": "class",
+      "name": "StructuredOutputProperties",
+      "filePath": "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "summary": "类 StructuredOutputProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/annotation/RateLimit.java",
+      "type": "file",
+      "name": "RateLimit.java",
+      "filePath": "app/src/main/java/interview/guide/common/annotation/RateLimit.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "type": "file",
+      "name": "RateLimitAspect.java",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "定义类: RateLimitAspect",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 init",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:loadScript",
+      "type": "function",
+      "name": "loadScript",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 loadScript",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:around",
+      "type": "function",
+      "name": "around",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 around",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:executeRateLimitScript",
+      "type": "function",
+      "name": "executeRateLimitScript",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 executeRateLimitScript",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:calculateIntervalMs",
+      "type": "function",
+      "name": "calculateIntervalMs",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 calculateIntervalMs",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:convertToLong",
+      "type": "function",
+      "name": "convertToLong",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 convertToLong",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:generateKey",
+      "type": "function",
+      "name": "generateKey",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 generateKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:handleRateLimitExceeded",
+      "type": "function",
+      "name": "handleRateLimitExceeded",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 handleRateLimitExceeded",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:findFallbackMethod",
+      "type": "function",
+      "name": "findFallbackMethod",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 findFallbackMethod",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:getClientIp",
+      "type": "function",
+      "name": "getClientIp",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 getClientIp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:getCurrentUserId",
+      "type": "function",
+      "name": "getCurrentUserId",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "函数 getCurrentUserId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:RateLimitAspect",
+      "type": "class",
+      "name": "RateLimitAspect",
+      "filePath": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "summary": "类 RateLimitAspect",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "type": "file",
+      "name": "AbstractStreamConsumer.java",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "定义类: AbstractStreamConsumer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:AbstractStreamConsumer",
+      "type": "function",
+      "name": "AbstractStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 AbstractStreamConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 init",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:shutdown",
+      "type": "function",
+      "name": "shutdown",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 shutdown",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:startConsumer",
+      "type": "function",
+      "name": "startConsumer",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 startConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:consumeLoop",
+      "type": "function",
+      "name": "consumeLoop",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 consumeLoop",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:processMessage",
+      "type": "function",
+      "name": "processMessage",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 processMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:parseRetryCount",
+      "type": "function",
+      "name": "parseRetryCount",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 parseRetryCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:truncateError",
+      "type": "function",
+      "name": "truncateError",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 truncateError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:ackMessage",
+      "type": "function",
+      "name": "ackMessage",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 ackMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:redisService",
+      "type": "function",
+      "name": "redisService",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 redisService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:groupName",
+      "type": "function",
+      "name": "groupName",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 groupName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:consumerPrefix",
+      "type": "function",
+      "name": "consumerPrefix",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 consumerPrefix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:threadName",
+      "type": "function",
+      "name": "threadName",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 threadName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:parsePayload",
+      "type": "function",
+      "name": "parsePayload",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 parsePayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markProcessing",
+      "type": "function",
+      "name": "markProcessing",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 markProcessing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:processBusiness",
+      "type": "function",
+      "name": "processBusiness",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 processBusiness",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markCompleted",
+      "type": "function",
+      "name": "markCompleted",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 markCompleted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markFailed",
+      "type": "function",
+      "name": "markFailed",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 markFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:retryMessage",
+      "type": "function",
+      "name": "retryMessage",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "函数 retryMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:AbstractStreamConsumer",
+      "type": "class",
+      "name": "AbstractStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "summary": "类 AbstractStreamConsumer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "type": "file",
+      "name": "AbstractStreamProducer.java",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "定义类: AbstractStreamProducer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:AbstractStreamProducer",
+      "type": "function",
+      "name": "AbstractStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 AbstractStreamProducer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:sendTask",
+      "type": "function",
+      "name": "sendTask",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 sendTask",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:truncateError",
+      "type": "function",
+      "name": "truncateError",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 truncateError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 buildMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:onSendFailed",
+      "type": "function",
+      "name": "onSendFailed",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "函数 onSendFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:AbstractStreamProducer",
+      "type": "class",
+      "name": "AbstractStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "summary": "类 AbstractStreamProducer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "type": "file",
+      "name": "AppConfigProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "定义类: AppConfigProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:getUploadDir",
+      "type": "function",
+      "name": "getUploadDir",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "函数 getUploadDir",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:setUploadDir",
+      "type": "function",
+      "name": "setUploadDir",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "函数 setUploadDir",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:getAllowedTypes",
+      "type": "function",
+      "name": "getAllowedTypes",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "函数 getAllowedTypes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:setAllowedTypes",
+      "type": "function",
+      "name": "setAllowedTypes",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "函数 setAllowedTypes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:AppConfigProperties",
+      "type": "class",
+      "name": "AppConfigProperties",
+      "filePath": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "summary": "类 AppConfigProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "type": "file",
+      "name": "CorsConfig.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "summary": "定义类: CorsConfig",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/CorsConfig.java:CorsConfig",
+      "type": "function",
+      "name": "CorsConfig",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "summary": "函数 CorsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/CorsConfig.java:corsFilter",
+      "type": "function",
+      "name": "corsFilter",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "summary": "函数 corsFilter",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/CorsConfig.java:CorsConfig",
+      "type": "class",
+      "name": "CorsConfig",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "summary": "类 CorsConfig",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "type": "file",
+      "name": "CorsProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "summary": "定义类: CorsProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/CorsProperties.java:CorsProperties",
+      "type": "class",
+      "name": "CorsProperties",
+      "filePath": "app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "summary": "类 CorsProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "type": "file",
+      "name": "JacksonConfig.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "summary": "定义类: JacksonConfig",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/JacksonConfig.java:objectMapper",
+      "type": "function",
+      "name": "objectMapper",
+      "filePath": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "summary": "函数 objectMapper",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/JacksonConfig.java:JacksonConfig",
+      "type": "class",
+      "name": "JacksonConfig",
+      "filePath": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "summary": "类 JacksonConfig",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "type": "file",
+      "name": "LlmEmbeddingConfig.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "summary": "定义类: LlmEmbeddingConfig",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java:embeddingModel",
+      "type": "function",
+      "name": "embeddingModel",
+      "filePath": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "summary": "函数 embeddingModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java:LlmEmbeddingConfig",
+      "type": "class",
+      "name": "LlmEmbeddingConfig",
+      "filePath": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "summary": "类 LlmEmbeddingConfig",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "type": "file",
+      "name": "LlmProviderProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "summary": "定义类: LlmProviderProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/LlmProviderProperties.java:LlmProviderProperties",
+      "type": "class",
+      "name": "LlmProviderProperties",
+      "filePath": "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "summary": "类 LlmProviderProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "type": "file",
+      "name": "OpenApiConfig.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "summary": "定义类: OpenApiConfig",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/OpenApiConfig.java:customOpenAPI",
+      "type": "function",
+      "name": "customOpenAPI",
+      "filePath": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "summary": "函数 customOpenAPI",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/OpenApiConfig.java:OpenApiConfig",
+      "type": "class",
+      "name": "OpenApiConfig",
+      "filePath": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "summary": "类 OpenApiConfig",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/S3Config.java",
+      "type": "file",
+      "name": "S3Config.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/S3Config.java",
+      "summary": "定义类: S3Config",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/config/S3Config.java:s3Client",
+      "type": "function",
+      "name": "s3Client",
+      "filePath": "app/src/main/java/interview/guide/common/config/S3Config.java",
+      "summary": "函数 s3Client",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/S3Config.java:S3Config",
+      "type": "class",
+      "name": "S3Config",
+      "filePath": "app/src/main/java/interview/guide/common/config/S3Config.java",
+      "summary": "类 S3Config",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/App.java",
+      "target": "function:app/src/main/java/interview/guide/App.java:main",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/App.java",
+      "target": "class:app/src/main/java/interview/guide/App.java:App",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:AgentUtilsConfiguration",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:interviewSkillsToolCallback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:normalizeSkillsRoot",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java:AgentUtilsConfiguration",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java:AgentUtilsProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:ApiPathResolver",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:buildOpenAiApi",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:buildOpenAiApi",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:baseUrlContainsVersion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:stripTrailingSlashes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/ApiPathResolver.java:ApiPathResolver",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getDefaultChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getChatClientOrDefault",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getPlainChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getVoiceChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:reload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getEmbeddingModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:getDefaultEmbeddingModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createPlainChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createVoiceChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildChatModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:createEmbeddingModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildDefaultAdvisors",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildToolCallAdvisor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:buildSafeGuardAdvisor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveProviderId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveDefaultChatProviderId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveDefaultEmbeddingProviderId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:loadProviderOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:loadProviderFromPropertiesOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:isBlank",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:resolveEmbeddingDimensions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:looksLikeChatModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java:LlmProviderRegistry",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:PromptSanitizer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:sanitize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:wrapWithDelimiters",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:detectInjectionAttempt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:isSanitizerEnabled",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/PromptSanitizer.java:PromptSanitizer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java:PromptSecurityConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java:PromptSecurityConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:StructuredOutputInvoker",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:invoke",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:convertWithRepair",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:repairUnescapedQuotesInJsonStrings",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:isLikelyJsonStringTerminator",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:buildRetrySystemPrompt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:sanitizeErrorMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:recordAttempt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:recordInvocation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:isMetricsAvailable",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "function:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:normalizeContextTag",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java:StructuredOutputInvoker",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java:StructuredOutputProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:init",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:loadScript",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:around",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:executeRateLimitScript",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:calculateIntervalMs",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:convertToLong",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:generateKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:handleRateLimitExceeded",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:findFallbackMethod",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:getClientIp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "function:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:getCurrentUserId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "target": "class:app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java:RateLimitAspect",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:AbstractStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:init",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:shutdown",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:startConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:consumeLoop",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:processMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:parseRetryCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:truncateError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:ackMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:redisService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:groupName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:consumerPrefix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:threadName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:parsePayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markProcessing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:processBusiness",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:markFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:retryMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "target": "class:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java:AbstractStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:AbstractStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:sendTask",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:truncateError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:buildMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:onSendFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "target": "class:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java:AbstractStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:getUploadDir",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:setUploadDir",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:getAllowedTypes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:setAllowedTypes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/AppConfigProperties.java:AppConfigProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/CorsConfig.java:CorsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/CorsConfig.java:corsFilter",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/CorsConfig.java:CorsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/CorsProperties.java:CorsProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/JacksonConfig.java:objectMapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/JacksonConfig.java:JacksonConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java:embeddingModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java:LlmEmbeddingConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/LlmProviderProperties.java:LlmProviderProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/OpenApiConfig.java:customOpenAPI",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/OpenApiConfig.java:OpenApiConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/S3Config.java",
+      "target": "function:app/src/main/java/interview/guide/common/config/S3Config.java:s3Client",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/S3Config.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/S3Config.java:S3Config",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

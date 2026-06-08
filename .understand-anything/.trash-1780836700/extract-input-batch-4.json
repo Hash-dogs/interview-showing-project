@@ -1,0 +1,28 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/resources/application.yml",
+      "language": "yaml",
+      "sizeLines": 281,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/logback-spring.xml",
+      "language": "xml",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/voice-interview-opening.yml",
+      "language": "yaml",
+      "sizeLines": 44,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/resources/application.yml": [],
+    "app/src/main/resources/logback-spring.xml": [],
+    "app/src/main/resources/voice-interview-opening.yml": []
+  }
+}

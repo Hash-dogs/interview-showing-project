@@ -1,0 +1,4573 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java",
+      "type": "file",
+      "name": "TtsConfigRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java",
+      "type": "file",
+      "name": "UpdateProviderRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "type": "file",
+      "name": "LlmGlobalSettingEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "summary": "定义类: LlmGlobalSettingEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:prePersist",
+      "type": "function",
+      "name": "prePersist",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "summary": "函数 prePersist",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:preUpdate",
+      "type": "function",
+      "name": "preUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "summary": "函数 preUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:LlmGlobalSettingEntity",
+      "type": "class",
+      "name": "LlmGlobalSettingEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "summary": "类 LlmGlobalSettingEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "type": "file",
+      "name": "LlmProviderEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "summary": "定义类: LlmProviderEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:prePersist",
+      "type": "function",
+      "name": "prePersist",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "summary": "函数 prePersist",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:preUpdate",
+      "type": "function",
+      "name": "preUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "summary": "函数 preUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:LlmProviderEntity",
+      "type": "class",
+      "name": "LlmProviderEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "summary": "类 LlmProviderEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+      "type": "file",
+      "name": "LlmGlobalSettingRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+      "summary": "定义类: LlmGlobalSettingRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java:LlmGlobalSettingRepository",
+      "type": "class",
+      "name": "LlmGlobalSettingRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+      "summary": "类 LlmGlobalSettingRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+      "type": "file",
+      "name": "LlmProviderRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+      "summary": "定义类: LlmProviderRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java:LlmProviderRepository",
+      "type": "class",
+      "name": "LlmProviderRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+      "summary": "类 LlmProviderRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "type": "file",
+      "name": "ApiKeyEncryptionService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "定义类: ApiKeyEncryptionService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:ApiKeyEncryptionService",
+      "type": "function",
+      "name": "ApiKeyEncryptionService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 ApiKeyEncryptionService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 init",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:encrypt",
+      "type": "function",
+      "name": "encrypt",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 encrypt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:decrypt",
+      "type": "function",
+      "name": "decrypt",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 decrypt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:resolveKeyBytes",
+      "type": "function",
+      "name": "resolveKeyBytes",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 resolveKeyBytes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:sha256",
+      "type": "function",
+      "name": "sha256",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "函数 sha256",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:ApiKeyEncryptionService",
+      "type": "class",
+      "name": "ApiKeyEncryptionService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "summary": "类 ApiKeyEncryptionService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "type": "file",
+      "name": "LlmProviderBootstrapService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "定义类: LlmProviderBootstrapService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:seedProvidersIfNecessary",
+      "type": "function",
+      "name": "seedProvidersIfNecessary",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 seedProvidersIfNecessary",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:seedProviders",
+      "type": "function",
+      "name": "seedProviders",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 seedProviders",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:ensureGlobalSetting",
+      "type": "function",
+      "name": "ensureGlobalSetting",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 ensureGlobalSetting",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveExistingProvider",
+      "type": "function",
+      "name": "resolveExistingProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 resolveExistingProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveExistingEmbeddingProvider",
+      "type": "function",
+      "name": "resolveExistingEmbeddingProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 resolveExistingEmbeddingProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:canProvideEmbedding",
+      "type": "function",
+      "name": "canProvideEmbedding",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 canProvideEmbedding",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveEmbeddingDimensions",
+      "type": "function",
+      "name": "resolveEmbeddingDimensions",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 resolveEmbeddingDimensions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:trimOrNull",
+      "type": "function",
+      "name": "trimOrNull",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 trimOrNull",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:isBlank",
+      "type": "function",
+      "name": "isBlank",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "函数 isBlank",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:LlmProviderBootstrapService",
+      "type": "class",
+      "name": "LlmProviderBootstrapService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "summary": "类 LlmProviderBootstrapService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "type": "file",
+      "name": "LlmProviderConfigService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "定义类: LlmProviderConfigService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "function",
+      "name": "LlmProviderConfigService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 LlmProviderConfigService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "function",
+      "name": "LlmProviderConfigService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 LlmProviderConfigService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:validateWritablePaths",
+      "type": "function",
+      "name": "validateWritablePaths",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 validateWritablePaths",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:ensureParentWritable",
+      "type": "function",
+      "name": "ensureParentWritable",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 ensureParentWritable",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:listProviders",
+      "type": "function",
+      "name": "listProviders",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 listProviders",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProvider",
+      "type": "function",
+      "name": "getProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getDefaultProvider",
+      "type": "function",
+      "name": "getDefaultProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getDefaultProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getAsrConfig",
+      "type": "function",
+      "name": "getAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getTtsConfig",
+      "type": "function",
+      "name": "getTtsConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getTtsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:testProvider",
+      "type": "function",
+      "name": "testProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 testProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:testAsrConfig",
+      "type": "function",
+      "name": "testAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 testAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:createProvider",
+      "type": "function",
+      "name": "createProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 createProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateProvider",
+      "type": "function",
+      "name": "updateProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:deleteProvider",
+      "type": "function",
+      "name": "deleteProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 deleteProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultProvider",
+      "type": "function",
+      "name": "updateDefaultProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateDefaultProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultEmbeddingProvider",
+      "type": "function",
+      "name": "updateDefaultEmbeddingProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateDefaultEmbeddingProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateAsrConfig",
+      "type": "function",
+      "name": "updateAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateTtsConfig",
+      "type": "function",
+      "name": "updateTtsConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateTtsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:reloadProviders",
+      "type": "function",
+      "name": "reloadProviders",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 reloadProviders",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:isDatabaseBacked",
+      "type": "function",
+      "name": "isDatabaseBacked",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 isDatabaseBacked",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getLegacyProvidersOrThrow",
+      "type": "function",
+      "name": "getLegacyProvidersOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getLegacyProvidersOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getLegacyProviderConfigOrThrow",
+      "type": "function",
+      "name": "getLegacyProviderConfigOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getLegacyProviderConfigOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:createProviderLegacy",
+      "type": "function",
+      "name": "createProviderLegacy",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 createProviderLegacy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateProviderLegacy",
+      "type": "function",
+      "name": "updateProviderLegacy",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateProviderLegacy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:deleteProviderLegacy",
+      "type": "function",
+      "name": "deleteProviderLegacy",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 deleteProviderLegacy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultProviderLegacy",
+      "type": "function",
+      "name": "updateDefaultProviderLegacy",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateDefaultProviderLegacy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:toRuntimeConfig",
+      "type": "function",
+      "name": "toRuntimeConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 toRuntimeConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProviderEntityOrThrow",
+      "type": "function",
+      "name": "getProviderEntityOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getProviderEntityOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getGlobalSettingOrThrow",
+      "type": "function",
+      "name": "getGlobalSettingOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getGlobalSettingOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProviderRuntimeConfigOrThrow",
+      "type": "function",
+      "name": "getProviderRuntimeConfigOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 getProviderRuntimeConfigOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:decryptApiKey",
+      "type": "function",
+      "name": "decryptApiKey",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 decryptApiKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:maskApiKey",
+      "type": "function",
+      "name": "maskApiKey",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 maskApiKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:abbreviate",
+      "type": "function",
+      "name": "abbreviate",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 abbreviate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:buildConnectivityTestUrls",
+      "type": "function",
+      "name": "buildConnectivityTestUrls",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 buildConnectivityTestUrls",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:buildConnectivityTestRequestBody",
+      "type": "function",
+      "name": "buildConnectivityTestRequestBody",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 buildConnectivityTestRequestBody",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:trimOrNull",
+      "type": "function",
+      "name": "trimOrNull",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 trimOrNull",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:requireNonBlank",
+      "type": "function",
+      "name": "requireNonBlank",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 requireNonBlank",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:validateEmbeddingConfig",
+      "type": "function",
+      "name": "validateEmbeddingConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 validateEmbeddingConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:resolveEmbeddingDimensions",
+      "type": "function",
+      "name": "resolveEmbeddingDimensions",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 resolveEmbeddingDimensions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:looksLikeChatModel",
+      "type": "function",
+      "name": "looksLikeChatModel",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 looksLikeChatModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:toEnvKey",
+      "type": "function",
+      "name": "toEnvKey",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 toEnvKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:doTestProvider",
+      "type": "function",
+      "name": "doTestProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 doTestProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeProviderToYaml",
+      "type": "function",
+      "name": "writeProviderToYaml",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 writeProviderToYaml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:removeProviderFromYaml",
+      "type": "function",
+      "name": "removeProviderFromYaml",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 removeProviderFromYaml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeDefaultProviderToYaml",
+      "type": "function",
+      "name": "writeDefaultProviderToYaml",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 writeDefaultProviderToYaml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeAsrConfigToYaml",
+      "type": "function",
+      "name": "writeAsrConfigToYaml",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 writeAsrConfigToYaml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeTtsConfigToYaml",
+      "type": "function",
+      "name": "writeTtsConfigToYaml",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 writeTtsConfigToYaml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:mutateYamlText",
+      "type": "function",
+      "name": "mutateYamlText",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 mutateYamlText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeEnvValue",
+      "type": "function",
+      "name": "writeEnvValue",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 writeEnvValue",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateEnvValue",
+      "type": "function",
+      "name": "updateEnvValue",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 updateEnvValue",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:removeFromEnv",
+      "type": "function",
+      "name": "removeFromEnv",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "函数 removeFromEnv",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "class",
+      "name": "LlmProviderConfigService",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "summary": "类 LlmProviderConfigService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "type": "file",
+      "name": "AnalyzeStreamConsumer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "定义类: AnalyzeStreamConsumer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:AnalyzeStreamConsumer",
+      "type": "function",
+      "name": "AnalyzeStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 AnalyzeStreamConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:groupName",
+      "type": "function",
+      "name": "groupName",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 groupName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:consumerPrefix",
+      "type": "function",
+      "name": "consumerPrefix",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 consumerPrefix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:threadName",
+      "type": "function",
+      "name": "threadName",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 threadName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:parsePayload",
+      "type": "function",
+      "name": "parsePayload",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 parsePayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markProcessing",
+      "type": "function",
+      "name": "markProcessing",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 markProcessing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:processBusiness",
+      "type": "function",
+      "name": "processBusiness",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 processBusiness",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markCompleted",
+      "type": "function",
+      "name": "markCompleted",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 markCompleted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markFailed",
+      "type": "function",
+      "name": "markFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 markFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:retryMessage",
+      "type": "function",
+      "name": "retryMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 retryMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:updateAnalyzeStatus",
+      "type": "function",
+      "name": "updateAnalyzeStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "函数 updateAnalyzeStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:AnalyzeStreamConsumer",
+      "type": "class",
+      "name": "AnalyzeStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "summary": "类 AnalyzeStreamConsumer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "type": "file",
+      "name": "AnalyzeStreamProducer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "定义类: AnalyzeStreamProducer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:AnalyzeStreamProducer",
+      "type": "function",
+      "name": "AnalyzeStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 AnalyzeStreamProducer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:sendAnalyzeTask",
+      "type": "function",
+      "name": "sendAnalyzeTask",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 sendAnalyzeTask",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 buildMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:onSendFailed",
+      "type": "function",
+      "name": "onSendFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 onSendFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:updateAnalyzeStatus",
+      "type": "function",
+      "name": "updateAnalyzeStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "函数 updateAnalyzeStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:AnalyzeStreamProducer",
+      "type": "class",
+      "name": "AnalyzeStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "summary": "类 AnalyzeStreamProducer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "type": "file",
+      "name": "ResumeAnalysisEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "定义类: ResumeAnalysisEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setId",
+      "type": "function",
+      "name": "setId",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getResume",
+      "type": "function",
+      "name": "getResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setResume",
+      "type": "function",
+      "name": "setResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getOverallScore",
+      "type": "function",
+      "name": "getOverallScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getOverallScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setOverallScore",
+      "type": "function",
+      "name": "setOverallScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setOverallScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getContentScore",
+      "type": "function",
+      "name": "getContentScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getContentScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setContentScore",
+      "type": "function",
+      "name": "setContentScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setContentScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getStructureScore",
+      "type": "function",
+      "name": "getStructureScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getStructureScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setStructureScore",
+      "type": "function",
+      "name": "setStructureScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setStructureScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSkillMatchScore",
+      "type": "function",
+      "name": "getSkillMatchScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getSkillMatchScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSkillMatchScore",
+      "type": "function",
+      "name": "setSkillMatchScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setSkillMatchScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getExpressionScore",
+      "type": "function",
+      "name": "getExpressionScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getExpressionScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setExpressionScore",
+      "type": "function",
+      "name": "setExpressionScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setExpressionScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getProjectScore",
+      "type": "function",
+      "name": "getProjectScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getProjectScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setProjectScore",
+      "type": "function",
+      "name": "setProjectScore",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setProjectScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSummary",
+      "type": "function",
+      "name": "getSummary",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getSummary",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSummary",
+      "type": "function",
+      "name": "setSummary",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setSummary",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getStrengthsJson",
+      "type": "function",
+      "name": "getStrengthsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getStrengthsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setStrengthsJson",
+      "type": "function",
+      "name": "setStrengthsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setStrengthsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSuggestionsJson",
+      "type": "function",
+      "name": "getSuggestionsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getSuggestionsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSuggestionsJson",
+      "type": "function",
+      "name": "setSuggestionsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setSuggestionsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getAnalyzedAt",
+      "type": "function",
+      "name": "getAnalyzedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 getAnalyzedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setAnalyzedAt",
+      "type": "function",
+      "name": "setAnalyzedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "函数 setAnalyzedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:ResumeAnalysisEntity",
+      "type": "class",
+      "name": "ResumeAnalysisEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "summary": "类 ResumeAnalysisEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java",
+      "type": "file",
+      "name": "ResumeDetailDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "type": "file",
+      "name": "ResumeEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "定义类: ResumeEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setId",
+      "type": "function",
+      "name": "setId",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getFileHash",
+      "type": "function",
+      "name": "getFileHash",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getFileHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setFileHash",
+      "type": "function",
+      "name": "setFileHash",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setFileHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getOriginalFilename",
+      "type": "function",
+      "name": "getOriginalFilename",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getOriginalFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setOriginalFilename",
+      "type": "function",
+      "name": "setOriginalFilename",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setOriginalFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getFileSize",
+      "type": "function",
+      "name": "getFileSize",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setFileSize",
+      "type": "function",
+      "name": "setFileSize",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getContentType",
+      "type": "function",
+      "name": "getContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setContentType",
+      "type": "function",
+      "name": "setContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getStorageKey",
+      "type": "function",
+      "name": "getStorageKey",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getStorageKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setStorageKey",
+      "type": "function",
+      "name": "setStorageKey",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setStorageKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getStorageUrl",
+      "type": "function",
+      "name": "getStorageUrl",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getStorageUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setStorageUrl",
+      "type": "function",
+      "name": "setStorageUrl",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setStorageUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getResumeText",
+      "type": "function",
+      "name": "getResumeText",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getResumeText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setResumeText",
+      "type": "function",
+      "name": "setResumeText",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setResumeText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getUploadedAt",
+      "type": "function",
+      "name": "getUploadedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getUploadedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setUploadedAt",
+      "type": "function",
+      "name": "setUploadedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setUploadedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getLastAccessedAt",
+      "type": "function",
+      "name": "getLastAccessedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getLastAccessedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setLastAccessedAt",
+      "type": "function",
+      "name": "setLastAccessedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setLastAccessedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAccessCount",
+      "type": "function",
+      "name": "getAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAccessCount",
+      "type": "function",
+      "name": "setAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:incrementAccessCount",
+      "type": "function",
+      "name": "incrementAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 incrementAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAnalyzeStatus",
+      "type": "function",
+      "name": "getAnalyzeStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getAnalyzeStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAnalyzeStatus",
+      "type": "function",
+      "name": "setAnalyzeStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setAnalyzeStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAnalyzeError",
+      "type": "function",
+      "name": "getAnalyzeError",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 getAnalyzeError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAnalyzeError",
+      "type": "function",
+      "name": "setAnalyzeError",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "函数 setAnalyzeError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:ResumeEntity",
+      "type": "class",
+      "name": "ResumeEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "summary": "类 ResumeEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java",
+      "type": "file",
+      "name": "ResumeListItemDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+      "type": "file",
+      "name": "ResumeAnalysisRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+      "summary": "定义类: ResumeAnalysisRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java:ResumeAnalysisRepository",
+      "type": "class",
+      "name": "ResumeAnalysisRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+      "summary": "类 ResumeAnalysisRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+      "type": "file",
+      "name": "ResumeRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+      "summary": "定义类: ResumeRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java:ResumeRepository",
+      "type": "class",
+      "name": "ResumeRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+      "summary": "类 ResumeRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "type": "file",
+      "name": "ResumeController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "定义类: ResumeController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:uploadAndAnalyze",
+      "type": "function",
+      "name": "uploadAndAnalyze",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 uploadAndAnalyze",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:getAllResumes",
+      "type": "function",
+      "name": "getAllResumes",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 getAllResumes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:getResumeDetail",
+      "type": "function",
+      "name": "getResumeDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 getResumeDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:exportAnalysisPdf",
+      "type": "function",
+      "name": "exportAnalysisPdf",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 exportAnalysisPdf",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:deleteResume",
+      "type": "function",
+      "name": "deleteResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 deleteResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:reanalyze",
+      "type": "function",
+      "name": "reanalyze",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 reanalyze",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:health",
+      "type": "function",
+      "name": "health",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "函数 health",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/ResumeController.java:ResumeController",
+      "type": "class",
+      "name": "ResumeController",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "summary": "类 ResumeController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+      "type": "file",
+      "name": "ResumeAnalysisProperties.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+      "summary": "定义类: ResumeAnalysisProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java:ResumeAnalysisProperties",
+      "type": "class",
+      "name": "ResumeAnalysisProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+      "summary": "类 ResumeAnalysisProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "type": "file",
+      "name": "ResumeDeleteService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "summary": "定义类: ResumeDeleteService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java:deleteResume",
+      "type": "function",
+      "name": "deleteResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "summary": "函数 deleteResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java:ResumeDeleteService",
+      "type": "class",
+      "name": "ResumeDeleteService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "summary": "类 ResumeDeleteService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "type": "file",
+      "name": "ResumeGradingService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "定义类: ResumeGradingService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:ResumeGradingService",
+      "type": "function",
+      "name": "ResumeGradingService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "函数 ResumeGradingService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:analyzeResume",
+      "type": "function",
+      "name": "analyzeResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "函数 analyzeResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:convertToResponse",
+      "type": "function",
+      "name": "convertToResponse",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "函数 convertToResponse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:createErrorResponse",
+      "type": "function",
+      "name": "createErrorResponse",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "函数 createErrorResponse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:ResumeGradingService",
+      "type": "class",
+      "name": "ResumeGradingService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "summary": "类 ResumeGradingService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "type": "file",
+      "name": "ResumeHistoryService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "定义类: ResumeHistoryService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:getAllResumes",
+      "type": "function",
+      "name": "getAllResumes",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "函数 getAllResumes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:getResumeDetail",
+      "type": "function",
+      "name": "getResumeDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "函数 getResumeDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:extractStrengths",
+      "type": "function",
+      "name": "extractStrengths",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "函数 extractStrengths",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:extractSuggestions",
+      "type": "function",
+      "name": "extractSuggestions",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "函数 extractSuggestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:exportAnalysisPdf",
+      "type": "function",
+      "name": "exportAnalysisPdf",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "函数 exportAnalysisPdf",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:ResumeHistoryService",
+      "type": "class",
+      "name": "ResumeHistoryService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "summary": "类 ResumeHistoryService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "type": "file",
+      "name": "ResumeParseService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "定义类: ResumeParseService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:parseResume",
+      "type": "function",
+      "name": "parseResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "函数 parseResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:parseResume",
+      "type": "function",
+      "name": "parseResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "函数 parseResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:downloadAndParseContent",
+      "type": "function",
+      "name": "downloadAndParseContent",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "函数 downloadAndParseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:detectContentType",
+      "type": "function",
+      "name": "detectContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "函数 detectContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:ResumeParseService",
+      "type": "class",
+      "name": "ResumeParseService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "summary": "类 ResumeParseService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "type": "file",
+      "name": "ResumePersistenceService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "定义类: ResumePersistenceService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findExistingResume",
+      "type": "function",
+      "name": "findExistingResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 findExistingResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:saveResume",
+      "type": "function",
+      "name": "saveResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 saveResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:saveAnalysis",
+      "type": "function",
+      "name": "saveAnalysis",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 saveAnalysis",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:getLatestAnalysis",
+      "type": "function",
+      "name": "getLatestAnalysis",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 getLatestAnalysis",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:getLatestAnalysisAsDTO",
+      "type": "function",
+      "name": "getLatestAnalysisAsDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 getLatestAnalysisAsDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findAllResumes",
+      "type": "function",
+      "name": "findAllResumes",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 findAllResumes",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findAnalysesByResumeId",
+      "type": "function",
+      "name": "findAnalysesByResumeId",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 findAnalysesByResumeId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:entityToDTO",
+      "type": "function",
+      "name": "entityToDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 entityToDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findById",
+      "type": "function",
+      "name": "findById",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 findById",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:deleteResume",
+      "type": "function",
+      "name": "deleteResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "函数 deleteResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:ResumePersistenceService",
+      "type": "class",
+      "name": "ResumePersistenceService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "summary": "类 ResumePersistenceService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "type": "file",
+      "name": "ResumeUploadService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "定义类: ResumeUploadService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:uploadAndAnalyze",
+      "type": "function",
+      "name": "uploadAndAnalyze",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "函数 uploadAndAnalyze",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:formatFileSize",
+      "type": "function",
+      "name": "formatFileSize",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "函数 formatFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:validateContentType",
+      "type": "function",
+      "name": "validateContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "函数 validateContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:handleDuplicateResume",
+      "type": "function",
+      "name": "handleDuplicateResume",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "函数 handleDuplicateResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:reanalyze",
+      "type": "function",
+      "name": "reanalyze",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "函数 reanalyze",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:ResumeUploadService",
+      "type": "class",
+      "name": "ResumeUploadService",
+      "filePath": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "summary": "类 ResumeUploadService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:prePersist",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:preUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java:LlmGlobalSettingEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:prePersist",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:preUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java:LlmProviderEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java:LlmGlobalSettingRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java:LlmProviderRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:ApiKeyEncryptionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:init",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:encrypt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:decrypt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:resolveKeyBytes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:sha256",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java:ApiKeyEncryptionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:seedProvidersIfNecessary",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:seedProviders",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:ensureGlobalSetting",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveExistingProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveExistingEmbeddingProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:canProvideEmbedding",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:resolveEmbeddingDimensions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:trimOrNull",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:isBlank",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java:LlmProviderBootstrapService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:validateWritablePaths",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:ensureParentWritable",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:listProviders",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getDefaultProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getTtsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:testProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:testAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:createProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:deleteProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultEmbeddingProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateTtsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:reloadProviders",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:isDatabaseBacked",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getLegacyProvidersOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getLegacyProviderConfigOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:createProviderLegacy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateProviderLegacy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:deleteProviderLegacy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateDefaultProviderLegacy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:toRuntimeConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProviderEntityOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getGlobalSettingOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:getProviderRuntimeConfigOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:decryptApiKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:maskApiKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:abbreviate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:buildConnectivityTestUrls",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:buildConnectivityTestRequestBody",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:trimOrNull",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:requireNonBlank",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:validateEmbeddingConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:resolveEmbeddingDimensions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:looksLikeChatModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:toEnvKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:doTestProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeProviderToYaml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:removeProviderFromYaml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeDefaultProviderToYaml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeAsrConfigToYaml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeTtsConfigToYaml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:mutateYamlText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:writeEnvValue",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:updateEnvValue",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:removeFromEnv",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java:LlmProviderConfigService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:AnalyzeStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:groupName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:consumerPrefix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:threadName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:parsePayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markProcessing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:processBusiness",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:markFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:retryMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:updateAnalyzeStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java:AnalyzeStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:AnalyzeStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:sendAnalyzeTask",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:buildMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:onSendFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:updateAnalyzeStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java:AnalyzeStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getOverallScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setOverallScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getContentScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setContentScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getStructureScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setStructureScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSkillMatchScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSkillMatchScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getExpressionScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setExpressionScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getProjectScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setProjectScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSummary",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSummary",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getStrengthsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setStrengthsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getSuggestionsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setSuggestionsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:getAnalyzedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:setAnalyzedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java:ResumeAnalysisEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getFileHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setFileHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getOriginalFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setOriginalFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getStorageKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setStorageKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getStorageUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setStorageUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getResumeText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setResumeText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getUploadedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setUploadedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getLastAccessedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setLastAccessedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:incrementAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAnalyzeStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAnalyzeStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:getAnalyzeError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:setAnalyzeError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java:ResumeEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java:ResumeAnalysisRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java:ResumeRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:uploadAndAnalyze",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:getAllResumes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:getResumeDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:exportAnalysisPdf",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:deleteResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:reanalyze",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/ResumeController.java:health",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/ResumeController.java:ResumeController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java:ResumeAnalysisProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java:deleteResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java:ResumeDeleteService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:ResumeGradingService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:analyzeResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:convertToResponse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:createErrorResponse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java:ResumeGradingService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:getAllResumes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:getResumeDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:extractStrengths",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:extractSuggestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:exportAnalysisPdf",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java:ResumeHistoryService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:parseResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:parseResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:downloadAndParseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:detectContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java:ResumeParseService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findExistingResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:saveResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:saveAnalysis",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:getLatestAnalysis",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:getLatestAnalysisAsDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findAllResumes",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findAnalysesByResumeId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:entityToDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:findById",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:deleteResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java:ResumePersistenceService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:uploadAndAnalyze",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:formatFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:validateContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:handleDuplicateResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:reanalyze",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java:ResumeUploadService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

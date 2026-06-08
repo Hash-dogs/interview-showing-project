@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "config:frontend/.dockerignore",
+      "type": "config",
+      "name": ".dockerignore",
+      "filePath": "frontend/.dockerignore",
+      "summary": ".dockerignore 文件",
+      "tags": [
+        "unknown",
+        "infra",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:frontend/Dockerfile",
+      "type": "service",
+      "name": "Dockerfile",
+      "filePath": "frontend/Dockerfile",
+      "summary": "定义服务: builder, nginx",
+      "tags": [
+        "dockerfile",
+        "infra",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:frontend/Dockerfile:nginx",
+      "type": "service",
+      "name": "nginx",
+      "filePath": "frontend/Dockerfile",
+      "summary": "服务 nginx (镜像: nginx:alpine)",
+      "tags": [
+        "service",
+        "docker"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

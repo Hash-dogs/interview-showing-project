@@ -1,0 +1,107 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/Dockerfile",
+      "language": "dockerfile",
+      "fileCategory": "infra",
+      "totalLines": 55,
+      "nonEmptyLines": 47,
+      "services": [
+        {
+          "name": "builder",
+          "image": "gradle:8.14-jdk21",
+          "ports": [],
+          "startLine": 5,
+          "endLine": 43
+        },
+        {
+          "name": "eclipse-temurin",
+          "image": "eclipse-temurin:21-jre",
+          "ports": [
+            8080
+          ],
+          "startLine": 44,
+          "endLine": 56
+        }
+      ],
+      "steps": [
+        {
+          "name": "FROM gradle:8.14-jdk21 AS builder",
+          "startLine": 5,
+          "endLine": 5
+        },
+        {
+          "name": "WORKDIR /workspace",
+          "startLine": 7,
+          "endLine": 7
+        },
+        {
+          "name": "COPY settings.gradle gradlew ./",
+          "startLine": 13,
+          "endLine": 13
+        },
+        {
+          "name": "COPY gradle gradle",
+          "startLine": 14,
+          "endLine": 14
+        },
+        {
+          "name": "COPY app/build.gradle app/",
+          "startLine": 15,
+          "endLine": 15
+        },
+        {
+          "name": "RUN gradle dependencies --no-daemon || true",
+          "startLine": 27,
+          "endLine": 27
+        },
+        {
+          "name": "COPY . .",
+          "startLine": 32,
+          "endLine": 32
+        },
+        {
+          "name": "RUN gradle :app:bootJar --no-daemon -x test",
+          "startLine": 37,
+          "endLine": 37
+        },
+        {
+          "name": "FROM eclipse-temurin:21-jre",
+          "startLine": 44,
+          "endLine": 44
+        },
+        {
+          "name": "WORKDIR /app",
+          "startLine": 45,
+          "endLine": 45
+        },
+        {
+          "name": "COPY --from=builder /workspace/app/build/libs/*.jar app.jar",
+          "startLine": 49,
+          "endLine": 49
+        },
+        {
+          "name": "EXPOSE 8080",
+          "startLine": 52,
+          "endLine": 52
+        },
+        {
+          "name": "ENTRYPOINT [\"java\", \"-jar\", \"app.jar\"]",
+          "startLine": 55,
+          "endLine": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "serviceCount": 2,
+        "stepCount": 13
+      }
+    }
+  ]
+}

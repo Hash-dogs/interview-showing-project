@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/algorithm-data-structures.md",
+      "type": "document",
+      "name": "algorithm-data-structures.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/browser.md",
+      "type": "document",
+      "name": "browser.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/browser.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/database.md",
+      "type": "document",
+      "name": "database.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/database.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/db-design.md",
+      "type": "document",
+      "name": "db-design.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/db-design.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/design-pattern.md",
+      "type": "document",
+      "name": "design-pattern.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/design-pattern.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/distributed.md",
+      "type": "document",
+      "name": "distributed.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/distributed.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/django-flask.md",
+      "type": "document",
+      "name": "django-flask.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/django-flask.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/high-availability.md",
+      "type": "document",
+      "name": "high-availability.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/high-availability.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/java.md",
+      "type": "document",
+      "name": "java.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/java.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/javascript.md",
+      "type": "document",
+      "name": "javascript.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/javascript.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/mq.md",
+      "type": "document",
+      "name": "mq.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/mq.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/mysql.md",
+      "type": "document",
+      "name": "mysql.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/mysql.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/network-os.md",
+      "type": "document",
+      "name": "network-os.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/network-os.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/python-basic.md",
+      "type": "document",
+      "name": "python-basic.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/python-basic.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/react-vue.md",
+      "type": "document",
+      "name": "react-vue.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/react-vue.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/redis.md",
+      "type": "document",
+      "name": "redis.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/redis.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/spring.md",
+      "type": "document",
+      "name": "spring.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/spring.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/system-design-scenarios.md",
+      "type": "document",
+      "name": "system-design-scenarios.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/system-design-scenarios.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/_shared/references/test-development.md",
+      "type": "document",
+      "name": "test-development.md",
+      "filePath": "app/src/main/resources/skills/_shared/references/test-development.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

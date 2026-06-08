@@ -1,0 +1,1397 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "type": "file",
+      "name": "VoiceInterviewSessionStatusTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "summary": "定义类: VoiceInterviewSessionStatusTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:shouldHaveFourStatuses",
+      "type": "function",
+      "name": "shouldHaveFourStatuses",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "summary": "函数 shouldHaveFourStatuses",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:shouldHaveExpectedStatusNames",
+      "type": "function",
+      "name": "shouldHaveExpectedStatusNames",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "summary": "函数 shouldHaveExpectedStatusNames",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:VoiceInterviewSessionStatusTest",
+      "type": "class",
+      "name": "VoiceInterviewSessionStatusTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "summary": "类 VoiceInterviewSessionStatusTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "type": "file",
+      "name": "DashscopeLlmServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "summary": "定义类: DashscopeLlmServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java:placeholder",
+      "type": "function",
+      "name": "placeholder",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "summary": "函数 placeholder",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java:DashscopeLlmServiceTest",
+      "type": "class",
+      "name": "DashscopeLlmServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "summary": "类 DashscopeLlmServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "type": "file",
+      "name": "QwenAsrServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "定义类: QwenAsrServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testInit",
+      "type": "function",
+      "name": "testInit",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testInit",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testStartTranscription",
+      "type": "function",
+      "name": "testStartTranscription",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testStartTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testStopTranscription",
+      "type": "function",
+      "name": "testStopTranscription",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testStopTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testMultipleSessions",
+      "type": "function",
+      "name": "testMultipleSessions",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testMultipleSessions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testSendAudioToNonExistentSession",
+      "type": "function",
+      "name": "testSendAudioToNonExistentSession",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testSendAudioToNonExistentSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:extractTranscriptPayload_textAndStash",
+      "type": "function",
+      "name": "extractTranscriptPayload_textAndStash",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 extractTranscriptPayload_textAndStash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:extractTranscriptPayload_mixedPrefixSuffix",
+      "type": "function",
+      "name": "extractTranscriptPayload_mixedPrefixSuffix",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 extractTranscriptPayload_mixedPrefixSuffix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testDestroy",
+      "type": "function",
+      "name": "testDestroy",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testDestroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testReloadUpdatesAllFields",
+      "type": "function",
+      "name": "testReloadUpdatesAllFields",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 testReloadUpdatesAllFields",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:field",
+      "type": "function",
+      "name": "field",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "函数 field",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:QwenAsrServiceTest",
+      "type": "class",
+      "name": "QwenAsrServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "summary": "类 QwenAsrServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "type": "file",
+      "name": "QwenTtsServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "定义类: QwenTtsServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testInit",
+      "type": "function",
+      "name": "testInit",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testInit",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeEmptyText",
+      "type": "function",
+      "name": "testSynthesizeEmptyText",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testSynthesizeEmptyText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeNullText",
+      "type": "function",
+      "name": "testSynthesizeNullText",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testSynthesizeNullText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeWhitespaceText",
+      "type": "function",
+      "name": "testSynthesizeWhitespaceText",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testSynthesizeWhitespaceText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testDestroy",
+      "type": "function",
+      "name": "testDestroy",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testDestroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testReloadUpdatesAllFields",
+      "type": "function",
+      "name": "testReloadUpdatesAllFields",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 testReloadUpdatesAllFields",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:field",
+      "type": "function",
+      "name": "field",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "函数 field",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:QwenTtsServiceTest",
+      "type": "class",
+      "name": "QwenTtsServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "summary": "类 QwenTtsServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "type": "file",
+      "name": "VoiceInterviewPromptServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "summary": "定义类: VoiceInterviewPromptServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java:placeholder",
+      "type": "function",
+      "name": "placeholder",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "summary": "函数 placeholder",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java:VoiceInterviewPromptServiceTest",
+      "type": "class",
+      "name": "VoiceInterviewPromptServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "summary": "类 VoiceInterviewPromptServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "type": "file",
+      "name": "VoiceInterviewServicePauseTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "summary": "定义类: VoiceInterviewServicePauseTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java:placeholder",
+      "type": "function",
+      "name": "placeholder",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "summary": "函数 placeholder",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java:VoiceInterviewServicePauseTest",
+      "type": "class",
+      "name": "VoiceInterviewServicePauseTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "summary": "类 VoiceInterviewServicePauseTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "type": "file",
+      "name": "VoiceInterviewServiceTest.java",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "summary": "定义类: VoiceInterviewServiceTest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java:setUp",
+      "type": "function",
+      "name": "setUp",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "summary": "函数 setUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java:VoiceInterviewServiceTest",
+      "type": "class",
+      "name": "VoiceInterviewServiceTest",
+      "filePath": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "summary": "类 VoiceInterviewServiceTest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "config:app/src/test/resources/application-test.yml",
+      "type": "config",
+      "name": "application-test.yml",
+      "filePath": "app/src/test/resources/application-test.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:docker/postgres/init.sql",
+      "type": "config",
+      "name": "init.sql",
+      "filePath": "docker/postgres/init.sql",
+      "summary": "SQL 数据库脚本",
+      "tags": [
+        "sql",
+        "data",
+        "docker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "frontend/eslint.config.js",
+      "summary": "JavaScript 源文件",
+      "tags": [
+        "javascript",
+        "code",
+        "js",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/nginx.conf",
+      "type": "file",
+      "name": "nginx.conf",
+      "filePath": "frontend/nginx.conf",
+      "summary": "配置文件",
+      "tags": [
+        "conf",
+        "code",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/postcss.config.js",
+      "type": "file",
+      "name": "postcss.config.js",
+      "filePath": "frontend/postcss.config.js",
+      "summary": "JavaScript 源文件",
+      "tags": [
+        "javascript",
+        "code",
+        "js",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/api/history.ts",
+      "type": "file",
+      "name": "history.ts",
+      "filePath": "frontend/src/api/history.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/api/interview.ts",
+      "type": "file",
+      "name": "interview.ts",
+      "filePath": "frontend/src/api/interview.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/api/interviewSchedule.ts",
+      "type": "file",
+      "name": "interviewSchedule.ts",
+      "filePath": "frontend/src/api/interviewSchedule.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/api/knowledgebase.ts",
+      "type": "file",
+      "name": "knowledgebase.ts",
+      "filePath": "frontend/src/api/knowledgebase.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/api/llmProvider.ts",
+      "type": "file",
+      "name": "llmProvider.ts",
+      "filePath": "frontend/src/api/llmProvider.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/api/ragChat.ts",
+      "type": "file",
+      "name": "ragChat.ts",
+      "filePath": "frontend/src/api/ragChat.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/api/request.ts",
+      "type": "file",
+      "name": "request.ts",
+      "filePath": "frontend/src/api/request.ts",
+      "summary": "定义函数/方法: getErrorMessage",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/api/request.ts:getErrorMessage",
+      "type": "function",
+      "name": "getErrorMessage",
+      "filePath": "frontend/src/api/request.ts",
+      "summary": "函数 getErrorMessage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/api/resume.ts",
+      "type": "file",
+      "name": "resume.ts",
+      "filePath": "frontend/src/api/resume.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/api/skill.ts",
+      "type": "file",
+      "name": "skill.ts",
+      "filePath": "frontend/src/api/skill.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/api/voiceInterview.ts",
+      "type": "file",
+      "name": "voiceInterview.ts",
+      "filePath": "frontend/src/api/voiceInterview.ts",
+      "summary": "定义类: VoiceInterviewWebSocket",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/api/voiceInterview.ts:connectWebSocket",
+      "type": "function",
+      "name": "connectWebSocket",
+      "filePath": "frontend/src/api/voiceInterview.ts",
+      "summary": "函数 connectWebSocket",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:frontend/src/api/voiceInterview.ts:VoiceInterviewWebSocket",
+      "type": "class",
+      "name": "VoiceInterviewWebSocket",
+      "filePath": "frontend/src/api/voiceInterview.ts",
+      "summary": "类 VoiceInterviewWebSocket",
+      "tags": [
+        "class",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/App.tsx",
+      "type": "file",
+      "name": "App.tsx",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "定义函数/方法: Loading, UploadPageWrapper, HistoryListWrapper, ResumeDetailWrapper, InterviewWrapper",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:Loading",
+      "type": "function",
+      "name": "Loading",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 Loading",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:UploadPageWrapper",
+      "type": "function",
+      "name": "UploadPageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 UploadPageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:HistoryListWrapper",
+      "type": "function",
+      "name": "HistoryListWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 HistoryListWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:ResumeDetailWrapper",
+      "type": "function",
+      "name": "ResumeDetailWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 ResumeDetailWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:InterviewWrapper",
+      "type": "function",
+      "name": "InterviewWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 InterviewWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 App",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:InterviewHistoryWrapper",
+      "type": "function",
+      "name": "InterviewHistoryWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 InterviewHistoryWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:InterviewDetailPageWrapper",
+      "type": "function",
+      "name": "InterviewDetailPageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 InterviewDetailPageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:KnowledgeBaseManagePageWrapper",
+      "type": "function",
+      "name": "KnowledgeBaseManagePageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 KnowledgeBaseManagePageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:KnowledgeBaseQueryPageWrapper",
+      "type": "function",
+      "name": "KnowledgeBaseQueryPageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 KnowledgeBaseQueryPageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:KnowledgeBaseUploadPageWrapper",
+      "type": "function",
+      "name": "KnowledgeBaseUploadPageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 KnowledgeBaseUploadPageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/App.tsx:VoiceInterviewPageWrapper",
+      "type": "function",
+      "name": "VoiceInterviewPageWrapper",
+      "filePath": "frontend/src/App.tsx",
+      "summary": "函数 VoiceInterviewPageWrapper",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/AnalysisPanel.tsx",
+      "type": "file",
+      "name": "AnalysisPanel.tsx",
+      "filePath": "frontend/src/components/AnalysisPanel.tsx",
+      "summary": "定义函数/方法: AnalysisPanel, SuggestionSection",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/AnalysisPanel.tsx:AnalysisPanel",
+      "type": "function",
+      "name": "AnalysisPanel",
+      "filePath": "frontend/src/components/AnalysisPanel.tsx",
+      "summary": "函数 AnalysisPanel",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/components/AnalysisPanel.tsx:SuggestionSection",
+      "type": "function",
+      "name": "SuggestionSection",
+      "filePath": "frontend/src/components/AnalysisPanel.tsx",
+      "summary": "函数 SuggestionSection",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/AudioPlayer.tsx",
+      "type": "file",
+      "name": "AudioPlayer.tsx",
+      "filePath": "frontend/src/components/AudioPlayer.tsx",
+      "summary": "定义函数/方法: AudioPlayer",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/AudioPlayer.tsx:AudioPlayer",
+      "type": "function",
+      "name": "AudioPlayer",
+      "filePath": "frontend/src/components/AudioPlayer.tsx",
+      "summary": "函数 AudioPlayer",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:shouldHaveFourStatuses",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:shouldHaveExpectedStatusNames",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java:VoiceInterviewSessionStatusTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java:placeholder",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java:DashscopeLlmServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testInit",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testStartTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testStopTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testMultipleSessions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testSendAudioToNonExistentSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:extractTranscriptPayload_textAndStash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:extractTranscriptPayload_mixedPrefixSuffix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testDestroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:testReloadUpdatesAllFields",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:field",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java:QwenAsrServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testInit",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeEmptyText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeNullText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testSynthesizeWhitespaceText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testDestroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:testReloadUpdatesAllFields",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:field",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java:QwenTtsServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java:placeholder",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java:VoiceInterviewPromptServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java:placeholder",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java:VoiceInterviewServicePauseTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "target": "function:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java:setUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "target": "class:app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java:VoiceInterviewServiceTest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:frontend/src/api/request.ts",
+      "target": "function:frontend/src/api/request.ts:getErrorMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/api/voiceInterview.ts",
+      "target": "function:frontend/src/api/voiceInterview.ts:connectWebSocket",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/api/voiceInterview.ts",
+      "target": "class:frontend/src/api/voiceInterview.ts:VoiceInterviewWebSocket",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:Loading",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:UploadPageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:HistoryListWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:ResumeDetailWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:InterviewWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:App",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:InterviewHistoryWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:InterviewDetailPageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:KnowledgeBaseManagePageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:KnowledgeBaseQueryPageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:KnowledgeBaseUploadPageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/App.tsx",
+      "target": "function:frontend/src/App.tsx:VoiceInterviewPageWrapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/AnalysisPanel.tsx",
+      "target": "function:frontend/src/components/AnalysisPanel.tsx:AnalysisPanel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/AnalysisPanel.tsx",
+      "target": "function:frontend/src/components/AnalysisPanel.tsx:SuggestionSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/components/AudioPlayer.tsx",
+      "target": "function:frontend/src/components/AudioPlayer.tsx:AudioPlayer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    }
+  ]
+}

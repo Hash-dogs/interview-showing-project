@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "language": "java",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java",
+      "language": "java",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "language": "java",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+      "language": "java",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+      "language": "java",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+      "language": "java",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "language": "java",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "language": "java",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "language": "java",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "language": "java",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+      "language": "java",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "language": "java",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "language": "java",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "language": "java",
+      "sizeLines": 231,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "language": "java",
+      "sizeLines": 274,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "language": "java",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+      "language": "java",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java",
+      "language": "java",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java",
+      "language": "java",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java",
+      "language": "java",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+      "language": "java",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java": []
+  }
+}

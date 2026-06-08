@@ -1,0 +1,91 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "markdown/RAG知识库.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/SQl数据库.md",
+      "language": "markdown",
+      "sizeLines": 682,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/redis.md",
+      "language": "markdown",
+      "sizeLines": 347,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/力扣HOT100记录.md",
+      "language": "markdown",
+      "sizeLines": 66,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/基础知识.md",
+      "language": "markdown",
+      "sizeLines": 296,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/大模型.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/工具类与注解.md",
+      "language": "markdown",
+      "sizeLines": 80,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/模拟面试.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/环境配置.md",
+      "language": "markdown",
+      "sizeLines": 57,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/简历上传与评估.md",
+      "language": "markdown",
+      "sizeLines": 142,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/计算机网络.md",
+      "language": "markdown",
+      "sizeLines": 66,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "markdown/项目简历书写汇总.md",
+      "language": "markdown",
+      "sizeLines": 755,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "markdown/RAG知识库.md": [],
+    "markdown/SQl数据库.md": [],
+    "markdown/redis.md": [],
+    "markdown/力扣HOT100记录.md": [],
+    "markdown/基础知识.md": [],
+    "markdown/大模型.md": [],
+    "markdown/工具类与注解.md": [],
+    "markdown/模拟面试.md": [],
+    "markdown/环境配置.md": [],
+    "markdown/简历上传与评估.md": [],
+    "markdown/计算机网络.md": [],
+    "markdown/项目简历书写汇总.md": []
+  }
+}

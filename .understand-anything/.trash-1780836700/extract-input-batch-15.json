@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java",
+      "language": "java",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java",
+      "language": "java",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java",
+      "language": "java",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java",
+      "language": "java",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java",
+      "language": "java",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java",
+      "language": "java",
+      "sizeLines": 1184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java",
+      "language": "java",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java",
+      "language": "java",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java",
+      "language": "java",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java",
+      "language": "java",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java",
+      "language": "java",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java",
+      "language": "java",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java",
+      "language": "java",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/ResumeController.java",
+      "language": "java",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java",
+      "language": "java",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java",
+      "language": "java",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java",
+      "language": "java",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java",
+      "language": "java",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java",
+      "language": "java",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java",
+      "language": "java",
+      "sizeLines": 210,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java",
+      "language": "java",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/dto/UpdateProviderRequest.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/model/LlmGlobalSettingEntity.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/model/LlmProviderEntity.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmGlobalSettingRepository.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/repository/LlmProviderRepository.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/ApiKeyEncryptionService.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderBootstrapService.java": [],
+    "app/src/main/java/interview/guide/modules/llmprovider/service/LlmProviderConfigService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamConsumer.java": [],
+    "app/src/main/java/interview/guide/modules/resume/listener/AnalyzeStreamProducer.java": [],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeAnalysisEntity.java": [],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeDetailDTO.java": [],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeEntity.java": [],
+    "app/src/main/java/interview/guide/modules/resume/model/ResumeListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/resume/repository/ResumeAnalysisRepository.java": [],
+    "app/src/main/java/interview/guide/modules/resume/repository/ResumeRepository.java": [],
+    "app/src/main/java/interview/guide/modules/resume/ResumeController.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeAnalysisProperties.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeDeleteService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeGradingService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeHistoryService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeParseService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumePersistenceService.java": [],
+    "app/src/main/java/interview/guide/modules/resume/service/ResumeUploadService.java": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "document:app/src/main/resources/skills/ai-agent-dev/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "app/src/main/resources/skills/ai-agent-dev/SKILL.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md",
+      "type": "document",
+      "name": "ai-agent-dev.md",
+      "filePath": "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:app/src/main/resources/skills/ai-agent-dev/skill.meta.yml",
+      "type": "config",
+      "name": "skill.meta.yml",
+      "filePath": "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

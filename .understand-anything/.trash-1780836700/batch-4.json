@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "config:app/src/main/resources/application.yml",
+      "type": "config",
+      "name": "application.yml",
+      "filePath": "app/src/main/resources/application.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:app/src/main/resources/logback-spring.xml",
+      "type": "config",
+      "name": "logback-spring.xml",
+      "filePath": "app/src/main/resources/logback-spring.xml",
+      "summary": "XML 配置文件",
+      "tags": [
+        "xml",
+        "config",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:app/src/main/resources/voice-interview-opening.yml",
+      "type": "config",
+      "name": "voice-interview-opening.yml",
+      "filePath": "app/src/main/resources/voice-interview-opening.yml",
+      "summary": "YAML 配置文件",
+      "tags": [
+        "yaml",
+        "config",
+        "yml",
+        "app"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

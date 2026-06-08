@@ -1,0 +1,5705 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatusTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 17,
+      "functions": [
+        {
+          "name": "shouldHaveFourStatuses",
+          "startLine": 8,
+          "endLine": 12,
+          "params": []
+        },
+        {
+          "name": "shouldHaveExpectedStatusNames",
+          "startLine": 14,
+          "endLine": 20,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceInterviewSessionStatusTest",
+          "startLine": 6,
+          "endLine": 21,
+          "methods": [
+            "shouldHaveFourStatuses",
+            "shouldHaveExpectedStatusNames"
+          ],
+          "properties": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "shouldHaveFourStatuses",
+          "callee": "VoiceInterviewSessionStatus.values",
+          "lineNumber": 10
+        },
+        {
+          "caller": "shouldHaveFourStatuses",
+          "callee": "assertEquals",
+          "lineNumber": 11
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "assertEquals",
+          "lineNumber": 16
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "VoiceInterviewSessionStatus.IN_PROGRESS.name",
+          "lineNumber": 16
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "assertEquals",
+          "lineNumber": 17
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "VoiceInterviewSessionStatus.PAUSED.name",
+          "lineNumber": 17
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "assertEquals",
+          "lineNumber": 18
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "VoiceInterviewSessionStatus.COMPLETED.name",
+          "lineNumber": 18
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "assertEquals",
+          "lineNumber": 19
+        },
+        {
+          "caller": "shouldHaveExpectedStatusNames",
+          "callee": "VoiceInterviewSessionStatus.FAILED.name",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/DashscopeLlmServiceTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "placeholder",
+          "startLine": 23,
+          "endLine": 26,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DashscopeLlmServiceTest",
+          "startLine": 16,
+          "endLine": 27,
+          "methods": [
+            "placeholder"
+          ],
+          "properties": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenAsrServiceTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 190,
+      "nonEmptyLines": 152,
+      "functions": [
+        {
+          "name": "setUp",
+          "startLine": 21,
+          "endLine": 37,
+          "params": []
+        },
+        {
+          "name": "testInit",
+          "startLine": 39,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "testStartTranscription",
+          "startLine": 45,
+          "endLine": 65,
+          "params": []
+        },
+        {
+          "name": "testStopTranscription",
+          "startLine": 67,
+          "endLine": 86,
+          "params": []
+        },
+        {
+          "name": "testMultipleSessions",
+          "startLine": 88,
+          "endLine": 107,
+          "params": []
+        },
+        {
+          "name": "testSendAudioToNonExistentSession",
+          "startLine": 109,
+          "endLine": 119,
+          "params": []
+        },
+        {
+          "name": "extractTranscriptPayload_textAndStash",
+          "startLine": 121,
+          "endLine": 128,
+          "params": []
+        },
+        {
+          "name": "extractTranscriptPayload_mixedPrefixSuffix",
+          "startLine": 130,
+          "endLine": 137,
+          "params": []
+        },
+        {
+          "name": "testDestroy",
+          "startLine": 139,
+          "endLine": 153,
+          "params": []
+        },
+        {
+          "name": "testReloadUpdatesAllFields",
+          "startLine": 155,
+          "endLine": 183,
+          "params": []
+        },
+        {
+          "name": "field",
+          "startLine": 185,
+          "endLine": 189,
+          "params": [
+            "obj",
+            "name"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "QwenAsrServiceTest",
+          "startLine": 16,
+          "endLine": 190,
+          "methods": [
+            "setUp",
+            "testInit",
+            "testStartTranscription",
+            "testStopTranscription",
+            "testMultipleSessions",
+            "testSendAudioToNonExistentSession",
+            "extractTranscriptPayload_textAndStash",
+            "extractTranscriptPayload_mixedPrefixSuffix",
+            "testDestroy",
+            "testReloadUpdatesAllFields",
+            "field"
+          ],
+          "properties": [
+            "asrService"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties",
+          "lineNumber": 23
+        },
+        {
+          "caller": "setUp",
+          "callee": "properties.getQwen().getAsr",
+          "lineNumber": 24
+        },
+        {
+          "caller": "setUp",
+          "callee": "properties.getQwen",
+          "lineNumber": 24
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setUrl",
+          "lineNumber": 25
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setModel",
+          "lineNumber": 26
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setApiKey",
+          "lineNumber": 27
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setLanguage",
+          "lineNumber": 28
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setFormat",
+          "lineNumber": 29
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setSampleRate",
+          "lineNumber": 30
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setEnableTurnDetection",
+          "lineNumber": 31
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setTurnDetectionType",
+          "lineNumber": 32
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setTurnDetectionThreshold",
+          "lineNumber": 33
+        },
+        {
+          "caller": "setUp",
+          "callee": "asr.setTurnDetectionSilenceDurationMs",
+          "lineNumber": 34
+        },
+        {
+          "caller": "setUp",
+          "callee": "new QwenAsrService",
+          "lineNumber": 36
+        },
+        {
+          "caller": "testInit",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 42
+        },
+        {
+          "caller": "testInit",
+          "callee": "asrService.init",
+          "lineNumber": 42
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "asrService.init",
+          "lineNumber": 48
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "new AtomicReference<>",
+          "lineNumber": 51
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "new AtomicReference<>",
+          "lineNumber": 52
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 54
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "resultRef.set",
+          "lineNumber": 56
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "errorRef.set",
+          "lineNumber": 57
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "assertTrue",
+          "lineNumber": 61
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 61
+        },
+        {
+          "caller": "testStartTranscription",
+          "callee": "asrService.stopTranscription",
+          "lineNumber": 64
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "asrService.init",
+          "lineNumber": 70
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "new CountDownLatch",
+          "lineNumber": 73
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 75
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "latch.countDown",
+          "lineNumber": 78
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "assertTrue",
+          "lineNumber": 81
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 81
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "asrService.stopTranscription",
+          "lineNumber": 83
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "assertFalse",
+          "lineNumber": 85
+        },
+        {
+          "caller": "testStopTranscription",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 85
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.init",
+          "lineNumber": 91
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 96
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 97
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "assertTrue",
+          "lineNumber": 99
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 99
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "assertTrue",
+          "lineNumber": 100
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 100
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.stopTranscription",
+          "lineNumber": 102
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.stopTranscription",
+          "lineNumber": 103
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "assertFalse",
+          "lineNumber": 105
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 105
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "assertFalse",
+          "lineNumber": 106
+        },
+        {
+          "caller": "testMultipleSessions",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 106
+        },
+        {
+          "caller": "testSendAudioToNonExistentSession",
+          "callee": "asrService.init",
+          "lineNumber": 112
+        },
+        {
+          "caller": "testSendAudioToNonExistentSession",
+          "callee": "assertThrows",
+          "lineNumber": 116
+        },
+        {
+          "caller": "testSendAudioToNonExistentSession",
+          "callee": "asrService.sendAudio",
+          "lineNumber": 117
+        },
+        {
+          "caller": "extractTranscriptPayload_textAndStash",
+          "callee": "JsonParser.parseString(\n                \"{\\\"type\\\":\\\"conversation.item.input_audio_transcription.text\\\",\\\"text\\\":\\\"\\\",\\\"stash\\\":\\\"北京的\\\"}\"\n        ).getAsJsonObject",
+          "lineNumber": 124
+        },
+        {
+          "caller": "extractTranscriptPayload_textAndStash",
+          "callee": "JsonParser.parseString",
+          "lineNumber": 124
+        },
+        {
+          "caller": "extractTranscriptPayload_textAndStash",
+          "callee": "assertEquals",
+          "lineNumber": 127
+        },
+        {
+          "caller": "extractTranscriptPayload_textAndStash",
+          "callee": "QwenAsrService.extractTranscriptPayload",
+          "lineNumber": 127
+        },
+        {
+          "caller": "extractTranscriptPayload_mixedPrefixSuffix",
+          "callee": "JsonParser.parseString(\n                \"{\\\"type\\\":\\\"conversation.item.input_audio_transcription.text\\\",\\\"text\\\":\\\"今天天气不错，\\\",\\\"stash\\\":\\\"阳光\\\"}\"\n        ).getAsJsonObject",
+          "lineNumber": 133
+        },
+        {
+          "caller": "extractTranscriptPayload_mixedPrefixSuffix",
+          "callee": "JsonParser.parseString",
+          "lineNumber": 133
+        },
+        {
+          "caller": "extractTranscriptPayload_mixedPrefixSuffix",
+          "callee": "assertEquals",
+          "lineNumber": 136
+        },
+        {
+          "caller": "extractTranscriptPayload_mixedPrefixSuffix",
+          "callee": "QwenAsrService.extractTranscriptPayload",
+          "lineNumber": 136
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.init",
+          "lineNumber": 142
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.startTranscription",
+          "lineNumber": 146
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 149
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.destroy",
+          "lineNumber": 149
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "assertFalse",
+          "lineNumber": 151
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 151
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "assertFalse",
+          "lineNumber": 152
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "asrService.hasActiveSession",
+          "lineNumber": 152
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "new VoiceInterviewProperties",
+          "lineNumber": 158
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newProps.getQwen().getAsr",
+          "lineNumber": 159
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newProps.getQwen",
+          "lineNumber": 159
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setUrl",
+          "lineNumber": 160
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setModel",
+          "lineNumber": 161
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setApiKey",
+          "lineNumber": 162
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setLanguage",
+          "lineNumber": 163
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setFormat",
+          "lineNumber": 164
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setSampleRate",
+          "lineNumber": 165
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setEnableTurnDetection",
+          "lineNumber": 166
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setTurnDetectionType",
+          "lineNumber": 167
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setTurnDetectionThreshold",
+          "lineNumber": 168
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newAsr.setTurnDetectionSilenceDurationMs",
+          "lineNumber": 169
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "asrService.reload",
+          "lineNumber": 171
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 173
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 173
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 175
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 175
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 176
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 176
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 177
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 177
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 178
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 178
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 179
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 179
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 180
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 180
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 182
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 182
+        },
+        {
+          "caller": "field",
+          "callee": "obj.getClass().getDeclaredField",
+          "lineNumber": 186
+        },
+        {
+          "caller": "field",
+          "callee": "obj.getClass",
+          "lineNumber": 186
+        },
+        {
+          "caller": "field",
+          "callee": "f.setAccessible",
+          "lineNumber": 187
+        },
+        {
+          "caller": "field",
+          "callee": "f.get",
+          "lineNumber": 188
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 11,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/QwenTtsServiceTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 113,
+      "nonEmptyLines": 91,
+      "functions": [
+        {
+          "name": "setUp",
+          "startLine": 15,
+          "endLine": 30,
+          "params": []
+        },
+        {
+          "name": "testInit",
+          "startLine": 32,
+          "endLine": 36,
+          "params": []
+        },
+        {
+          "name": "testSynthesizeEmptyText",
+          "startLine": 38,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "testSynthesizeNullText",
+          "startLine": 49,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "testSynthesizeWhitespaceText",
+          "startLine": 60,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "testDestroy",
+          "startLine": 71,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "testReloadUpdatesAllFields",
+          "startLine": 80,
+          "endLine": 106,
+          "params": []
+        },
+        {
+          "name": "field",
+          "startLine": 108,
+          "endLine": 112,
+          "params": [
+            "obj",
+            "name"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "QwenTtsServiceTest",
+          "startLine": 10,
+          "endLine": 113,
+          "methods": [
+            "setUp",
+            "testInit",
+            "testSynthesizeEmptyText",
+            "testSynthesizeNullText",
+            "testSynthesizeWhitespaceText",
+            "testDestroy",
+            "testReloadUpdatesAllFields",
+            "field"
+          ],
+          "properties": [
+            "ttsService"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties",
+          "lineNumber": 17
+        },
+        {
+          "caller": "setUp",
+          "callee": "properties.getQwen().getTts",
+          "lineNumber": 18
+        },
+        {
+          "caller": "setUp",
+          "callee": "properties.getQwen",
+          "lineNumber": 18
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setModel",
+          "lineNumber": 19
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setApiKey",
+          "lineNumber": 20
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setVoice",
+          "lineNumber": 21
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setFormat",
+          "lineNumber": 22
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setSampleRate",
+          "lineNumber": 23
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setMode",
+          "lineNumber": 24
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setLanguageType",
+          "lineNumber": 25
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setSpeechRate",
+          "lineNumber": 26
+        },
+        {
+          "caller": "setUp",
+          "callee": "tts.setVolume",
+          "lineNumber": 27
+        },
+        {
+          "caller": "setUp",
+          "callee": "new QwenTtsService",
+          "lineNumber": 29
+        },
+        {
+          "caller": "testInit",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 35
+        },
+        {
+          "caller": "testInit",
+          "callee": "ttsService.init",
+          "lineNumber": 35
+        },
+        {
+          "caller": "testSynthesizeEmptyText",
+          "callee": "ttsService.init",
+          "lineNumber": 41
+        },
+        {
+          "caller": "testSynthesizeEmptyText",
+          "callee": "ttsService.synthesize",
+          "lineNumber": 43
+        },
+        {
+          "caller": "testSynthesizeEmptyText",
+          "callee": "assertNotNull",
+          "lineNumber": 45
+        },
+        {
+          "caller": "testSynthesizeEmptyText",
+          "callee": "assertEquals",
+          "lineNumber": 46
+        },
+        {
+          "caller": "testSynthesizeNullText",
+          "callee": "ttsService.init",
+          "lineNumber": 52
+        },
+        {
+          "caller": "testSynthesizeNullText",
+          "callee": "ttsService.synthesize",
+          "lineNumber": 54
+        },
+        {
+          "caller": "testSynthesizeNullText",
+          "callee": "assertNotNull",
+          "lineNumber": 56
+        },
+        {
+          "caller": "testSynthesizeNullText",
+          "callee": "assertEquals",
+          "lineNumber": 57
+        },
+        {
+          "caller": "testSynthesizeWhitespaceText",
+          "callee": "ttsService.init",
+          "lineNumber": 63
+        },
+        {
+          "caller": "testSynthesizeWhitespaceText",
+          "callee": "ttsService.synthesize",
+          "lineNumber": 65
+        },
+        {
+          "caller": "testSynthesizeWhitespaceText",
+          "callee": "assertNotNull",
+          "lineNumber": 67
+        },
+        {
+          "caller": "testSynthesizeWhitespaceText",
+          "callee": "assertEquals",
+          "lineNumber": 68
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "ttsService.init",
+          "lineNumber": 74
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 77
+        },
+        {
+          "caller": "testDestroy",
+          "callee": "ttsService.destroy",
+          "lineNumber": 77
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "new VoiceInterviewProperties",
+          "lineNumber": 83
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newProps.getQwen().getTts",
+          "lineNumber": 84
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newProps.getQwen",
+          "lineNumber": 84
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setModel",
+          "lineNumber": 85
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setApiKey",
+          "lineNumber": 86
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setVoice",
+          "lineNumber": 87
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setFormat",
+          "lineNumber": 88
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setSampleRate",
+          "lineNumber": 89
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setMode",
+          "lineNumber": 90
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setLanguageType",
+          "lineNumber": 91
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setSpeechRate",
+          "lineNumber": 92
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "newTts.setVolume",
+          "lineNumber": 93
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "ttsService.reload",
+          "lineNumber": 95
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 97
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 97
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 98
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 98
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 99
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 99
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 100
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 100
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 101
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 101
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 102
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 102
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 103
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 103
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 104
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 104
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "assertEquals",
+          "lineNumber": 105
+        },
+        {
+          "caller": "testReloadUpdatesAllFields",
+          "callee": "field",
+          "lineNumber": 105
+        },
+        {
+          "caller": "field",
+          "callee": "obj.getClass().getDeclaredField",
+          "lineNumber": 109
+        },
+        {
+          "caller": "field",
+          "callee": "obj.getClass",
+          "lineNumber": 109
+        },
+        {
+          "caller": "field",
+          "callee": "f.setAccessible",
+          "lineNumber": 110
+        },
+        {
+          "caller": "field",
+          "callee": "f.get",
+          "lineNumber": 111
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewPromptServiceTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "placeholder",
+          "startLine": 20,
+          "endLine": 23,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceInterviewPromptServiceTest",
+          "startLine": 16,
+          "endLine": 24,
+          "methods": [
+            "placeholder"
+          ],
+          "properties": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServicePauseTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "functions": [
+        {
+          "name": "placeholder",
+          "startLine": 18,
+          "endLine": 21,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceInterviewServicePauseTest",
+          "startLine": 14,
+          "endLine": 22,
+          "methods": [
+            "placeholder"
+          ],
+          "properties": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/service/VoiceInterviewServiceTest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 865,
+      "nonEmptyLines": 705,
+      "functions": [
+        {
+          "name": "setUp",
+          "startLine": 79,
+          "endLine": 96,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceInterviewServiceTest",
+          "startLine": 49,
+          "endLine": 865,
+          "methods": [
+            "setUp"
+          ],
+          "properties": [
+            "sessionRepository",
+            "messageRepository",
+            "redissonClient",
+            "properties",
+            "bucket",
+            "voiceInterviewService",
+            "defaultProperties"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties",
+          "lineNumber": 82
+        },
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties.PhaseConfig",
+          "lineNumber": 83
+        },
+        {
+          "caller": "setUp",
+          "callee": "phaseConfig.setIntro",
+          "lineNumber": 84
+        },
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties.DurationConfig",
+          "lineNumber": 84
+        },
+        {
+          "caller": "setUp",
+          "callee": "phaseConfig.setTech",
+          "lineNumber": 85
+        },
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties.DurationConfig",
+          "lineNumber": 85
+        },
+        {
+          "caller": "setUp",
+          "callee": "phaseConfig.setProject",
+          "lineNumber": 86
+        },
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties.DurationConfig",
+          "lineNumber": 86
+        },
+        {
+          "caller": "setUp",
+          "callee": "phaseConfig.setHr",
+          "lineNumber": 87
+        },
+        {
+          "caller": "setUp",
+          "callee": "new VoiceInterviewProperties.DurationConfig",
+          "lineNumber": 87
+        },
+        {
+          "caller": "setUp",
+          "callee": "defaultProperties.setPhase",
+          "lineNumber": 88
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when(redissonClient.<VoiceInterviewSessionEntity>getBucket(anyString())).thenReturn",
+          "lineNumber": 91
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when",
+          "lineNumber": 91
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient",
+          "lineNumber": 91
+        },
+        {
+          "caller": "setUp",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 91
+        },
+        {
+          "caller": "setUp",
+          "callee": "anyString",
+          "lineNumber": 91
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when(bucket.get()).thenReturn",
+          "lineNumber": 92
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when",
+          "lineNumber": 92
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient",
+          "lineNumber": 92
+        },
+        {
+          "caller": "setUp",
+          "callee": "bucket.get",
+          "lineNumber": 92
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when(properties.getPhase()).thenReturn",
+          "lineNumber": 95
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient().when",
+          "lineNumber": 95
+        },
+        {
+          "caller": "setUp",
+          "callee": "lenient",
+          "lineNumber": 95
+        },
+        {
+          "caller": "setUp",
+          "callee": "properties.getPhase",
+          "lineNumber": 95
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\")\n                    .introEnabled(true)\n                    .techEnabled(true)\n                    .projectEnabled(true)\n                    .hrEnabled(true)\n                    .plannedDuration(30).build",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\")\n                    .introEnabled(true)\n                    .techEnabled(true)\n                    .projectEnabled(true)\n                    .hrEnabled(true).plannedDuration",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\")\n                    .introEnabled(true)\n                    .techEnabled(true)\n                    .projectEnabled(true).hrEnabled",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\")\n                    .introEnabled(true)\n                    .techEnabled(true).projectEnabled",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\")\n                    .introEnabled(true).techEnabled",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"ali-p8\").introEnabled",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder().roleType",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "CreateSessionRequest.builder",
+          "lineNumber": 108
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(1L)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).build",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(1L)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).status",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(1L)\n                    .roleType(\"ali-p8\").currentPhase",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(1L).roleType",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 117
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "when(sessionRepository.save(any(VoiceInterviewSessionEntity.class))).thenReturn",
+          "lineNumber": 124
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "when",
+          "lineNumber": 124
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "sessionRepository.save",
+          "lineNumber": 124
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "any",
+          "lineNumber": 124
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "voiceInterviewService.createSession",
+          "lineNumber": 127
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertNotNull",
+          "lineNumber": 130
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertEquals",
+          "lineNumber": 131
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "response.getSessionId",
+          "lineNumber": 131
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertEquals",
+          "lineNumber": 132
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "response.getRoleType",
+          "lineNumber": 132
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertEquals",
+          "lineNumber": 133
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "response.getCurrentPhase",
+          "lineNumber": 133
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertEquals",
+          "lineNumber": 134
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "response.getStatus",
+          "lineNumber": 134
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "assertNotNull",
+          "lineNumber": 135
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "response.getWebSocketUrl",
+          "lineNumber": 135
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "verify(sessionRepository, times(1)).save",
+          "lineNumber": 137
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "verify",
+          "lineNumber": 137
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "times",
+          "lineNumber": 137
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "any",
+          "lineNumber": 137
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "verify(bucket, times(1)).set",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "verify",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "times",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "any",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "eq",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession",
+          "callee": "any",
+          "lineNumber": 138
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\")\n                    .introEnabled(false)\n                    .techEnabled(true)\n                    .projectEnabled(false)\n                    .hrEnabled(false)\n                    .plannedDuration(15).build",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\")\n                    .introEnabled(false)\n                    .techEnabled(true)\n                    .projectEnabled(false)\n                    .hrEnabled(false).plannedDuration",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\")\n                    .introEnabled(false)\n                    .techEnabled(true)\n                    .projectEnabled(false).hrEnabled",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\")\n                    .introEnabled(false)\n                    .techEnabled(true).projectEnabled",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\")\n                    .introEnabled(false).techEnabled",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"byteance-algo\").introEnabled",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder().roleType",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "CreateSessionRequest.builder",
+          "lineNumber": 145
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(2L)\n                    .roleType(\"byteance-algo\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).build",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(2L)\n                    .roleType(\"byteance-algo\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).status",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(2L)\n                    .roleType(\"byteance-algo\").currentPhase",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(2L).roleType",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 154
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "when(sessionRepository.save(any(VoiceInterviewSessionEntity.class))).thenReturn",
+          "lineNumber": 161
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "when",
+          "lineNumber": 161
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "sessionRepository.save",
+          "lineNumber": 161
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "any",
+          "lineNumber": 161
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "voiceInterviewService.createSession",
+          "lineNumber": 164
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "assertEquals",
+          "lineNumber": 167
+        },
+        {
+          "caller": "testCreateSession_TechOnly",
+          "callee": "response.getCurrentPhase",
+          "lineNumber": 167
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\")\n                    .introEnabled(true)\n                    .plannedDuration(25).build",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\")\n                    .introEnabled(true).plannedDuration",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\").introEnabled",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder()\n                    .roleType(\"tencent-backend\").customJdText",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder().roleType",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "CreateSessionRequest.builder",
+          "lineNumber": 174
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(3L)\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).build",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(3L)\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).status",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(3L)\n                    .roleType(\"tencent-backend\")\n                    .customJdText(\"高级Java工程师，熟悉Spring Cloud\").currentPhase",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(3L)\n                    .roleType(\"tencent-backend\").customJdText",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(3L).roleType",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 181
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "when(sessionRepository.save(any(VoiceInterviewSessionEntity.class))).thenReturn",
+          "lineNumber": 189
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "when",
+          "lineNumber": 189
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "sessionRepository.save",
+          "lineNumber": 189
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "any",
+          "lineNumber": 189
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "ArgumentCaptor.forClass",
+          "lineNumber": 193
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "when(sessionRepository.save(captor.capture())).thenReturn",
+          "lineNumber": 194
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "when",
+          "lineNumber": 194
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "sessionRepository.save",
+          "lineNumber": 194
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "captor.capture",
+          "lineNumber": 194
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "voiceInterviewService.createSession",
+          "lineNumber": 196
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "captor.getValue",
+          "lineNumber": 199
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "assertEquals",
+          "lineNumber": 200
+        },
+        {
+          "caller": "testCreateSession_WithCustomJd",
+          "callee": "captured.getCustomJdText",
+          "lineNumber": 200
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 215
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 215
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS)\n                    .startTime(startTime)\n                    .plannedDuration(30).build",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS)\n                    .startTime(startTime).plannedDuration",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).startTime",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).status",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\").currentPhase",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).roleType",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 216
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 225
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "when",
+          "lineNumber": 225
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 225
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "Optional.of",
+          "lineNumber": 225
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "when(sessionRepository.save(any(VoiceInterviewSessionEntity.class))).thenReturn",
+          "lineNumber": 226
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "when",
+          "lineNumber": 226
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "sessionRepository.save",
+          "lineNumber": 226
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "any",
+          "lineNumber": 226
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "voiceInterviewService.endSession",
+          "lineNumber": 229
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "sessionId.toString",
+          "lineNumber": 229
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "assertEquals",
+          "lineNumber": 232
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "session.getCurrentPhase",
+          "lineNumber": 232
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "assertEquals",
+          "lineNumber": 233
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "session.getStatus",
+          "lineNumber": 233
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "assertNotNull",
+          "lineNumber": 234
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "session.getEndTime",
+          "lineNumber": 234
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "assertNotNull",
+          "lineNumber": 235
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "session.getActualDuration",
+          "lineNumber": 235
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "Duration.between(startTime, LocalDateTime.now()).toSeconds",
+          "lineNumber": 238
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "Duration.between",
+          "lineNumber": 238
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 238
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "assertTrue",
+          "lineNumber": 239
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "Math.abs",
+          "lineNumber": 239
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "session.getActualDuration",
+          "lineNumber": 239
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "verify(sessionRepository, times(1)).save",
+          "lineNumber": 241
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "verify",
+          "lineNumber": 241
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "times",
+          "lineNumber": 241
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "verify(bucket, times(1)).delete",
+          "lineNumber": 242
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "verify",
+          "lineNumber": 242
+        },
+        {
+          "caller": "testEndSession",
+          "callee": "times",
+          "lineNumber": 242
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 250
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "when",
+          "lineNumber": 250
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 250
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "Optional.empty",
+          "lineNumber": 250
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 253
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "voiceInterviewService.endSession",
+          "lineNumber": 253
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "sessionId.toString",
+          "lineNumber": 253
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "verify(sessionRepository, never()).save",
+          "lineNumber": 255
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "verify",
+          "lineNumber": 255
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "never",
+          "lineNumber": 255
+        },
+        {
+          "caller": "testEndSession_NotFound",
+          "callee": "any",
+          "lineNumber": 255
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 262
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "voiceInterviewService.endSession",
+          "lineNumber": 262
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "verify(sessionRepository, never()).findById",
+          "lineNumber": 264
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "verify",
+          "lineNumber": 264
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "never",
+          "lineNumber": 264
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "any",
+          "lineNumber": 264
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "verify(sessionRepository, never()).save",
+          "lineNumber": 265
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "verify",
+          "lineNumber": 265
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "never",
+          "lineNumber": 265
+        },
+        {
+          "caller": "testEndSession_InvalidId",
+          "callee": "any",
+          "lineNumber": 265
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.PAUSED)\n                    .startTime(LocalDateTime.now().minusMinutes(10))\n                    .plannedDuration(30).build",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.PAUSED)\n                    .startTime(LocalDateTime.now().minusMinutes(10)).plannedDuration",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .status(VoiceInterviewSessionStatus.PAUSED).startTime",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).status",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\").currentPhase",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).roleType",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 280
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 285
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 285
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "Arrays.asList",
+          "lineNumber": 289
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "createMessage",
+          "lineNumber": 290
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "createMessage",
+          "lineNumber": 291
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 294
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when",
+          "lineNumber": 294
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 294
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "Optional.of",
+          "lineNumber": 294
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when(sessionRepository.save(any(VoiceInterviewSessionEntity.class))).thenReturn",
+          "lineNumber": 295
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when",
+          "lineNumber": 295
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "sessionRepository.save",
+          "lineNumber": 295
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "any",
+          "lineNumber": 295
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when(messageRepository.findBySessionIdOrderBySequenceNumAsc(sessionId)).thenReturn",
+          "lineNumber": 296
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "when",
+          "lineNumber": 296
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "messageRepository.findBySessionIdOrderBySequenceNumAsc",
+          "lineNumber": 296
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "voiceInterviewService.resumeSession",
+          "lineNumber": 299
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "sessionId.toString",
+          "lineNumber": 299
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "assertNotNull",
+          "lineNumber": 302
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 303
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "VoiceInterviewSessionStatus.IN_PROGRESS.name",
+          "lineNumber": 303
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "response.getStatus",
+          "lineNumber": 303
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "assertNotNull",
+          "lineNumber": 304
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "response.getStartTime",
+          "lineNumber": 304
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 305
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "response.getPlannedDuration",
+          "lineNumber": 305
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "verify(messageRepository, times(1)).findBySessionIdOrderBySequenceNumAsc",
+          "lineNumber": 308
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "verify",
+          "lineNumber": 308
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "times",
+          "lineNumber": 308
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "verify(sessionRepository, times(1)).save",
+          "lineNumber": 309
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "verify",
+          "lineNumber": 309
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "times",
+          "lineNumber": 309
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "argThat",
+          "lineNumber": 309
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "session.getStatus",
+          "lineNumber": 310
+        },
+        {
+          "caller": "testResumeSession_LoadsConversationHistory",
+          "callee": "session.getResumedAt",
+          "lineNumber": 311
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).build",
+          "lineNumber": 320
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).status",
+          "lineNumber": 320
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 320
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 320
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 325
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "when",
+          "lineNumber": 325
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 325
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "Optional.of",
+          "lineNumber": 325
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "assertThrows",
+          "lineNumber": 328
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "voiceInterviewService.resumeSession",
+          "lineNumber": 329
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "sessionId.toString",
+          "lineNumber": 329
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "verify(sessionRepository, never()).save",
+          "lineNumber": 332
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "verify",
+          "lineNumber": 332
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "never",
+          "lineNumber": 332
+        },
+        {
+          "caller": "testResumeSession_InvalidStatus",
+          "callee": "any",
+          "lineNumber": 332
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 340
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "when",
+          "lineNumber": 340
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 340
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "Optional.empty",
+          "lineNumber": 340
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "assertThrows",
+          "lineNumber": 343
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "voiceInterviewService.resumeSession",
+          "lineNumber": 344
+        },
+        {
+          "caller": "testResumeSession_SessionNotFound",
+          "callee": "sessionId.toString",
+          "lineNumber": 344
+        },
+        {
+          "caller": "createMessage",
+          "callee": "new VoiceInterviewMessageEntity",
+          "lineNumber": 349
+        },
+        {
+          "caller": "createMessage",
+          "callee": "message.setSessionId",
+          "lineNumber": 350
+        },
+        {
+          "caller": "createMessage",
+          "callee": "message.setSequenceNum",
+          "lineNumber": 351
+        },
+        {
+          "caller": "createMessage",
+          "callee": "message.setUserRecognizedText",
+          "lineNumber": 352
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).build",
+          "lineNumber": 368
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).currentPhase",
+          "lineNumber": 368
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 368
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 368
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 373
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "when",
+          "lineNumber": 373
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 373
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "Optional.of",
+          "lineNumber": 373
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "voiceInterviewService.startPhase",
+          "lineNumber": 376
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "sessionId.toString",
+          "lineNumber": 376
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "assertEquals",
+          "lineNumber": 379
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "session.getCurrentPhase",
+          "lineNumber": 379
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "verify(sessionRepository, times(1)).save",
+          "lineNumber": 380
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "verify",
+          "lineNumber": 380
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "times",
+          "lineNumber": 380
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "verify(bucket, times(1)).set",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "verify",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "times",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "any",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "eq",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_IntroToTech",
+          "callee": "any",
+          "lineNumber": 381
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).build",
+          "lineNumber": 389
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).currentPhase",
+          "lineNumber": 389
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 389
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 389
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 394
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "when",
+          "lineNumber": 394
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 394
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "Optional.of",
+          "lineNumber": 394
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "voiceInterviewService.startPhase",
+          "lineNumber": 397
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "sessionId.toString",
+          "lineNumber": 397
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "assertEquals",
+          "lineNumber": 400
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "session.getCurrentPhase",
+          "lineNumber": 400
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "verify(sessionRepository, never()).save",
+          "lineNumber": 401
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "verify",
+          "lineNumber": 401
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "never",
+          "lineNumber": 401
+        },
+        {
+          "caller": "testStartPhase_InvalidPhase",
+          "callee": "any",
+          "lineNumber": 401
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .techEnabled(true).build",
+          "lineNumber": 408
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).techEnabled",
+          "lineNumber": 408
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 408
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 408
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 414
+        },
+        {
+          "caller": "testGetNextPhase_IntroToTech",
+          "callee": "assertEquals",
+          "lineNumber": 417
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH)\n                    .projectEnabled(true).build",
+          "lineNumber": 424
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).projectEnabled",
+          "lineNumber": 424
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 424
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 424
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 430
+        },
+        {
+          "caller": "testGetNextPhase_TechToProject",
+          "callee": "assertEquals",
+          "lineNumber": 433
+        },
+        {
+          "caller": "testGetNextPhase_HrToCompleted",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR).build",
+          "lineNumber": 440
+        },
+        {
+          "caller": "testGetNextPhase_HrToCompleted",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 440
+        },
+        {
+          "caller": "testGetNextPhase_HrToCompleted",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 440
+        },
+        {
+          "caller": "testGetNextPhase_HrToCompleted",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 445
+        },
+        {
+          "caller": "testGetNextPhase_HrToCompleted",
+          "callee": "assertEquals",
+          "lineNumber": 448
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .techEnabled(false)\n                    .projectEnabled(false)\n                    .hrEnabled(true).build",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .techEnabled(false)\n                    .projectEnabled(false).hrEnabled",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .techEnabled(false).projectEnabled",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).techEnabled",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 455
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 463
+        },
+        {
+          "caller": "testGetNextPhase_SkipDisabledPhases",
+          "callee": "assertEquals",
+          "lineNumber": 466
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).build",
+          "lineNumber": 484
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).currentPhase",
+          "lineNumber": 484
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 484
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 484
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 489
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "when",
+          "lineNumber": 489
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 489
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "Optional.of",
+          "lineNumber": 489
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "when(messageRepository.findBySessionIdOrderBySequenceNumAsc(sessionId)).thenReturn",
+          "lineNumber": 490
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "when",
+          "lineNumber": 490
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "messageRepository.findBySessionIdOrderBySequenceNumAsc",
+          "lineNumber": 490
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "Arrays.asList",
+          "lineNumber": 491
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder().sequenceNum(1).build",
+          "lineNumber": 492
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder().sequenceNum",
+          "lineNumber": 492
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder",
+          "lineNumber": 492
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder().sequenceNum(2).build",
+          "lineNumber": 493
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder().sequenceNum",
+          "lineNumber": 493
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "VoiceInterviewMessageEntity.builder",
+          "lineNumber": 493
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "voiceInterviewService.saveMessage",
+          "lineNumber": 497
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "sessionId.toString",
+          "lineNumber": 497
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "ArgumentCaptor.forClass",
+          "lineNumber": 501
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "verify(messageRepository, times(1)).save",
+          "lineNumber": 502
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "verify",
+          "lineNumber": 502
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "times",
+          "lineNumber": 502
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "captor.capture",
+          "lineNumber": 502
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "captor.getValue",
+          "lineNumber": 504
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 505
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getSessionId",
+          "lineNumber": 505
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 506
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getMessageType",
+          "lineNumber": 506
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 507
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getPhase",
+          "lineNumber": 507
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 508
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getUserRecognizedText",
+          "lineNumber": 508
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 509
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getAiGeneratedText",
+          "lineNumber": 509
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "assertEquals",
+          "lineNumber": 510
+        },
+        {
+          "caller": "testSaveMessage",
+          "callee": "savedMessage.getSequenceNum",
+          "lineNumber": 510
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(1L)\n                    .sessionId(sessionId)\n                    .sequenceNum(1)\n                    .userRecognizedText(\"第一句话\").build",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(1L)\n                    .sessionId(sessionId)\n                    .sequenceNum(1).userRecognizedText",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(1L)\n                    .sessionId(sessionId).sequenceNum",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(1L).sessionId",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder().id",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder",
+          "lineNumber": 519
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(2L)\n                    .sessionId(sessionId)\n                    .sequenceNum(2)\n                    .aiGeneratedText(\"第一句回复\").build",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(2L)\n                    .sessionId(sessionId)\n                    .sequenceNum(2).aiGeneratedText",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(2L)\n                    .sessionId(sessionId).sequenceNum",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(2L).sessionId",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder().id",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder",
+          "lineNumber": 526
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(3L)\n                    .sessionId(sessionId)\n                    .sequenceNum(3)\n                    .userRecognizedText(\"第二句话\").build",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(3L)\n                    .sessionId(sessionId)\n                    .sequenceNum(3).userRecognizedText",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(3L)\n                    .sessionId(sessionId).sequenceNum",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder()\n                    .id(3L).sessionId",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder().id",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "VoiceInterviewMessageEntity.builder",
+          "lineNumber": 533
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "Arrays.asList",
+          "lineNumber": 540
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "when(messageRepository.findBySessionIdOrderBySequenceNumAsc(sessionId)).thenReturn",
+          "lineNumber": 542
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "when",
+          "lineNumber": 542
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "messageRepository.findBySessionIdOrderBySequenceNumAsc",
+          "lineNumber": 542
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "voiceInterviewService.getConversationHistory",
+          "lineNumber": 547
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "sessionId.toString",
+          "lineNumber": 547
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 550
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.size",
+          "lineNumber": 550
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 551
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get(0).getSequenceNum",
+          "lineNumber": 551
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get",
+          "lineNumber": 551
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 552
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get(1).getSequenceNum",
+          "lineNumber": 552
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get",
+          "lineNumber": 552
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "assertEquals",
+          "lineNumber": 553
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get(2).getSequenceNum",
+          "lineNumber": 553
+        },
+        {
+          "caller": "testGetConversationHistory",
+          "callee": "result.get",
+          "lineNumber": 553
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 561
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "when",
+          "lineNumber": 561
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 561
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "Optional.empty",
+          "lineNumber": 561
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "assertDoesNotThrow",
+          "lineNumber": 564
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "voiceInterviewService.saveMessage",
+          "lineNumber": 565
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "sessionId.toString",
+          "lineNumber": 565
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "verify(messageRepository, never()).save",
+          "lineNumber": 568
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "verify",
+          "lineNumber": 568
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "never",
+          "lineNumber": 568
+        },
+        {
+          "caller": "testSaveMessage_SessionNotFound",
+          "callee": "any",
+          "lineNumber": 568
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).build",
+          "lineNumber": 583
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"ali-p8\").currentPhase",
+          "lineNumber": 583
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).roleType",
+          "lineNumber": 583
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 583
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 583
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "when(bucket.get()).thenReturn",
+          "lineNumber": 589
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "when",
+          "lineNumber": 589
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "bucket.get",
+          "lineNumber": 589
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "voiceInterviewService.getSession",
+          "lineNumber": 592
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "assertNotNull",
+          "lineNumber": 595
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "assertEquals",
+          "lineNumber": 596
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "result.getId",
+          "lineNumber": 596
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "assertEquals",
+          "lineNumber": 597
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "result.getRoleType",
+          "lineNumber": 597
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "verify(sessionRepository, never()).findById",
+          "lineNumber": 600
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "verify",
+          "lineNumber": 600
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "never",
+          "lineNumber": 600
+        },
+        {
+          "caller": "testGetSession_CacheHit",
+          "callee": "any",
+          "lineNumber": 600
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"byteance-algo\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.PROJECT).build",
+          "lineNumber": 608
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"byteance-algo\").currentPhase",
+          "lineNumber": 608
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).roleType",
+          "lineNumber": 608
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 608
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 608
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "when(bucket.get()).thenReturn",
+          "lineNumber": 614
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "when",
+          "lineNumber": 614
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "bucket.get",
+          "lineNumber": 614
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "when(sessionRepository.findById(sessionId)).thenReturn",
+          "lineNumber": 615
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "when",
+          "lineNumber": 615
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 615
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "Optional.of",
+          "lineNumber": 615
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "voiceInterviewService.getSession",
+          "lineNumber": 618
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "assertNotNull",
+          "lineNumber": 621
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "assertEquals",
+          "lineNumber": 622
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "result.getId",
+          "lineNumber": 622
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "assertEquals",
+          "lineNumber": 623
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "result.getRoleType",
+          "lineNumber": 623
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "verify(sessionRepository, times(1)).findById",
+          "lineNumber": 625
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "verify",
+          "lineNumber": 625
+        },
+        {
+          "caller": "testGetSession_CacheMiss",
+          "callee": "times",
+          "lineNumber": 625
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "voiceInterviewService.getSession",
+          "lineNumber": 632
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "assertNull",
+          "lineNumber": 635
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "verify(redissonClient, never()).getBucket",
+          "lineNumber": 636
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "verify",
+          "lineNumber": 636
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "never",
+          "lineNumber": 636
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "anyString",
+          "lineNumber": 636
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "verify(sessionRepository, never()).findById",
+          "lineNumber": 637
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "verify",
+          "lineNumber": 637
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "never",
+          "lineNumber": 637
+        },
+        {
+          "caller": "testGetSession_NullId",
+          "callee": "any",
+          "lineNumber": 637
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"tencent-backend\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS)\n                    .startTime(LocalDateTime.now())\n                    .plannedDuration(20).build",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"tencent-backend\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS)\n                    .startTime(LocalDateTime.now()).plannedDuration",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"tencent-backend\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR)\n                    .status(VoiceInterviewSessionStatus.IN_PROGRESS).startTime",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"tencent-backend\")\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR).status",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId)\n                    .roleType(\"tencent-backend\").currentPhase",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .id(sessionId).roleType",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder().id",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 645
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 650
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "when(bucket.get()).thenReturn",
+          "lineNumber": 654
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "when",
+          "lineNumber": 654
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "bucket.get",
+          "lineNumber": 654
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "voiceInterviewService.getSessionDTO",
+          "lineNumber": 657
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertNotNull",
+          "lineNumber": 660
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertEquals",
+          "lineNumber": 661
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "dto.getSessionId",
+          "lineNumber": 661
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertEquals",
+          "lineNumber": 662
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "dto.getRoleType",
+          "lineNumber": 662
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertEquals",
+          "lineNumber": 663
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "dto.getCurrentPhase",
+          "lineNumber": 663
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertEquals",
+          "lineNumber": 664
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "dto.getStatus",
+          "lineNumber": 664
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "assertNotNull",
+          "lineNumber": 665
+        },
+        {
+          "caller": "testGetSessionDTO",
+          "callee": "dto.getWebSocketUrl",
+          "lineNumber": 665
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).build",
+          "lineNumber": 679
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 679
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 679
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 683
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 683
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 687
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxDuration",
+          "callee": "assertTrue",
+          "lineNumber": 692
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.TECH).build",
+          "lineNumber": 699
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 699
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 699
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 703
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 703
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 707
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_MaxQuestions",
+          "callee": "assertTrue",
+          "lineNumber": 712
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.PROJECT).build",
+          "lineNumber": 719
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 719
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 719
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 723
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 723
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 727
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_SuggestedDurationWithMinQuestions",
+          "callee": "assertTrue",
+          "lineNumber": 732
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.HR).build",
+          "lineNumber": 739
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 739
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 739
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "LocalDateTime.now().minusMinutes",
+          "lineNumber": 743
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 743
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 747
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NotMet",
+          "callee": "assertFalse",
+          "lineNumber": 752
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.COMPLETED).build",
+          "lineNumber": 759
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 759
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 759
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "LocalDateTime.now().minusHours",
+          "lineNumber": 763
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 763
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 767
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_CompletedPhase",
+          "callee": "assertFalse",
+          "lineNumber": 772
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(null).build",
+          "lineNumber": 779
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 779
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 779
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 783
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "voiceInterviewService.shouldTransitionToNextPhase",
+          "lineNumber": 787
+        },
+        {
+          "caller": "testShouldTransitionToNextPhase_NullPhase",
+          "callee": "assertFalse",
+          "lineNumber": 792
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "when(bucket.get()).thenReturn",
+          "lineNumber": 806
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "when",
+          "lineNumber": 806
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "bucket.get",
+          "lineNumber": 806
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "when(sessionRepository.findById(anyLong())).thenReturn",
+          "lineNumber": 807
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "when",
+          "lineNumber": 807
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "sessionRepository.findById",
+          "lineNumber": 807
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "anyLong",
+          "lineNumber": 807
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "Optional.empty",
+          "lineNumber": 807
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "voiceInterviewService.getCurrentPhase",
+          "lineNumber": 811
+        },
+        {
+          "caller": "testGetCurrentPhase_SessionNotFound",
+          "callee": "assertNull",
+          "lineNumber": 814
+        },
+        {
+          "caller": "testParseSessionId_InvalidFormat",
+          "callee": "voiceInterviewService.getSession",
+          "lineNumber": 824
+        },
+        {
+          "caller": "testParseSessionId_InvalidFormat",
+          "callee": "assertNull",
+          "lineNumber": 827
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(null)\n                    .introEnabled(true).build",
+          "lineNumber": 834
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(null).introEnabled",
+          "lineNumber": 834
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 834
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 834
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 840
+        },
+        {
+          "caller": "testGetNextPhase_NullCurrentPhase",
+          "callee": "assertEquals",
+          "lineNumber": 843
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .introEnabled(false)\n                    .techEnabled(false)\n                    .projectEnabled(false)\n                    .hrEnabled(false).build",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .introEnabled(false)\n                    .techEnabled(false)\n                    .projectEnabled(false).hrEnabled",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .introEnabled(false)\n                    .techEnabled(false).projectEnabled",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO)\n                    .introEnabled(false).techEnabled",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder()\n                    .currentPhase(VoiceInterviewSessionEntity.InterviewPhase.INTRO).introEnabled",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder().currentPhase",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "VoiceInterviewSessionEntity.builder",
+          "lineNumber": 850
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "voiceInterviewService.getNextPhase",
+          "lineNumber": 859
+        },
+        {
+          "caller": "testGetNextPhase_AllPhasesDisabled",
+          "callee": "assertEquals",
+          "lineNumber": 862
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/test/resources/application-test.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 164,
+      "nonEmptyLines": 149,
+      "sections": [
+        {
+          "heading": "spring",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "app",
+          "level": 1,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "docker/postgres/init.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "language": "conf",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "metrics": {}
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/history.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 161,
+      "nonEmptyLines": 144,
+      "exports": [
+        {
+          "name": "historyApi",
+          "line": 90,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getResumes",
+          "callee": "request.get",
+          "lineNumber": 95
+        },
+        {
+          "caller": "getResumeDetail",
+          "callee": "request.get",
+          "lineNumber": 102
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "request.get",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportAnalysisPdf",
+          "callee": "request.getInstance().get",
+          "lineNumber": 116
+        },
+        {
+          "caller": "exportAnalysisPdf",
+          "callee": "request.getInstance",
+          "lineNumber": 116
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "request.getInstance().get",
+          "lineNumber": 127
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "request.getInstance",
+          "lineNumber": 127
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "request.delete",
+          "lineNumber": 138
+        },
+        {
+          "caller": "deleteInterview",
+          "callee": "request.delete",
+          "lineNumber": 145
+        },
+        {
+          "caller": "getStatistics",
+          "callee": "request.get",
+          "lineNumber": 152
+        },
+        {
+          "caller": "reanalyze",
+          "callee": "request.post",
+          "lineNumber": 159
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/interview.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 106,
+      "nonEmptyLines": 96,
+      "exports": [
+        {
+          "name": "interviewApi",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "listSessions",
+          "callee": "request.get",
+          "lineNumber": 30
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.post",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getSession",
+          "callee": "request.get",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "request.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.post",
+          "lineNumber": 60
+        },
+        {
+          "caller": "getReport",
+          "callee": "request.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "await request.get",
+          "lineNumber": 83
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.put",
+          "lineNumber": 94
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "request.post",
+          "lineNumber": 104
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/interviewSchedule.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 39,
+      "exports": [
+        {
+          "name": "interviewScheduleApi",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/knowledgebase.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 280,
+      "nonEmptyLines": 245,
+      "exports": [
+        {
+          "name": "knowledgeBaseApi",
+          "line": 62,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "formData.append",
+          "lineNumber": 68
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "formData.append",
+          "lineNumber": 70
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "formData.append",
+          "lineNumber": 73
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "request.upload",
+          "lineNumber": 75
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "axios.get",
+          "lineNumber": 82
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "params.append",
+          "lineNumber": 94
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "params.append",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "params.toString",
+          "lineNumber": 99
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "request.get",
+          "lineNumber": 100
+        },
+        {
+          "caller": "getKnowledgeBase",
+          "callee": "request.get",
+          "lineNumber": 107
+        },
+        {
+          "caller": "deleteKnowledgeBase",
+          "callee": "request.delete",
+          "lineNumber": 114
+        },
+        {
+          "caller": "getAllCategories",
+          "callee": "request.get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "request.get",
+          "lineNumber": 130
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "encodeURIComponent",
+          "lineNumber": 130
+        },
+        {
+          "caller": "getUncategorized",
+          "callee": "request.get",
+          "lineNumber": 137
+        },
+        {
+          "caller": "updateCategory",
+          "callee": "request.put",
+          "lineNumber": 144
+        },
+        {
+          "caller": "search",
+          "callee": "request.get",
+          "lineNumber": 153
+        },
+        {
+          "caller": "search",
+          "callee": "encodeURIComponent",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getStatistics",
+          "callee": "request.get",
+          "lineNumber": 162
+        },
+        {
+          "caller": "revectorize",
+          "callee": "request.post",
+          "lineNumber": 171
+        },
+        {
+          "caller": "queryKnowledgeBase",
+          "callee": "request.post",
+          "lineNumber": 178
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "fetch",
+          "lineNumber": 194
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "JSON.stringify",
+          "lineNumber": 199
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "response.json",
+          "lineNumber": 205
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "response.body?.getReader",
+          "lineNumber": 215
+        },
+        {
+          "caller": "extractContent",
+          "callee": "line.startsWith",
+          "lineNumber": 225
+        },
+        {
+          "caller": "extractContent",
+          "callee": "line.substring",
+          "lineNumber": 228
+        },
+        {
+          "caller": "extractContent",
+          "callee": "content.startsWith",
+          "lineNumber": 231
+        },
+        {
+          "caller": "extractContent",
+          "callee": "content.substring",
+          "lineNumber": 232
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "reader.read",
+          "lineNumber": 242
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "extractContent",
+          "lineNumber": 247
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "onMessage",
+          "lineNumber": 249
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "onComplete",
+          "lineNumber": 252
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "decoder.decode",
+          "lineNumber": 257
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "buffer.split",
+          "lineNumber": 261
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "lines.pop",
+          "lineNumber": 263
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "extractContent",
+          "lineNumber": 267
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "onMessage",
+          "lineNumber": 270
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "onError",
+          "lineNumber": 277
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "getErrorMessage",
+          "lineNumber": 277
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/llmProvider.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 43,
+      "exports": [
+        {
+          "name": "llmProviderApi",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/ragChat.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 217,
+      "nonEmptyLines": 187,
+      "exports": [
+        {
+          "name": "ragChatApi",
+          "line": 53,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createSession",
+          "callee": "request.post",
+          "lineNumber": 58
+        },
+        {
+          "caller": "listSessions",
+          "callee": "request.get",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getSessionDetail",
+          "callee": "request.get",
+          "lineNumber": 75
+        },
+        {
+          "caller": "updateSessionTitle",
+          "callee": "request.put",
+          "lineNumber": 82
+        },
+        {
+          "caller": "updateKnowledgeBases",
+          "callee": "request.put",
+          "lineNumber": 89
+        },
+        {
+          "caller": "togglePin",
+          "callee": "request.put",
+          "lineNumber": 98
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "request.delete",
+          "lineNumber": 105
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "fetch",
+          "lineNumber": 119
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "JSON.stringify",
+          "lineNumber": 124
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "response.json",
+          "lineNumber": 131
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "response.body?.getReader",
+          "lineNumber": 141
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "event.trim",
+          "lineNumber": 151
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "event.split",
+          "lineNumber": 153
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "line.startsWith",
+          "lineNumber": 157
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "contentParts.push",
+          "lineNumber": 160
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "line.substring",
+          "lineNumber": 160
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "contentParts.join('')\n          .replace(/\\\\n/g, '\\n')\n          .replace",
+          "lineNumber": 167
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "contentParts.join('')\n          .replace",
+          "lineNumber": 167
+        },
+        {
+          "caller": "extractEventContent",
+          "callee": "contentParts.join",
+          "lineNumber": 167
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "reader.read",
+          "lineNumber": 173
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "extractEventContent",
+          "lineNumber": 177
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "onMessage",
+          "lineNumber": 179
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "onComplete",
+          "lineNumber": 182
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "decoder.decode",
+          "lineNumber": 186
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.indexOf",
+          "lineNumber": 189
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.indexOf",
+          "lineNumber": 192
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring(0, singleLineIndex).startsWith",
+          "lineNumber": 193
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring",
+          "lineNumber": 193
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring",
+          "lineNumber": 194
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "extractEventContent",
+          "lineNumber": 195
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "onMessage",
+          "lineNumber": 197
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring",
+          "lineNumber": 199
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring",
+          "lineNumber": 205
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "buffer.substring",
+          "lineNumber": 206
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "extractEventContent",
+          "lineNumber": 208
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "onMessage",
+          "lineNumber": 210
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "onError",
+          "lineNumber": 214
+        },
+        {
+          "caller": "sendMessageStream",
+          "callee": "getErrorMessage",
+          "lineNumber": 214
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/request.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 127,
+      "nonEmptyLines": 109,
+      "functions": [
+        {
+          "name": "getErrorMessage",
+          "startLine": 120,
+          "endLine": 125,
+          "params": [
+            "error"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "request",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "getErrorMessage",
+          "line": 120,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get",
+          "callee": "instance.get(url, config).then",
+          "lineNumber": 79
+        },
+        {
+          "caller": "get",
+          "callee": "instance.get",
+          "lineNumber": 79
+        },
+        {
+          "caller": "post",
+          "callee": "instance.post(url, data, config).then",
+          "lineNumber": 83
+        },
+        {
+          "caller": "post",
+          "callee": "instance.post",
+          "lineNumber": 83
+        },
+        {
+          "caller": "put",
+          "callee": "instance.put(url, data, config).then",
+          "lineNumber": 87
+        },
+        {
+          "caller": "put",
+          "callee": "instance.put",
+          "lineNumber": 87
+        },
+        {
+          "caller": "patch",
+          "callee": "instance.patch(url, data, config).then",
+          "lineNumber": 91
+        },
+        {
+          "caller": "patch",
+          "callee": "instance.patch",
+          "lineNumber": 91
+        },
+        {
+          "caller": "delete",
+          "callee": "instance.delete(url, config).then",
+          "lineNumber": 95
+        },
+        {
+          "caller": "delete",
+          "callee": "instance.delete",
+          "lineNumber": 95
+        },
+        {
+          "caller": "upload",
+          "callee": "instance.post(url, formData, {\n      timeout: 300000, // 5分钟，与Nginx proxy_read_timeout对齐\n      headers: { 'Content-Type': 'multipart/form-data' },\n      ...config,\n    }).then",
+          "lineNumber": 102
+        },
+        {
+          "caller": "upload",
+          "callee": "instance.post",
+          "lineNumber": 102
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/resume.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 18,
+      "exports": [
+        {
+          "name": "resumeApi",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "uploadAndAnalyze",
+          "callee": "formData.append",
+          "lineNumber": 10
+        },
+        {
+          "caller": "uploadAndAnalyze",
+          "callee": "request.upload",
+          "lineNumber": 11
+        },
+        {
+          "caller": "healthCheck",
+          "callee": "request.get",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/skill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 35,
+      "exports": [
+        {
+          "name": "skillApi",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "listSkills",
+          "callee": "request.get",
+          "lineNumber": 31
+        },
+        {
+          "caller": "getSkill",
+          "callee": "request.get",
+          "lineNumber": 35
+        },
+        {
+          "caller": "parseJd",
+          "callee": "request.post",
+          "lineNumber": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/api/voiceInterview.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 389,
+      "nonEmptyLines": 342,
+      "functions": [
+        {
+          "name": "connectWebSocket",
+          "startLine": 379,
+          "endLine": 387,
+          "params": [
+            "sessionId",
+            "webSocketUrl",
+            "handlers"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceInterviewWebSocket",
+          "startLine": 229,
+          "endLine": 372,
+          "methods": [
+            "constructor",
+            "connect",
+            "sendAudio",
+            "sendControl",
+            "disconnect",
+            "getReadyState",
+            "isConnected"
+          ],
+          "properties": [
+            "ws",
+            "url",
+            "handlers",
+            "reconnectAttempts",
+            "maxReconnectAttempts",
+            "reconnectDelay"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "voiceInterviewApi",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "VoiceInterviewWebSocket",
+          "line": 229,
+          "isDefault": false
+        },
+        {
+          "name": "connectWebSocket",
+          "line": 379,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createSession",
+          "callee": "request.post",
+          "lineNumber": 142
+        },
+        {
+          "caller": "getSession",
+          "callee": "request.get",
+          "lineNumber": 149
+        },
+        {
+          "caller": "endSession",
+          "callee": "request.post",
+          "lineNumber": 156
+        },
+        {
+          "caller": "getMessages",
+          "callee": "request.get",
+          "lineNumber": 163
+        },
+        {
+          "caller": "getEvaluation",
+          "callee": "request.get",
+          "lineNumber": 172
+        },
+        {
+          "caller": "generateEvaluation",
+          "callee": "request.post",
+          "lineNumber": 181
+        },
+        {
+          "caller": "pauseSession",
+          "callee": "request.put",
+          "lineNumber": 190
+        },
+        {
+          "caller": "resumeSession",
+          "callee": "request.put",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getAllSessions",
+          "callee": "params.append",
+          "lineNumber": 210
+        },
+        {
+          "caller": "getAllSessions",
+          "callee": "params.append",
+          "lineNumber": 211
+        },
+        {
+          "caller": "getAllSessions",
+          "callee": "request.get",
+          "lineNumber": 213
+        },
+        {
+          "caller": "getAllSessions",
+          "callee": "params.toString",
+          "lineNumber": 214
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "request.delete",
+          "lineNumber": 222
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onOpen",
+          "lineNumber": 251
+        },
+        {
+          "caller": "connect",
+          "callee": "JSON.parse",
+          "lineNumber": 256
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onMessage",
+          "lineNumber": 259
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onSubtitle",
+          "lineNumber": 264
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onAudioResponse",
+          "lineNumber": 273
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onAudioChunk",
+          "lineNumber": 279
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onAudioResponse",
+          "lineNumber": 285
+        },
+        {
+          "caller": "connect",
+          "callee": "console.error",
+          "lineNumber": 290
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onClose",
+          "lineNumber": 295
+        },
+        {
+          "caller": "connect",
+          "callee": "setTimeout",
+          "lineNumber": 299
+        },
+        {
+          "caller": "connect",
+          "callee": "this.connect",
+          "lineNumber": 299
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onError",
+          "lineNumber": 304
+        },
+        {
+          "caller": "connect",
+          "callee": "console.error",
+          "lineNumber": 307
+        },
+        {
+          "caller": "connect",
+          "callee": "this.handlers.onError",
+          "lineNumber": 308
+        },
+        {
+          "caller": "sendAudio",
+          "callee": "Date.now",
+          "lineNumber": 320
+        },
+        {
+          "caller": "sendAudio",
+          "callee": "this.ws.send",
+          "lineNumber": 322
+        },
+        {
+          "caller": "sendAudio",
+          "callee": "JSON.stringify",
+          "lineNumber": 322
+        },
+        {
+          "caller": "sendAudio",
+          "callee": "console.warn",
+          "lineNumber": 325
+        },
+        {
+          "caller": "sendControl",
+          "callee": "Date.now",
+          "lineNumber": 338
+        },
+        {
+          "caller": "sendControl",
+          "callee": "this.ws.send",
+          "lineNumber": 340
+        },
+        {
+          "caller": "sendControl",
+          "callee": "JSON.stringify",
+          "lineNumber": 340
+        },
+        {
+          "caller": "sendControl",
+          "callee": "console.warn",
+          "lineNumber": 343
+        },
+        {
+          "caller": "disconnect",
+          "callee": "this.ws.close",
+          "lineNumber": 354
+        },
+        {
+          "caller": "connectWebSocket",
+          "callee": "ws.connect",
+          "lineNumber": 385
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 374,
+      "nonEmptyLines": 313,
+      "functions": [
+        {
+          "name": "Loading",
+          "startLine": 28,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "UploadPageWrapper",
+          "startLine": 35,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "HistoryListWrapper",
+          "startLine": 47,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "ResumeDetailWrapper",
+          "startLine": 58,
+          "endLine": 82,
+          "params": []
+        },
+        {
+          "name": "InterviewWrapper",
+          "startLine": 99,
+          "endLine": 164,
+          "params": []
+        },
+        {
+          "name": "App",
+          "startLine": 166,
+          "endLine": 225,
+          "params": []
+        },
+        {
+          "name": "InterviewHistoryWrapper",
+          "startLine": 228,
+          "endLine": 249,
+          "params": []
+        },
+        {
+          "name": "InterviewDetailPageWrapper",
+          "startLine": 252,
+          "endLine": 317,
+          "params": []
+        },
+        {
+          "name": "KnowledgeBaseManagePageWrapper",
+          "startLine": 318,
+          "endLine": 330,
+          "params": []
+        },
+        {
+          "name": "KnowledgeBaseQueryPageWrapper",
+          "startLine": 333,
+          "endLine": 351,
+          "params": []
+        },
+        {
+          "name": "KnowledgeBaseUploadPageWrapper",
+          "startLine": 354,
+          "endLine": 367,
+          "params": []
+        },
+        {
+          "name": "VoiceInterviewPageWrapper",
+          "startLine": 370,
+          "endLine": 372,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UploadPageWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleUploadComplete",
+          "callee": "navigate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "HistoryListWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleSelectResume",
+          "callee": "navigate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ResumeDetailWrapper",
+          "callee": "useParams",
+          "lineNumber": 59
+        },
+        {
+          "caller": "ResumeDetailWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 60
+        },
+        {
+          "caller": "ResumeDetailWrapper",
+          "callee": "useOutletContext",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 68
+        },
+        {
+          "caller": "handleStartInterview",
+          "callee": "openInterviewModalWithResume",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ResumeDetailWrapper",
+          "callee": "parseInt",
+          "lineNumber": 77
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useParams",
+          "lineNumber": 100
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 101
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useLocation",
+          "lineNumber": 102
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useState",
+          "lineNumber": 104
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useState",
+          "lineNumber": 105
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "parseInt",
+          "lineNumber": 106
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "useEffect",
+          "lineNumber": 108
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setResumeText",
+          "lineNumber": 112
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setLoading",
+          "lineNumber": 113
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "historyApi.getResumeDetail(effectiveResumeId)\n        .then(resume => {\n          setResumeText(resume.resumeText);\n          setLoading(false);\n        })\n        .catch",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "historyApi.getResumeDetail(effectiveResumeId)\n        .then",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "historyApi.getResumeDetail",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setResumeText",
+          "lineNumber": 118
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setLoading",
+          "lineNumber": 119
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "console.error",
+          "lineNumber": 122
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setLoading",
+          "lineNumber": 123
+        },
+        {
+          "caller": "InterviewWrapper",
+          "callee": "setLoading",
+          "lineNumber": 126
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 132
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 135
+        },
+        {
+          "caller": "handleInterviewComplete",
+          "callee": "navigate",
+          "lineNumber": 140
+        },
+        {
+          "caller": "InterviewHistoryWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 229
+        },
+        {
+          "caller": "InterviewHistoryWrapper",
+          "callee": "useOutletContext",
+          "lineNumber": 230
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 233
+        },
+        {
+          "caller": "handleViewInterview",
+          "callee": "navigate",
+          "lineNumber": 237
+        },
+        {
+          "caller": "handleRestartInterview",
+          "callee": "openInterviewModalWithResume",
+          "lineNumber": 241
+        },
+        {
+          "caller": "handleContinueInterview",
+          "callee": "navigate",
+          "lineNumber": 245
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useParams",
+          "lineNumber": 253
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 254
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useState",
+          "lineNumber": 255
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useState",
+          "lineNumber": 256
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useState",
+          "lineNumber": 257
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "useEffect",
+          "lineNumber": 259
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "navigate",
+          "lineNumber": 261
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "historyApi.getInterviewDetail(sessionId)\n      .then(detail => {\n        setInterview(detail);\n        setLoading(false);\n      })\n      .catch",
+          "lineNumber": 264
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "historyApi.getInterviewDetail(sessionId)\n      .then",
+          "lineNumber": 264
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "historyApi.getInterviewDetail",
+          "lineNumber": 264
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "setInterview",
+          "lineNumber": 266
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "setLoading",
+          "lineNumber": 267
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "setError",
+          "lineNumber": 270
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "setLoading",
+          "lineNumber": 271
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "navigate",
+          "lineNumber": 289
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "navigate",
+          "lineNumber": 303
+        },
+        {
+          "caller": "InterviewDetailPageWrapper",
+          "callee": "sessionId!.slice",
+          "lineNumber": 311
+        },
+        {
+          "caller": "KnowledgeBaseManagePageWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 319
+        },
+        {
+          "caller": "handleUpload",
+          "callee": "navigate",
+          "lineNumber": 322
+        },
+        {
+          "caller": "handleChat",
+          "callee": "navigate",
+          "lineNumber": 326
+        },
+        {
+          "caller": "KnowledgeBaseQueryPageWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 334
+        },
+        {
+          "caller": "KnowledgeBaseQueryPageWrapper",
+          "callee": "useLocation",
+          "lineNumber": 335
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 340
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 342
+        },
+        {
+          "caller": "handleUpload",
+          "callee": "navigate",
+          "lineNumber": 347
+        },
+        {
+          "caller": "KnowledgeBaseUploadPageWrapper",
+          "callee": "useNavigate",
+          "lineNumber": 355
+        },
+        {
+          "caller": "handleUploadComplete",
+          "callee": "navigate",
+          "lineNumber": 359
+        },
+        {
+          "caller": "handleBack",
+          "callee": "navigate",
+          "lineNumber": 363
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/AnalysisPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 462,
+      "nonEmptyLines": 432,
+      "functions": [
+        {
+          "name": "AnalysisPanel",
+          "startLine": 22,
+          "endLine": 390,
+          "params": [
+            "{\n  analysis,\n  analyzeStatus,\n  analyzeError,\n  onExport,\n  exporting,\n  onReanalyze,\n  reanalyzing,\n}"
+          ]
+        },
+        {
+          "name": "SuggestionSection",
+          "startLine": 393,
+          "endLine": 462,
+          "params": [
+            "{\n  priority,\n  suggestions,\n  getPriorityColor,\n  getPriorityBadgeColor,\n  getCategoryColor,\n  delay\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AnalysisPanel",
+          "line": 22,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AnalysisPanel",
+          "callee": "useMemo",
+          "lineNumber": 32
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "useMemo",
+          "lineNumber": 77
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "suggestions.filter",
+          "lineNumber": 82
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "suggestions.filter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "suggestions.filter",
+          "lineNumber": 84
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.summary.includes",
+          "lineNumber": 128
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.summary.includes",
+          "lineNumber": 129
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.summary.includes",
+          "lineNumber": 130
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.summary.includes",
+          "lineNumber": 131
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.summary.includes",
+          "lineNumber": 132
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "formatDateTime",
+          "lineNumber": 252
+        },
+        {
+          "caller": "AnalysisPanel",
+          "callee": "analysis.strengths.map",
+          "lineNumber": 263
+        },
+        {
+          "caller": "SuggestionSection",
+          "callee": "suggestions.map",
+          "lineNumber": 437
+        },
+        {
+          "caller": "SuggestionSection",
+          "callee": "getPriorityColor",
+          "lineNumber": 440
+        },
+        {
+          "caller": "SuggestionSection",
+          "callee": "getPriorityBadgeColor",
+          "lineNumber": 446
+        },
+        {
+          "caller": "SuggestionSection",
+          "callee": "getCategoryColor",
+          "lineNumber": 449
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/AudioPlayer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 124,
+      "nonEmptyLines": 109,
+      "functions": [
+        {
+          "name": "AudioPlayer",
+          "startLine": 14,
+          "endLine": 124,
+          "params": [
+            "{ audioData, text, onPlayEnd }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AudioPlayer",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AudioPlayer",
+          "callee": "useRef",
+          "lineNumber": 15
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "useState",
+          "lineNumber": 18
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "useEffect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "audioRef.current.play().then(() => {\n        setIsPlaying(true);\n      }).catch",
+          "lineNumber": 24
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "audioRef.current.play().then",
+          "lineNumber": 24
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "audioRef.current.play",
+          "lineNumber": 24
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "setIsPlaying",
+          "lineNumber": 25
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "console.error",
+          "lineNumber": 27
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "useEffect",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleEnded",
+          "callee": "setIsPlaying",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleEnded",
+          "callee": "onPlayEnd",
+          "lineNumber": 39
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "audio.addEventListener",
+          "lineNumber": 42
+        },
+        {
+          "caller": "AudioPlayer",
+          "callee": "audio.removeEventListener",
+          "lineNumber": 43
+        },
+        {
+          "caller": "togglePlay",
+          "callee": "audioRef.current.pause",
+          "lineNumber": 50
+        },
+        {
+          "caller": "togglePlay",
+          "callee": "audioRef.current.play",
+          "lineNumber": 52
+        },
+        {
+          "caller": "togglePlay",
+          "callee": "setIsPlaying",
+          "lineNumber": 54
+        },
+        {
+          "caller": "toggleMute",
+          "callee": "setIsMuted",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleVolumeChange",
+          "callee": "parseFloat",
+          "lineNumber": 64
+        },
+        {
+          "caller": "handleVolumeChange",
+          "callee": "setVolume",
+          "lineNumber": 68
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

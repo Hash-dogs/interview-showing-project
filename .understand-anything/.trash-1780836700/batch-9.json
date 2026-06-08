@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "id": "document:markdown/RAG知识库.md",
+      "type": "document",
+      "name": "RAG知识库.md",
+      "filePath": "markdown/RAG知识库.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:markdown/SQl数据库.md",
+      "type": "document",
+      "name": "SQl数据库.md",
+      "filePath": "markdown/SQl数据库.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "document:markdown/redis.md",
+      "type": "document",
+      "name": "redis.md",
+      "filePath": "markdown/redis.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "document:markdown/力扣HOT100记录.md",
+      "type": "document",
+      "name": "力扣HOT100记录.md",
+      "filePath": "markdown/力扣HOT100记录.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:markdown/基础知识.md",
+      "type": "document",
+      "name": "基础知识.md",
+      "filePath": "markdown/基础知识.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:markdown/大模型.md",
+      "type": "document",
+      "name": "大模型.md",
+      "filePath": "markdown/大模型.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:markdown/工具类与注解.md",
+      "type": "document",
+      "name": "工具类与注解.md",
+      "filePath": "markdown/工具类与注解.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:markdown/模拟面试.md",
+      "type": "document",
+      "name": "模拟面试.md",
+      "filePath": "markdown/模拟面试.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:markdown/环境配置.md",
+      "type": "document",
+      "name": "环境配置.md",
+      "filePath": "markdown/环境配置.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:markdown/简历上传与评估.md",
+      "type": "document",
+      "name": "简历上传与评估.md",
+      "filePath": "markdown/简历上传与评估.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:markdown/计算机网络.md",
+      "type": "document",
+      "name": "计算机网络.md",
+      "filePath": "markdown/计算机网络.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:markdown/项目简历书写汇总.md",
+      "type": "document",
+      "name": "项目简历书写汇总.md",
+      "filePath": "markdown/项目简历书写汇总.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md"
+      ],
+      "complexity": "very_complex"
+    }
+  ],
+  "edges": []
+}

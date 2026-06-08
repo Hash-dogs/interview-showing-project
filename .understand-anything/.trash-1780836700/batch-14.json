@@ -1,0 +1,2746 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "type": "file",
+      "name": "RagChatSessionEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "定义类: RagChatSessionEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onUpdate",
+      "type": "function",
+      "name": "onUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "函数 onUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onLoad",
+      "type": "function",
+      "name": "onLoad",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "函数 onLoad",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:addMessage",
+      "type": "function",
+      "name": "addMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "函数 addMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:getKnowledgeBaseIds",
+      "type": "function",
+      "name": "getKnowledgeBaseIds",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "函数 getKnowledgeBaseIds",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:RagChatSessionEntity",
+      "type": "class",
+      "name": "RagChatSessionEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "summary": "类 RagChatSessionEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java",
+      "type": "file",
+      "name": "VectorStatus.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/VectorStatus.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "type": "file",
+      "name": "RagChatController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "定义类: RagChatController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:createSession",
+      "type": "function",
+      "name": "createSession",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 createSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:listSessions",
+      "type": "function",
+      "name": "listSessions",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 listSessions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:getSessionDetail",
+      "type": "function",
+      "name": "getSessionDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 getSessionDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:updateSessionTitle",
+      "type": "function",
+      "name": "updateSessionTitle",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 updateSessionTitle",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:togglePin",
+      "type": "function",
+      "name": "togglePin",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 togglePin",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:updateSessionKnowledgeBases",
+      "type": "function",
+      "name": "updateSessionKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 updateSessionKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:deleteSession",
+      "type": "function",
+      "name": "deleteSession",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 deleteSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:sendMessageStream",
+      "type": "function",
+      "name": "sendMessageStream",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "函数 sendMessageStream",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:RagChatController",
+      "type": "class",
+      "name": "RagChatController",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "summary": "类 RagChatController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+      "type": "file",
+      "name": "KnowledgeBaseRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+      "summary": "定义类: KnowledgeBaseRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java:KnowledgeBaseRepository",
+      "type": "class",
+      "name": "KnowledgeBaseRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+      "summary": "类 KnowledgeBaseRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+      "type": "file",
+      "name": "RagChatMessageRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+      "summary": "定义类: RagChatMessageRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java:RagChatMessageRepository",
+      "type": "class",
+      "name": "RagChatMessageRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+      "summary": "类 RagChatMessageRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+      "type": "file",
+      "name": "RagChatSessionRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+      "summary": "定义类: RagChatSessionRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java:RagChatSessionRepository",
+      "type": "class",
+      "name": "RagChatSessionRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+      "summary": "类 RagChatSessionRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "type": "file",
+      "name": "VectorRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "summary": "定义类: VectorRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java:deleteByKnowledgeBaseId",
+      "type": "function",
+      "name": "deleteByKnowledgeBaseId",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "summary": "函数 deleteByKnowledgeBaseId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java:VectorRepository",
+      "type": "class",
+      "name": "VectorRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "summary": "类 VectorRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "type": "file",
+      "name": "KnowledgeBaseCountService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "summary": "定义类: KnowledgeBaseCountService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java:updateQuestionCounts",
+      "type": "function",
+      "name": "updateQuestionCounts",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "summary": "函数 updateQuestionCounts",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java:KnowledgeBaseCountService",
+      "type": "class",
+      "name": "KnowledgeBaseCountService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "summary": "类 KnowledgeBaseCountService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "type": "file",
+      "name": "KnowledgeBaseDeleteService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "summary": "定义类: KnowledgeBaseDeleteService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java:deleteKnowledgeBase",
+      "type": "function",
+      "name": "deleteKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "summary": "函数 deleteKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java:KnowledgeBaseDeleteService",
+      "type": "class",
+      "name": "KnowledgeBaseDeleteService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "summary": "类 KnowledgeBaseDeleteService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "type": "file",
+      "name": "KnowledgeBaseListService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "定义类: KnowledgeBaseListService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBases",
+      "type": "function",
+      "name": "listKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 listKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBases",
+      "type": "function",
+      "name": "listKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 listKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBasesByStatus",
+      "type": "function",
+      "name": "listKnowledgeBasesByStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 listKnowledgeBasesByStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBase",
+      "type": "function",
+      "name": "getKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBaseEntity",
+      "type": "function",
+      "name": "getKnowledgeBaseEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getKnowledgeBaseEntity",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBaseNames",
+      "type": "function",
+      "name": "getKnowledgeBaseNames",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getKnowledgeBaseNames",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getAllCategories",
+      "type": "function",
+      "name": "getAllCategories",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getAllCategories",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listByCategory",
+      "type": "function",
+      "name": "listByCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 listByCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:updateCategory",
+      "type": "function",
+      "name": "updateCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 updateCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:search",
+      "type": "function",
+      "name": "search",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 search",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listSorted",
+      "type": "function",
+      "name": "listSorted",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 listSorted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:sortEntities",
+      "type": "function",
+      "name": "sortEntities",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 sortEntities",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getStatistics",
+      "type": "function",
+      "name": "getStatistics",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getStatistics",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:downloadFile",
+      "type": "function",
+      "name": "downloadFile",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 downloadFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getEntityForDownload",
+      "type": "function",
+      "name": "getEntityForDownload",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "函数 getEntityForDownload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:KnowledgeBaseListService",
+      "type": "class",
+      "name": "KnowledgeBaseListService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "summary": "类 KnowledgeBaseListService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "type": "file",
+      "name": "KnowledgeBaseParseService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "定义类: KnowledgeBaseParseService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:parseContent",
+      "type": "function",
+      "name": "parseContent",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "函数 parseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:parseContent",
+      "type": "function",
+      "name": "parseContent",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "函数 parseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:downloadAndParseContent",
+      "type": "function",
+      "name": "downloadAndParseContent",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "函数 downloadAndParseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:detectContentType",
+      "type": "function",
+      "name": "detectContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "函数 detectContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:KnowledgeBaseParseService",
+      "type": "class",
+      "name": "KnowledgeBaseParseService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "summary": "类 KnowledgeBaseParseService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "type": "file",
+      "name": "KnowledgeBasePersistenceService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "定义类: KnowledgeBasePersistenceService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:handleDuplicateKnowledgeBase",
+      "type": "function",
+      "name": "handleDuplicateKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "函数 handleDuplicateKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:saveKnowledgeBase",
+      "type": "function",
+      "name": "saveKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "函数 saveKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:updateVectorStatusToPending",
+      "type": "function",
+      "name": "updateVectorStatusToPending",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "函数 updateVectorStatusToPending",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:extractNameFromFilename",
+      "type": "function",
+      "name": "extractNameFromFilename",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "函数 extractNameFromFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:KnowledgeBasePersistenceService",
+      "type": "class",
+      "name": "KnowledgeBasePersistenceService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "summary": "类 KnowledgeBasePersistenceService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+      "type": "file",
+      "name": "KnowledgeBaseQueryProperties.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+      "summary": "定义类: KnowledgeBaseQueryProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java:KnowledgeBaseQueryProperties",
+      "type": "class",
+      "name": "KnowledgeBaseQueryProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+      "summary": "类 KnowledgeBaseQueryProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "type": "file",
+      "name": "KnowledgeBaseQueryService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "定义类: KnowledgeBaseQueryService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:KnowledgeBaseQueryService",
+      "type": "function",
+      "name": "KnowledgeBaseQueryService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 KnowledgeBaseQueryService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:getChatClient",
+      "type": "function",
+      "name": "getChatClient",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 getChatClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestion",
+      "type": "function",
+      "name": "answerQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 answerQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestion",
+      "type": "function",
+      "name": "answerQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 answerQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildSystemPrompt",
+      "type": "function",
+      "name": "buildSystemPrompt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 buildSystemPrompt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildUserPrompt",
+      "type": "function",
+      "name": "buildUserPrompt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 buildUserPrompt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:queryKnowledgeBase",
+      "type": "function",
+      "name": "queryKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 queryKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestionStream",
+      "type": "function",
+      "name": "answerQuestionStream",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 answerQuestionStream",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestionStream",
+      "type": "function",
+      "name": "answerQuestionStream",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 answerQuestionStream",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildQueryContext",
+      "type": "function",
+      "name": "buildQueryContext",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 buildQueryContext",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:rewriteQuestion",
+      "type": "function",
+      "name": "rewriteQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 rewriteQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:sanitizeHistory",
+      "type": "function",
+      "name": "sanitizeHistory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 sanitizeHistory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeQuestion",
+      "type": "function",
+      "name": "normalizeQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 normalizeQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:retrieveRelevantDocs",
+      "type": "function",
+      "name": "retrieveRelevantDocs",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 retrieveRelevantDocs",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:resolveSearchParams",
+      "type": "function",
+      "name": "resolveSearchParams",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 resolveSearchParams",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:formatHistoryForRewrite",
+      "type": "function",
+      "name": "formatHistoryForRewrite",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 formatHistoryForRewrite",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:hasEffectiveHit",
+      "type": "function",
+      "name": "hasEffectiveHit",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 hasEffectiveHit",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeAnswer",
+      "type": "function",
+      "name": "normalizeAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 normalizeAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:isNoResultLike",
+      "type": "function",
+      "name": "isNoResultLike",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 isNoResultLike",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeStreamOutput",
+      "type": "function",
+      "name": "normalizeStreamOutput",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "函数 normalizeStreamOutput",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:KnowledgeBaseQueryService",
+      "type": "class",
+      "name": "KnowledgeBaseQueryService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "summary": "类 KnowledgeBaseQueryService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "type": "file",
+      "name": "KnowledgeBaseUploadService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "summary": "定义类: KnowledgeBaseUploadService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:uploadKnowledgeBase",
+      "type": "function",
+      "name": "uploadKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "summary": "函数 uploadKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:validateContentType",
+      "type": "function",
+      "name": "validateContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "summary": "函数 validateContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:revectorize",
+      "type": "function",
+      "name": "revectorize",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "summary": "函数 revectorize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:KnowledgeBaseUploadService",
+      "type": "class",
+      "name": "KnowledgeBaseUploadService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "summary": "类 KnowledgeBaseUploadService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "type": "file",
+      "name": "KnowledgeBaseVectorService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "定义类: KnowledgeBaseVectorService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:KnowledgeBaseVectorService",
+      "type": "function",
+      "name": "KnowledgeBaseVectorService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 KnowledgeBaseVectorService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:vectorizeAndStore",
+      "type": "function",
+      "name": "vectorizeAndStore",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 vectorizeAndStore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:similaritySearch",
+      "type": "function",
+      "name": "similaritySearch",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 similaritySearch",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:similaritySearchFallback",
+      "type": "function",
+      "name": "similaritySearchFallback",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 similaritySearchFallback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:isDocInKnowledgeBases",
+      "type": "function",
+      "name": "isDocInKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 isDocInKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:buildKbFilterExpression",
+      "type": "function",
+      "name": "buildKbFilterExpression",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 buildKbFilterExpression",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:deleteByKnowledgeBaseId",
+      "type": "function",
+      "name": "deleteByKnowledgeBaseId",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "函数 deleteByKnowledgeBaseId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:KnowledgeBaseVectorService",
+      "type": "class",
+      "name": "KnowledgeBaseVectorService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "summary": "类 KnowledgeBaseVectorService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "type": "file",
+      "name": "RagChatSessionService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "定义类: RagChatSessionService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:createSession",
+      "type": "function",
+      "name": "createSession",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 createSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:listSessions",
+      "type": "function",
+      "name": "listSessions",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 listSessions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:getSessionDetail",
+      "type": "function",
+      "name": "getSessionDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 getSessionDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:prepareStreamMessage",
+      "type": "function",
+      "name": "prepareStreamMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 prepareStreamMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:completeStreamMessage",
+      "type": "function",
+      "name": "completeStreamMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 completeStreamMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:getStreamAnswer",
+      "type": "function",
+      "name": "getStreamAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 getStreamAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:updateSessionTitle",
+      "type": "function",
+      "name": "updateSessionTitle",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 updateSessionTitle",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:togglePin",
+      "type": "function",
+      "name": "togglePin",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 togglePin",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:updateSessionKnowledgeBases",
+      "type": "function",
+      "name": "updateSessionKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 updateSessionKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:deleteSession",
+      "type": "function",
+      "name": "deleteSession",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 deleteSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:loadHistoryMessages",
+      "type": "function",
+      "name": "loadHistoryMessages",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 loadHistoryMessages",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:generateTitle",
+      "type": "function",
+      "name": "generateTitle",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "函数 generateTitle",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:RagChatSessionService",
+      "type": "class",
+      "name": "RagChatSessionService",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "summary": "类 RagChatSessionService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "type": "file",
+      "name": "LlmProviderController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "定义类: LlmProviderController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:listProviders",
+      "type": "function",
+      "name": "listProviders",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 listProviders",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getProvider",
+      "type": "function",
+      "name": "getProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 getProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:createProvider",
+      "type": "function",
+      "name": "createProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 createProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateProvider",
+      "type": "function",
+      "name": "updateProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 updateProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:deleteProvider",
+      "type": "function",
+      "name": "deleteProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 deleteProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:testProvider",
+      "type": "function",
+      "name": "testProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 testProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:reloadProviders",
+      "type": "function",
+      "name": "reloadProviders",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 reloadProviders",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getDefaultProvider",
+      "type": "function",
+      "name": "getDefaultProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 getDefaultProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateDefaultProvider",
+      "type": "function",
+      "name": "updateDefaultProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 updateDefaultProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateDefaultEmbeddingProvider",
+      "type": "function",
+      "name": "updateDefaultEmbeddingProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 updateDefaultEmbeddingProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getAsrConfig",
+      "type": "function",
+      "name": "getAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 getAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateAsrConfig",
+      "type": "function",
+      "name": "updateAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 updateAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getTtsConfig",
+      "type": "function",
+      "name": "getTtsConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 getTtsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateTtsConfig",
+      "type": "function",
+      "name": "updateTtsConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 updateTtsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:testAsrConfig",
+      "type": "function",
+      "name": "testAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "函数 testAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:LlmProviderController",
+      "type": "class",
+      "name": "LlmProviderController",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "summary": "类 LlmProviderController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+      "type": "file",
+      "name": "AsrConfigDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+      "summary": "定义类: AsrConfigDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java:AsrConfigDTO",
+      "type": "class",
+      "name": "AsrConfigDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+      "summary": "类 AsrConfigDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java",
+      "type": "file",
+      "name": "AsrConfigRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java",
+      "type": "file",
+      "name": "CreateProviderRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/CreateProviderRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java",
+      "type": "file",
+      "name": "DefaultProviderDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/DefaultProviderDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java",
+      "type": "file",
+      "name": "ProviderDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java",
+      "type": "file",
+      "name": "ProviderTestResult.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/ProviderTestResult.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+      "type": "file",
+      "name": "TtsConfigDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+      "summary": "定义类: TtsConfigDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java:TtsConfigDTO",
+      "type": "class",
+      "name": "TtsConfigDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+      "summary": "类 TtsConfigDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:onLoad",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:addMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:getKnowledgeBaseIds",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatSessionEntity.java:RagChatSessionEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:createSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:listSessions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:getSessionDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:updateSessionTitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:togglePin",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:updateSessionKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:deleteSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:sendMessageStream",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/RagChatController.java:RagChatController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/KnowledgeBaseRepository.java:KnowledgeBaseRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatMessageRepository.java:RagChatMessageRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/RagChatSessionRepository.java:RagChatSessionRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java:deleteByKnowledgeBaseId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/repository/VectorRepository.java:VectorRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java:updateQuestionCounts",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseCountService.java:KnowledgeBaseCountService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java:deleteKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseDeleteService.java:KnowledgeBaseDeleteService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listKnowledgeBasesByStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBaseEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getKnowledgeBaseNames",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getAllCategories",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listByCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:updateCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:search",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:listSorted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:sortEntities",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getStatistics",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:downloadFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:getEntityForDownload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseListService.java:KnowledgeBaseListService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:parseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:parseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:downloadAndParseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:detectContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseParseService.java:KnowledgeBaseParseService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:handleDuplicateKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:saveKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:updateVectorStatusToPending",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:extractNameFromFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBasePersistenceService.java:KnowledgeBasePersistenceService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryProperties.java:KnowledgeBaseQueryProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:KnowledgeBaseQueryService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:getChatClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildSystemPrompt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildUserPrompt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:queryKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestionStream",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:answerQuestionStream",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:buildQueryContext",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:rewriteQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:sanitizeHistory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:retrieveRelevantDocs",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:resolveSearchParams",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:formatHistoryForRewrite",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:hasEffectiveHit",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:isNoResultLike",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:normalizeStreamOutput",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseQueryService.java:KnowledgeBaseQueryService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:uploadKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:validateContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:revectorize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseUploadService.java:KnowledgeBaseUploadService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:KnowledgeBaseVectorService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:vectorizeAndStore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:similaritySearch",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:similaritySearchFallback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:isDocInKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:buildKbFilterExpression",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:deleteByKnowledgeBaseId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorService.java:KnowledgeBaseVectorService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:createSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:listSessions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:getSessionDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:prepareStreamMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:completeStreamMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:getStreamAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:updateSessionTitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:togglePin",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:updateSessionKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:deleteSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:loadHistoryMessages",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:generateTitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/service/RagChatSessionService.java:RagChatSessionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:listProviders",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:createProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:deleteProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:testProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:reloadProviders",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getDefaultProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateDefaultProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateDefaultEmbeddingProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:getTtsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:updateTtsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:testAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/controller/LlmProviderController.java:LlmProviderController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/dto/AsrConfigDTO.java:AsrConfigDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/llmprovider/dto/TtsConfigDTO.java:TtsConfigDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

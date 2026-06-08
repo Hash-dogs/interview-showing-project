@@ -1,0 +1,28 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/test/resources/test-files/README.md",
+      "language": "markdown",
+      "sizeLines": 103,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/test/resources/test-files/sample-resume.md",
+      "language": "markdown",
+      "sizeLines": 186,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/test/resources/test-files/sample-resume.txt",
+      "language": "txt",
+      "sizeLines": 75,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "app/src/test/resources/test-files/README.md": [],
+    "app/src/test/resources/test-files/sample-resume.md": [],
+    "app/src/test/resources/test-files/sample-resume.txt": []
+  }
+}

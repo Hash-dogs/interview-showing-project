@@ -1,0 +1,6865 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 17,
+      "classes": [
+        {
+          "name": "StorageConfigProperties",
+          "startLine": 10,
+          "endLine": 20,
+          "methods": [],
+          "properties": [
+            "endpoint",
+            "accessKey",
+            "secretKey",
+            "bucket",
+            "region"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StorageConfigProperties",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 104,
+      "functions": [
+        {
+          "name": "AsyncTaskStreamConstants",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AsyncTaskStreamConstants",
+          "startLine": 7,
+          "endLine": 134,
+          "methods": [
+            "AsyncTaskStreamConstants"
+          ],
+          "properties": [
+            "FIELD_RETRY_COUNT",
+            "FIELD_CONTENT",
+            "MAX_RETRY_COUNT",
+            "BATCH_SIZE",
+            "POLL_INTERVAL_MS",
+            "STREAM_MAX_LEN",
+            "KB_VECTORIZE_STREAM_KEY",
+            "KB_VECTORIZE_GROUP_NAME",
+            "KB_VECTORIZE_CONSUMER_PREFIX",
+            "FIELD_KB_ID",
+            "RESUME_ANALYZE_STREAM_KEY",
+            "RESUME_ANALYZE_GROUP_NAME",
+            "RESUME_ANALYZE_CONSUMER_PREFIX",
+            "FIELD_RESUME_ID",
+            "INTERVIEW_EVALUATE_STREAM_KEY",
+            "INTERVIEW_EVALUATE_GROUP_NAME",
+            "INTERVIEW_EVALUATE_CONSUMER_PREFIX",
+            "FIELD_SESSION_ID",
+            "VOICE_EVALUATE_STREAM_KEY",
+            "VOICE_EVALUATE_GROUP_NAME",
+            "VOICE_EVALUATE_CONSUMER_PREFIX",
+            "FIELD_VOICE_SESSION_ID"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "FIELD_RETRY_COUNT",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "FIELD_CONTENT",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "MAX_RETRY_COUNT",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "BATCH_SIZE",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "POLL_INTERVAL_MS",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "STREAM_MAX_LEN",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "KB_VECTORIZE_STREAM_KEY",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "KB_VECTORIZE_GROUP_NAME",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "KB_VECTORIZE_CONSUMER_PREFIX",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "FIELD_KB_ID",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "RESUME_ANALYZE_STREAM_KEY",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "RESUME_ANALYZE_GROUP_NAME",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "RESUME_ANALYZE_CONSUMER_PREFIX",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "FIELD_RESUME_ID",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "INTERVIEW_EVALUATE_STREAM_KEY",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "INTERVIEW_EVALUATE_GROUP_NAME",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "INTERVIEW_EVALUATE_CONSUMER_PREFIX",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "FIELD_SESSION_ID",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "VOICE_EVALUATE_STREAM_KEY",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "VOICE_EVALUATE_GROUP_NAME",
+          "line": 123,
+          "isDefault": false
+        },
+        {
+          "name": "VOICE_EVALUATE_CONSUMER_PREFIX",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "FIELD_VOICE_SESSION_ID",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "AsyncTaskStreamConstants",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 23,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "CommonConstants",
+          "startLine": 8,
+          "endLine": 8,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CommonConstants",
+          "startLine": 6,
+          "endLine": 44,
+          "methods": [
+            "CommonConstants"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CommonConstants",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 37,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "classes": [
+        {
+          "name": "InterviewEvaluationProperties",
+          "startLine": 7,
+          "endLine": 17,
+          "methods": [],
+          "properties": [
+            "batchSize",
+            "systemPromptPath",
+            "userPromptPath",
+            "summarySystemPromptPath",
+            "summaryUserPromptPath"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewEvaluationProperties",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/QaRecord.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 546,
+      "nonEmptyLines": 498,
+      "functions": [
+        {
+          "name": "UnifiedEvaluationService",
+          "startLine": 104,
+          "endLine": 117,
+          "params": [
+            "structuredOutputInvoker",
+            "resourceLoader",
+            "evaluationProperties"
+          ]
+        },
+        {
+          "name": "evaluate",
+          "startLine": 128,
+          "endLine": 133,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "qaRecords",
+            "resumeText"
+          ]
+        },
+        {
+          "name": "evaluate",
+          "startLine": 145,
+          "endLine": 192,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "qaRecords",
+            "resumeText",
+            "referenceContext"
+          ]
+        },
+        {
+          "name": "loadPrompt",
+          "startLine": 194,
+          "endLine": 197,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "evaluateInBatches",
+          "startLine": 210,
+          "endLine": 221,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "resumeContext",
+            "qaRecords",
+            "referenceContext"
+          ]
+        },
+        {
+          "name": "evaluateBatch",
+          "startLine": 234,
+          "endLine": 259,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "resumeContext",
+            "referenceContext",
+            "batch"
+          ]
+        },
+        {
+          "name": "buildQARecords",
+          "startLine": 269,
+          "endLine": 278,
+          "params": [
+            "batch"
+          ]
+        },
+        {
+          "name": "mergeQuestionEvaluations",
+          "startLine": 288,
+          "endLine": 311,
+          "params": [
+            "batchResults"
+          ]
+        },
+        {
+          "name": "mergeOverallFeedback",
+          "startLine": 321,
+          "endLine": 328,
+          "params": [
+            "batchResults"
+          ]
+        },
+        {
+          "name": "mergeListItems",
+          "startLine": 339,
+          "endLine": 353,
+          "params": [
+            "batchResults",
+            "strengthsMode"
+          ]
+        },
+        {
+          "name": "summarizeBatchResults",
+          "startLine": 373,
+          "endLine": 407,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "resumeContext",
+            "referenceContext",
+            "qaRecords",
+            "evaluations",
+            "fallbackFeedback",
+            "fallbackStrengths",
+            "fallbackImprovements"
+          ]
+        },
+        {
+          "name": "sanitizeItems",
+          "startLine": 418,
+          "endLine": 424,
+          "params": [
+            "primary",
+            "fallback"
+          ]
+        },
+        {
+          "name": "buildReport",
+          "startLine": 439,
+          "endLine": 493,
+          "params": [
+            "sessionId",
+            "qaRecords",
+            "evaluations",
+            "overallFeedback",
+            "strengths",
+            "improvements"
+          ]
+        },
+        {
+          "name": "buildCategorySummary",
+          "startLine": 504,
+          "endLine": 522,
+          "params": [
+            "qaRecords",
+            "evaluations"
+          ]
+        },
+        {
+          "name": "buildQuestionHighlights",
+          "startLine": 533,
+          "endLine": 545,
+          "params": [
+            "qaRecords",
+            "evaluations"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "UnifiedEvaluationService",
+          "startLine": 31,
+          "endLine": 546,
+          "methods": [
+            "UnifiedEvaluationService",
+            "evaluate",
+            "evaluate",
+            "loadPrompt",
+            "evaluateInBatches",
+            "evaluateBatch",
+            "buildQARecords",
+            "mergeQuestionEvaluations",
+            "mergeOverallFeedback",
+            "mergeListItems",
+            "summarizeBatchResults",
+            "sanitizeItems",
+            "buildReport",
+            "buildCategorySummary",
+            "buildQuestionHighlights"
+          ],
+          "properties": [
+            "log",
+            "MAX_REFERENCE_CONTEXT_CHARS",
+            "systemPromptTemplate",
+            "userPromptTemplate",
+            "outputConverter",
+            "summarySystemPromptTemplate",
+            "summaryUserPromptTemplate",
+            "summaryOutputConverter",
+            "structuredOutputInvoker",
+            "evaluationBatchSize",
+            "resourceLoader"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UnifiedEvaluationService",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "evaluate",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "evaluate",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "UnifiedEvaluationService",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new PromptTemplate",
+          "lineNumber": 110
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "loadPrompt",
+          "lineNumber": 110
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "evaluationProperties.getSystemPromptPath",
+          "lineNumber": 110
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new PromptTemplate",
+          "lineNumber": 111
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "loadPrompt",
+          "lineNumber": 111
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "evaluationProperties.getUserPromptPath",
+          "lineNumber": 111
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new BeanOutputConverter<>",
+          "lineNumber": 112
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new PromptTemplate",
+          "lineNumber": 113
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "loadPrompt",
+          "lineNumber": 113
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "evaluationProperties.getSummarySystemPromptPath",
+          "lineNumber": 113
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new PromptTemplate",
+          "lineNumber": 114
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "loadPrompt",
+          "lineNumber": 114
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "evaluationProperties.getSummaryUserPromptPath",
+          "lineNumber": 114
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "new BeanOutputConverter<>",
+          "lineNumber": 115
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "Math.max",
+          "lineNumber": 116
+        },
+        {
+          "caller": "UnifiedEvaluationService",
+          "callee": "evaluationProperties.getBatchSize",
+          "lineNumber": 116
+        },
+        {
+          "caller": "evaluate",
+          "callee": "evaluate",
+          "lineNumber": 132
+        },
+        {
+          "caller": "evaluate",
+          "callee": "log.info",
+          "lineNumber": 150
+        },
+        {
+          "caller": "evaluate",
+          "callee": "qaRecords.size",
+          "lineNumber": 150
+        },
+        {
+          "caller": "evaluate",
+          "callee": "resumeContext.length",
+          "lineNumber": 154
+        },
+        {
+          "caller": "evaluate",
+          "callee": "resumeContext.substring",
+          "lineNumber": 155
+        },
+        {
+          "caller": "evaluate",
+          "callee": "referenceContext.trim",
+          "lineNumber": 159
+        },
+        {
+          "caller": "evaluate",
+          "callee": "referenceBaseline.length",
+          "lineNumber": 160
+        },
+        {
+          "caller": "evaluate",
+          "callee": "referenceBaseline.substring",
+          "lineNumber": 161
+        },
+        {
+          "caller": "evaluate",
+          "callee": "evaluateInBatches",
+          "lineNumber": 166
+        },
+        {
+          "caller": "evaluate",
+          "callee": "mergeQuestionEvaluations",
+          "lineNumber": 172
+        },
+        {
+          "caller": "evaluate",
+          "callee": "mergeOverallFeedback",
+          "lineNumber": 175
+        },
+        {
+          "caller": "evaluate",
+          "callee": "mergeListItems",
+          "lineNumber": 178
+        },
+        {
+          "caller": "evaluate",
+          "callee": "mergeListItems",
+          "lineNumber": 181
+        },
+        {
+          "caller": "evaluate",
+          "callee": "summarizeBatchResults",
+          "lineNumber": 184
+        },
+        {
+          "caller": "evaluate",
+          "callee": "buildReport",
+          "lineNumber": 190
+        },
+        {
+          "caller": "evaluate",
+          "callee": "summary.overallFeedback",
+          "lineNumber": 191
+        },
+        {
+          "caller": "evaluate",
+          "callee": "summary.strengths",
+          "lineNumber": 191
+        },
+        {
+          "caller": "evaluate",
+          "callee": "summary.improvements",
+          "lineNumber": 191
+        },
+        {
+          "caller": "loadPrompt",
+          "callee": "resourceLoader.getResource",
+          "lineNumber": 195
+        },
+        {
+          "caller": "loadPrompt",
+          "callee": "resource.getContentAsString",
+          "lineNumber": 196
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "new ArrayList<>",
+          "lineNumber": 213
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "qaRecords.size",
+          "lineNumber": 214
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "Math.min",
+          "lineNumber": 215
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "qaRecords.size",
+          "lineNumber": 215
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "qaRecords.subList",
+          "lineNumber": 216
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "evaluateBatch",
+          "lineNumber": 217
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "results.add",
+          "lineNumber": 218
+        },
+        {
+          "caller": "evaluateInBatches",
+          "callee": "new BatchResult",
+          "lineNumber": 218
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "buildQARecords",
+          "lineNumber": 237
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "systemPromptTemplate.render",
+          "lineNumber": 238
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "new HashMap<>",
+          "lineNumber": 240
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "variables.put",
+          "lineNumber": 241
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "variables.put",
+          "lineNumber": 242
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "variables.put",
+          "lineNumber": 243
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "referenceContext.isBlank",
+          "lineNumber": 244
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "userPromptTemplate.render",
+          "lineNumber": 245
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "outputConverter.getFormat",
+          "lineNumber": 247
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "structuredOutputInvoker.invoke",
+          "lineNumber": 249
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "log.error",
+          "lineNumber": 254
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "batch.size",
+          "lineNumber": 255
+        },
+        {
+          "caller": "evaluateBatch",
+          "callee": "e.getMessage",
+          "lineNumber": 255
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "new StringBuilder",
+          "lineNumber": 270
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "sb.append",
+          "lineNumber": 272
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "String.format",
+          "lineNumber": 272
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "q.questionIndex",
+          "lineNumber": 273
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "q.category",
+          "lineNumber": 273
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "q.question",
+          "lineNumber": 273
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "sb.append",
+          "lineNumber": 274
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "String.format",
+          "lineNumber": 274
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "q.userAnswer",
+          "lineNumber": 275
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "q.userAnswer",
+          "lineNumber": 275
+        },
+        {
+          "caller": "buildQARecords",
+          "callee": "sb.toString",
+          "lineNumber": 277
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "new ArrayList<>",
+          "lineNumber": 289
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.endIndex",
+          "lineNumber": 292
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.startIndex",
+          "lineNumber": 292
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.report",
+          "lineNumber": 294
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.report().questionEvaluations",
+          "lineNumber": 294
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.report",
+          "lineNumber": 294
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.report().questionEvaluations",
+          "lineNumber": 295
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.report",
+          "lineNumber": 295
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "List.of",
+          "lineNumber": 296
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "current.size",
+          "lineNumber": 299
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "current.get",
+          "lineNumber": 299
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "merged.add",
+          "lineNumber": 300
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "current.get",
+          "lineNumber": 300
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "merged.add",
+          "lineNumber": 303
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "new QuestionEvalDTO",
+          "lineNumber": 303
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "result.startIndex",
+          "lineNumber": 304
+        },
+        {
+          "caller": "mergeQuestionEvaluations",
+          "callee": "List.of",
+          "lineNumber": 305
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "batchResults.stream()\n            .map(BatchResult::report)\n            .filter(r -> r != null && r.overallFeedback() != null && !r.overallFeedback().isBlank())\n            .map(BatchReportDTO::overallFeedback).collect",
+          "lineNumber": 322
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "batchResults.stream()\n            .map(BatchResult::report)\n            .filter(r -> r != null && r.overallFeedback() != null && !r.overallFeedback().isBlank()).map",
+          "lineNumber": 322
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "batchResults.stream()\n            .map(BatchResult::report).filter",
+          "lineNumber": 322
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "batchResults.stream().map",
+          "lineNumber": 322
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "batchResults.stream",
+          "lineNumber": 322
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "r.overallFeedback",
+          "lineNumber": 324
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "r.overallFeedback().isBlank",
+          "lineNumber": 324
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "r.overallFeedback",
+          "lineNumber": 324
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "Collectors.joining",
+          "lineNumber": 326
+        },
+        {
+          "caller": "mergeOverallFeedback",
+          "callee": "feedback.isBlank",
+          "lineNumber": 327
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "new LinkedHashSet<>",
+          "lineNumber": 340
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "result.report",
+          "lineNumber": 342
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "report.strengths",
+          "lineNumber": 344
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "report.improvements",
+          "lineNumber": 344
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "items.stream()\n                .filter(item -> item != null && !item.isBlank())\n                    //String的trim方法：String的trim方法作用是什么11:40Claude responded: 去除字符串首尾的空白字符（空格、制表符 \\t、换行 \\n 等），中间的空白不受影响。去除字符串首尾的空白字符（空格、制表符 \\t、换行 \\n 等），中间的空白不受影响\n                .map(String::trim).forEach",
+          "lineNumber": 346
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "items.stream()\n                .filter(item -> item != null && !item.isBlank()).map",
+          "lineNumber": 346
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "items.stream().filter",
+          "lineNumber": 346
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "items.stream",
+          "lineNumber": 346
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "item.isBlank",
+          "lineNumber": 347
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "merged.stream().limit(8).toList",
+          "lineNumber": 352
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "merged.stream().limit",
+          "lineNumber": 352
+        },
+        {
+          "caller": "mergeListItems",
+          "callee": "merged.stream",
+          "lineNumber": 352
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "summarySystemPromptTemplate.render",
+          "lineNumber": 378
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "new HashMap<>",
+          "lineNumber": 379
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 380
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 381
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "referenceContext.isBlank",
+          "lineNumber": 382
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 383
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "buildCategorySummary",
+          "lineNumber": 383
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 384
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "buildQuestionHighlights",
+          "lineNumber": 384
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 385
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 386
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "String.join",
+          "lineNumber": 386
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "vars.put",
+          "lineNumber": 387
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "String.join",
+          "lineNumber": 387
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "summaryUserPromptTemplate.render",
+          "lineNumber": 388
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "summaryOutputConverter.getFormat",
+          "lineNumber": 390
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "structuredOutputInvoker.invoke",
+          "lineNumber": 391
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.overallFeedback",
+          "lineNumber": 397
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.overallFeedback().isBlank",
+          "lineNumber": 397
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.overallFeedback",
+          "lineNumber": 397
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.overallFeedback",
+          "lineNumber": 398
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "sanitizeItems",
+          "lineNumber": 400
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.strengths",
+          "lineNumber": 400
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "sanitizeItems",
+          "lineNumber": 401
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "dto.improvements",
+          "lineNumber": 401
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "new SummaryDTO",
+          "lineNumber": 402
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "log.warn",
+          "lineNumber": 404
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "e.getMessage",
+          "lineNumber": 404
+        },
+        {
+          "caller": "summarizeBatchResults",
+          "callee": "new SummaryDTO",
+          "lineNumber": 405
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "primary.isEmpty",
+          "lineNumber": 419
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.isEmpty",
+          "lineNumber": 420
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "List.of",
+          "lineNumber": 420
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream()\n            .filter(item -> item != null && !item.isBlank())\n            .map(String::trim).distinct().limit(8).toList",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream()\n            .filter(item -> item != null && !item.isBlank())\n            .map(String::trim).distinct().limit",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream()\n            .filter(item -> item != null && !item.isBlank())\n            .map(String::trim).distinct",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream()\n            .filter(item -> item != null && !item.isBlank()).map",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream().filter",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "source.stream",
+          "lineNumber": 421
+        },
+        {
+          "caller": "sanitizeItems",
+          "callee": "item.isBlank",
+          "lineNumber": 422
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new ArrayList<>",
+          "lineNumber": 443
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new ArrayList<>",
+          "lineNumber": 444
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new HashMap<>",
+          "lineNumber": 445
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.stream()\n            .filter(q -> q.userAnswer() != null && !q.userAnswer().isBlank()).count",
+          "lineNumber": 447
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.stream().filter",
+          "lineNumber": 447
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.stream",
+          "lineNumber": 447
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer",
+          "lineNumber": 448
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer().isBlank",
+          "lineNumber": 448
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer",
+          "lineNumber": 448
+        },
+        {
+          "caller": "buildReport",
+          "callee": "evaluations.size",
+          "lineNumber": 451
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.size",
+          "lineNumber": 453
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.get",
+          "lineNumber": 454
+        },
+        {
+          "caller": "buildReport",
+          "callee": "evaluations.get",
+          "lineNumber": 455
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer",
+          "lineNumber": 457
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer().isBlank",
+          "lineNumber": 457
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer",
+          "lineNumber": 457
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.score",
+          "lineNumber": 458
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.feedback",
+          "lineNumber": 459
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.feedback",
+          "lineNumber": 460
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.referenceAnswer",
+          "lineNumber": 461
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.referenceAnswer",
+          "lineNumber": 462
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.keyPoints",
+          "lineNumber": 463
+        },
+        {
+          "caller": "buildReport",
+          "callee": "eval.keyPoints",
+          "lineNumber": 464
+        },
+        {
+          "caller": "buildReport",
+          "callee": "List.of",
+          "lineNumber": 464
+        },
+        {
+          "caller": "buildReport",
+          "callee": "questionDetails.add",
+          "lineNumber": 466
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new QuestionEvaluation",
+          "lineNumber": 466
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.questionIndex",
+          "lineNumber": 467
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.question",
+          "lineNumber": 467
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.category",
+          "lineNumber": 467
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.userAnswer",
+          "lineNumber": 467
+        },
+        {
+          "caller": "buildReport",
+          "callee": "referenceAnswers.add",
+          "lineNumber": 469
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new ReferenceAnswer",
+          "lineNumber": 469
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.questionIndex",
+          "lineNumber": 470
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.question",
+          "lineNumber": 470
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.computeIfAbsent(q.category(), k -> new ArrayList<>()).add",
+          "lineNumber": 472
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.computeIfAbsent",
+          "lineNumber": 472
+        },
+        {
+          "caller": "buildReport",
+          "callee": "q.category",
+          "lineNumber": 472
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new ArrayList<>",
+          "lineNumber": 472
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.entrySet().stream()\n            .map(e -> new CategoryScore(\n                e.getKey(),\n                (int) e.getValue().stream().mapToInt(Integer::intValue).average().orElse(0),\n                e.getValue().size()\n            )).collect",
+          "lineNumber": 475
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.entrySet().stream().map",
+          "lineNumber": 475
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.entrySet().stream",
+          "lineNumber": 475
+        },
+        {
+          "caller": "buildReport",
+          "callee": "categoryScoresMap.entrySet",
+          "lineNumber": 475
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new CategoryScore",
+          "lineNumber": 476
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getKey",
+          "lineNumber": 477
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue().stream().mapToInt(Integer::intValue).average().orElse",
+          "lineNumber": 478
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue().stream().mapToInt(Integer::intValue).average",
+          "lineNumber": 478
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue().stream().mapToInt",
+          "lineNumber": 478
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue().stream",
+          "lineNumber": 478
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue",
+          "lineNumber": 478
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue().size",
+          "lineNumber": 479
+        },
+        {
+          "caller": "buildReport",
+          "callee": "e.getValue",
+          "lineNumber": 479
+        },
+        {
+          "caller": "buildReport",
+          "callee": "Collectors.toList",
+          "lineNumber": 481
+        },
+        {
+          "caller": "buildReport",
+          "callee": "questionDetails.stream().mapToInt(QuestionEvaluation::score).average().orElse",
+          "lineNumber": 484
+        },
+        {
+          "caller": "buildReport",
+          "callee": "questionDetails.stream().mapToInt(QuestionEvaluation::score).average",
+          "lineNumber": 484
+        },
+        {
+          "caller": "buildReport",
+          "callee": "questionDetails.stream().mapToInt",
+          "lineNumber": 484
+        },
+        {
+          "caller": "buildReport",
+          "callee": "questionDetails.stream",
+          "lineNumber": 484
+        },
+        {
+          "caller": "buildReport",
+          "callee": "new EvaluationReport",
+          "lineNumber": 486
+        },
+        {
+          "caller": "buildReport",
+          "callee": "qaRecords.size",
+          "lineNumber": 487
+        },
+        {
+          "caller": "buildReport",
+          "callee": "List.of",
+          "lineNumber": 489
+        },
+        {
+          "caller": "buildReport",
+          "callee": "List.of",
+          "lineNumber": 490
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "new HashMap<>",
+          "lineNumber": 505
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "qaRecords.size",
+          "lineNumber": 506
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "qaRecords.get",
+          "lineNumber": 507
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "evaluations.size",
+          "lineNumber": 508
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "evaluations.get",
+          "lineNumber": 508
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "q.userAnswer",
+          "lineNumber": 510
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "q.userAnswer().isBlank",
+          "lineNumber": 510
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "q.userAnswer",
+          "lineNumber": 510
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "eval.score",
+          "lineNumber": 511
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.computeIfAbsent(q.category(), k -> new ArrayList<>()).add",
+          "lineNumber": 513
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.computeIfAbsent",
+          "lineNumber": 513
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "q.category",
+          "lineNumber": 513
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "new ArrayList<>",
+          "lineNumber": 513
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.entrySet().stream()\n            .map(entry -> {\n                int avg = (int) entry.getValue().stream().mapToInt(Integer::intValue).average().orElse(0);\n                return String.format(\"- %s: 平均分 %d, 题数 %d\", entry.getKey(), avg, entry.getValue().size());\n            })\n            .sorted().collect",
+          "lineNumber": 515
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.entrySet().stream()\n            .map(entry -> {\n                int avg = (int) entry.getValue().stream().mapToInt(Integer::intValue).average().orElse(0);\n                return String.format(\"- %s: 平均分 %d, 题数 %d\", entry.getKey(), avg, entry.getValue().size());\n            }).sorted",
+          "lineNumber": 515
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.entrySet().stream().map",
+          "lineNumber": 515
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.entrySet().stream",
+          "lineNumber": 515
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "categoryScores.entrySet",
+          "lineNumber": 515
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue().stream().mapToInt(Integer::intValue).average().orElse",
+          "lineNumber": 517
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue().stream().mapToInt(Integer::intValue).average",
+          "lineNumber": 517
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue().stream().mapToInt",
+          "lineNumber": 517
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue().stream",
+          "lineNumber": 517
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue",
+          "lineNumber": 517
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "String.format",
+          "lineNumber": 518
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getKey",
+          "lineNumber": 518
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue().size",
+          "lineNumber": 518
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "entry.getValue",
+          "lineNumber": 518
+        },
+        {
+          "caller": "buildCategorySummary",
+          "callee": "Collectors.joining",
+          "lineNumber": 521
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "new ArrayList<>",
+          "lineNumber": 534
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "qaRecords.size",
+          "lineNumber": 535
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "qaRecords.get",
+          "lineNumber": 536
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "evaluations.size",
+          "lineNumber": 537
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "evaluations.get",
+          "lineNumber": 537
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "eval.score",
+          "lineNumber": 538
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "eval.feedback",
+          "lineNumber": 539
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "eval.feedback",
+          "lineNumber": 539
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.question().length",
+          "lineNumber": 540
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.question",
+          "lineNumber": 540
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.question().substring",
+          "lineNumber": 540
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.question",
+          "lineNumber": 540
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.question",
+          "lineNumber": 540
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "feedback.length",
+          "lineNumber": 541
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "feedback.substring",
+          "lineNumber": 541
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "highlights.add",
+          "lineNumber": 542
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "String.format",
+          "lineNumber": 542
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "q.questionIndex",
+          "lineNumber": 542
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "highlights.stream().limit(20).collect",
+          "lineNumber": 544
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "highlights.stream().limit",
+          "lineNumber": 544
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "highlights.stream",
+          "lineNumber": 544
+        },
+        {
+          "caller": "buildQuestionHighlights",
+          "callee": "Collectors.joining",
+          "lineNumber": 544
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 15,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "BusinessException",
+          "startLine": 14,
+          "endLine": 18,
+          "params": [
+            "errorCode"
+          ]
+        },
+        {
+          "name": "BusinessException",
+          "startLine": 20,
+          "endLine": 24,
+          "params": [
+            "errorCode",
+            "message"
+          ]
+        },
+        {
+          "name": "BusinessException",
+          "startLine": 26,
+          "endLine": 30,
+          "params": [
+            "code",
+            "message"
+          ]
+        },
+        {
+          "name": "BusinessException",
+          "startLine": 32,
+          "endLine": 36,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "BusinessException",
+          "startLine": 38,
+          "endLine": 42,
+          "params": [
+            "message",
+            "cause"
+          ]
+        },
+        {
+          "name": "BusinessException",
+          "startLine": 44,
+          "endLine": 48,
+          "params": [
+            "errorCode",
+            "message",
+            "cause"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "BusinessException",
+          "startLine": 8,
+          "endLine": 49,
+          "methods": [
+            "BusinessException",
+            "BusinessException",
+            "BusinessException",
+            "BusinessException",
+            "BusinessException",
+            "BusinessException"
+          ],
+          "properties": [
+            "code",
+            "message"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BusinessException",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessException",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BusinessException",
+          "callee": "errorCode.getMessage",
+          "lineNumber": 15
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "errorCode.getCode",
+          "lineNumber": 16
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "errorCode.getMessage",
+          "lineNumber": 17
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "errorCode.getCode",
+          "lineNumber": 22
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "ErrorCode.INTERNAL_ERROR.getCode",
+          "lineNumber": 34
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "ErrorCode.INTERNAL_ERROR.getCode",
+          "lineNumber": 40
+        },
+        {
+          "caller": "BusinessException",
+          "callee": "errorCode.getCode",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 6,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 86,
+      "nonEmptyLines": 72,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 141,
+      "functions": [
+        {
+          "name": "handleBusinessException",
+          "startLine": 31,
+          "endLine": 36,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleValidationException",
+          "startLine": 41,
+          "endLine": 49,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleBindException",
+          "startLine": 54,
+          "endLine": 62,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleMaxUploadSizeExceededException",
+          "startLine": 67,
+          "endLine": 72,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleIllegalArgumentException",
+          "startLine": 77,
+          "endLine": 82,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleResourceAccessException",
+          "startLine": 88,
+          "endLine": 106,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleRestClientException",
+          "startLine": 112,
+          "endLine": 128,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleNoResourceFoundException",
+          "startLine": 133,
+          "endLine": 138,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleHttpRequestMethodNotSupportedException",
+          "startLine": 143,
+          "endLine": 148,
+          "params": [
+            "e"
+          ]
+        },
+        {
+          "name": "handleException",
+          "startLine": 154,
+          "endLine": 159,
+          "params": [
+            "e"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "GlobalExceptionHandler",
+          "startLine": 23,
+          "endLine": 160,
+          "methods": [
+            "handleBusinessException",
+            "handleValidationException",
+            "handleBindException",
+            "handleMaxUploadSizeExceededException",
+            "handleIllegalArgumentException",
+            "handleResourceAccessException",
+            "handleRestClientException",
+            "handleNoResourceFoundException",
+            "handleHttpRequestMethodNotSupportedException",
+            "handleException"
+          ],
+          "properties": [
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "handleBusinessException",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "handleValidationException",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "handleBindException",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "handleMaxUploadSizeExceededException",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "handleIllegalArgumentException",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "handleResourceAccessException",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "handleRestClientException",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "handleNoResourceFoundException",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "handleHttpRequestMethodNotSupportedException",
+          "line": 143,
+          "isDefault": false
+        },
+        {
+          "name": "handleException",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "GlobalExceptionHandler",
+          "line": 23,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleBusinessException",
+          "callee": "log.warn",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleBusinessException",
+          "callee": "e.getCode",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleBusinessException",
+          "callee": "e.getMessage",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleBusinessException",
+          "callee": "Result.error",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleBusinessException",
+          "callee": "e.getCode",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleBusinessException",
+          "callee": "e.getMessage",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "e.getBindingResult().getFieldErrors().stream()\n                .map(FieldError::getDefaultMessage).collect",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "e.getBindingResult().getFieldErrors().stream().map",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "e.getBindingResult().getFieldErrors().stream",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "e.getBindingResult().getFieldErrors",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "e.getBindingResult",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "Collectors.joining",
+          "lineNumber": 46
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "log.warn",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleValidationException",
+          "callee": "Result.error",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "e.getBindingResult().getFieldErrors().stream()\n                .map(FieldError::getDefaultMessage).collect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "e.getBindingResult().getFieldErrors().stream().map",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "e.getBindingResult().getFieldErrors().stream",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "e.getBindingResult().getFieldErrors",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "e.getBindingResult",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "Collectors.joining",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "log.warn",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleBindException",
+          "callee": "Result.error",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleMaxUploadSizeExceededException",
+          "callee": "log.warn",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleMaxUploadSizeExceededException",
+          "callee": "e.getMessage",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleMaxUploadSizeExceededException",
+          "callee": "Result.error",
+          "lineNumber": 71
+        },
+        {
+          "caller": "handleIllegalArgumentException",
+          "callee": "log.warn",
+          "lineNumber": 80
+        },
+        {
+          "caller": "handleIllegalArgumentException",
+          "callee": "e.getMessage",
+          "lineNumber": 80
+        },
+        {
+          "caller": "handleIllegalArgumentException",
+          "callee": "Result.error",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleIllegalArgumentException",
+          "callee": "e.getMessage",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "log.error",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "e.getMessage",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "e.getCause",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "Result.error",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "e.getMessage",
+          "lineNumber": 100
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "message.contains",
+          "lineNumber": 101
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "Result.error",
+          "lineNumber": 102
+        },
+        {
+          "caller": "handleResourceAccessException",
+          "callee": "Result.error",
+          "lineNumber": 105
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "log.error",
+          "lineNumber": 115
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "e.getMessage",
+          "lineNumber": 115
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "e.getMessage",
+          "lineNumber": 117
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "message.contains",
+          "lineNumber": 119
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "message.contains",
+          "lineNumber": 119
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "Result.error",
+          "lineNumber": 120
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "message.contains",
+          "lineNumber": 122
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "message.contains",
+          "lineNumber": 122
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "Result.error",
+          "lineNumber": 123
+        },
+        {
+          "caller": "handleRestClientException",
+          "callee": "Result.error",
+          "lineNumber": 127
+        },
+        {
+          "caller": "handleNoResourceFoundException",
+          "callee": "log.warn",
+          "lineNumber": 136
+        },
+        {
+          "caller": "handleNoResourceFoundException",
+          "callee": "e.getResourcePath",
+          "lineNumber": 136
+        },
+        {
+          "caller": "handleNoResourceFoundException",
+          "callee": "Result.error",
+          "lineNumber": 137
+        },
+        {
+          "caller": "handleHttpRequestMethodNotSupportedException",
+          "callee": "log.warn",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handleHttpRequestMethodNotSupportedException",
+          "callee": "e.getMethod",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handleHttpRequestMethodNotSupportedException",
+          "callee": "e.getSupportedHttpMethods",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handleHttpRequestMethodNotSupportedException",
+          "callee": "Result.error",
+          "lineNumber": 147
+        },
+        {
+          "caller": "handleHttpRequestMethodNotSupportedException",
+          "callee": "e.getMethod",
+          "lineNumber": 147
+        },
+        {
+          "caller": "handleException",
+          "callee": "log.error",
+          "lineNumber": 157
+        },
+        {
+          "caller": "handleException",
+          "callee": "e.getMessage",
+          "lineNumber": 157
+        },
+        {
+          "caller": "handleException",
+          "callee": "Result.error",
+          "lineNumber": 158
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 11,
+        "functionCount": 10,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 17,
+      "functions": [
+        {
+          "name": "RateLimitExceededException",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "RateLimitExceededException",
+          "startLine": 13,
+          "endLine": 15,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "RateLimitExceededException",
+          "startLine": 17,
+          "endLine": 20,
+          "params": [
+            "message",
+            "cause"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RateLimitExceededException",
+          "startLine": 7,
+          "endLine": 21,
+          "methods": [
+            "RateLimitExceededException",
+            "RateLimitExceededException",
+            "RateLimitExceededException"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RateLimitExceededException",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "RateLimitExceededException",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "RateLimitExceededException",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "RateLimitExceededException",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RateLimitExceededException",
+          "callee": "ErrorCode.RATE_LIMIT_EXCEEDED.getMessage",
+          "lineNumber": 10
+        },
+        {
+          "caller": "RateLimitExceededException",
+          "callee": "ErrorCode.RATE_LIMIT_EXCEEDED.getCode",
+          "lineNumber": 18
+        },
+        {
+          "caller": "RateLimitExceededException",
+          "callee": "this.initCause",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/result/Result.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "Result",
+          "startLine": 17,
+          "endLine": 21,
+          "params": [
+            "code",
+            "message",
+            "data"
+          ]
+        },
+        {
+          "name": "success",
+          "startLine": 25,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "success",
+          "startLine": 29,
+          "endLine": 31,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "success",
+          "startLine": 33,
+          "endLine": 35,
+          "params": [
+            "message",
+            "data"
+          ]
+        },
+        {
+          "name": "error",
+          "startLine": 39,
+          "endLine": 41,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "error",
+          "startLine": 43,
+          "endLine": 45,
+          "params": [
+            "code",
+            "message"
+          ]
+        },
+        {
+          "name": "error",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "errorCode"
+          ]
+        },
+        {
+          "name": "error",
+          "startLine": 51,
+          "endLine": 53,
+          "params": [
+            "errorCode",
+            "message"
+          ]
+        },
+        {
+          "name": "isSuccess",
+          "startLine": 57,
+          "endLine": 59,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Result",
+          "startLine": 10,
+          "endLine": 60,
+          "methods": [
+            "Result",
+            "success",
+            "success",
+            "success",
+            "error",
+            "error",
+            "error",
+            "error",
+            "isSuccess"
+          ],
+          "properties": [
+            "code",
+            "message",
+            "data"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "success",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "success",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "success",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "error",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "error",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "error",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "error",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "isSuccess",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "Result",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "success",
+          "callee": "new Result<>",
+          "lineNumber": 26
+        },
+        {
+          "caller": "success",
+          "callee": "new Result<>",
+          "lineNumber": 30
+        },
+        {
+          "caller": "success",
+          "callee": "new Result<>",
+          "lineNumber": 34
+        },
+        {
+          "caller": "error",
+          "callee": "new Result<>",
+          "lineNumber": 40
+        },
+        {
+          "caller": "error",
+          "callee": "new Result<>",
+          "lineNumber": 44
+        },
+        {
+          "caller": "error",
+          "callee": "new Result<>",
+          "lineNumber": 48
+        },
+        {
+          "caller": "error",
+          "callee": "errorCode.getCode",
+          "lineNumber": 48
+        },
+        {
+          "caller": "error",
+          "callee": "errorCode.getMessage",
+          "lineNumber": 48
+        },
+        {
+          "caller": "error",
+          "callee": "new Result<>",
+          "lineNumber": 52
+        },
+        {
+          "caller": "error",
+          "callee": "errorCode.getCode",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 9,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 309,
+      "nonEmptyLines": 274,
+      "functions": [
+        {
+          "name": "createChineseFont",
+          "startLine": 50,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "sanitizeText",
+          "startLine": 72,
+          "endLine": 76,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "exportResumeAnalysis",
+          "startLine": 81,
+          "endLine": 161,
+          "params": [
+            "resume",
+            "analysis"
+          ]
+        },
+        {
+          "name": "exportInterviewReport",
+          "startLine": 166,
+          "endLine": 279,
+          "params": [
+            "session"
+          ]
+        },
+        {
+          "name": "createSectionTitle",
+          "startLine": 281,
+          "endLine": 287,
+          "params": [
+            "title"
+          ]
+        },
+        {
+          "name": "addScoreRow",
+          "startLine": 289,
+          "endLine": 293,
+          "params": [
+            "table",
+            "dimension",
+            "score",
+            "maxScore"
+          ]
+        },
+        {
+          "name": "getScoreColor",
+          "startLine": 295,
+          "endLine": 299,
+          "params": [
+            "score"
+          ]
+        },
+        {
+          "name": "getStatusText",
+          "startLine": 301,
+          "endLine": 308,
+          "params": [
+            "status"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "PdfExportService",
+          "startLine": 36,
+          "endLine": 309,
+          "methods": [
+            "createChineseFont",
+            "sanitizeText",
+            "exportResumeAnalysis",
+            "exportInterviewReport",
+            "createSectionTitle",
+            "addScoreRow",
+            "getScoreColor",
+            "getStatusText"
+          ],
+          "properties": [
+            "DATE_FORMAT",
+            "HEADER_COLOR",
+            "SECTION_COLOR",
+            "objectMapper"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "exportResumeAnalysis",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "exportInterviewReport",
+          "line": 166,
+          "isDefault": false
+        },
+        {
+          "name": "PdfExportService",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createChineseFont",
+          "callee": "getClass().getClassLoader().getResourceAsStream",
+          "lineNumber": 51
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "getClass().getClassLoader",
+          "lineNumber": 51
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "getClass",
+          "lineNumber": 51
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "fontStream.readAllBytes",
+          "lineNumber": 53
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "log.debug",
+          "lineNumber": 54
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "PdfFontFactory.createFont",
+          "lineNumber": 55
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "log.error",
+          "lineNumber": 58
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "new BusinessException",
+          "lineNumber": 59
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "log.error",
+          "lineNumber": 64
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "e.getMessage",
+          "lineNumber": 64
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "new BusinessException",
+          "lineNumber": 65
+        },
+        {
+          "caller": "createChineseFont",
+          "callee": "e.getMessage",
+          "lineNumber": 65
+        },
+        {
+          "caller": "sanitizeText",
+          "callee": "text.replaceAll(\"[\\\\p{So}\\\\p{Cs}]\", \"\").trim",
+          "lineNumber": 75
+        },
+        {
+          "caller": "sanitizeText",
+          "callee": "text.replaceAll",
+          "lineNumber": 75
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new ByteArrayOutputStream",
+          "lineNumber": 82
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new PdfWriter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new PdfDocument",
+          "lineNumber": 84
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Document",
+          "lineNumber": 85
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createChineseFont",
+          "lineNumber": 88
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.setFont",
+          "lineNumber": 89
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"简历分析报告\")\n            .setFontSize(24)\n            .setBold()\n            .setTextAlignment(TextAlignment.CENTER).setFontColor",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"简历分析报告\")\n            .setFontSize(24)\n            .setBold().setTextAlignment",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"简历分析报告\")\n            .setFontSize(24).setBold",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"简历分析报告\").setFontSize",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 92
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 97
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 100
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 100
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 101
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 101
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 102
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 102
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "resume.getOriginalFilename",
+          "lineNumber": 102
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 103
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 103
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "resume.getUploadedAt",
+          "lineNumber": 104
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "DATE_FORMAT.format",
+          "lineNumber": 104
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "resume.getUploadedAt",
+          "lineNumber": 104
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 107
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 107
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 108
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 108
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"总分: \" + analysis.overallScore() + \" / 100\")\n            .setFontSize(18)\n            .setBold().setFontColor",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"总分: \" + analysis.overallScore() + \" / 100\")\n            .setFontSize(18).setBold",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"总分: \" + analysis.overallScore() + \" / 100\").setFontSize",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.overallScore",
+          "lineNumber": 109
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "getScoreColor",
+          "lineNumber": 112
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.overallScore",
+          "lineNumber": 112
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 113
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 116
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 117
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 117
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 118
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 118
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Table(UnitValue.createPercentArray(new float[]{2, 1})).useAllAvailableWidth",
+          "lineNumber": 120
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Table",
+          "lineNumber": 120
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "UnitValue.createPercentArray",
+          "lineNumber": 120
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "addScoreRow",
+          "lineNumber": 122
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail().projectScore",
+          "lineNumber": 122
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 122
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "addScoreRow",
+          "lineNumber": 123
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail().skillMatchScore",
+          "lineNumber": 123
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 123
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "addScoreRow",
+          "lineNumber": 124
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail().contentScore",
+          "lineNumber": 124
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 124
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "addScoreRow",
+          "lineNumber": 125
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail().structureScore",
+          "lineNumber": 125
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 125
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "addScoreRow",
+          "lineNumber": 126
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail().expressionScore",
+          "lineNumber": 126
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.scoreDetail",
+          "lineNumber": 126
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 127
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.summary",
+          "lineNumber": 131
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 132
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 132
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 133
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 133
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 134
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 134
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "sanitizeText",
+          "lineNumber": 134
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.summary",
+          "lineNumber": 134
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.strengths",
+          "lineNumber": 138
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.strengths().isEmpty",
+          "lineNumber": 138
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.strengths",
+          "lineNumber": 138
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 139
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 139
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 140
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 140
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.strengths",
+          "lineNumber": 141
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 142
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 142
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "sanitizeText",
+          "lineNumber": 142
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.suggestions",
+          "lineNumber": 147
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.suggestions().isEmpty",
+          "lineNumber": 147
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.suggestions",
+          "lineNumber": 147
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 148
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 148
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 149
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "createSectionTitle",
+          "lineNumber": 149
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "analysis.suggestions",
+          "lineNumber": 150
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph(\"【\" + suggestion.priority() + \"】\" + sanitizeText(suggestion.category())).setBold",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "suggestion.priority",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "sanitizeText",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "suggestion.category",
+          "lineNumber": 151
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 153
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 153
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "sanitizeText",
+          "lineNumber": 153
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "suggestion.issue",
+          "lineNumber": 153
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 154
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 154
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "sanitizeText",
+          "lineNumber": 154
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "suggestion.recommendation",
+          "lineNumber": 154
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.add",
+          "lineNumber": 155
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "new Paragraph",
+          "lineNumber": 155
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "document.close",
+          "lineNumber": 159
+        },
+        {
+          "caller": "exportResumeAnalysis",
+          "callee": "baos.toByteArray",
+          "lineNumber": 160
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new ByteArrayOutputStream",
+          "lineNumber": 167
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new PdfWriter",
+          "lineNumber": 168
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new PdfDocument",
+          "lineNumber": 169
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Document",
+          "lineNumber": 170
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createChineseFont",
+          "lineNumber": 173
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.setFont",
+          "lineNumber": 174
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"模拟面试报告\")\n            .setFontSize(24)\n            .setBold()\n            .setTextAlignment(TextAlignment.CENTER).setFontColor",
+          "lineNumber": 177
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"模拟面试报告\")\n            .setFontSize(24)\n            .setBold().setTextAlignment",
+          "lineNumber": 177
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"模拟面试报告\")\n            .setFontSize(24).setBold",
+          "lineNumber": 177
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"模拟面试报告\").setFontSize",
+          "lineNumber": 177
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 177
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 182
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 185
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 185
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 186
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 186
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 187
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 187
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getSessionId",
+          "lineNumber": 187
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 188
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 188
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getTotalQuestions",
+          "lineNumber": 188
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 189
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 189
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "getStatusText",
+          "lineNumber": 189
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getStatus",
+          "lineNumber": 189
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 190
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 190
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getCreatedAt",
+          "lineNumber": 191
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "DATE_FORMAT.format",
+          "lineNumber": 191
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getCreatedAt",
+          "lineNumber": 191
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getCompletedAt",
+          "lineNumber": 192
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 193
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 193
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "DATE_FORMAT.format",
+          "lineNumber": 193
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getCompletedAt",
+          "lineNumber": 193
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getOverallScore",
+          "lineNumber": 197
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 198
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 198
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 199
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 199
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"总分: \" + session.getOverallScore() + \" / 100\")\n                .setFontSize(18)\n                .setBold().setFontColor",
+          "lineNumber": 200
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"总分: \" + session.getOverallScore() + \" / 100\")\n                .setFontSize(18).setBold",
+          "lineNumber": 200
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"总分: \" + session.getOverallScore() + \" / 100\").setFontSize",
+          "lineNumber": 200
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 200
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getOverallScore",
+          "lineNumber": 200
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "getScoreColor",
+          "lineNumber": 203
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getOverallScore",
+          "lineNumber": 203
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 204
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getOverallFeedback",
+          "lineNumber": 208
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 209
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 209
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 210
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 210
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 211
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 211
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 211
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getOverallFeedback",
+          "lineNumber": 211
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getStrengthsJson",
+          "lineNumber": 215
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 217
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getStrengthsJson",
+          "lineNumber": 217
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new TypeReference<>",
+          "lineNumber": 218
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "strengths.isEmpty",
+          "lineNumber": 220
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 221
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 221
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 222
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 222
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 224
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 224
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 224
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "log.error",
+          "lineNumber": 228
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getSessionId",
+          "lineNumber": 228
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getImprovementsJson",
+          "lineNumber": 233
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 235
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getImprovementsJson",
+          "lineNumber": 235
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new TypeReference<>",
+          "lineNumber": 236
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "improvements.isEmpty",
+          "lineNumber": 238
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 239
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 239
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 240
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 240
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 242
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 242
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 242
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "log.error",
+          "lineNumber": 246
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getSessionId",
+          "lineNumber": 246
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "session.getAnswers",
+          "lineNumber": 251
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answers.isEmpty",
+          "lineNumber": 252
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 253
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 253
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 254
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "createSectionTitle",
+          "lineNumber": 254
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 257
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 257
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 258
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"问题 \" + (answer.getQuestionIndex() + 1) + \n                    \" [\" + (answer.getCategory() != null ? answer.getCategory() : \"综合\") + \"]\")\n                    .setBold().setFontSize",
+          "lineNumber": 258
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"问题 \" + (answer.getQuestionIndex() + 1) + \n                    \" [\" + (answer.getCategory() != null ? answer.getCategory() : \"综合\") + \"]\").setBold",
+          "lineNumber": 258
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 258
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getQuestionIndex",
+          "lineNumber": 258
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getCategory",
+          "lineNumber": 259
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getCategory",
+          "lineNumber": 259
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 262
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 262
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 262
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getQuestion",
+          "lineNumber": 262
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 263
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 263
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 263
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getUserAnswer",
+          "lineNumber": 263
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getUserAnswer",
+          "lineNumber": 263
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 264
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"得分: \" + answer.getScore() + \"/100\").setFontColor",
+          "lineNumber": 264
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 264
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getScore",
+          "lineNumber": 264
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "getScoreColor",
+          "lineNumber": 265
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getScore",
+          "lineNumber": 265
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getFeedback",
+          "lineNumber": 266
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 267
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"评价: \" + sanitizeText(answer.getFeedback())).setItalic",
+          "lineNumber": 267
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 267
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 267
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getFeedback",
+          "lineNumber": 267
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getReferenceAnswer",
+          "lineNumber": 270
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.add",
+          "lineNumber": 271
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph(\"参考答案: \" + sanitizeText(answer.getReferenceAnswer())).setFontColor",
+          "lineNumber": 271
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new Paragraph",
+          "lineNumber": 271
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "sanitizeText",
+          "lineNumber": 271
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "answer.getReferenceAnswer",
+          "lineNumber": 271
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "new DeviceRgb",
+          "lineNumber": 272
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "document.close",
+          "lineNumber": 277
+        },
+        {
+          "caller": "exportInterviewReport",
+          "callee": "baos.toByteArray",
+          "lineNumber": 278
+        },
+        {
+          "caller": "createSectionTitle",
+          "callee": "new Paragraph(title)\n            .setFontSize(14)\n            .setBold()\n            .setFontColor(SECTION_COLOR).setMarginTop",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createSectionTitle",
+          "callee": "new Paragraph(title)\n            .setFontSize(14)\n            .setBold().setFontColor",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createSectionTitle",
+          "callee": "new Paragraph(title)\n            .setFontSize(14).setBold",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createSectionTitle",
+          "callee": "new Paragraph(title).setFontSize",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createSectionTitle",
+          "callee": "new Paragraph",
+          "lineNumber": 282
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "table.addCell",
+          "lineNumber": 290
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Cell().add",
+          "lineNumber": 290
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Cell",
+          "lineNumber": 290
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Paragraph",
+          "lineNumber": 290
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "table.addCell",
+          "lineNumber": 291
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Cell().add",
+          "lineNumber": 291
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Cell",
+          "lineNumber": 291
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Paragraph(score + \" / \" + maxScore).setFontColor",
+          "lineNumber": 291
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "new Paragraph",
+          "lineNumber": 291
+        },
+        {
+          "caller": "addScoreRow",
+          "callee": "getScoreColor",
+          "lineNumber": 292
+        },
+        {
+          "caller": "getScoreColor",
+          "callee": "new DeviceRgb",
+          "lineNumber": 296
+        },
+        {
+          "caller": "getScoreColor",
+          "callee": "new DeviceRgb",
+          "lineNumber": 297
+        },
+        {
+          "caller": "getScoreColor",
+          "callee": "new DeviceRgb",
+          "lineNumber": 298
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 109,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "ContentTypeDetectionService",
+          "startLine": 21,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "detectContentType",
+          "startLine": 32,
+          "endLine": 39,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "detectContentType",
+          "startLine": 48,
+          "endLine": 55,
+          "params": [
+            "inputStream",
+            "fileName"
+          ]
+        },
+        {
+          "name": "detectContentType",
+          "startLine": 64,
+          "endLine": 66,
+          "params": [
+            "data",
+            "fileName"
+          ]
+        },
+        {
+          "name": "isPdf",
+          "startLine": 71,
+          "endLine": 73,
+          "params": [
+            "contentType"
+          ]
+        },
+        {
+          "name": "isWordDocument",
+          "startLine": 78,
+          "endLine": 82,
+          "params": [
+            "contentType"
+          ]
+        },
+        {
+          "name": "isPlainText",
+          "startLine": 87,
+          "endLine": 89,
+          "params": [
+            "contentType"
+          ]
+        },
+        {
+          "name": "isMarkdown",
+          "startLine": 94,
+          "endLine": 108,
+          "params": [
+            "contentType",
+            "fileName"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "ContentTypeDetectionService",
+          "startLine": 15,
+          "endLine": 109,
+          "methods": [
+            "ContentTypeDetectionService",
+            "detectContentType",
+            "detectContentType",
+            "detectContentType",
+            "isPdf",
+            "isWordDocument",
+            "isPlainText",
+            "isMarkdown"
+          ],
+          "properties": [
+            "tika"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ContentTypeDetectionService",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "detectContentType",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "detectContentType",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "detectContentType",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "isPdf",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "isWordDocument",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "isPlainText",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "isMarkdown",
+          "line": 94,
+          "isDefault": false
+        },
+        {
+          "name": "ContentTypeDetectionService",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ContentTypeDetectionService",
+          "callee": "new Tika",
+          "lineNumber": 22
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "file.getInputStream",
+          "lineNumber": 33
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "tika.detect",
+          "lineNumber": 34
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "file.getOriginalFilename",
+          "lineNumber": 34
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "log.warn",
+          "lineNumber": 36
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "e.getMessage",
+          "lineNumber": 36
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "file.getContentType",
+          "lineNumber": 37
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "tika.detect",
+          "lineNumber": 50
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "log.warn",
+          "lineNumber": 52
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "e.getMessage",
+          "lineNumber": 52
+        },
+        {
+          "caller": "detectContentType",
+          "callee": "tika.detect",
+          "lineNumber": 65
+        },
+        {
+          "caller": "isPdf",
+          "callee": "contentType.toLowerCase().contains",
+          "lineNumber": 72
+        },
+        {
+          "caller": "isPdf",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 72
+        },
+        {
+          "caller": "isWordDocument",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 80
+        },
+        {
+          "caller": "isWordDocument",
+          "callee": "lower.contains",
+          "lineNumber": 81
+        },
+        {
+          "caller": "isWordDocument",
+          "callee": "lower.contains",
+          "lineNumber": 81
+        },
+        {
+          "caller": "isPlainText",
+          "callee": "contentType.toLowerCase().startsWith",
+          "lineNumber": 88
+        },
+        {
+          "caller": "isPlainText",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 88
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 96
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "lower.contains",
+          "lineNumber": 97
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "lower.contains",
+          "lineNumber": 97
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "fileName.toLowerCase",
+          "lineNumber": 102
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "lowerName.endsWith",
+          "lineNumber": 103
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "lowerName.endsWith",
+          "lineNumber": 104
+        },
+        {
+          "caller": "isMarkdown",
+          "callee": "lowerName.endsWith",
+          "lineNumber": 105
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 164,
+      "nonEmptyLines": 142,
+      "functions": [
+        {
+          "name": "DocumentParseService",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "textCleaningService"
+          ]
+        },
+        {
+          "name": "parseContent",
+          "startLine": 46,
+          "endLine": 65,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "parseContent",
+          "startLine": 74,
+          "endLine": 92,
+          "params": [
+            "fileBytes",
+            "fileName"
+          ]
+        },
+        {
+          "name": "parseContent",
+          "startLine": 109,
+          "endLine": 140,
+          "params": [
+            "inputStream"
+          ]
+        },
+        {
+          "name": "downloadAndParseContent",
+          "startLine": 150,
+          "endLine": 163,
+          "params": [
+            "storageService",
+            "storageKey",
+            "originalFilename"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "DocumentParseService",
+          "startLine": 27,
+          "endLine": 164,
+          "methods": [
+            "DocumentParseService",
+            "parseContent",
+            "parseContent",
+            "parseContent",
+            "downloadAndParseContent"
+          ],
+          "properties": [
+            "MAX_TEXT_LENGTH",
+            "textCleaningService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DocumentParseService",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "parseContent",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "parseContent",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "downloadAndParseContent",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "DocumentParseService",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseContent",
+          "callee": "file.getOriginalFilename",
+          "lineNumber": 47
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.info",
+          "lineNumber": 48
+        },
+        {
+          "caller": "parseContent",
+          "callee": "file.isEmpty",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parseContent",
+          "callee": "file.getSize",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.warn",
+          "lineNumber": 52
+        },
+        {
+          "caller": "parseContent",
+          "callee": "file.getInputStream",
+          "lineNumber": 56
+        },
+        {
+          "caller": "parseContent",
+          "callee": "parseContent",
+          "lineNumber": 57
+        },
+        {
+          "caller": "parseContent",
+          "callee": "textCleaningService.cleanText",
+          "lineNumber": 58
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.info",
+          "lineNumber": 59
+        },
+        {
+          "caller": "parseContent",
+          "callee": "cleanedContent.length",
+          "lineNumber": 59
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.error",
+          "lineNumber": 62
+        },
+        {
+          "caller": "parseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 62
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new BusinessException",
+          "lineNumber": 63
+        },
+        {
+          "caller": "parseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 63
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.info",
+          "lineNumber": 75
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.warn",
+          "lineNumber": 79
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new ByteArrayInputStream",
+          "lineNumber": 83
+        },
+        {
+          "caller": "parseContent",
+          "callee": "parseContent",
+          "lineNumber": 84
+        },
+        {
+          "caller": "parseContent",
+          "callee": "textCleaningService.cleanText",
+          "lineNumber": 85
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.info",
+          "lineNumber": 86
+        },
+        {
+          "caller": "parseContent",
+          "callee": "cleanedContent.length",
+          "lineNumber": 86
+        },
+        {
+          "caller": "parseContent",
+          "callee": "log.error",
+          "lineNumber": 89
+        },
+        {
+          "caller": "parseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 89
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new BusinessException",
+          "lineNumber": 90
+        },
+        {
+          "caller": "parseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 90
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new AutoDetectParser",
+          "lineNumber": 111
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new BodyContentHandler",
+          "lineNumber": 114
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new Metadata",
+          "lineNumber": 117
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new ParseContext",
+          "lineNumber": 120
+        },
+        {
+          "caller": "parseContent",
+          "callee": "context.set",
+          "lineNumber": 123
+        },
+        {
+          "caller": "parseContent",
+          "callee": "context.set",
+          "lineNumber": 126
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new NoOpEmbeddedDocumentExtractor",
+          "lineNumber": 126
+        },
+        {
+          "caller": "parseContent",
+          "callee": "new PDFParserConfig",
+          "lineNumber": 129
+        },
+        {
+          "caller": "parseContent",
+          "callee": "pdfConfig.setExtractInlineImages",
+          "lineNumber": 130
+        },
+        {
+          "caller": "parseContent",
+          "callee": "pdfConfig.setSortByPosition",
+          "lineNumber": 131
+        },
+        {
+          "caller": "parseContent",
+          "callee": "context.set",
+          "lineNumber": 133
+        },
+        {
+          "caller": "parseContent",
+          "callee": "parser.parse",
+          "lineNumber": 136
+        },
+        {
+          "caller": "parseContent",
+          "callee": "handler.toString",
+          "lineNumber": 139
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "storageService.downloadFile",
+          "lineNumber": 152
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "new BusinessException",
+          "lineNumber": 154
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "parseContent",
+          "lineNumber": 156
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "log.error",
+          "lineNumber": 160
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 160
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "new BusinessException",
+          "lineNumber": 161
+        },
+        {
+          "caller": "downloadAndParseContent",
+          "callee": "e.getMessage",
+          "lineNumber": 161
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 88,
+      "nonEmptyLines": 80,
+      "functions": [
+        {
+          "name": "calculateHash",
+          "startLine": 31,
+          "endLine": 38,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "calculateHash",
+          "startLine": 46,
+          "endLine": 55,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "calculateHash",
+          "startLine": 63,
+          "endLine": 76,
+          "params": [
+            "inputStream"
+          ]
+        },
+        {
+          "name": "bytesToHex",
+          "startLine": 81,
+          "endLine": 87,
+          "params": [
+            "bytes"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "FileHashService",
+          "startLine": 18,
+          "endLine": 88,
+          "methods": [
+            "calculateHash",
+            "calculateHash",
+            "calculateHash",
+            "bytesToHex"
+          ],
+          "properties": [
+            "HASH_ALGORITHM",
+            "BUFFER_SIZE"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "calculateHash",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "calculateHash",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "calculateHash",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "FileHashService",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "calculateHash",
+          "callee": "calculateHash",
+          "lineNumber": 33
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "file.getBytes",
+          "lineNumber": 33
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "log.error",
+          "lineNumber": 35
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "new BusinessException",
+          "lineNumber": 36
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "MessageDigest.getInstance",
+          "lineNumber": 48
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "digest.digest",
+          "lineNumber": 49
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "bytesToHex",
+          "lineNumber": 50
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "log.error",
+          "lineNumber": 52
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "new BusinessException",
+          "lineNumber": 53
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "MessageDigest.getInstance",
+          "lineNumber": 65
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "inputStream.read",
+          "lineNumber": 68
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "digest.update",
+          "lineNumber": 69
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "bytesToHex",
+          "lineNumber": 71
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "digest.digest",
+          "lineNumber": 71
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "log.error",
+          "lineNumber": 73
+        },
+        {
+          "caller": "calculateHash",
+          "callee": "new BusinessException",
+          "lineNumber": 74
+        },
+        {
+          "caller": "bytesToHex",
+          "callee": "new StringBuilder",
+          "lineNumber": 82
+        },
+        {
+          "caller": "bytesToHex",
+          "callee": "result.append",
+          "lineNumber": 84
+        },
+        {
+          "caller": "bytesToHex",
+          "callee": "String.format",
+          "lineNumber": 84
+        },
+        {
+          "caller": "bytesToHex",
+          "callee": "result.toString",
+          "lineNumber": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 281,
+      "nonEmptyLines": 254,
+      "functions": [
+        {
+          "name": "uploadResume",
+          "startLine": 38,
+          "endLine": 40,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "deleteResume",
+          "startLine": 45,
+          "endLine": 47,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "uploadKnowledgeBase",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "deleteKnowledgeBase",
+          "startLine": 59,
+          "endLine": 61,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "downloadFile",
+          "startLine": 69,
+          "endLine": 84,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "uploadFile",
+          "startLine": 91,
+          "endLine": 113,
+          "params": [
+            "file",
+            "prefix"
+          ]
+        },
+        {
+          "name": "fileExists",
+          "startLine": 118,
+          "endLine": 132,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "getFileSize",
+          "startLine": 137,
+          "endLine": 148,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "deleteFile",
+          "startLine": 153,
+          "endLine": 177,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "getFileUrl",
+          "startLine": 179,
+          "endLine": 181,
+          "params": [
+            "fileKey"
+          ]
+        },
+        {
+          "name": "ensureBucketExists",
+          "startLine": 186,
+          "endLine": 203,
+          "params": []
+        },
+        {
+          "name": "generateFileKey",
+          "startLine": 208,
+          "endLine": 214,
+          "params": [
+            "originalFilename",
+            "prefix"
+          ]
+        },
+        {
+          "name": "sanitizeFilename",
+          "startLine": 225,
+          "endLine": 230,
+          "params": [
+            "filename"
+          ]
+        },
+        {
+          "name": "convertToPinyin",
+          "startLine": 238,
+          "endLine": 259,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "sanitizeChar",
+          "startLine": 264,
+          "endLine": 270,
+          "params": [
+            "ch"
+          ]
+        },
+        {
+          "name": "capitalize",
+          "startLine": 275,
+          "endLine": 280,
+          "params": [
+            "str"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "FileStorageService",
+          "startLine": 27,
+          "endLine": 281,
+          "methods": [
+            "uploadResume",
+            "deleteResume",
+            "uploadKnowledgeBase",
+            "deleteKnowledgeBase",
+            "downloadFile",
+            "uploadFile",
+            "fileExists",
+            "getFileSize",
+            "deleteFile",
+            "getFileUrl",
+            "ensureBucketExists",
+            "generateFileKey",
+            "sanitizeFilename",
+            "convertToPinyin",
+            "sanitizeChar",
+            "capitalize"
+          ],
+          "properties": [
+            "s3Client",
+            "storageConfig",
+            "DATE_PATH_FORMAT"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "uploadResume",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "deleteResume",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "uploadKnowledgeBase",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "deleteKnowledgeBase",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "downloadFile",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "fileExists",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "getFileSize",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "getFileUrl",
+          "line": 179,
+          "isDefault": false
+        },
+        {
+          "name": "ensureBucketExists",
+          "line": 186,
+          "isDefault": false
+        },
+        {
+          "name": "FileStorageService",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "uploadResume",
+          "callee": "uploadFile",
+          "lineNumber": 39
+        },
+        {
+          "caller": "deleteResume",
+          "callee": "deleteFile",
+          "lineNumber": 46
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "uploadFile",
+          "lineNumber": 53
+        },
+        {
+          "caller": "deleteKnowledgeBase",
+          "callee": "deleteFile",
+          "lineNumber": 60
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "fileExists",
+          "lineNumber": 70
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "new BusinessException",
+          "lineNumber": 71
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "GetObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey).build",
+          "lineNumber": 75
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "GetObjectRequest.builder()\n                    .bucket(storageConfig.getBucket()).key",
+          "lineNumber": 75
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "GetObjectRequest.builder().bucket",
+          "lineNumber": 75
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "GetObjectRequest.builder",
+          "lineNumber": 75
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 76
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "s3Client.getObjectAsBytes(getRequest).asByteArray",
+          "lineNumber": 79
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "s3Client.getObjectAsBytes",
+          "lineNumber": 79
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "log.error",
+          "lineNumber": 81
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "e.getMessage",
+          "lineNumber": 81
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "new BusinessException",
+          "lineNumber": 82
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "e.getMessage",
+          "lineNumber": 82
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "file.getOriginalFilename",
+          "lineNumber": 92
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "generateFileKey",
+          "lineNumber": 93
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey)\n                    .contentType(file.getContentType())\n                    .contentLength(file.getSize()).build",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey)\n                    .contentType(file.getContentType()).contentLength",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey).contentType",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder()\n                    .bucket(storageConfig.getBucket()).key",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder().bucket",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "PutObjectRequest.builder",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 97
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "file.getContentType",
+          "lineNumber": 99
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "file.getSize",
+          "lineNumber": 100
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "s3Client.putObject",
+          "lineNumber": 103
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "RequestBody.fromInputStream",
+          "lineNumber": 103
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "file.getInputStream",
+          "lineNumber": 103
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "file.getSize",
+          "lineNumber": 103
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "log.info",
+          "lineNumber": 104
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "log.error",
+          "lineNumber": 107
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "e.getMessage",
+          "lineNumber": 107
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "new BusinessException",
+          "lineNumber": 108
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "log.error",
+          "lineNumber": 110
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "e.getMessage",
+          "lineNumber": 110
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "new BusinessException",
+          "lineNumber": 111
+        },
+        {
+          "caller": "uploadFile",
+          "callee": "e.getMessage",
+          "lineNumber": 111
+        },
+        {
+          "caller": "fileExists",
+          "callee": "HeadObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey).build",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fileExists",
+          "callee": "HeadObjectRequest.builder()\n                    .bucket(storageConfig.getBucket()).key",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fileExists",
+          "callee": "HeadObjectRequest.builder().bucket",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fileExists",
+          "callee": "HeadObjectRequest.builder",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fileExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fileExists",
+          "callee": "s3Client.headObject",
+          "lineNumber": 124
+        },
+        {
+          "caller": "fileExists",
+          "callee": "log.warn",
+          "lineNumber": 129
+        },
+        {
+          "caller": "fileExists",
+          "callee": "e.getMessage",
+          "lineNumber": 129
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "HeadObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey).build",
+          "lineNumber": 139
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "HeadObjectRequest.builder()\n                    .bucket(storageConfig.getBucket()).key",
+          "lineNumber": 139
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "HeadObjectRequest.builder().bucket",
+          "lineNumber": 139
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "HeadObjectRequest.builder",
+          "lineNumber": 139
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 140
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "s3Client.headObject(headRequest).contentLength",
+          "lineNumber": 143
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "s3Client.headObject",
+          "lineNumber": 143
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "log.error",
+          "lineNumber": 145
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "e.getMessage",
+          "lineNumber": 145
+        },
+        {
+          "caller": "getFileSize",
+          "callee": "new BusinessException",
+          "lineNumber": 146
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "fileKey.isEmpty",
+          "lineNumber": 155
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "log.debug",
+          "lineNumber": 156
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "fileExists",
+          "lineNumber": 161
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "log.warn",
+          "lineNumber": 162
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "DeleteObjectRequest.builder()\n                    .bucket(storageConfig.getBucket())\n                    .key(fileKey).build",
+          "lineNumber": 167
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "DeleteObjectRequest.builder()\n                    .bucket(storageConfig.getBucket()).key",
+          "lineNumber": 167
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "DeleteObjectRequest.builder().bucket",
+          "lineNumber": 167
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "DeleteObjectRequest.builder",
+          "lineNumber": 167
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 168
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "s3Client.deleteObject",
+          "lineNumber": 171
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "log.info",
+          "lineNumber": 172
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "log.error",
+          "lineNumber": 174
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "e.getMessage",
+          "lineNumber": 174
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "new BusinessException",
+          "lineNumber": 175
+        },
+        {
+          "caller": "deleteFile",
+          "callee": "e.getMessage",
+          "lineNumber": 175
+        },
+        {
+          "caller": "getFileUrl",
+          "callee": "String.format",
+          "lineNumber": 180
+        },
+        {
+          "caller": "getFileUrl",
+          "callee": "storageConfig.getEndpoint",
+          "lineNumber": 180
+        },
+        {
+          "caller": "getFileUrl",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 180
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "HeadBucketRequest.builder()\n                    .bucket(storageConfig.getBucket()).build",
+          "lineNumber": 188
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "HeadBucketRequest.builder().bucket",
+          "lineNumber": 188
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "HeadBucketRequest.builder",
+          "lineNumber": 188
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 189
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "s3Client.headBucket",
+          "lineNumber": 191
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "log.info",
+          "lineNumber": 192
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 192
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "log.info",
+          "lineNumber": 194
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 194
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "CreateBucketRequest.builder()\n                    .bucket(storageConfig.getBucket()).build",
+          "lineNumber": 195
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "CreateBucketRequest.builder().bucket",
+          "lineNumber": 195
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "CreateBucketRequest.builder",
+          "lineNumber": 195
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 196
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "s3Client.createBucket",
+          "lineNumber": 198
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "log.info",
+          "lineNumber": 199
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "storageConfig.getBucket",
+          "lineNumber": 199
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "log.error",
+          "lineNumber": 201
+        },
+        {
+          "caller": "ensureBucketExists",
+          "callee": "e.getMessage",
+          "lineNumber": 201
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 209
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "now.format",
+          "lineNumber": 210
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "UUID.randomUUID().toString().substring",
+          "lineNumber": 211
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "UUID.randomUUID().toString",
+          "lineNumber": 211
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "UUID.randomUUID",
+          "lineNumber": 211
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "sanitizeFilename",
+          "lineNumber": 212
+        },
+        {
+          "caller": "generateFileKey",
+          "callee": "String.format",
+          "lineNumber": 213
+        },
+        {
+          "caller": "sanitizeFilename",
+          "callee": "filename.isEmpty",
+          "lineNumber": 226
+        },
+        {
+          "caller": "sanitizeFilename",
+          "callee": "convertToPinyin",
+          "lineNumber": 229
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "new HanyuPinyinOutputFormat",
+          "lineNumber": 239
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "format.setCaseType",
+          "lineNumber": 240
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "format.setToneType",
+          "lineNumber": 241
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "new StringBuilder",
+          "lineNumber": 243
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "input.toCharArray",
+          "lineNumber": 244
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "PinyinHelper.toHanyuPinyinStringArray",
+          "lineNumber": 246
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "result.append",
+          "lineNumber": 249
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "capitalize",
+          "lineNumber": 249
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "result.append",
+          "lineNumber": 252
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "sanitizeChar",
+          "lineNumber": 252
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "result.append",
+          "lineNumber": 255
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "sanitizeChar",
+          "lineNumber": 255
+        },
+        {
+          "caller": "convertToPinyin",
+          "callee": "result.toString",
+          "lineNumber": 258
+        },
+        {
+          "caller": "capitalize",
+          "callee": "str.isEmpty",
+          "lineNumber": 276
+        },
+        {
+          "caller": "capitalize",
+          "callee": "str.substring(0, 1).toUpperCase",
+          "lineNumber": 279
+        },
+        {
+          "caller": "capitalize",
+          "callee": "str.substring",
+          "lineNumber": 279
+        },
+        {
+          "caller": "capitalize",
+          "callee": "str.substring",
+          "lineNumber": 279
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 16,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 128,
+      "nonEmptyLines": 112,
+      "functions": [
+        {
+          "name": "validateFile",
+          "startLine": 27,
+          "endLine": 36,
+          "params": [
+            "file",
+            "maxSizeBytes",
+            "fileTypeName"
+          ]
+        },
+        {
+          "name": "validateContentTypeByList",
+          "startLine": 45,
+          "endLine": 50,
+          "params": [
+            "contentType",
+            "allowedTypes",
+            "errorMessage"
+          ]
+        },
+        {
+          "name": "validateContentType",
+          "startLine": 61,
+          "endLine": 77,
+          "params": [
+            "contentType",
+            "fileName",
+            "mimeTypeChecker",
+            "extensionChecker",
+            "errorMessage"
+          ]
+        },
+        {
+          "name": "isAllowedType",
+          "startLine": 82,
+          "endLine": 93,
+          "params": [
+            "contentType",
+            "allowedTypes"
+          ]
+        },
+        {
+          "name": "isMarkdownExtension",
+          "startLine": 98,
+          "endLine": 107,
+          "params": [
+            "fileName"
+          ]
+        },
+        {
+          "name": "isKnowledgeBaseMimeType",
+          "startLine": 112,
+          "endLine": 126,
+          "params": [
+            "contentType"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "FileValidationService",
+          "startLine": 16,
+          "endLine": 127,
+          "methods": [
+            "validateFile",
+            "validateContentTypeByList",
+            "validateContentType",
+            "isAllowedType",
+            "isMarkdownExtension",
+            "isKnowledgeBaseMimeType"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "validateFile",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "validateContentTypeByList",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "validateContentType",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "isMarkdownExtension",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "isKnowledgeBaseMimeType",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "FileValidationService",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateFile",
+          "callee": "file.isEmpty",
+          "lineNumber": 28
+        },
+        {
+          "caller": "validateFile",
+          "callee": "new BusinessException",
+          "lineNumber": 29
+        },
+        {
+          "caller": "validateFile",
+          "callee": "String.format",
+          "lineNumber": 30
+        },
+        {
+          "caller": "validateFile",
+          "callee": "file.getSize",
+          "lineNumber": 33
+        },
+        {
+          "caller": "validateFile",
+          "callee": "new BusinessException",
+          "lineNumber": 34
+        },
+        {
+          "caller": "validateContentTypeByList",
+          "callee": "isAllowedType",
+          "lineNumber": 46
+        },
+        {
+          "caller": "validateContentTypeByList",
+          "callee": "new BusinessException",
+          "lineNumber": 47
+        },
+        {
+          "caller": "validateContentType",
+          "callee": "mimeTypeChecker.test",
+          "lineNumber": 66
+        },
+        {
+          "caller": "validateContentType",
+          "callee": "extensionChecker.test",
+          "lineNumber": 71
+        },
+        {
+          "caller": "validateContentType",
+          "callee": "new BusinessException",
+          "lineNumber": 75
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "allowedTypes.isEmpty",
+          "lineNumber": 83
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 87
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "allowedTypes.stream().anyMatch",
+          "lineNumber": 88
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "allowedTypes.stream",
+          "lineNumber": 88
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "allowed.toLowerCase",
+          "lineNumber": 90
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 91
+        },
+        {
+          "caller": "isAllowedType",
+          "callee": "lowerAllowed.contains",
+          "lineNumber": 91
+        },
+        {
+          "caller": "isMarkdownExtension",
+          "callee": "fileName.toLowerCase",
+          "lineNumber": 103
+        },
+        {
+          "caller": "isMarkdownExtension",
+          "callee": "lowerFileName.endsWith",
+          "lineNumber": 104
+        },
+        {
+          "caller": "isMarkdownExtension",
+          "callee": "lowerFileName.endsWith",
+          "lineNumber": 105
+        },
+        {
+          "caller": "isMarkdownExtension",
+          "callee": "lowerFileName.endsWith",
+          "lineNumber": 106
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "contentType.toLowerCase",
+          "lineNumber": 117
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 118
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 119
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 120
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 121
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 122
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 123
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 124
+        },
+        {
+          "caller": "isKnowledgeBaseMimeType",
+          "callee": "lowerContentType.contains",
+          "lineNumber": 125
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 46,
+      "functions": [
+        {
+          "name": "shouldParseEmbedded",
+          "startLine": 24,
+          "endLine": 32,
+          "params": [
+            "metadata"
+          ]
+        },
+        {
+          "name": "parseEmbedded",
+          "startLine": 42,
+          "endLine": 50,
+          "params": [
+            "stream",
+            "handler",
+            "metadata",
+            "outputHtml"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "NoOpEmbeddedDocumentExtractor",
+          "startLine": 15,
+          "endLine": 51,
+          "methods": [
+            "shouldParseEmbedded",
+            "parseEmbedded"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "shouldParseEmbedded",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "parseEmbedded",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "NoOpEmbeddedDocumentExtractor",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "shouldParseEmbedded",
+          "callee": "metadata.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "shouldParseEmbedded",
+          "callee": "log.debug",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 161,
+      "nonEmptyLines": 139,
+      "functions": [
+        {
+          "name": "cleanText",
+          "startLine": 80,
+          "endLine": 105,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "cleanTextWithLimit",
+          "startLine": 114,
+          "endLine": 120,
+          "params": [
+            "text",
+            "maxLength"
+          ]
+        },
+        {
+          "name": "cleanToSingleLine",
+          "startLine": 129,
+          "endLine": 138,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "stripHtml",
+          "startLine": 146,
+          "endLine": 160,
+          "params": [
+            "text"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "TextCleaningService",
+          "startLine": 11,
+          "endLine": 161,
+          "methods": [
+            "cleanText",
+            "cleanTextWithLimit",
+            "cleanToSingleLine",
+            "stripHtml"
+          ],
+          "properties": [
+            "IMAGE_FILENAME_LINE",
+            "IMAGE_URL",
+            "FILE_URL",
+            "SEPARATOR_LINE",
+            "CONTROL_CHARS",
+            "HTML_TAGS"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "cleanText",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "cleanTextWithLimit",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "cleanToSingleLine",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "stripHtml",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "TextCleaningService",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cleanText",
+          "callee": "text.isBlank",
+          "lineNumber": 81
+        },
+        {
+          "caller": "cleanText",
+          "callee": "CONTROL_CHARS.matcher(t).replaceAll",
+          "lineNumber": 88
+        },
+        {
+          "caller": "cleanText",
+          "callee": "CONTROL_CHARS.matcher",
+          "lineNumber": 88
+        },
+        {
+          "caller": "cleanText",
+          "callee": "IMAGE_FILENAME_LINE.matcher(t).replaceAll",
+          "lineNumber": 89
+        },
+        {
+          "caller": "cleanText",
+          "callee": "IMAGE_FILENAME_LINE.matcher",
+          "lineNumber": 89
+        },
+        {
+          "caller": "cleanText",
+          "callee": "IMAGE_URL.matcher(t).replaceAll",
+          "lineNumber": 90
+        },
+        {
+          "caller": "cleanText",
+          "callee": "IMAGE_URL.matcher",
+          "lineNumber": 90
+        },
+        {
+          "caller": "cleanText",
+          "callee": "FILE_URL.matcher(t).replaceAll",
+          "lineNumber": 91
+        },
+        {
+          "caller": "cleanText",
+          "callee": "FILE_URL.matcher",
+          "lineNumber": 91
+        },
+        {
+          "caller": "cleanText",
+          "callee": "SEPARATOR_LINE.matcher(t).replaceAll",
+          "lineNumber": 92
+        },
+        {
+          "caller": "cleanText",
+          "callee": "SEPARATOR_LINE.matcher",
+          "lineNumber": 92
+        },
+        {
+          "caller": "cleanText",
+          "callee": "t.replace(\"\\r\\n\", \"\\n\").replace",
+          "lineNumber": 96
+        },
+        {
+          "caller": "cleanText",
+          "callee": "t.replace",
+          "lineNumber": 96
+        },
+        {
+          "caller": "cleanText",
+          "callee": "t.replaceAll",
+          "lineNumber": 99
+        },
+        {
+          "caller": "cleanText",
+          "callee": "t.replaceAll",
+          "lineNumber": 102
+        },
+        {
+          "caller": "cleanText",
+          "callee": "t.strip",
+          "lineNumber": 104
+        },
+        {
+          "caller": "cleanTextWithLimit",
+          "callee": "cleanText",
+          "lineNumber": 115
+        },
+        {
+          "caller": "cleanTextWithLimit",
+          "callee": "cleaned.length",
+          "lineNumber": 116
+        },
+        {
+          "caller": "cleanTextWithLimit",
+          "callee": "cleaned.substring",
+          "lineNumber": 117
+        },
+        {
+          "caller": "cleanToSingleLine",
+          "callee": "text.isBlank",
+          "lineNumber": 130
+        },
+        {
+          "caller": "cleanToSingleLine",
+          "callee": "text\n            .replaceAll(\"[\\\\r\\\\n]+\", \" \")\n            .replaceAll(\"\\\\s+\", \" \").strip",
+          "lineNumber": 134
+        },
+        {
+          "caller": "cleanToSingleLine",
+          "callee": "text\n            .replaceAll(\"[\\\\r\\\\n]+\", \" \").replaceAll",
+          "lineNumber": 134
+        },
+        {
+          "caller": "cleanToSingleLine",
+          "callee": "text.replaceAll",
+          "lineNumber": 134
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "text.isBlank",
+          "lineNumber": 147
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\")\n            .replace(\"&lt;\", \"<\")\n            .replace(\"&gt;\", \">\")\n            .replace(\"&quot;\", \"\\\"\")\n            .replace(\"&apos;\", \"'\")\n            .replaceAll(\"\\\\s+\", \" \").strip",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\")\n            .replace(\"&lt;\", \"<\")\n            .replace(\"&gt;\", \">\")\n            .replace(\"&quot;\", \"\\\"\")\n            .replace(\"&apos;\", \"'\").replaceAll",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\")\n            .replace(\"&lt;\", \"<\")\n            .replace(\"&gt;\", \">\")\n            .replace(\"&quot;\", \"\\\"\").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\")\n            .replace(\"&lt;\", \"<\")\n            .replace(\"&gt;\", \">\").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\")\n            .replace(\"&lt;\", \"<\").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \")\n            .replace(\"&amp;\", \"&\").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \")\n            .replace(\"&nbsp;\", \" \").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll(\" \").replace",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher(text).replaceAll",
+          "lineNumber": 151
+        },
+        {
+          "caller": "stripHtml",
+          "callee": "HTML_TAGS.matcher",
+          "lineNumber": 151
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 147,
+      "nonEmptyLines": 128,
+      "classes": [
+        {
+          "name": "InterviewMapper",
+          "startLine": 19,
+          "endLine": 147,
+          "methods": [
+            "toQuestionEvaluation",
+            "toQuestionEvaluations",
+            "toAnswerDetailDTO",
+            "toAnswerDetailDTOList",
+            "toDetailDTO",
+            "updateSessionFromReport",
+            "toInterviewHistoryItem",
+            "toInterviewHistoryList",
+            "nullIndexToZero",
+            "nullScoreToZero"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewMapper",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "toAnswerDetailDTOList",
+          "callee": "entities.stream()\n            .map(e -> toAnswerDetailDTO(e, keyPointsExtractor.apply(e))).toList",
+          "lineNumber": 59
+        },
+        {
+          "caller": "toAnswerDetailDTOList",
+          "callee": "entities.stream().map",
+          "lineNumber": 59
+        },
+        {
+          "caller": "toAnswerDetailDTOList",
+          "callee": "entities.stream",
+          "lineNumber": 59
+        },
+        {
+          "caller": "toAnswerDetailDTOList",
+          "callee": "toAnswerDetailDTO",
+          "lineNumber": 60
+        },
+        {
+          "caller": "toAnswerDetailDTOList",
+          "callee": "keyPointsExtractor.apply",
+          "lineNumber": 60
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "new InterviewHistoryItemDTO",
+          "lineNumber": 114
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getId",
+          "lineNumber": 115
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getSessionId",
+          "lineNumber": 116
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getTotalQuestions",
+          "lineNumber": 117
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getStatus().toString",
+          "lineNumber": 118
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getStatus",
+          "lineNumber": 118
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getEvaluateStatus",
+          "lineNumber": 119
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getEvaluateStatus().name",
+          "lineNumber": 119
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getEvaluateStatus",
+          "lineNumber": 119
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getEvaluateError",
+          "lineNumber": 120
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getOverallScore",
+          "lineNumber": 121
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getCreatedAt",
+          "lineNumber": 122
+        },
+        {
+          "caller": "toInterviewHistoryItem",
+          "callee": "session.getCompletedAt",
+          "lineNumber": 123
+        },
+        {
+          "caller": "toInterviewHistoryList",
+          "callee": "sessions.stream()\n            .map(this::toInterviewHistoryItem).toList",
+          "lineNumber": 131
+        },
+        {
+          "caller": "toInterviewHistoryList",
+          "callee": "sessions.stream().map",
+          "lineNumber": 131
+        },
+        {
+          "caller": "toInterviewHistoryList",
+          "callee": "sessions.stream",
+          "lineNumber": 131
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "classes": [
+        {
+          "name": "KnowledgeBaseMapper",
+          "startLine": 15,
+          "endLine": 30,
+          "methods": [
+            "toListItemDTO",
+            "toListItemDTOList"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "KnowledgeBaseMapper",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 108,
+      "nonEmptyLines": 94,
+      "classes": [
+        {
+          "name": "RagChatMapper",
+          "startLine": 20,
+          "endLine": 107,
+          "methods": [
+            "toSessionDTO",
+            "toMessageDTO",
+            "toMessageDTOList",
+            "extractKnowledgeBaseNames",
+            "extractKnowledgeBaseIds",
+            "getTypeString",
+            "toSessionListItemDTO",
+            "getIsPinnedWithDefault",
+            "toSessionDetailDTO"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RagChatMapper",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "extractKnowledgeBaseNames",
+          "callee": "knowledgeBases.stream()\n            .map(KnowledgeBaseEntity::getName).toList",
+          "lineNumber": 50
+        },
+        {
+          "caller": "extractKnowledgeBaseNames",
+          "callee": "knowledgeBases.stream().map",
+          "lineNumber": 50
+        },
+        {
+          "caller": "extractKnowledgeBaseNames",
+          "callee": "knowledgeBases.stream",
+          "lineNumber": 50
+        },
+        {
+          "caller": "extractKnowledgeBaseIds",
+          "callee": "session.getKnowledgeBaseIds",
+          "lineNumber": 60
+        },
+        {
+          "caller": "getTypeString",
+          "callee": "message.getTypeString",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getIsPinnedWithDefault",
+          "callee": "session.getIsPinned",
+          "lineNumber": 84
+        },
+        {
+          "caller": "getIsPinnedWithDefault",
+          "callee": "session.getIsPinned",
+          "lineNumber": 84
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "toMessageDTOList",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "new SessionDetailDTO",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "session.getId",
+          "lineNumber": 99
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "session.getTitle",
+          "lineNumber": 100
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "session.getCreatedAt",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toSessionDetailDTO",
+          "callee": "session.getUpdatedAt",
+          "lineNumber": 104
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 146,
+      "nonEmptyLines": 128,
+      "classes": [
+        {
+          "name": "ResumeMapper",
+          "startLine": 20,
+          "endLine": 146,
+          "methods": [
+            "toScoreDetail",
+            "toListItemDTO",
+            "toListItemDTOBasic",
+            "toDetailDTOBasic",
+            "toAnalysisHistoryDTO",
+            "toAnalysisHistoryDTOList",
+            "toAnalysisEntity",
+            "updateAnalysisEntity",
+            "nullToZero"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ResumeMapper",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "toListItemDTO",
+          "callee": "new ResumeListItemDTO",
+          "lineNumber": 47
+        },
+        {
+          "caller": "toListItemDTO",
+          "callee": "resume.getId",
+          "lineNumber": 48
+        },
+        {
+          "caller": "toListItemDTO",
+          "callee": "resume.getOriginalFilename",
+          "lineNumber": 49
+        },
+        {
+          "caller": "toListItemDTO",
+          "callee": "resume.getFileSize",
+          "lineNumber": 50
+        },
+        {
+          "caller": "toListItemDTO",
+          "callee": "resume.getUploadedAt",
+          "lineNumber": 51
+        },
+        {
+          "caller": "toListItemDTO",
+          "callee": "resume.getAccessCount",
+          "lineNumber": 52
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "entities.stream()\n            .map(e -> toAnalysisHistoryDTO(e, strengthsExtractor.apply(e), suggestionsExtractor.apply(e))).toList",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "entities.stream().map",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "entities.stream",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "toAnalysisHistoryDTO",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "strengthsExtractor.apply",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toAnalysisHistoryDTOList",
+          "callee": "suggestionsExtractor.apply",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    }
+  ]
+}

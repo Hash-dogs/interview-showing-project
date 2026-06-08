@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "frontend/src/hooks/useInterviewConfig.ts",
+      "language": "typescript",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/hooks/useInterviewSchedule.ts",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/hooks/useTheme.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "language": "css",
+      "sizeLines": 269,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/HistoryPage.tsx",
+      "language": "typescript",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "language": "typescript",
+      "sizeLines": 615,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/InterviewHubPage.tsx",
+      "language": "typescript",
+      "sizeLines": 550,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/InterviewPage.tsx",
+      "language": "typescript",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/InterviewSchedulePage.tsx",
+      "language": "typescript",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "language": "typescript",
+      "sizeLines": 603,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "language": "typescript",
+      "sizeLines": 842,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/ResumeDetailPage.tsx",
+      "language": "typescript",
+      "sizeLines": 360,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/SettingsPage.tsx",
+      "language": "typescript",
+      "sizeLines": 1500,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/UploadPage.tsx",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "language": "typescript",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/pages/VoiceInterviewPage.tsx",
+      "language": "typescript",
+      "sizeLines": 734,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/types/interview.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/types/interviewSchedule.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/types/llmProvider.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/types/resume.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/utils/date.ts",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/utils/score.ts",
+      "language": "typescript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "frontend/src/utils/skillIcons.tsx",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "frontend/src/hooks/useInterviewConfig.ts": [],
+    "frontend/src/hooks/useInterviewSchedule.ts": [],
+    "frontend/src/hooks/useTheme.ts": [],
+    "frontend/src/index.css": [],
+    "frontend/src/main.tsx": [],
+    "frontend/src/pages/HistoryPage.tsx": [],
+    "frontend/src/pages/InterviewHistoryPage.tsx": [],
+    "frontend/src/pages/InterviewHubPage.tsx": [],
+    "frontend/src/pages/InterviewPage.tsx": [],
+    "frontend/src/pages/InterviewSchedulePage.tsx": [],
+    "frontend/src/pages/KnowledgeBaseManagePage.tsx": [],
+    "frontend/src/pages/KnowledgeBaseQueryPage.tsx": [],
+    "frontend/src/pages/KnowledgeBaseUploadPage.tsx": [],
+    "frontend/src/pages/ResumeDetailPage.tsx": [],
+    "frontend/src/pages/SettingsPage.tsx": [],
+    "frontend/src/pages/UploadPage.tsx": [],
+    "frontend/src/pages/VoiceInterviewEvaluationPage.tsx": [],
+    "frontend/src/pages/VoiceInterviewPage.tsx": [],
+    "frontend/src/types/interview.ts": [],
+    "frontend/src/types/interviewSchedule.ts": [],
+    "frontend/src/types/llmProvider.ts": [],
+    "frontend/src/types/resume.ts": [],
+    "frontend/src/utils/date.ts": [],
+    "frontend/src/utils/score.ts": [],
+    "frontend/src/utils/skillIcons.tsx": []
+  }
+}

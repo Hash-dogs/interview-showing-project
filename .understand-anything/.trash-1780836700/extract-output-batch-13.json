@@ -1,0 +1,7500 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 510,
+      "nonEmptyLines": 440,
+      "functions": [
+        {
+          "name": "createSession",
+          "startLine": 55,
+          "endLine": 115,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "getSession",
+          "startLine": 120,
+          "endLine": 134,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "findUnfinishedSession",
+          "startLine": 139,
+          "endLine": 167,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "findUnfinishedSessionOrThrow",
+          "startLine": 172,
+          "endLine": 175,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "restoreSessionFromDatabase",
+          "startLine": 180,
+          "endLine": 188,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "restoreSessionFromEntity",
+          "startLine": 193,
+          "endLine": 232,
+          "params": [
+            "entity"
+          ]
+        },
+        {
+          "name": "convertStatus",
+          "startLine": 241,
+          "endLine": 248,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getCurrentQuestionResponse",
+          "startLine": 253,
+          "endLine": 265,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getCurrentQuestion",
+          "startLine": 270,
+          "endLine": 293,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "submitAnswer",
+          "startLine": 299,
+          "endLine": 361,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "saveAnswer",
+          "startLine": 366,
+          "endLine": 402,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "completeInterview",
+          "startLine": 407,
+          "endLine": 431,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getOrRestoreSession",
+          "startLine": 436,
+          "endLine": 452,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "generateReport",
+          "startLine": 457,
+          "endLine": 494,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "toDTO",
+          "startLine": 499,
+          "endLine": 509,
+          "params": [
+            "session"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSessionService",
+          "startLine": 37,
+          "endLine": 510,
+          "methods": [
+            "createSession",
+            "getSession",
+            "findUnfinishedSession",
+            "findUnfinishedSessionOrThrow",
+            "restoreSessionFromDatabase",
+            "restoreSessionFromEntity",
+            "convertStatus",
+            "getCurrentQuestionResponse",
+            "getCurrentQuestion",
+            "submitAnswer",
+            "saveAnswer",
+            "completeInterview",
+            "getOrRestoreSession",
+            "generateReport",
+            "toDTO"
+          ],
+          "properties": [
+            "questionService",
+            "evaluationService",
+            "persistenceService",
+            "sessionCache",
+            "objectMapper",
+            "evaluateStreamProducer",
+            "llmProviderRegistry"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createSession",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "getSession",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "findUnfinishedSession",
+          "line": 139,
+          "isDefault": false
+        },
+        {
+          "name": "findUnfinishedSessionOrThrow",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "getCurrentQuestionResponse",
+          "line": 253,
+          "isDefault": false
+        },
+        {
+          "name": "getCurrentQuestion",
+          "line": 270,
+          "isDefault": false
+        },
+        {
+          "name": "submitAnswer",
+          "line": 299,
+          "isDefault": false
+        },
+        {
+          "name": "saveAnswer",
+          "line": 366,
+          "isDefault": false
+        },
+        {
+          "name": "completeInterview",
+          "line": 407,
+          "isDefault": false
+        },
+        {
+          "name": "generateReport",
+          "line": 457,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSessionService",
+          "line": 37,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 57
+        },
+        {
+          "caller": "createSession",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 57
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.forceCreate",
+          "lineNumber": 57
+        },
+        {
+          "caller": "createSession",
+          "callee": "findUnfinishedSession",
+          "lineNumber": 58
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 58
+        },
+        {
+          "caller": "createSession",
+          "callee": "unfinishedOpt.isPresent",
+          "lineNumber": 59
+        },
+        {
+          "caller": "createSession",
+          "callee": "log.info",
+          "lineNumber": 60
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 61
+        },
+        {
+          "caller": "createSession",
+          "callee": "unfinishedOpt.get().sessionId",
+          "lineNumber": 61
+        },
+        {
+          "caller": "createSession",
+          "callee": "unfinishedOpt.get",
+          "lineNumber": 61
+        },
+        {
+          "caller": "createSession",
+          "callee": "unfinishedOpt.get",
+          "lineNumber": 62
+        },
+        {
+          "caller": "createSession",
+          "callee": "UUID.randomUUID().toString().replace(\"-\", \"\").substring",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "UUID.randomUUID().toString().replace",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "UUID.randomUUID().toString",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "UUID.randomUUID",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.skillId",
+          "lineNumber": 67
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.skillId",
+          "lineNumber": 67
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.difficulty",
+          "lineNumber": 68
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.difficulty",
+          "lineNumber": 68
+        },
+        {
+          "caller": "createSession",
+          "callee": "log.info",
+          "lineNumber": 70
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.questionCount",
+          "lineNumber": 71
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 71
+        },
+        {
+          "caller": "createSession",
+          "callee": "persistenceService.getHistoricalQuestions",
+          "lineNumber": 75
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 75
+        },
+        {
+          "caller": "createSession",
+          "callee": "questionService.generateQuestionsBySkill",
+          "lineNumber": 78
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.llmProvider",
+          "lineNumber": 79
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeText",
+          "lineNumber": 82
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.questionCount",
+          "lineNumber": 83
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.customCategories",
+          "lineNumber": 85
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.jdText",
+          "lineNumber": 86
+        },
+        {
+          "caller": "createSession",
+          "callee": "sessionCache.saveSession",
+          "lineNumber": 90
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeText",
+          "lineNumber": 92
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeText",
+          "lineNumber": 92
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 93
+        },
+        {
+          "caller": "createSession",
+          "callee": "persistenceService.saveSession",
+          "lineNumber": 101
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeId",
+          "lineNumber": 101
+        },
+        {
+          "caller": "createSession",
+          "callee": "questions.size",
+          "lineNumber": 102
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.llmProvider",
+          "lineNumber": 102
+        },
+        {
+          "caller": "createSession",
+          "callee": "log.warn",
+          "lineNumber": 104
+        },
+        {
+          "caller": "createSession",
+          "callee": "e.getMessage",
+          "lineNumber": 104
+        },
+        {
+          "caller": "createSession",
+          "callee": "new InterviewSessionDTO",
+          "lineNumber": 107
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeText",
+          "lineNumber": 109
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.resumeText",
+          "lineNumber": 109
+        },
+        {
+          "caller": "createSession",
+          "callee": "questions.size",
+          "lineNumber": 110
+        },
+        {
+          "caller": "getSession",
+          "callee": "sessionCache.getSession",
+          "lineNumber": 122
+        },
+        {
+          "caller": "getSession",
+          "callee": "cachedOpt.isPresent",
+          "lineNumber": 123
+        },
+        {
+          "caller": "getSession",
+          "callee": "toDTO",
+          "lineNumber": 124
+        },
+        {
+          "caller": "getSession",
+          "callee": "cachedOpt.get",
+          "lineNumber": 124
+        },
+        {
+          "caller": "getSession",
+          "callee": "restoreSessionFromDatabase",
+          "lineNumber": 128
+        },
+        {
+          "caller": "getSession",
+          "callee": "new BusinessException",
+          "lineNumber": 130
+        },
+        {
+          "caller": "getSession",
+          "callee": "toDTO",
+          "lineNumber": 133
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "sessionCache.findUnfinishedSessionId",
+          "lineNumber": 142
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "cachedSessionIdOpt.isPresent",
+          "lineNumber": 143
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "cachedSessionIdOpt.get",
+          "lineNumber": 144
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "sessionCache.getSession",
+          "lineNumber": 145
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "cachedOpt.isPresent",
+          "lineNumber": 146
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "log.debug",
+          "lineNumber": 147
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "Optional.of",
+          "lineNumber": 148
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "toDTO",
+          "lineNumber": 148
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "cachedOpt.get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "persistenceService.findUnfinishedSession",
+          "lineNumber": 153
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "entityOpt.isEmpty",
+          "lineNumber": 154
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "Optional.empty",
+          "lineNumber": 155
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "entityOpt.get",
+          "lineNumber": 158
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "restoreSessionFromEntity",
+          "lineNumber": 159
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "Optional.of",
+          "lineNumber": 161
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "toDTO",
+          "lineNumber": 161
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "log.error",
+          "lineNumber": 164
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "e.getMessage",
+          "lineNumber": 164
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "Optional.empty",
+          "lineNumber": 166
+        },
+        {
+          "caller": "findUnfinishedSessionOrThrow",
+          "callee": "findUnfinishedSession(resumeId).orElseThrow",
+          "lineNumber": 173
+        },
+        {
+          "caller": "findUnfinishedSessionOrThrow",
+          "callee": "findUnfinishedSession",
+          "lineNumber": 173
+        },
+        {
+          "caller": "findUnfinishedSessionOrThrow",
+          "callee": "new BusinessException",
+          "lineNumber": 174
+        },
+        {
+          "caller": "restoreSessionFromDatabase",
+          "callee": "persistenceService.findBySessionId",
+          "lineNumber": 182
+        },
+        {
+          "caller": "restoreSessionFromDatabase",
+          "callee": "entityOpt.map(this::restoreSessionFromEntity).orElse",
+          "lineNumber": 183
+        },
+        {
+          "caller": "restoreSessionFromDatabase",
+          "callee": "entityOpt.map",
+          "lineNumber": 183
+        },
+        {
+          "caller": "restoreSessionFromDatabase",
+          "callee": "log.error",
+          "lineNumber": 185
+        },
+        {
+          "caller": "restoreSessionFromDatabase",
+          "callee": "e.getMessage",
+          "lineNumber": 185
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 196
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getQuestionsJson",
+          "lineNumber": 197
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "new TypeReference<>",
+          "lineNumber": 198
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "persistenceService.findAnswersBySessionId",
+          "lineNumber": 202
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getSessionId",
+          "lineNumber": 202
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "answer.getQuestionIndex",
+          "lineNumber": 204
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "questions.size",
+          "lineNumber": 205
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "questions.get",
+          "lineNumber": 206
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "questions.set",
+          "lineNumber": 207
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "question.withAnswer",
+          "lineNumber": 207
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "answer.getUserAnswer",
+          "lineNumber": 207
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "convertStatus",
+          "lineNumber": 211
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getStatus",
+          "lineNumber": 211
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "sessionCache.saveSession",
+          "lineNumber": 214
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getSessionId",
+          "lineNumber": 215
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume",
+          "lineNumber": 216
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume().getResumeText",
+          "lineNumber": 216
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume",
+          "lineNumber": 216
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume",
+          "lineNumber": 217
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume().getId",
+          "lineNumber": 217
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getResume",
+          "lineNumber": 217
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getCurrentQuestionIndex",
+          "lineNumber": 219
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "log.info",
+          "lineNumber": 223
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getSessionId",
+          "lineNumber": 224
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getCurrentQuestionIndex",
+          "lineNumber": 224
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getStatus",
+          "lineNumber": 224
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "sessionCache.getSession(entity.getSessionId()).orElse",
+          "lineNumber": 227
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "sessionCache.getSession",
+          "lineNumber": 227
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "entity.getSessionId",
+          "lineNumber": 227
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "log.error",
+          "lineNumber": 229
+        },
+        {
+          "caller": "restoreSessionFromEntity",
+          "callee": "e.getMessage",
+          "lineNumber": 229
+        },
+        {
+          "caller": "getCurrentQuestionResponse",
+          "callee": "getCurrentQuestion",
+          "lineNumber": 254
+        },
+        {
+          "caller": "getCurrentQuestionResponse",
+          "callee": "Map.of",
+          "lineNumber": 256
+        },
+        {
+          "caller": "getCurrentQuestionResponse",
+          "callee": "Map.of",
+          "lineNumber": 261
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "getOrRestoreSession",
+          "lineNumber": 271
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "session.getQuestions",
+          "lineNumber": 272
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "session.getCurrentIndex",
+          "lineNumber": 274
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "questions.size",
+          "lineNumber": 274
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "session.getStatus",
+          "lineNumber": 279
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "session.setStatus",
+          "lineNumber": 280
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "sessionCache.updateSessionStatus",
+          "lineNumber": 281
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "persistenceService.updateSessionStatus",
+          "lineNumber": 285
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "log.warn",
+          "lineNumber": 288
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "e.getMessage",
+          "lineNumber": 288
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "questions.get",
+          "lineNumber": 292
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "session.getCurrentIndex",
+          "lineNumber": 292
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "getOrRestoreSession",
+          "lineNumber": 300
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 300
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "session.getQuestions",
+          "lineNumber": 301
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.questionIndex",
+          "lineNumber": 303
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.size",
+          "lineNumber": 304
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "new BusinessException",
+          "lineNumber": 305
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.get",
+          "lineNumber": 309
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "question.withAnswer",
+          "lineNumber": 310
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.answer",
+          "lineNumber": 310
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.set",
+          "lineNumber": 311
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.size",
+          "lineNumber": 317
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.get",
+          "lineNumber": 318
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "sessionCache.updateQuestions",
+          "lineNumber": 323
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 323
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "sessionCache.updateCurrentIndex",
+          "lineNumber": 324
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 324
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "sessionCache.updateSessionStatus",
+          "lineNumber": 326
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 326
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "persistenceService.saveAnswer",
+          "lineNumber": 331
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 332
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "question.question",
+          "lineNumber": 333
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "question.category",
+          "lineNumber": 333
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.answer",
+          "lineNumber": 334
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "persistenceService.updateCurrentQuestionIndex",
+          "lineNumber": 336
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 336
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "persistenceService.updateSessionStatus",
+          "lineNumber": 337
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 337
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "persistenceService.updateEvaluateStatus",
+          "lineNumber": 344
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 344
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "evaluateStreamProducer.sendEvaluateTask",
+          "lineNumber": 345
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 345
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "log.info",
+          "lineNumber": 346
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 346
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "log.warn",
+          "lineNumber": 349
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "e.getMessage",
+          "lineNumber": 349
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "log.info",
+          "lineNumber": 352
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 353
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.size",
+          "lineNumber": 353
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "new SubmitAnswerResponse",
+          "lineNumber": 355
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "questions.size",
+          "lineNumber": 359
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "getOrRestoreSession",
+          "lineNumber": 367
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 367
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "session.getQuestions",
+          "lineNumber": 368
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.questionIndex",
+          "lineNumber": 370
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "questions.size",
+          "lineNumber": 371
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "new BusinessException",
+          "lineNumber": 372
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "questions.get",
+          "lineNumber": 376
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "question.withAnswer",
+          "lineNumber": 377
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.answer",
+          "lineNumber": 377
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "questions.set",
+          "lineNumber": 378
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionCache.updateQuestions",
+          "lineNumber": 381
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 381
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "session.getStatus",
+          "lineNumber": 384
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionCache.updateSessionStatus",
+          "lineNumber": 385
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 385
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "persistenceService.saveAnswer",
+          "lineNumber": 390
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 391
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "question.question",
+          "lineNumber": 392
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "question.category",
+          "lineNumber": 392
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.answer",
+          "lineNumber": 393
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "persistenceService.updateSessionStatus",
+          "lineNumber": 395
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 395
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "log.warn",
+          "lineNumber": 398
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "e.getMessage",
+          "lineNumber": 398
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "log.info",
+          "lineNumber": 401
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "request.sessionId",
+          "lineNumber": 401
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "getOrRestoreSession",
+          "lineNumber": 408
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "session.getStatus",
+          "lineNumber": 410
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "session.getStatus",
+          "lineNumber": 410
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "new BusinessException",
+          "lineNumber": 411
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "sessionCache.updateSessionStatus",
+          "lineNumber": 415
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "persistenceService.updateSessionStatus",
+          "lineNumber": 419
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "persistenceService.updateEvaluateStatus",
+          "lineNumber": 422
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "log.warn",
+          "lineNumber": 424
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "e.getMessage",
+          "lineNumber": 424
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "evaluateStreamProducer.sendEvaluateTask",
+          "lineNumber": 428
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "log.info",
+          "lineNumber": 430
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "sessionCache.getSession",
+          "lineNumber": 438
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "cachedOpt.isPresent",
+          "lineNumber": 439
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "sessionCache.refreshSessionTTL",
+          "lineNumber": 441
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "cachedOpt.get",
+          "lineNumber": 442
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "restoreSessionFromDatabase",
+          "lineNumber": 446
+        },
+        {
+          "caller": "getOrRestoreSession",
+          "callee": "new BusinessException",
+          "lineNumber": 448
+        },
+        {
+          "caller": "generateReport",
+          "callee": "getOrRestoreSession",
+          "lineNumber": 458
+        },
+        {
+          "caller": "generateReport",
+          "callee": "session.getStatus",
+          "lineNumber": 460
+        },
+        {
+          "caller": "generateReport",
+          "callee": "session.getStatus",
+          "lineNumber": 460
+        },
+        {
+          "caller": "generateReport",
+          "callee": "new BusinessException",
+          "lineNumber": 461
+        },
+        {
+          "caller": "generateReport",
+          "callee": "log.info",
+          "lineNumber": 464
+        },
+        {
+          "caller": "generateReport",
+          "callee": "session.getQuestions",
+          "lineNumber": 466
+        },
+        {
+          "caller": "generateReport",
+          "callee": "persistenceService.findBySessionId",
+          "lineNumber": 470
+        },
+        {
+          "caller": "generateReport",
+          "callee": "entityOpt.isPresent",
+          "lineNumber": 471
+        },
+        {
+          "caller": "generateReport",
+          "callee": "entityOpt.get().getLlmProvider",
+          "lineNumber": 472
+        },
+        {
+          "caller": "generateReport",
+          "callee": "entityOpt.get",
+          "lineNumber": 472
+        },
+        {
+          "caller": "generateReport",
+          "callee": "llmProviderRegistry.getChatClientOrDefault",
+          "lineNumber": 474
+        },
+        {
+          "caller": "generateReport",
+          "callee": "evaluationService.evaluateInterview",
+          "lineNumber": 476
+        },
+        {
+          "caller": "generateReport",
+          "callee": "session.getResumeText",
+          "lineNumber": 479
+        },
+        {
+          "caller": "generateReport",
+          "callee": "sessionCache.updateSessionStatus",
+          "lineNumber": 484
+        },
+        {
+          "caller": "generateReport",
+          "callee": "persistenceService.saveReport",
+          "lineNumber": 488
+        },
+        {
+          "caller": "generateReport",
+          "callee": "log.warn",
+          "lineNumber": 490
+        },
+        {
+          "caller": "generateReport",
+          "callee": "e.getMessage",
+          "lineNumber": 490
+        },
+        {
+          "caller": "toDTO",
+          "callee": "session.getQuestions",
+          "lineNumber": 500
+        },
+        {
+          "caller": "toDTO",
+          "callee": "new InterviewSessionDTO",
+          "lineNumber": 501
+        },
+        {
+          "caller": "toDTO",
+          "callee": "session.getSessionId",
+          "lineNumber": 502
+        },
+        {
+          "caller": "toDTO",
+          "callee": "session.getResumeText",
+          "lineNumber": 503
+        },
+        {
+          "caller": "toDTO",
+          "callee": "questions.size",
+          "lineNumber": 504
+        },
+        {
+          "caller": "toDTO",
+          "callee": "session.getCurrentIndex",
+          "lineNumber": 505
+        },
+        {
+          "caller": "toDTO",
+          "callee": "session.getStatus",
+          "lineNumber": 507
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 11,
+        "functionCount": 15,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "InterviewSkillController",
+          "startLine": 22,
+          "endLine": 24,
+          "params": [
+            "skillService"
+          ]
+        },
+        {
+          "name": "listSkills",
+          "startLine": 26,
+          "endLine": 29,
+          "params": []
+        },
+        {
+          "name": "getSkill",
+          "startLine": 31,
+          "endLine": 34,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "parseJd",
+          "startLine": 36,
+          "endLine": 40,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSkillController",
+          "startLine": 16,
+          "endLine": 43,
+          "methods": [
+            "InterviewSkillController",
+            "listSkills",
+            "getSkill",
+            "parseJd"
+          ],
+          "properties": [
+            "skillService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewSkillController",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "listSkills",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "getSkill",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "parseJd",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSkillController",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "listSkills",
+          "callee": "Result.success",
+          "lineNumber": 28
+        },
+        {
+          "caller": "listSkills",
+          "callee": "skillService.getAllSkills",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getSkill",
+          "callee": "Result.success",
+          "lineNumber": 33
+        },
+        {
+          "caller": "getSkill",
+          "callee": "skillService.getSkill",
+          "lineNumber": 33
+        },
+        {
+          "caller": "parseJd",
+          "callee": "Result.success",
+          "lineNumber": 39
+        },
+        {
+          "caller": "parseJd",
+          "callee": "skillService.parseJd",
+          "lineNumber": 39
+        },
+        {
+          "caller": "parseJd",
+          "callee": "request.jdText",
+          "lineNumber": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 73,
+      "nonEmptyLines": 64,
+      "functions": [
+        {
+          "name": "InterviewSkillProperties",
+          "startLine": 12,
+          "endLine": 13,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSkillProperties",
+          "startLine": 10,
+          "endLine": 73,
+          "methods": [
+            "InterviewSkillProperties"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewSkillProperties",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 676,
+      "nonEmptyLines": 588,
+      "functions": [
+        {
+          "name": "InterviewSkillService",
+          "startLine": 97,
+          "endLine": 107,
+          "params": [
+            "llmProviderRegistry",
+            "structuredOutputInvoker",
+            "resourceLoader",
+            "promptSanitizer"
+          ]
+        },
+        {
+          "name": "loadPresetSkills",
+          "startLine": 109,
+          "endLine": 135,
+          "params": []
+        },
+        {
+          "name": "buildCategoryRefIndex",
+          "startLine": 137,
+          "endLine": 150,
+          "params": []
+        },
+        {
+          "name": "getAllSkills",
+          "startLine": 152,
+          "endLine": 156,
+          "params": []
+        },
+        {
+          "name": "getSkill",
+          "startLine": 158,
+          "endLine": 164,
+          "params": [
+            "skillId"
+          ]
+        },
+        {
+          "name": "buildCustomSkill",
+          "startLine": 170,
+          "endLine": 197,
+          "params": [
+            "customCategories",
+            "jdText"
+          ]
+        },
+        {
+          "name": "parseJd",
+          "startLine": 199,
+          "endLine": 233,
+          "params": [
+            "jdText"
+          ]
+        },
+        {
+          "name": "buildReferenceFileList",
+          "startLine": 235,
+          "endLine": 263,
+          "params": []
+        },
+        {
+          "name": "calculateAllocation",
+          "startLine": 265,
+          "endLine": 267,
+          "params": [
+            "skillId",
+            "totalQuestions"
+          ]
+        },
+        {
+          "name": "calculateAllocation",
+          "startLine": 269,
+          "endLine": 332,
+          "params": [
+            "categories",
+            "totalQuestions"
+          ]
+        },
+        {
+          "name": "buildAllocationDescription",
+          "startLine": 334,
+          "endLine": 343,
+          "params": [
+            "allocation",
+            "categories"
+          ]
+        },
+        {
+          "name": "buildReferenceSection",
+          "startLine": 345,
+          "endLine": 351,
+          "params": [
+            "skill",
+            "allocation"
+          ]
+        },
+        {
+          "name": "buildEvaluationReferenceSection",
+          "startLine": 356,
+          "endLine": 363,
+          "params": [
+            "skillId"
+          ]
+        },
+        {
+          "name": "buildEvaluationReferenceSectionSafe",
+          "startLine": 368,
+          "endLine": 378,
+          "params": [
+            "skillId"
+          ]
+        },
+        {
+          "name": "buildReferenceSectionInternal",
+          "startLine": 380,
+          "endLine": 420,
+          "params": [
+            "skill",
+            "categoryFilter",
+            "maxChars"
+          ]
+        },
+        {
+          "name": "loadClasspathPrompt",
+          "startLine": 422,
+          "endLine": 425,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "parseSkillDefinition",
+          "startLine": 427,
+          "endLine": 466,
+          "params": [
+            "skillId",
+            "resource",
+            "yaml"
+          ]
+        },
+        {
+          "name": "loadSkillMetaDefinition",
+          "startLine": 468,
+          "endLine": 483,
+          "params": [
+            "skillId",
+            "yaml"
+          ]
+        },
+        {
+          "name": "extractSkillId",
+          "startLine": 485,
+          "endLine": 496,
+          "params": [
+            "resource"
+          ]
+        },
+        {
+          "name": "loadReferenceContent",
+          "startLine": 498,
+          "endLine": 515,
+          "params": [
+            "skillId",
+            "referenceFile",
+            "shared"
+          ]
+        },
+        {
+          "name": "resolveReferenceLocations",
+          "startLine": 517,
+          "endLine": 536,
+          "params": [
+            "skillId",
+            "referenceFile",
+            "shared"
+          ]
+        },
+        {
+          "name": "addSkillReferenceLocations",
+          "startLine": 538,
+          "endLine": 544,
+          "params": [
+            "locations",
+            "skillId",
+            "referenceFile"
+          ]
+        },
+        {
+          "name": "buildSharedReferenceLocation",
+          "startLine": 546,
+          "endLine": 548,
+          "params": [
+            "referenceFile"
+          ]
+        },
+        {
+          "name": "readReferenceContent",
+          "startLine": 550,
+          "endLine": 566,
+          "params": [
+            "location"
+          ]
+        },
+        {
+          "name": "isSafeReferencePath",
+          "startLine": 568,
+          "endLine": 573,
+          "params": [
+            "referenceFile"
+          ]
+        },
+        {
+          "name": "sanitizeCategoryKey",
+          "startLine": 579,
+          "endLine": 596,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "sanitizeCategoryLabel",
+          "startLine": 601,
+          "endLine": 610,
+          "params": [
+            "label"
+          ]
+        },
+        {
+          "name": "toSkillDTO",
+          "startLine": 612,
+          "endLine": 644,
+          "params": [
+            "id",
+            "def"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSkillService",
+          "startLine": 40,
+          "endLine": 676,
+          "methods": [
+            "InterviewSkillService",
+            "loadPresetSkills",
+            "buildCategoryRefIndex",
+            "getAllSkills",
+            "getSkill",
+            "buildCustomSkill",
+            "parseJd",
+            "buildReferenceFileList",
+            "calculateAllocation",
+            "calculateAllocation",
+            "buildAllocationDescription",
+            "buildReferenceSection",
+            "buildEvaluationReferenceSection",
+            "buildEvaluationReferenceSectionSafe",
+            "buildReferenceSectionInternal",
+            "loadClasspathPrompt",
+            "parseSkillDefinition",
+            "loadSkillMetaDefinition",
+            "extractSkillId",
+            "loadReferenceContent",
+            "resolveReferenceLocations",
+            "addSkillReferenceLocations",
+            "buildSharedReferenceLocation",
+            "readReferenceContent",
+            "isSafeReferencePath",
+            "sanitizeCategoryKey",
+            "sanitizeCategoryLabel",
+            "toSkillDTO"
+          ],
+          "properties": [
+            "CUSTOM_SKILL_ID",
+            "MIN_JD_LENGTH",
+            "MAX_CATEGORY_LABEL_LENGTH",
+            "MAX_CATEGORY_KEY_LENGTH",
+            "FRONT_MATTER_PATTERN",
+            "SKILL_ID_PATTERN",
+            "SKILL_META_FILE",
+            "JD_PARSE_SYSTEM_PROMPT_PATH",
+            "MAX_REFERENCE_SECTION_CHARS",
+            "MAX_EVALUATION_REFERENCE_SECTION_CHARS",
+            "MAX_SINGLE_REFERENCE_CHARS",
+            "llmProviderRegistry",
+            "structuredOutputInvoker",
+            "jdOutputConverter",
+            "jdSystemPromptTemplate",
+            "resourceLoader",
+            "promptSanitizer",
+            "presetRegistry",
+            "referenceCache",
+            "categoryRefIndex",
+            "cachedReferenceFileList"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CUSTOM_SKILL_ID",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSkillService",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "getAllSkills",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "getSkill",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "buildCustomSkill",
+          "line": 170,
+          "isDefault": false
+        },
+        {
+          "name": "parseJd",
+          "line": 199,
+          "isDefault": false
+        },
+        {
+          "name": "calculateAllocation",
+          "line": 265,
+          "isDefault": false
+        },
+        {
+          "name": "calculateAllocation",
+          "line": 269,
+          "isDefault": false
+        },
+        {
+          "name": "buildAllocationDescription",
+          "line": 334,
+          "isDefault": false
+        },
+        {
+          "name": "buildReferenceSection",
+          "line": 345,
+          "isDefault": false
+        },
+        {
+          "name": "buildEvaluationReferenceSection",
+          "line": 356,
+          "isDefault": false
+        },
+        {
+          "name": "buildEvaluationReferenceSectionSafe",
+          "line": 368,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSkillService",
+          "line": 40,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewSkillService",
+          "callee": "new BeanOutputConverter<>",
+          "lineNumber": 105
+        },
+        {
+          "caller": "InterviewSkillService",
+          "callee": "new PromptTemplate",
+          "lineNumber": 106
+        },
+        {
+          "caller": "InterviewSkillService",
+          "callee": "loadClasspathPrompt",
+          "lineNumber": 106
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "new PathMatchingResourcePatternResolver",
+          "lineNumber": 111
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "resolver.getResources",
+          "lineNumber": 112
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "new Yaml",
+          "lineNumber": 113
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "extractSkillId",
+          "lineNumber": 116
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "\"_shared\".equals",
+          "lineNumber": 117
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "parseSkillDefinition",
+          "lineNumber": 121
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "def.getName",
+          "lineNumber": 122
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "def.getName().isBlank",
+          "lineNumber": 122
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "def.getName",
+          "lineNumber": 122
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "log.warn",
+          "lineNumber": 123
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "presetRegistry.put",
+          "lineNumber": 127
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "log.info",
+          "lineNumber": 128
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "def.getName",
+          "lineNumber": 128
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "log.info",
+          "lineNumber": 131
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "presetRegistry.size",
+          "lineNumber": 131
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "buildCategoryRefIndex",
+          "lineNumber": 133
+        },
+        {
+          "caller": "loadPresetSkills",
+          "callee": "buildReferenceFileList",
+          "lineNumber": 134
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "categoryRefIndex.clear",
+          "lineNumber": 138
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "presetRegistry.entrySet",
+          "lineNumber": 139
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "entry.getValue",
+          "lineNumber": 140
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "def.getCategories",
+          "lineNumber": 141
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "def.getCategories",
+          "lineNumber": 142
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getRef",
+          "lineNumber": 143
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getRef().isBlank",
+          "lineNumber": 143
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getRef",
+          "lineNumber": 143
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getKey",
+          "lineNumber": 143
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "categoryRefIndex.putIfAbsent",
+          "lineNumber": 144
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getKey",
+          "lineNumber": 144
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "new RefMapping",
+          "lineNumber": 145
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getRef",
+          "lineNumber": 145
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 145
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "cat.getShared",
+          "lineNumber": 145
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "entry.getKey",
+          "lineNumber": 145
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "log.info",
+          "lineNumber": 149
+        },
+        {
+          "caller": "buildCategoryRefIndex",
+          "callee": "categoryRefIndex.size",
+          "lineNumber": 149
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "presetRegistry.entrySet().stream()\n            .map(e -> toSkillDTO(e.getKey(), e.getValue())).toList",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "presetRegistry.entrySet().stream().map",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "presetRegistry.entrySet().stream",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "presetRegistry.entrySet",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "toSkillDTO",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "e.getKey",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getAllSkills",
+          "callee": "e.getValue",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getSkill",
+          "callee": "presetRegistry.get",
+          "lineNumber": 159
+        },
+        {
+          "caller": "getSkill",
+          "callee": "toSkillDTO",
+          "lineNumber": 161
+        },
+        {
+          "caller": "getSkill",
+          "callee": "new BusinessException",
+          "lineNumber": 163
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "customCategories.stream()\n            .filter(cat -> cat.key() != null && cat.label() != null)\n            .map(cat -> {\n                String safeKey = sanitizeCategoryKey(cat.key());\n                String safeLabel = sanitizeCategoryLabel(cat.label());\n                RefMapping refMapping = categoryRefIndex.get(safeKey);\n                if (refMapping != null) {\n                    if (!refMapping.ref().equals(cat.ref())\n                        || refMapping.shared() != Boolean.TRUE.equals(cat.shared())) {\n                        log.info(\"JD 分类 reference 已按本地映射纠正: key={}, modelRef={}, modelShared={}, mappedRef={}, mappedShared={}\",\n                            safeKey, cat.ref(), cat.shared(), refMapping.ref(), refMapping.shared());\n                    }\n                    return new SkillCategoryDTO(safeKey, safeLabel, cat.priority(),\n                        refMapping.ref(), refMapping.shared());\n                }\n                return new SkillCategoryDTO(safeKey, safeLabel, cat.priority(),\n                    cat.ref(), Boolean.TRUE.equals(cat.shared()));\n            }).toList",
+          "lineNumber": 171
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "customCategories.stream()\n            .filter(cat -> cat.key() != null && cat.label() != null).map",
+          "lineNumber": 171
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "customCategories.stream().filter",
+          "lineNumber": 171
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "customCategories.stream",
+          "lineNumber": 171
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.key",
+          "lineNumber": 172
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.label",
+          "lineNumber": 172
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "sanitizeCategoryKey",
+          "lineNumber": 174
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.key",
+          "lineNumber": 174
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "sanitizeCategoryLabel",
+          "lineNumber": 175
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.label",
+          "lineNumber": 175
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "categoryRefIndex.get",
+          "lineNumber": 176
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.ref().equals",
+          "lineNumber": 178
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.ref",
+          "lineNumber": 178
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.ref",
+          "lineNumber": 178
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.shared",
+          "lineNumber": 179
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 179
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.shared",
+          "lineNumber": 179
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "log.info",
+          "lineNumber": 180
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.ref",
+          "lineNumber": 181
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.shared",
+          "lineNumber": 181
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.ref",
+          "lineNumber": 181
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.shared",
+          "lineNumber": 181
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "new SkillCategoryDTO",
+          "lineNumber": 183
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.priority",
+          "lineNumber": 183
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.ref",
+          "lineNumber": 184
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "refMapping.shared",
+          "lineNumber": 184
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "new SkillCategoryDTO",
+          "lineNumber": 186
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.priority",
+          "lineNumber": 186
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.ref",
+          "lineNumber": 187
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 187
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "cat.shared",
+          "lineNumber": 187
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "categories.stream().filter(c -> c.ref() != null && !c.ref().isBlank()).count",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "categories.stream().filter",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "categories.stream",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "c.ref",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "c.ref().isBlank",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "c.ref",
+          "lineNumber": 191
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "log.info",
+          "lineNumber": 192
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "categories.size",
+          "lineNumber": 192
+        },
+        {
+          "caller": "buildCustomSkill",
+          "callee": "new SkillDTO",
+          "lineNumber": 194
+        },
+        {
+          "caller": "parseJd",
+          "callee": "jdText.length",
+          "lineNumber": 200
+        },
+        {
+          "caller": "parseJd",
+          "callee": "new BusinessException",
+          "lineNumber": 201
+        },
+        {
+          "caller": "parseJd",
+          "callee": "log.info",
+          "lineNumber": 204
+        },
+        {
+          "caller": "parseJd",
+          "callee": "jdText.length",
+          "lineNumber": 204
+        },
+        {
+          "caller": "parseJd",
+          "callee": "llmProviderRegistry.getDefaultChatClient",
+          "lineNumber": 206
+        },
+        {
+          "caller": "parseJd",
+          "callee": "jdSystemPromptTemplate.render",
+          "lineNumber": 207
+        },
+        {
+          "caller": "parseJd",
+          "callee": "Map.of",
+          "lineNumber": 207
+        },
+        {
+          "caller": "parseJd",
+          "callee": "jdOutputConverter.getFormat",
+          "lineNumber": 209
+        },
+        {
+          "caller": "parseJd",
+          "callee": "promptSanitizer.wrapWithDelimiters",
+          "lineNumber": 212
+        },
+        {
+          "caller": "parseJd",
+          "callee": "promptSanitizer.sanitize",
+          "lineNumber": 212
+        },
+        {
+          "caller": "parseJd",
+          "callee": "structuredOutputInvoker.invoke",
+          "lineNumber": 215
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories",
+          "lineNumber": 220
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories().isEmpty",
+          "lineNumber": 220
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories",
+          "lineNumber": 220
+        },
+        {
+          "caller": "parseJd",
+          "callee": "new BusinessException",
+          "lineNumber": 221
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories().stream().filter(c -> c.ref() != null && !c.ref().isBlank()).count",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories().stream().filter",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories().stream",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "c.ref",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "c.ref().isBlank",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "c.ref",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseJd",
+          "callee": "log.info",
+          "lineNumber": 225
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories().size",
+          "lineNumber": 225
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories",
+          "lineNumber": 225
+        },
+        {
+          "caller": "parseJd",
+          "callee": "result.categories",
+          "lineNumber": 226
+        },
+        {
+          "caller": "parseJd",
+          "callee": "log.error",
+          "lineNumber": 230
+        },
+        {
+          "caller": "parseJd",
+          "callee": "e.getMessage",
+          "lineNumber": 230
+        },
+        {
+          "caller": "parseJd",
+          "callee": "new BusinessException",
+          "lineNumber": 231
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "new LinkedHashMap<>",
+          "lineNumber": 237
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "presetRegistry.entrySet",
+          "lineNumber": 238
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue().getDisplayName",
+          "lineNumber": 239
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue",
+          "lineNumber": 239
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue().getDisplayName",
+          "lineNumber": 240
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue",
+          "lineNumber": 240
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue().getName",
+          "lineNumber": 240
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue",
+          "lineNumber": 240
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue().getCategories",
+          "lineNumber": 241
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue",
+          "lineNumber": 241
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue().getCategories",
+          "lineNumber": 242
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "entry.getValue",
+          "lineNumber": 242
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getRef",
+          "lineNumber": 243
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getRef().isBlank",
+          "lineNumber": 243
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getRef",
+          "lineNumber": 243
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "refDescriptions.putIfAbsent",
+          "lineNumber": 244
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getRef",
+          "lineNumber": 244
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getRef",
+          "lineNumber": 245
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 246
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getShared",
+          "lineNumber": 246
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "cat.getLabel",
+          "lineNumber": 248
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "refDescriptions.isEmpty",
+          "lineNumber": 253
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "new StringBuilder",
+          "lineNumber": 257
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "sb.append",
+          "lineNumber": 258
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "refDescriptions.values",
+          "lineNumber": 259
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "sb.append",
+          "lineNumber": 260
+        },
+        {
+          "caller": "buildReferenceFileList",
+          "callee": "sb.toString",
+          "lineNumber": 262
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "calculateAllocation",
+          "lineNumber": 266
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "getSkill(skillId).categories",
+          "lineNumber": 266
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "getSkill",
+          "lineNumber": 266
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "new ArrayList<>",
+          "lineNumber": 270
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "new ArrayList<>",
+          "lineNumber": 271
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "new ArrayList<>",
+          "lineNumber": 272
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.priority",
+          "lineNumber": 275
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "alwaysOneCats.add",
+          "lineNumber": 276
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "coreCats.add",
+          "lineNumber": 277
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "normalCats.add",
+          "lineNumber": 278
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "new LinkedHashMap<>",
+          "lineNumber": 282
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.put",
+          "lineNumber": 288
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 288
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.put",
+          "lineNumber": 296
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 296
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.put",
+          "lineNumber": 302
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 302
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.merge",
+          "lineNumber": 311
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 311
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.merge",
+          "lineNumber": 316
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 316
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "coreCats.isEmpty",
+          "lineNumber": 319
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "normalCats.isEmpty",
+          "lineNumber": 319
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.putIfAbsent",
+          "lineNumber": 324
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 324
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "allocation.putIfAbsent",
+          "lineNumber": 327
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "cat.key",
+          "lineNumber": 327
+        },
+        {
+          "caller": "calculateAllocation",
+          "callee": "log.debug",
+          "lineNumber": 330
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "new StringBuilder",
+          "lineNumber": 335
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "allocation.getOrDefault",
+          "lineNumber": 337
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "cat.key",
+          "lineNumber": 337
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append(cat.label()).append(\" | \").append(count).append(\" 题 | \").append(cat.priority()).append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append(cat.label()).append(\" | \").append(count).append(\" 题 | \").append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append(cat.label()).append(\" | \").append(count).append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append(cat.label()).append(\" | \").append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append(cat.label()).append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append(\"| \").append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.append",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "cat.label",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "cat.priority",
+          "lineNumber": 339
+        },
+        {
+          "caller": "buildAllocationDescription",
+          "callee": "sb.toString",
+          "lineNumber": 342
+        },
+        {
+          "caller": "buildReferenceSection",
+          "callee": "buildReferenceSectionInternal",
+          "lineNumber": 346
+        },
+        {
+          "caller": "buildReferenceSection",
+          "callee": "allocation.getOrDefault",
+          "lineNumber": 348
+        },
+        {
+          "caller": "buildReferenceSection",
+          "callee": "category.key",
+          "lineNumber": 348
+        },
+        {
+          "caller": "buildEvaluationReferenceSection",
+          "callee": "getSkill",
+          "lineNumber": 357
+        },
+        {
+          "caller": "buildEvaluationReferenceSection",
+          "callee": "buildReferenceSectionInternal",
+          "lineNumber": 358
+        },
+        {
+          "caller": "buildEvaluationReferenceSectionSafe",
+          "callee": "skillId.isBlank",
+          "lineNumber": 369
+        },
+        {
+          "caller": "buildEvaluationReferenceSectionSafe",
+          "callee": "buildEvaluationReferenceSection",
+          "lineNumber": 373
+        },
+        {
+          "caller": "buildEvaluationReferenceSectionSafe",
+          "callee": "log.warn",
+          "lineNumber": 375
+        },
+        {
+          "caller": "buildEvaluationReferenceSectionSafe",
+          "callee": "e.getMessage",
+          "lineNumber": 375
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "new StringBuilder",
+          "lineNumber": 383
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "skill.categories",
+          "lineNumber": 385
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "categoryFilter.test",
+          "lineNumber": 386
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.ref",
+          "lineNumber": 389
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.ref().isBlank",
+          "lineNumber": 389
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.ref",
+          "lineNumber": 389
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "skill.id",
+          "lineNumber": 394
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "CUSTOM_SKILL_ID.equals",
+          "lineNumber": 395
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "skill.id",
+          "lineNumber": 395
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.shared",
+          "lineNumber": 395
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.ref",
+          "lineNumber": 395
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "categoryRefIndex.get",
+          "lineNumber": 396
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.key",
+          "lineNumber": 396
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "mapping.sourceSkillId",
+          "lineNumber": 398
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "loadReferenceContent",
+          "lineNumber": 401
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.ref",
+          "lineNumber": 401
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.shared",
+          "lineNumber": 401
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "referenceContent.isBlank",
+          "lineNumber": 402
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.isEmpty",
+          "lineNumber": 406
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append",
+          "lineNumber": 407
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append(\"### \").append(category.label()).append(\" (\").append(category.key()).append",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append(\"### \").append(category.label()).append(\" (\").append",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append(\"### \").append(category.label()).append",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append(\"### \").append",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.label",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "category.key",
+          "lineNumber": 409
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append",
+          "lineNumber": 410
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.length",
+          "lineNumber": 412
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.setLength",
+          "lineNumber": 413
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.append",
+          "lineNumber": 414
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.isEmpty",
+          "lineNumber": 419
+        },
+        {
+          "caller": "buildReferenceSectionInternal",
+          "callee": "sb.toString",
+          "lineNumber": 419
+        },
+        {
+          "caller": "loadClasspathPrompt",
+          "callee": "resourceLoader.getResource",
+          "lineNumber": 423
+        },
+        {
+          "caller": "loadClasspathPrompt",
+          "callee": "resource.getContentAsString",
+          "lineNumber": 424
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "resource.getContentAsString",
+          "lineNumber": 429
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "FRONT_MATTER_PATTERN.matcher",
+          "lineNumber": 430
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "matcher.matches",
+          "lineNumber": 431
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "new BusinessException",
+          "lineNumber": 432
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "resource.getDescription",
+          "lineNumber": 433
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "matcher.group",
+          "lineNumber": 436
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "matcher.group",
+          "lineNumber": 437
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "matcher.group(2).trim",
+          "lineNumber": 437
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "matcher.group",
+          "lineNumber": 437
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "yaml.loadAs",
+          "lineNumber": 440
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "new InterviewSkillProperties.SkillDefinition",
+          "lineNumber": 442
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setName",
+          "lineNumber": 444
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "frontMatterDef.getName",
+          "lineNumber": 444
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setDescription",
+          "lineNumber": 445
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "frontMatterDef.getDescription",
+          "lineNumber": 445
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "body.isBlank",
+          "lineNumber": 447
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setPersona",
+          "lineNumber": 448
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "loadSkillMetaDefinition",
+          "lineNumber": 451
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setDisplayName",
+          "lineNumber": 453
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "metaDef.getDisplayName",
+          "lineNumber": 453
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setDisplay",
+          "lineNumber": 454
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "metaDef.getDisplay",
+          "lineNumber": 454
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setCategories",
+          "lineNumber": 455
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "metaDef.getCategories",
+          "lineNumber": 455
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.getCategories",
+          "lineNumber": 458
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "definition.setCategories",
+          "lineNumber": 459
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "List.of",
+          "lineNumber": 459
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "new BusinessException",
+          "lineNumber": 463
+        },
+        {
+          "caller": "parseSkillDefinition",
+          "callee": "resource.getDescription",
+          "lineNumber": 464
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "resourceLoader.getResource",
+          "lineNumber": 470
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "resource.exists",
+          "lineNumber": 471
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "log.warn",
+          "lineNumber": 472
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "resource.getContentAsString",
+          "lineNumber": 477
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "yaml.loadAs",
+          "lineNumber": 478
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "new InterviewSkillProperties.SkillMetaDefinition",
+          "lineNumber": 479
+        },
+        {
+          "caller": "loadSkillMetaDefinition",
+          "callee": "new BusinessException",
+          "lineNumber": 481
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "resource.getURL().toString().replace",
+          "lineNumber": 487
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "resource.getURL().toString",
+          "lineNumber": 487
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "resource.getURL",
+          "lineNumber": 487
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "SKILL_ID_PATTERN.matcher",
+          "lineNumber": 488
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "matcher.matches",
+          "lineNumber": 489
+        },
+        {
+          "caller": "extractSkillId",
+          "callee": "matcher.group",
+          "lineNumber": 490
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "isSafeReferencePath",
+          "lineNumber": 499
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "log.warn",
+          "lineNumber": 500
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "resolveReferenceLocations",
+          "lineNumber": 504
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "referenceCache.computeIfAbsent",
+          "lineNumber": 506
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "content.isBlank",
+          "lineNumber": 507
+        },
+        {
+          "caller": "loadReferenceContent",
+          "callee": "log.warn",
+          "lineNumber": 512
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "new LinkedHashSet<>",
+          "lineNumber": 518
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "locations.add",
+          "lineNumber": 520
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "buildSharedReferenceLocation",
+          "lineNumber": 520
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "addSkillReferenceLocations",
+          "lineNumber": 523
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "locations.add",
+          "lineNumber": 526
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "buildSharedReferenceLocation",
+          "lineNumber": 526
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "CUSTOM_SKILL_ID.equals",
+          "lineNumber": 529
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "presetRegistry.keySet",
+          "lineNumber": 530
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "addSkillReferenceLocations",
+          "lineNumber": 531
+        },
+        {
+          "caller": "resolveReferenceLocations",
+          "callee": "List.copyOf",
+          "lineNumber": 535
+        },
+        {
+          "caller": "addSkillReferenceLocations",
+          "callee": "skillId.isBlank",
+          "lineNumber": 539
+        },
+        {
+          "caller": "addSkillReferenceLocations",
+          "callee": "CUSTOM_SKILL_ID.equals",
+          "lineNumber": 539
+        },
+        {
+          "caller": "addSkillReferenceLocations",
+          "callee": "locations.add",
+          "lineNumber": 542
+        },
+        {
+          "caller": "addSkillReferenceLocations",
+          "callee": "locations.add",
+          "lineNumber": 543
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "resourceLoader.getResource",
+          "lineNumber": 551
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "resource.exists",
+          "lineNumber": 552
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "resource.getContentAsString(StandardCharsets.UTF_8).trim",
+          "lineNumber": 557
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "resource.getContentAsString",
+          "lineNumber": 557
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "content.length",
+          "lineNumber": 558
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "content.substring",
+          "lineNumber": 559
+        },
+        {
+          "caller": "readReferenceContent",
+          "callee": "log.warn",
+          "lineNumber": 563
+        },
+        {
+          "caller": "isSafeReferencePath",
+          "callee": "referenceFile.contains",
+          "lineNumber": 569
+        },
+        {
+          "caller": "isSafeReferencePath",
+          "callee": "referenceFile.startsWith",
+          "lineNumber": 570
+        },
+        {
+          "caller": "isSafeReferencePath",
+          "callee": "referenceFile.startsWith",
+          "lineNumber": 571
+        },
+        {
+          "caller": "isSafeReferencePath",
+          "callee": "referenceFile.matches",
+          "lineNumber": 572
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "key.isBlank",
+          "lineNumber": 580
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "key.trim",
+          "lineNumber": 583
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "trimmed.length",
+          "lineNumber": 584
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "trimmed.substring",
+          "lineNumber": 585
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "trimmed.toUpperCase().replaceAll",
+          "lineNumber": 587
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "trimmed.toUpperCase",
+          "lineNumber": 587
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "upper.isEmpty",
+          "lineNumber": 588
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "Character.isLetter",
+          "lineNumber": 592
+        },
+        {
+          "caller": "sanitizeCategoryKey",
+          "callee": "upper.charAt",
+          "lineNumber": 592
+        },
+        {
+          "caller": "sanitizeCategoryLabel",
+          "callee": "label.isBlank",
+          "lineNumber": 602
+        },
+        {
+          "caller": "sanitizeCategoryLabel",
+          "callee": "label.trim().replaceAll",
+          "lineNumber": 605
+        },
+        {
+          "caller": "sanitizeCategoryLabel",
+          "callee": "label.trim",
+          "lineNumber": 605
+        },
+        {
+          "caller": "sanitizeCategoryLabel",
+          "callee": "trimmed.length",
+          "lineNumber": 606
+        },
+        {
+          "caller": "sanitizeCategoryLabel",
+          "callee": "trimmed.substring",
+          "lineNumber": 607
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDisplayName",
+          "lineNumber": 613
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDisplayName().isBlank",
+          "lineNumber": 613
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDisplayName",
+          "lineNumber": 613
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDisplayName",
+          "lineNumber": 614
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getName",
+          "lineNumber": 615
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDisplay",
+          "lineNumber": 617
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "new DisplayDTO",
+          "lineNumber": 619
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "disp.getIcon",
+          "lineNumber": 619
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "disp.getGradient",
+          "lineNumber": 619
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "disp.getIconBg",
+          "lineNumber": 619
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "disp.getIconColor",
+          "lineNumber": 619
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getCategories",
+          "lineNumber": 622
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "List.of",
+          "lineNumber": 623
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getCategories().stream()\n                .map(c -> new SkillCategoryDTO(\n                    c.getKey(),\n                    c.getLabel(),\n                    c.getPriority(),\n                    c.getRef(),\n                    Boolean.TRUE.equals(c.getShared())\n                )).toList",
+          "lineNumber": 624
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getCategories().stream().map",
+          "lineNumber": 624
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getCategories().stream",
+          "lineNumber": 624
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getCategories",
+          "lineNumber": 624
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "new SkillCategoryDTO",
+          "lineNumber": 625
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "c.getKey",
+          "lineNumber": 626
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "c.getLabel",
+          "lineNumber": 627
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "c.getPriority",
+          "lineNumber": 628
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "c.getRef",
+          "lineNumber": 629
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 630
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "c.getShared",
+          "lineNumber": 630
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "new SkillDTO",
+          "lineNumber": 634
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getDescription",
+          "lineNumber": 637
+        },
+        {
+          "caller": "toSkillDTO",
+          "callee": "def.getPersona",
+          "lineNumber": 641
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 13,
+        "functionCount": 28,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 144,
+      "nonEmptyLines": 133,
+      "functions": [
+        {
+          "name": "parse",
+          "startLine": 48,
+          "endLine": 53,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "create",
+          "startLine": 61,
+          "endLine": 66,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "getById",
+          "startLine": 74,
+          "endLine": 78,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getAll",
+          "startLine": 88,
+          "endLine": 96,
+          "params": [
+            "status",
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "update",
+          "startLine": 105,
+          "endLine": 113,
+          "params": [
+            "id",
+            "request"
+          ]
+        },
+        {
+          "name": "delete",
+          "startLine": 121,
+          "endLine": 126,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 135,
+          "endLine": 143,
+          "params": [
+            "id",
+            "status"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewScheduleController",
+          "startLine": 33,
+          "endLine": 144,
+          "methods": [
+            "parse",
+            "create",
+            "getById",
+            "getAll",
+            "update",
+            "delete",
+            "updateStatus"
+          ],
+          "properties": [
+            "scheduleService",
+            "parseService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "parse",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "create",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "getById",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "getAll",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "update",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "delete",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 135,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewScheduleController",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse",
+          "callee": "log.info",
+          "lineNumber": 50
+        },
+        {
+          "caller": "parse",
+          "callee": "request.getSource",
+          "lineNumber": 50
+        },
+        {
+          "caller": "parse",
+          "callee": "parseService.parse",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parse",
+          "callee": "request.getRawText",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parse",
+          "callee": "request.getSource",
+          "lineNumber": 51
+        },
+        {
+          "caller": "parse",
+          "callee": "Result.success",
+          "lineNumber": 52
+        },
+        {
+          "caller": "create",
+          "callee": "log.info",
+          "lineNumber": 63
+        },
+        {
+          "caller": "create",
+          "callee": "request.getCompanyName",
+          "lineNumber": 63
+        },
+        {
+          "caller": "create",
+          "callee": "request.getPosition",
+          "lineNumber": 63
+        },
+        {
+          "caller": "create",
+          "callee": "scheduleService.create",
+          "lineNumber": 64
+        },
+        {
+          "caller": "create",
+          "callee": "Result.success",
+          "lineNumber": 65
+        },
+        {
+          "caller": "getById",
+          "callee": "scheduleService.getById",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getById",
+          "callee": "Result.success",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getAll",
+          "callee": "scheduleService.getAll",
+          "lineNumber": 94
+        },
+        {
+          "caller": "getAll",
+          "callee": "Result.success",
+          "lineNumber": 95
+        },
+        {
+          "caller": "update",
+          "callee": "log.info",
+          "lineNumber": 110
+        },
+        {
+          "caller": "update",
+          "callee": "scheduleService.update",
+          "lineNumber": 111
+        },
+        {
+          "caller": "update",
+          "callee": "Result.success",
+          "lineNumber": 112
+        },
+        {
+          "caller": "delete",
+          "callee": "log.info",
+          "lineNumber": 123
+        },
+        {
+          "caller": "delete",
+          "callee": "scheduleService.delete",
+          "lineNumber": 124
+        },
+        {
+          "caller": "delete",
+          "callee": "Result.success",
+          "lineNumber": 125
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "log.info",
+          "lineNumber": 140
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "scheduleService.updateStatus",
+          "lineNumber": 141
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "Result.success",
+          "lineNumber": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 7,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 20,
+      "classes": [
+        {
+          "name": "CreateInterviewRequest",
+          "startLine": 8,
+          "endLine": 29,
+          "methods": [],
+          "properties": [
+            "companyName",
+            "position",
+            "interviewTime",
+            "interviewType",
+            "meetingLink",
+            "roundNumber",
+            "interviewer",
+            "notes"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CreateInterviewRequest",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "classes": [
+        {
+          "name": "InterviewScheduleDTO",
+          "startLine": 6,
+          "endLine": 22,
+          "methods": [],
+          "properties": [
+            "id",
+            "companyName",
+            "position",
+            "interviewTime",
+            "interviewType",
+            "meetingLink",
+            "roundNumber",
+            "interviewer",
+            "notes",
+            "status",
+            "createdAt",
+            "updatedAt"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewScheduleDTO",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "onCreate",
+          "startLine": 48,
+          "endLine": 52,
+          "params": []
+        },
+        {
+          "name": "onUpdate",
+          "startLine": 54,
+          "endLine": 57,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewScheduleEntity",
+          "startLine": 7,
+          "endLine": 58,
+          "methods": [
+            "onCreate",
+            "onUpdate"
+          ],
+          "properties": [
+            "id",
+            "companyName",
+            "position",
+            "interviewTime",
+            "interviewType",
+            "meetingLink",
+            "roundNumber",
+            "interviewer",
+            "notes",
+            "status",
+            "createdAt",
+            "updatedAt"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewScheduleEntity",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 50
+        },
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 51
+        },
+        {
+          "caller": "onUpdate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 9,
+      "classes": [
+        {
+          "name": "ParseRequest",
+          "startLine": 6,
+          "endLine": 12,
+          "methods": [],
+          "properties": [
+            "rawText",
+            "source"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParseRequest",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "classes": [
+        {
+          "name": "ParseResponse",
+          "startLine": 7,
+          "endLine": 16,
+          "methods": [],
+          "properties": [
+            "success",
+            "data",
+            "confidence",
+            "parseMethod",
+            "log"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParseResponse",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 22,
+      "classes": [
+        {
+          "name": "InterviewScheduleRepository",
+          "startLine": 14,
+          "endLine": 28,
+          "methods": [
+            "findByStatusAndInterviewTimeBefore",
+            "findByStatus",
+            "findByInterviewTimeBetween",
+            "updateStatusByStatusAndInterviewTimeBefore"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewScheduleRepository",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 435,
+      "nonEmptyLines": 350,
+      "functions": [
+        {
+          "name": "parse",
+          "startLine": 99,
+          "endLine": 125,
+          "params": [
+            "rawText",
+            "source"
+          ]
+        },
+        {
+          "name": "tryRuleParsing",
+          "startLine": 127,
+          "endLine": 161,
+          "params": [
+            "rawText",
+            "source"
+          ]
+        },
+        {
+          "name": "parseFeishu",
+          "startLine": 165,
+          "endLine": 210,
+          "params": [
+            "rawText"
+          ]
+        },
+        {
+          "name": "parseTencent",
+          "startLine": 214,
+          "endLine": 261,
+          "params": [
+            "rawText"
+          ]
+        },
+        {
+          "name": "parseZoom",
+          "startLine": 265,
+          "endLine": 294,
+          "params": [
+            "rawText"
+          ]
+        },
+        {
+          "name": "parseWithAI",
+          "startLine": 298,
+          "endLine": 392,
+          "params": [
+            "rawText",
+            "provider"
+          ]
+        },
+        {
+          "name": "parseDateTime",
+          "startLine": 396,
+          "endLine": 409,
+          "params": [
+            "timeStr"
+          ]
+        },
+        {
+          "name": "parseRoundNumber",
+          "startLine": 411,
+          "endLine": 427,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "isValidResult",
+          "startLine": 429,
+          "endLine": 434,
+          "params": [
+            "result"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewParseService",
+          "startLine": 25,
+          "endLine": 435,
+          "methods": [
+            "parse",
+            "tryRuleParsing",
+            "parseFeishu",
+            "parseTencent",
+            "parseZoom",
+            "parseWithAI",
+            "parseDateTime",
+            "parseRoundNumber",
+            "isValidResult"
+          ],
+          "properties": [
+            "llmProviderRegistry",
+            "objectMapper",
+            "promptSanitizer",
+            "DATE_TIME_FORMATTER",
+            "DATE_TIME_FORMATTER_2",
+            "CHINESE_NUMBERS",
+            "TIME_PATTERN_FEISHU",
+            "LINK_PATTERN_FEISHU",
+            "COMPANY_PATTERN_FEISHU",
+            "POSITION_PATTERN_FEISHU",
+            "ROUND_PATTERN_FEISHU",
+            "TIME_PATTERN_TENCENT",
+            "MEETING_ID_PATTERN_TENCENT",
+            "PASSWORD_PATTERN_TENCENT",
+            "COMPANY_PATTERN_TENCENT",
+            "POSITION_PATTERN_TENCENT",
+            "LINK_PATTERN_ZOOM",
+            "DATE_PATTERN_ZOOM",
+            "HOUR_PATTERN_ZOOM",
+            "ROUND_NUMBER_PATTERN",
+            "PARSE_PROMPT"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "parse",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewParseService",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse",
+          "callee": "log.info",
+          "lineNumber": 100
+        },
+        {
+          "caller": "parse",
+          "callee": "rawText.length",
+          "lineNumber": 100
+        },
+        {
+          "caller": "parse",
+          "callee": "rawText.trim().isEmpty",
+          "lineNumber": 102
+        },
+        {
+          "caller": "parse",
+          "callee": "rawText.trim",
+          "lineNumber": 102
+        },
+        {
+          "caller": "parse",
+          "callee": "log.warn",
+          "lineNumber": 103
+        },
+        {
+          "caller": "parse",
+          "callee": "new ParseResponse",
+          "lineNumber": 104
+        },
+        {
+          "caller": "parse",
+          "callee": "tryRuleParsing",
+          "lineNumber": 108
+        },
+        {
+          "caller": "parse",
+          "callee": "isValidResult",
+          "lineNumber": 109
+        },
+        {
+          "caller": "parse",
+          "callee": "log.info",
+          "lineNumber": 110
+        },
+        {
+          "caller": "parse",
+          "callee": "new ParseResponse",
+          "lineNumber": 111
+        },
+        {
+          "caller": "parse",
+          "callee": "log.info",
+          "lineNumber": 115
+        },
+        {
+          "caller": "parse",
+          "callee": "parseWithAI",
+          "lineNumber": 116
+        },
+        {
+          "caller": "parse",
+          "callee": "isValidResult",
+          "lineNumber": 117
+        },
+        {
+          "caller": "parse",
+          "callee": "log.info",
+          "lineNumber": 118
+        },
+        {
+          "caller": "parse",
+          "callee": "new ParseResponse",
+          "lineNumber": 119
+        },
+        {
+          "caller": "parse",
+          "callee": "log.warn",
+          "lineNumber": 123
+        },
+        {
+          "caller": "parse",
+          "callee": "new ParseResponse",
+          "lineNumber": 124
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "\"feishu\".equalsIgnoreCase",
+          "lineNumber": 129
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseFeishu",
+          "lineNumber": 130
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "\"tencent\".equalsIgnoreCase",
+          "lineNumber": 131
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseTencent",
+          "lineNumber": 132
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "\"zoom\".equalsIgnoreCase",
+          "lineNumber": 133
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseZoom",
+          "lineNumber": 134
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 138
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 138
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 138
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseFeishu",
+          "lineNumber": 139
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "isValidResult",
+          "lineNumber": 140
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 143
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 143
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 143
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseTencent",
+          "lineNumber": 144
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "isValidResult",
+          "lineNumber": 145
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 148
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "rawText.contains",
+          "lineNumber": 148
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseZoom",
+          "lineNumber": 149
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "isValidResult",
+          "lineNumber": 150
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseFeishu",
+          "lineNumber": 154
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "isValidResult",
+          "lineNumber": 155
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseTencent",
+          "lineNumber": 157
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "isValidResult",
+          "lineNumber": 158
+        },
+        {
+          "caller": "tryRuleParsing",
+          "callee": "parseZoom",
+          "lineNumber": 160
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "log.debug",
+          "lineNumber": 166
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "new CreateInterviewRequest",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "TIME_PATTERN_FEISHU.matcher",
+          "lineNumber": 172
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "timeMatcher.find",
+          "lineNumber": 173
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "timeMatcher.group",
+          "lineNumber": 174
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setInterviewTime",
+          "lineNumber": 175
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "parseDateTime",
+          "lineNumber": 175
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "LINK_PATTERN_FEISHU.matcher",
+          "lineNumber": 179
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "linkMatcher.find",
+          "lineNumber": 180
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setMeetingLink",
+          "lineNumber": 181
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "linkMatcher.group",
+          "lineNumber": 181
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "COMPANY_PATTERN_FEISHU.matcher",
+          "lineNumber": 185
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "companyMatcher.find",
+          "lineNumber": 186
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setCompanyName",
+          "lineNumber": 187
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "companyMatcher.group(1).trim",
+          "lineNumber": 187
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "companyMatcher.group",
+          "lineNumber": 187
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "POSITION_PATTERN_FEISHU.matcher",
+          "lineNumber": 191
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "positionMatcher.find",
+          "lineNumber": 192
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setPosition",
+          "lineNumber": 193
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "positionMatcher.group(1).trim",
+          "lineNumber": 193
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "positionMatcher.group",
+          "lineNumber": 193
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "ROUND_PATTERN_FEISHU.matcher",
+          "lineNumber": 197
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "roundMatcher.find",
+          "lineNumber": 198
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setRoundNumber",
+          "lineNumber": 199
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "parseRoundNumber",
+          "lineNumber": 199
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "roundMatcher.group",
+          "lineNumber": 199
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "request.setInterviewType",
+          "lineNumber": 202
+        },
+        {
+          "caller": "parseFeishu",
+          "callee": "log.error",
+          "lineNumber": 207
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "log.debug",
+          "lineNumber": 215
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "new CreateInterviewRequest",
+          "lineNumber": 217
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "TIME_PATTERN_TENCENT.matcher",
+          "lineNumber": 221
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "timeMatcher.find",
+          "lineNumber": 222
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "timeMatcher.group",
+          "lineNumber": 223
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "timeMatcher.group",
+          "lineNumber": 223
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "request.setInterviewTime",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "parseDateTime",
+          "lineNumber": 224
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "MEETING_ID_PATTERN_TENCENT.matcher",
+          "lineNumber": 228
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "PASSWORD_PATTERN_TENCENT.matcher",
+          "lineNumber": 229
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "new StringBuilder",
+          "lineNumber": 231
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingIdMatcher.find",
+          "lineNumber": 232
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.append(\"会议号: \").append",
+          "lineNumber": 233
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.append",
+          "lineNumber": 233
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingIdMatcher.group",
+          "lineNumber": 233
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "passwordMatcher.find",
+          "lineNumber": 235
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.append(\" 密码: \").append",
+          "lineNumber": 236
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.append",
+          "lineNumber": 236
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "passwordMatcher.group",
+          "lineNumber": 236
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.length",
+          "lineNumber": 238
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "request.setMeetingLink",
+          "lineNumber": 239
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "meetingLink.toString",
+          "lineNumber": 239
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "COMPANY_PATTERN_TENCENT.matcher",
+          "lineNumber": 243
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "companyMatcher.find",
+          "lineNumber": 244
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "request.setCompanyName",
+          "lineNumber": 245
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "companyMatcher.group(1).trim",
+          "lineNumber": 245
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "companyMatcher.group",
+          "lineNumber": 245
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "POSITION_PATTERN_TENCENT.matcher",
+          "lineNumber": 248
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "positionMatcher.find",
+          "lineNumber": 249
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "request.setPosition",
+          "lineNumber": 250
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "positionMatcher.group(1).trim",
+          "lineNumber": 250
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "positionMatcher.group",
+          "lineNumber": 250
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "request.setInterviewType",
+          "lineNumber": 253
+        },
+        {
+          "caller": "parseTencent",
+          "callee": "log.error",
+          "lineNumber": 258
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "log.debug",
+          "lineNumber": 266
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "new CreateInterviewRequest",
+          "lineNumber": 268
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "LINK_PATTERN_ZOOM.matcher",
+          "lineNumber": 272
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "linkMatcher.find",
+          "lineNumber": 273
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "request.setMeetingLink",
+          "lineNumber": 274
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "linkMatcher.group",
+          "lineNumber": 274
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "DATE_PATTERN_ZOOM.matcher",
+          "lineNumber": 278
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "HOUR_PATTERN_ZOOM.matcher",
+          "lineNumber": 279
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "dateMatcher.find",
+          "lineNumber": 281
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "hourMatcher.find",
+          "lineNumber": 281
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "dateMatcher.group",
+          "lineNumber": 282
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "hourMatcher.group",
+          "lineNumber": 282
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "request.setInterviewTime",
+          "lineNumber": 283
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "parseDateTime",
+          "lineNumber": 283
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "request.setInterviewType",
+          "lineNumber": 286
+        },
+        {
+          "caller": "parseZoom",
+          "callee": "log.error",
+          "lineNumber": 291
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "LocalDateTime.now().format",
+          "lineNumber": 300
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 300
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "promptSanitizer.sanitize",
+          "lineNumber": 301
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "String.format",
+          "lineNumber": 302
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "promptSanitizer.wrapWithDelimiters",
+          "lineNumber": 304
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "llmProviderRegistry.getChatClientOrDefault",
+          "lineNumber": 306
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "chatClient.prompt()\n                    .user(prompt)\n                    .call().content",
+          "lineNumber": 308
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "chatClient.prompt()\n                    .user(prompt).call",
+          "lineNumber": 308
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "chatClient.prompt().user",
+          "lineNumber": 308
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "chatClient.prompt",
+          "lineNumber": 308
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "content.trim().isEmpty",
+          "lineNumber": 313
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "content.trim",
+          "lineNumber": 313
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.error",
+          "lineNumber": 314
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "content.trim",
+          "lineNumber": 319
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "jsonContent.contains",
+          "lineNumber": 320
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "Pattern.compile",
+          "lineNumber": 321
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "pattern.matcher",
+          "lineNumber": 322
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "matcher.find",
+          "lineNumber": 323
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "matcher.group(1).trim",
+          "lineNumber": 324
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "matcher.group",
+          "lineNumber": 324
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.debug",
+          "lineNumber": 328
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 329
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "new TypeReference<Map<String, Object>>",
+          "lineNumber": 329
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.isEmpty",
+          "lineNumber": 331
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.error",
+          "lineNumber": 332
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "new CreateInterviewRequest",
+          "lineNumber": 336
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 339
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setCompanyName",
+          "lineNumber": 340
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"companyName\").toString().trim",
+          "lineNumber": 340
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"companyName\").toString",
+          "lineNumber": 340
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 340
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 343
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setPosition",
+          "lineNumber": 344
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"position\").toString().trim",
+          "lineNumber": 344
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"position\").toString",
+          "lineNumber": 344
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 344
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 347
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewTime\").toString().trim",
+          "lineNumber": 349
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewTime\").toString",
+          "lineNumber": 349
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 349
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "timeStr.length",
+          "lineNumber": 350
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setInterviewTime",
+          "lineNumber": 351
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "LocalDateTime.parse",
+          "lineNumber": 351
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setInterviewTime",
+          "lineNumber": 353
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "LocalDateTime.parse",
+          "lineNumber": 353
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.error",
+          "lineNumber": 356
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 356
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 360
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setInterviewType",
+          "lineNumber": 361
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewType\").toString().trim",
+          "lineNumber": 361
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewType\").toString",
+          "lineNumber": 361
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 361
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 364
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setMeetingLink",
+          "lineNumber": 365
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"meetingLink\").toString().trim",
+          "lineNumber": 365
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"meetingLink\").toString",
+          "lineNumber": 365
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 365
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 368
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"roundNumber\").toString().trim",
+          "lineNumber": 370
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"roundNumber\").toString",
+          "lineNumber": 370
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 370
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setRoundNumber",
+          "lineNumber": 371
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "Integer.parseInt",
+          "lineNumber": 371
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setRoundNumber",
+          "lineNumber": 373
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 377
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setInterviewer",
+          "lineNumber": 378
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewer\").toString().trim",
+          "lineNumber": 378
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"interviewer\").toString",
+          "lineNumber": 378
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 378
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 381
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.setNotes",
+          "lineNumber": 382
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"notes\").toString().trim",
+          "lineNumber": 382
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get(\"notes\").toString",
+          "lineNumber": 382
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "result.get",
+          "lineNumber": 382
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.info",
+          "lineNumber": 385
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "request.getCompanyName",
+          "lineNumber": 385
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "log.error",
+          "lineNumber": 389
+        },
+        {
+          "caller": "parseWithAI",
+          "callee": "e.getMessage",
+          "lineNumber": 389
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "timeStr.replace",
+          "lineNumber": 398
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "timeStr.length",
+          "lineNumber": 399
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "LocalDateTime.parse",
+          "lineNumber": 400
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "timeStr.length",
+          "lineNumber": 401
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "LocalDateTime.parse",
+          "lineNumber": 402
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "DateTimeFormatter.ofPattern",
+          "lineNumber": 402
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "LocalDateTime.parse",
+          "lineNumber": 404
+        },
+        {
+          "caller": "parseDateTime",
+          "callee": "log.error",
+          "lineNumber": 406
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "text.trim",
+          "lineNumber": 414
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "text.matches",
+          "lineNumber": 416
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "Integer.parseInt",
+          "lineNumber": 417
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "ROUND_NUMBER_PATTERN.matcher",
+          "lineNumber": 420
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "matcher.find",
+          "lineNumber": 421
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "matcher.group",
+          "lineNumber": 422
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "CHINESE_NUMBERS.getOrDefault",
+          "lineNumber": 423
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "Integer.parseInt",
+          "lineNumber": 423
+        },
+        {
+          "caller": "parseRoundNumber",
+          "callee": "num.replaceAll",
+          "lineNumber": 423
+        },
+        {
+          "caller": "isValidResult",
+          "callee": "result.getCompanyName",
+          "lineNumber": 431
+        },
+        {
+          "caller": "isValidResult",
+          "callee": "result.getPosition",
+          "lineNumber": 432
+        },
+        {
+          "caller": "isValidResult",
+          "callee": "result.getInterviewTime",
+          "lineNumber": 433
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 9,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 88,
+      "nonEmptyLines": 72,
+      "functions": [
+        {
+          "name": "create",
+          "startLine": 30,
+          "endLine": 37,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "update",
+          "startLine": 39,
+          "endLine": 44,
+          "params": [
+            "id",
+            "request"
+          ]
+        },
+        {
+          "name": "delete",
+          "startLine": 46,
+          "endLine": 49,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "updateStatus",
+          "startLine": 51,
+          "endLine": 56,
+          "params": [
+            "id",
+            "status"
+          ]
+        },
+        {
+          "name": "getAll",
+          "startLine": 58,
+          "endLine": 72,
+          "params": [
+            "status",
+            "start",
+            "end"
+          ]
+        },
+        {
+          "name": "getById",
+          "startLine": 74,
+          "endLine": 76,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getByIdOrThrow",
+          "startLine": 78,
+          "endLine": 81,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "toDTO",
+          "startLine": 83,
+          "endLine": 87,
+          "params": [
+            "entity"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewScheduleService",
+          "startLine": 19,
+          "endLine": 88,
+          "methods": [
+            "create",
+            "update",
+            "delete",
+            "updateStatus",
+            "getAll",
+            "getById",
+            "getByIdOrThrow",
+            "toDTO"
+          ],
+          "properties": [
+            "repository",
+            "COPYABLE_FIELDS"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "create",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "update",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "delete",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "updateStatus",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "getAll",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "getById",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewScheduleService",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create",
+          "callee": "new InterviewScheduleEntity",
+          "lineNumber": 32
+        },
+        {
+          "caller": "create",
+          "callee": "BeanUtils.copyProperties",
+          "lineNumber": 33
+        },
+        {
+          "caller": "create",
+          "callee": "entity.setStatus",
+          "lineNumber": 34
+        },
+        {
+          "caller": "create",
+          "callee": "toDTO",
+          "lineNumber": 36
+        },
+        {
+          "caller": "create",
+          "callee": "repository.save",
+          "lineNumber": 36
+        },
+        {
+          "caller": "update",
+          "callee": "getByIdOrThrow",
+          "lineNumber": 41
+        },
+        {
+          "caller": "update",
+          "callee": "BeanUtils.copyProperties",
+          "lineNumber": 42
+        },
+        {
+          "caller": "update",
+          "callee": "toDTO",
+          "lineNumber": 43
+        },
+        {
+          "caller": "update",
+          "callee": "repository.save",
+          "lineNumber": 43
+        },
+        {
+          "caller": "delete",
+          "callee": "repository.deleteById",
+          "lineNumber": 48
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "getByIdOrThrow",
+          "lineNumber": 53
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "entity.setStatus",
+          "lineNumber": 54
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "toDTO",
+          "lineNumber": 55
+        },
+        {
+          "caller": "updateStatus",
+          "callee": "repository.save",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getAll",
+          "callee": "repository.findByInterviewTimeBetween",
+          "lineNumber": 62
+        },
+        {
+          "caller": "getAll",
+          "callee": "repository.findByStatus",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getAll",
+          "callee": "InterviewStatus.valueOf",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getAll",
+          "callee": "repository.findAll",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getAll",
+          "callee": "entities.stream()\n            .map(this::toDTO).collect",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getAll",
+          "callee": "entities.stream().map",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getAll",
+          "callee": "entities.stream",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getAll",
+          "callee": "Collectors.toList",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getById",
+          "callee": "toDTO",
+          "lineNumber": 75
+        },
+        {
+          "caller": "getById",
+          "callee": "getByIdOrThrow",
+          "lineNumber": 75
+        },
+        {
+          "caller": "getByIdOrThrow",
+          "callee": "repository.findById(id).orElseThrow",
+          "lineNumber": 79
+        },
+        {
+          "caller": "getByIdOrThrow",
+          "callee": "repository.findById",
+          "lineNumber": 79
+        },
+        {
+          "caller": "getByIdOrThrow",
+          "callee": "new BusinessException",
+          "lineNumber": 80
+        },
+        {
+          "caller": "toDTO",
+          "callee": "new InterviewScheduleDTO",
+          "lineNumber": 84
+        },
+        {
+          "caller": "toDTO",
+          "callee": "BeanUtils.copyProperties",
+          "lineNumber": 85
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "updateExpiredInterviews",
+          "startLine": 20,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ScheduleStatusUpdater",
+          "startLine": 13,
+          "endLine": 30,
+          "methods": [
+            "updateExpiredInterviews"
+          ],
+          "properties": [
+            "repository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "updateExpiredInterviews",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "ScheduleStatusUpdater",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "updateExpiredInterviews",
+          "callee": "repository.updateStatusByStatusAndInterviewTimeBefore",
+          "lineNumber": 23
+        },
+        {
+          "caller": "updateExpiredInterviews",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 24
+        },
+        {
+          "caller": "updateExpiredInterviews",
+          "callee": "log.info",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 217,
+      "nonEmptyLines": 189,
+      "functions": [
+        {
+          "name": "getAllKnowledgeBases",
+          "startLine": 54,
+          "endLine": 69,
+          "params": [
+            "sortBy",
+            "vectorStatus"
+          ]
+        },
+        {
+          "name": "getKnowledgeBase",
+          "startLine": 74,
+          "endLine": 79,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "deleteKnowledgeBase",
+          "startLine": 84,
+          "endLine": 88,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "queryKnowledgeBase",
+          "startLine": 93,
+          "endLine": 98,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "queryKnowledgeBaseStream",
+          "startLine": 103,
+          "endLine": 110,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "getAllCategories",
+          "startLine": 117,
+          "endLine": 120,
+          "params": []
+        },
+        {
+          "name": "getByCategory",
+          "startLine": 125,
+          "endLine": 128,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getUncategorized",
+          "startLine": 133,
+          "endLine": 136,
+          "params": []
+        },
+        {
+          "name": "updateCategory",
+          "startLine": 141,
+          "endLine": 145,
+          "params": [
+            "id",
+            "body"
+          ]
+        },
+        {
+          "name": "uploadKnowledgeBase",
+          "startLine": 152,
+          "endLine": 160,
+          "params": [
+            "file",
+            "name",
+            "category"
+          ]
+        },
+        {
+          "name": "downloadKnowledgeBase",
+          "startLine": 165,
+          "endLine": 181,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "search",
+          "startLine": 188,
+          "endLine": 191,
+          "params": [
+            "keyword"
+          ]
+        },
+        {
+          "name": "getStatistics",
+          "startLine": 198,
+          "endLine": 201,
+          "params": []
+        },
+        {
+          "name": "revectorize",
+          "startLine": 209,
+          "endLine": 215,
+          "params": [
+            "id"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "KnowledgeBaseController",
+          "startLine": 40,
+          "endLine": 217,
+          "methods": [
+            "getAllKnowledgeBases",
+            "getKnowledgeBase",
+            "deleteKnowledgeBase",
+            "queryKnowledgeBase",
+            "queryKnowledgeBaseStream",
+            "getAllCategories",
+            "getByCategory",
+            "getUncategorized",
+            "updateCategory",
+            "uploadKnowledgeBase",
+            "downloadKnowledgeBase",
+            "search",
+            "getStatistics",
+            "revectorize"
+          ],
+          "properties": [
+            "uploadService",
+            "queryService",
+            "listService",
+            "deleteService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getAllKnowledgeBases",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "getKnowledgeBase",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "deleteKnowledgeBase",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "queryKnowledgeBase",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "queryKnowledgeBaseStream",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "getAllCategories",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "getByCategory",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "getUncategorized",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "updateCategory",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "uploadKnowledgeBase",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "downloadKnowledgeBase",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "search",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getStatistics",
+          "line": 198,
+          "isDefault": false
+        },
+        {
+          "name": "revectorize",
+          "line": 209,
+          "isDefault": false
+        },
+        {
+          "name": "KnowledgeBaseController",
+          "line": 40,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "vectorStatus.isBlank",
+          "lineNumber": 60
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "VectorStatus.valueOf",
+          "lineNumber": 62
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "vectorStatus.toUpperCase",
+          "lineNumber": 62
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "Result.error",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "Result.success",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getAllKnowledgeBases",
+          "callee": "listService.listKnowledgeBases",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getKnowledgeBase",
+          "callee": "listService.getKnowledgeBase(id)\n                .map(Result::success).orElse",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getKnowledgeBase",
+          "callee": "listService.getKnowledgeBase(id).map",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getKnowledgeBase",
+          "callee": "listService.getKnowledgeBase",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getKnowledgeBase",
+          "callee": "Result.error",
+          "lineNumber": 78
+        },
+        {
+          "caller": "deleteKnowledgeBase",
+          "callee": "deleteService.deleteKnowledgeBase",
+          "lineNumber": 86
+        },
+        {
+          "caller": "deleteKnowledgeBase",
+          "callee": "Result.success",
+          "lineNumber": 87
+        },
+        {
+          "caller": "queryKnowledgeBase",
+          "callee": "Result.success",
+          "lineNumber": 97
+        },
+        {
+          "caller": "queryKnowledgeBase",
+          "callee": "queryService.queryKnowledgeBase",
+          "lineNumber": 97
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "log.debug",
+          "lineNumber": 107
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "request.knowledgeBaseIds",
+          "lineNumber": 108
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "request.question",
+          "lineNumber": 108
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "Thread.currentThread",
+          "lineNumber": 108
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "Thread.currentThread().isVirtual",
+          "lineNumber": 108
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "Thread.currentThread",
+          "lineNumber": 108
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "queryService.answerQuestionStream",
+          "lineNumber": 109
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "request.knowledgeBaseIds",
+          "lineNumber": 109
+        },
+        {
+          "caller": "queryKnowledgeBaseStream",
+          "callee": "request.question",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getAllCategories",
+          "callee": "Result.success",
+          "lineNumber": 119
+        },
+        {
+          "caller": "getAllCategories",
+          "callee": "listService.getAllCategories",
+          "lineNumber": 119
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "Result.success",
+          "lineNumber": 127
+        },
+        {
+          "caller": "getByCategory",
+          "callee": "listService.listByCategory",
+          "lineNumber": 127
+        },
+        {
+          "caller": "getUncategorized",
+          "callee": "Result.success",
+          "lineNumber": 135
+        },
+        {
+          "caller": "getUncategorized",
+          "callee": "listService.listByCategory",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateCategory",
+          "callee": "listService.updateCategory",
+          "lineNumber": 143
+        },
+        {
+          "caller": "updateCategory",
+          "callee": "body.get",
+          "lineNumber": 143
+        },
+        {
+          "caller": "updateCategory",
+          "callee": "Result.success",
+          "lineNumber": 144
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "Result.success",
+          "lineNumber": 159
+        },
+        {
+          "caller": "uploadKnowledgeBase",
+          "callee": "uploadService.uploadKnowledgeBase",
+          "lineNumber": 159
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "listService.getEntityForDownload",
+          "lineNumber": 167
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "listService.downloadFile",
+          "lineNumber": 168
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "entity.getOriginalFilename",
+          "lineNumber": 170
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "URLEncoder.encode(filename, StandardCharsets.UTF_8).replaceAll",
+          "lineNumber": 171
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "URLEncoder.encode",
+          "lineNumber": 171
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "ResponseEntity.ok()\n                .header(HttpHeaders.CONTENT_DISPOSITION,\n                        \"attachment; filename=\\\"\" + encodedFilename + \"\\\"; filename*=UTF-8''\" + encodedFilename)\n                .header(HttpHeaders.CONTENT_TYPE,\n                        entity.getContentType() != null ? entity.getContentType()\n                                : MediaType.APPLICATION_OCTET_STREAM_VALUE).body",
+          "lineNumber": 174
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "ResponseEntity.ok()\n                .header(HttpHeaders.CONTENT_DISPOSITION,\n                        \"attachment; filename=\\\"\" + encodedFilename + \"\\\"; filename*=UTF-8''\" + encodedFilename).header",
+          "lineNumber": 174
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "ResponseEntity.ok().header",
+          "lineNumber": 174
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 174
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "entity.getContentType",
+          "lineNumber": 178
+        },
+        {
+          "caller": "downloadKnowledgeBase",
+          "callee": "entity.getContentType",
+          "lineNumber": 178
+        },
+        {
+          "caller": "search",
+          "callee": "Result.success",
+          "lineNumber": 190
+        },
+        {
+          "caller": "search",
+          "callee": "listService.search",
+          "lineNumber": 190
+        },
+        {
+          "caller": "getStatistics",
+          "callee": "Result.success",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getStatistics",
+          "callee": "listService.getStatistics",
+          "lineNumber": 200
+        },
+        {
+          "caller": "revectorize",
+          "callee": "uploadService.revectorize",
+          "lineNumber": 213
+        },
+        {
+          "caller": "revectorize",
+          "callee": "Result.success",
+          "lineNumber": 214
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 15,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 139,
+      "nonEmptyLines": 117,
+      "functions": [
+        {
+          "name": "VectorizeStreamConsumer",
+          "startLine": 26,
+          "endLine": 34,
+          "params": [
+            "redisService",
+            "vectorService",
+            "knowledgeBaseRepository"
+          ]
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 38,
+          "endLine": 41,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 43,
+          "endLine": 46,
+          "params": []
+        },
+        {
+          "name": "groupName",
+          "startLine": 48,
+          "endLine": 51,
+          "params": []
+        },
+        {
+          "name": "consumerPrefix",
+          "startLine": 53,
+          "endLine": 56,
+          "params": []
+        },
+        {
+          "name": "threadName",
+          "startLine": 58,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "parsePayload",
+          "startLine": 63,
+          "endLine": 72,
+          "params": [
+            "messageId",
+            "data"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 74,
+          "endLine": 77,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markProcessing",
+          "startLine": 79,
+          "endLine": 82,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "processBusiness",
+          "startLine": 84,
+          "endLine": 87,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markCompleted",
+          "startLine": 89,
+          "endLine": 92,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markFailed",
+          "startLine": 94,
+          "endLine": 97,
+          "params": [
+            "payload",
+            "error"
+          ]
+        },
+        {
+          "name": "retryMessage",
+          "startLine": 99,
+          "endLine": 121,
+          "params": [
+            "payload",
+            "retryCount"
+          ]
+        },
+        {
+          "name": "updateVectorStatus",
+          "startLine": 126,
+          "endLine": 137,
+          "params": [
+            "kbId",
+            "status",
+            "error"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VectorizeStreamConsumer",
+          "startLine": 19,
+          "endLine": 139,
+          "methods": [
+            "VectorizeStreamConsumer",
+            "taskDisplayName",
+            "streamKey",
+            "groupName",
+            "consumerPrefix",
+            "threadName",
+            "parsePayload",
+            "payloadIdentifier",
+            "markProcessing",
+            "processBusiness",
+            "markCompleted",
+            "markFailed",
+            "retryMessage",
+            "updateVectorStatus"
+          ],
+          "properties": [
+            "vectorService",
+            "knowledgeBaseRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "VectorizeStreamConsumer",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "VectorizeStreamConsumer",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parsePayload",
+          "callee": "data.get",
+          "lineNumber": 65
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "data.get",
+          "lineNumber": 66
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "log.warn",
+          "lineNumber": 68
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "new VectorizePayload",
+          "lineNumber": 71
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "Long.parseLong",
+          "lineNumber": 71
+        },
+        {
+          "caller": "payloadIdentifier",
+          "callee": "payload.kbId",
+          "lineNumber": 76
+        },
+        {
+          "caller": "markProcessing",
+          "callee": "updateVectorStatus",
+          "lineNumber": 81
+        },
+        {
+          "caller": "markProcessing",
+          "callee": "payload.kbId",
+          "lineNumber": 81
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "vectorService.vectorizeAndStore",
+          "lineNumber": 86
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "payload.kbId",
+          "lineNumber": 86
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "payload.content",
+          "lineNumber": 86
+        },
+        {
+          "caller": "markCompleted",
+          "callee": "updateVectorStatus",
+          "lineNumber": 91
+        },
+        {
+          "caller": "markCompleted",
+          "callee": "payload.kbId",
+          "lineNumber": 91
+        },
+        {
+          "caller": "markFailed",
+          "callee": "updateVectorStatus",
+          "lineNumber": 96
+        },
+        {
+          "caller": "markFailed",
+          "callee": "payload.kbId",
+          "lineNumber": 96
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "payload.kbId",
+          "lineNumber": 101
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "payload.content",
+          "lineNumber": 102
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "Map.of",
+          "lineNumber": 104
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "kbId.toString",
+          "lineNumber": 105
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "String.valueOf",
+          "lineNumber": 107
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "redisService().streamAdd",
+          "lineNumber": 110
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "redisService",
+          "lineNumber": 110
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "log.info",
+          "lineNumber": 115
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "log.error",
+          "lineNumber": 118
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "e.getMessage",
+          "lineNumber": 118
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "updateVectorStatus",
+          "lineNumber": 119
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "truncateError",
+          "lineNumber": 119
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "e.getMessage",
+          "lineNumber": 119
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.findById(kbId).ifPresent",
+          "lineNumber": 128
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.findById",
+          "lineNumber": 128
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "kb.setVectorStatus",
+          "lineNumber": 129
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "kb.setVectorError",
+          "lineNumber": 130
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.save",
+          "lineNumber": 131
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "log.debug",
+          "lineNumber": 132
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "log.error",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "e.getMessage",
+          "lineNumber": 135
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 68,
+      "functions": [
+        {
+          "name": "VectorizeStreamProducer",
+          "startLine": 25,
+          "endLine": 28,
+          "params": [
+            "redisService",
+            "knowledgeBaseRepository"
+          ]
+        },
+        {
+          "name": "sendVectorizeTask",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "kbId",
+            "content"
+          ]
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 40,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 45,
+          "endLine": 48,
+          "params": []
+        },
+        {
+          "name": "buildMessage",
+          "startLine": 50,
+          "endLine": 57,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 59,
+          "endLine": 62,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "onSendFailed",
+          "startLine": 64,
+          "endLine": 67,
+          "params": [
+            "payload",
+            "error"
+          ]
+        },
+        {
+          "name": "updateVectorStatus",
+          "startLine": 72,
+          "endLine": 80,
+          "params": [
+            "kbId",
+            "status",
+            "error"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VectorizeStreamProducer",
+          "startLine": 17,
+          "endLine": 81,
+          "methods": [
+            "VectorizeStreamProducer",
+            "sendVectorizeTask",
+            "taskDisplayName",
+            "streamKey",
+            "buildMessage",
+            "payloadIdentifier",
+            "onSendFailed",
+            "updateVectorStatus"
+          ],
+          "properties": [
+            "knowledgeBaseRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "VectorizeStreamProducer",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "sendVectorizeTask",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "VectorizeStreamProducer",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sendVectorizeTask",
+          "callee": "sendTask",
+          "lineNumber": 37
+        },
+        {
+          "caller": "sendVectorizeTask",
+          "callee": "new VectorizeTaskPayload",
+          "lineNumber": 37
+        },
+        {
+          "caller": "buildMessage",
+          "callee": "Map.of",
+          "lineNumber": 52
+        },
+        {
+          "caller": "buildMessage",
+          "callee": "payload.kbId().toString",
+          "lineNumber": 53
+        },
+        {
+          "caller": "buildMessage",
+          "callee": "payload.kbId",
+          "lineNumber": 53
+        },
+        {
+          "caller": "buildMessage",
+          "callee": "payload.content",
+          "lineNumber": 54
+        },
+        {
+          "caller": "payloadIdentifier",
+          "callee": "payload.kbId",
+          "lineNumber": 61
+        },
+        {
+          "caller": "onSendFailed",
+          "callee": "updateVectorStatus",
+          "lineNumber": 66
+        },
+        {
+          "caller": "onSendFailed",
+          "callee": "payload.kbId",
+          "lineNumber": 66
+        },
+        {
+          "caller": "onSendFailed",
+          "callee": "truncateError",
+          "lineNumber": 66
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.findById(kbId).ifPresent",
+          "lineNumber": 73
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.findById",
+          "lineNumber": 73
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "kb.setVectorStatus",
+          "lineNumber": 74
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "kb.setVectorError",
+          "lineNumber": 76
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "error.length",
+          "lineNumber": 76
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "error.substring",
+          "lineNumber": 76
+        },
+        {
+          "caller": "updateVectorStatus",
+          "callee": "knowledgeBaseRepository.save",
+          "lineNumber": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 222,
+      "nonEmptyLines": 167,
+      "functions": [
+        {
+          "name": "onCreate",
+          "startLine": 76,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 84,
+          "endLine": 86,
+          "params": []
+        },
+        {
+          "name": "setId",
+          "startLine": 88,
+          "endLine": 90,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getFileHash",
+          "startLine": 92,
+          "endLine": 94,
+          "params": []
+        },
+        {
+          "name": "setFileHash",
+          "startLine": 96,
+          "endLine": 98,
+          "params": [
+            "fileHash"
+          ]
+        },
+        {
+          "name": "getName",
+          "startLine": 100,
+          "endLine": 102,
+          "params": []
+        },
+        {
+          "name": "setName",
+          "startLine": 104,
+          "endLine": 106,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "getOriginalFilename",
+          "startLine": 108,
+          "endLine": 110,
+          "params": []
+        },
+        {
+          "name": "setOriginalFilename",
+          "startLine": 112,
+          "endLine": 114,
+          "params": [
+            "originalFilename"
+          ]
+        },
+        {
+          "name": "getFileSize",
+          "startLine": 116,
+          "endLine": 118,
+          "params": []
+        },
+        {
+          "name": "setFileSize",
+          "startLine": 120,
+          "endLine": 122,
+          "params": [
+            "fileSize"
+          ]
+        },
+        {
+          "name": "getContentType",
+          "startLine": 124,
+          "endLine": 126,
+          "params": []
+        },
+        {
+          "name": "setContentType",
+          "startLine": 128,
+          "endLine": 130,
+          "params": [
+            "contentType"
+          ]
+        },
+        {
+          "name": "getStorageKey",
+          "startLine": 132,
+          "endLine": 134,
+          "params": []
+        },
+        {
+          "name": "setStorageKey",
+          "startLine": 136,
+          "endLine": 138,
+          "params": [
+            "storageKey"
+          ]
+        },
+        {
+          "name": "getStorageUrl",
+          "startLine": 140,
+          "endLine": 142,
+          "params": []
+        },
+        {
+          "name": "setStorageUrl",
+          "startLine": 144,
+          "endLine": 146,
+          "params": [
+            "storageUrl"
+          ]
+        },
+        {
+          "name": "getUploadedAt",
+          "startLine": 148,
+          "endLine": 150,
+          "params": []
+        },
+        {
+          "name": "setUploadedAt",
+          "startLine": 152,
+          "endLine": 154,
+          "params": [
+            "uploadedAt"
+          ]
+        },
+        {
+          "name": "getLastAccessedAt",
+          "startLine": 156,
+          "endLine": 158,
+          "params": []
+        },
+        {
+          "name": "setLastAccessedAt",
+          "startLine": 160,
+          "endLine": 162,
+          "params": [
+            "lastAccessedAt"
+          ]
+        },
+        {
+          "name": "getAccessCount",
+          "startLine": 164,
+          "endLine": 166,
+          "params": []
+        },
+        {
+          "name": "setAccessCount",
+          "startLine": 168,
+          "endLine": 170,
+          "params": [
+            "accessCount"
+          ]
+        },
+        {
+          "name": "getQuestionCount",
+          "startLine": 172,
+          "endLine": 174,
+          "params": []
+        },
+        {
+          "name": "setQuestionCount",
+          "startLine": 176,
+          "endLine": 178,
+          "params": [
+            "questionCount"
+          ]
+        },
+        {
+          "name": "incrementAccessCount",
+          "startLine": 180,
+          "endLine": 183,
+          "params": []
+        },
+        {
+          "name": "incrementQuestionCount",
+          "startLine": 185,
+          "endLine": 188,
+          "params": []
+        },
+        {
+          "name": "getCategory",
+          "startLine": 190,
+          "endLine": 192,
+          "params": []
+        },
+        {
+          "name": "setCategory",
+          "startLine": 194,
+          "endLine": 196,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getVectorStatus",
+          "startLine": 198,
+          "endLine": 200,
+          "params": []
+        },
+        {
+          "name": "setVectorStatus",
+          "startLine": 202,
+          "endLine": 204,
+          "params": [
+            "vectorStatus"
+          ]
+        },
+        {
+          "name": "getVectorError",
+          "startLine": 206,
+          "endLine": 208,
+          "params": []
+        },
+        {
+          "name": "setVectorError",
+          "startLine": 210,
+          "endLine": 212,
+          "params": [
+            "vectorError"
+          ]
+        },
+        {
+          "name": "getChunkCount",
+          "startLine": 214,
+          "endLine": 216,
+          "params": []
+        },
+        {
+          "name": "setChunkCount",
+          "startLine": 218,
+          "endLine": 220,
+          "params": [
+            "chunkCount"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "KnowledgeBaseEntity",
+          "startLine": 10,
+          "endLine": 221,
+          "methods": [
+            "onCreate",
+            "getId",
+            "setId",
+            "getFileHash",
+            "setFileHash",
+            "getName",
+            "setName",
+            "getOriginalFilename",
+            "setOriginalFilename",
+            "getFileSize",
+            "setFileSize",
+            "getContentType",
+            "setContentType",
+            "getStorageKey",
+            "setStorageKey",
+            "getStorageUrl",
+            "setStorageUrl",
+            "getUploadedAt",
+            "setUploadedAt",
+            "getLastAccessedAt",
+            "setLastAccessedAt",
+            "getAccessCount",
+            "setAccessCount",
+            "getQuestionCount",
+            "setQuestionCount",
+            "incrementAccessCount",
+            "incrementQuestionCount",
+            "getCategory",
+            "setCategory",
+            "getVectorStatus",
+            "setVectorStatus",
+            "getVectorError",
+            "setVectorError",
+            "getChunkCount",
+            "setChunkCount"
+          ],
+          "properties": [
+            "id",
+            "fileHash",
+            "name",
+            "category",
+            "originalFilename",
+            "fileSize",
+            "contentType",
+            "storageKey",
+            "storageUrl",
+            "uploadedAt",
+            "lastAccessedAt",
+            "accessCount",
+            "questionCount",
+            "vectorStatus",
+            "vectorError",
+            "chunkCount"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getId",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "setId",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "getFileHash",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "setFileHash",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "getName",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "setName",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "getOriginalFilename",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "setOriginalFilename",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "getFileSize",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "setFileSize",
+          "line": 120,
+          "isDefault": false
+        },
+        {
+          "name": "getContentType",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "setContentType",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "getStorageKey",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "setStorageKey",
+          "line": 136,
+          "isDefault": false
+        },
+        {
+          "name": "getStorageUrl",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "setStorageUrl",
+          "line": 144,
+          "isDefault": false
+        },
+        {
+          "name": "getUploadedAt",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "setUploadedAt",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "getLastAccessedAt",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "setLastAccessedAt",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "getAccessCount",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "setAccessCount",
+          "line": 168,
+          "isDefault": false
+        },
+        {
+          "name": "getQuestionCount",
+          "line": 172,
+          "isDefault": false
+        },
+        {
+          "name": "setQuestionCount",
+          "line": 176,
+          "isDefault": false
+        },
+        {
+          "name": "incrementAccessCount",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "incrementQuestionCount",
+          "line": 185,
+          "isDefault": false
+        },
+        {
+          "name": "getCategory",
+          "line": 190,
+          "isDefault": false
+        },
+        {
+          "name": "setCategory",
+          "line": 194,
+          "isDefault": false
+        },
+        {
+          "name": "getVectorStatus",
+          "line": 198,
+          "isDefault": false
+        },
+        {
+          "name": "setVectorStatus",
+          "line": 202,
+          "isDefault": false
+        },
+        {
+          "name": "getVectorError",
+          "line": 206,
+          "isDefault": false
+        },
+        {
+          "name": "setVectorError",
+          "line": 210,
+          "isDefault": false
+        },
+        {
+          "name": "getChunkCount",
+          "line": 214,
+          "isDefault": false
+        },
+        {
+          "name": "setChunkCount",
+          "line": 218,
+          "isDefault": false
+        },
+        {
+          "name": "KnowledgeBaseEntity",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 78
+        },
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 79
+        },
+        {
+          "caller": "incrementAccessCount",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 182
+        },
+        {
+          "caller": "incrementQuestionCount",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 187
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 35,
+        "functionCount": 35,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 20,
+      "callGraph": [
+        {
+          "caller": "QueryRequest",
+          "callee": "List.of",
+          "lineNumber": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 95,
+      "nonEmptyLines": 81,
+      "classes": [
+        {
+          "name": "RagChatDTO",
+          "startLine": 12,
+          "endLine": 95,
+          "methods": [],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RagChatDTO",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 77,
+      "functions": [
+        {
+          "name": "onCreate",
+          "startLine": 75,
+          "endLine": 79,
+          "params": []
+        },
+        {
+          "name": "onUpdate",
+          "startLine": 81,
+          "endLine": 84,
+          "params": []
+        },
+        {
+          "name": "getTypeString",
+          "startLine": 89,
+          "endLine": 91,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "RagChatMessageEntity",
+          "startLine": 14,
+          "endLine": 92,
+          "methods": [
+            "onCreate",
+            "onUpdate",
+            "getTypeString"
+          ],
+          "properties": [
+            "id",
+            "session",
+            "type",
+            "content",
+            "messageOrder",
+            "createdAt",
+            "updatedAt",
+            "completed"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getTypeString",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "RagChatMessageEntity",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 77
+        },
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 78
+        },
+        {
+          "caller": "onUpdate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 83
+        },
+        {
+          "caller": "getTypeString",
+          "callee": "type.name().toLowerCase",
+          "lineNumber": 90
+        },
+        {
+          "caller": "getTypeString",
+          "callee": "type.name",
+          "lineNumber": 90
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    }
+  ]
+}

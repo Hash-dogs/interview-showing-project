@@ -1,0 +1,4792 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 28,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "sections": [
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "app/build.gradle",
+      "language": "gradle",
+      "fileCategory": "config",
+      "totalLines": 154,
+      "nonEmptyLines": 125,
+      "metrics": {}
+    },
+    {
+      "path": "app/src/main/java/interview/guide/App.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 28,
+          "endLine": 30,
+          "params": [
+            "args"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "App",
+          "startLine": 17,
+          "endLine": 31,
+          "methods": [
+            "main"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "main",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "App",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "SpringApplication.run",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 69,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "AgentUtilsConfiguration",
+          "startLine": 22,
+          "endLine": 27,
+          "params": [
+            "resourceLoader",
+            "agentUtilsProperties"
+          ]
+        },
+        {
+          "name": "interviewSkillsToolCallback",
+          "startLine": 29,
+          "endLine": 44,
+          "params": []
+        },
+        {
+          "name": "normalizeSkillsRoot",
+          "startLine": 46,
+          "endLine": 68,
+          "params": [
+            "raw"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AgentUtilsConfiguration",
+          "startLine": 15,
+          "endLine": 69,
+          "methods": [
+            "AgentUtilsConfiguration",
+            "interviewSkillsToolCallback",
+            "normalizeSkillsRoot"
+          ],
+          "properties": [
+            "resourceLoader",
+            "agentUtilsProperties"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentUtilsConfiguration",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "interviewSkillsToolCallback",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "AgentUtilsConfiguration",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "agentUtilsProperties.getSkillsRoot",
+          "lineNumber": 31
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "normalizeSkillsRoot",
+          "lineNumber": 32
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "resourceLoader.getResource",
+          "lineNumber": 33
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "skillsRootResource.exists",
+          "lineNumber": 35
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "new IllegalStateException",
+          "lineNumber": 36
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "log.info",
+          "lineNumber": 39
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "SkillsTool.builder()\n            .addSkillsResource(skillsRootResource).build",
+          "lineNumber": 41
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "SkillsTool.builder().addSkillsResource",
+          "lineNumber": 41
+        },
+        {
+          "caller": "interviewSkillsToolCallback",
+          "callee": "SkillsTool.builder",
+          "lineNumber": 41
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "raw.isBlank",
+          "lineNumber": 47
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "raw.trim",
+          "lineNumber": 51
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.endsWith",
+          "lineNumber": 54
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.substring",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.length",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "\"/SKILL.md\".length",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.indexOf",
+          "lineNumber": 58
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.substring",
+          "lineNumber": 60
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.endsWith",
+          "lineNumber": 63
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.substring",
+          "lineNumber": 64
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.length",
+          "lineNumber": 64
+        },
+        {
+          "caller": "normalizeSkillsRoot",
+          "callee": "normalized.isBlank",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "classes": [
+        {
+          "name": "AgentUtilsProperties",
+          "startLine": 7,
+          "endLine": 13,
+          "methods": [],
+          "properties": [
+            "skillsRoot"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AgentUtilsProperties",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "ApiPathResolver",
+          "startLine": 16,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "buildOpenAiApi",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "baseUrl",
+            "apiKey"
+          ]
+        },
+        {
+          "name": "buildOpenAiApi",
+          "startLine": 22,
+          "endLine": 39,
+          "params": [
+            "baseUrl",
+            "apiKey",
+            "connectTimeout",
+            "readTimeout"
+          ]
+        },
+        {
+          "name": "baseUrlContainsVersion",
+          "startLine": 41,
+          "endLine": 47,
+          "params": [
+            "baseUrl"
+          ]
+        },
+        {
+          "name": "stripTrailingSlashes",
+          "startLine": 49,
+          "endLine": 58,
+          "params": [
+            "value"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "ApiPathResolver",
+          "startLine": 9,
+          "endLine": 59,
+          "methods": [
+            "ApiPathResolver",
+            "buildOpenAiApi",
+            "buildOpenAiApi",
+            "baseUrlContainsVersion",
+            "stripTrailingSlashes"
+          ],
+          "properties": [
+            "DEFAULT_CONNECT_TIMEOUT",
+            "DEFAULT_READ_TIMEOUT",
+            "TRAILING_VERSION"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buildOpenAiApi",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "buildOpenAiApi",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "baseUrlContainsVersion",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "stripTrailingSlashes",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "ApiPathResolver",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "buildOpenAiApi",
+          "lineNumber": 19
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "new SimpleClientHttpRequestFactory",
+          "lineNumber": 24
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "requestFactory.setConnectTimeout",
+          "lineNumber": 25
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "requestFactory.setReadTimeout",
+          "lineNumber": 26
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "RestClient.builder().requestFactory",
+          "lineNumber": 28
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "RestClient.builder",
+          "lineNumber": 28
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "OpenAiApi.builder()\n        .baseUrl(baseUrl)\n        .apiKey(apiKey).restClientBuilder",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "OpenAiApi.builder()\n        .baseUrl(baseUrl).apiKey",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "OpenAiApi.builder().baseUrl",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "OpenAiApi.builder",
+          "lineNumber": 31
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "baseUrlContainsVersion",
+          "lineNumber": 35
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "apiBuilder.completionsPath(\"/chat/completions\").embeddingsPath",
+          "lineNumber": 36
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "apiBuilder.completionsPath",
+          "lineNumber": 36
+        },
+        {
+          "caller": "buildOpenAiApi",
+          "callee": "apiBuilder.build",
+          "lineNumber": 38
+        },
+        {
+          "caller": "baseUrlContainsVersion",
+          "callee": "baseUrl.isBlank",
+          "lineNumber": 42
+        },
+        {
+          "caller": "baseUrlContainsVersion",
+          "callee": "stripTrailingSlashes",
+          "lineNumber": 45
+        },
+        {
+          "caller": "baseUrlContainsVersion",
+          "callee": "baseUrl.trim",
+          "lineNumber": 45
+        },
+        {
+          "caller": "baseUrlContainsVersion",
+          "callee": "TRAILING_VERSION.matcher(stripped).find",
+          "lineNumber": 46
+        },
+        {
+          "caller": "baseUrlContainsVersion",
+          "callee": "TRAILING_VERSION.matcher",
+          "lineNumber": 46
+        },
+        {
+          "caller": "stripTrailingSlashes",
+          "callee": "value.trim",
+          "lineNumber": 53
+        },
+        {
+          "caller": "stripTrailingSlashes",
+          "callee": "result.endsWith",
+          "lineNumber": 54
+        },
+        {
+          "caller": "stripTrailingSlashes",
+          "callee": "result.substring",
+          "lineNumber": 55
+        },
+        {
+          "caller": "stripTrailingSlashes",
+          "callee": "result.length",
+          "lineNumber": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 448,
+      "nonEmptyLines": 396,
+      "functions": [
+        {
+          "name": "LlmProviderRegistry",
+          "startLine": 69,
+          "endLine": 85,
+          "params": [
+            "properties",
+            "providerRepository",
+            "globalSettingRepository",
+            "encryptionService",
+            "toolCallingManager",
+            "observationRegistry",
+            "interviewSkillsToolCallback"
+          ]
+        },
+        {
+          "name": "LlmProviderRegistry",
+          "startLine": 87,
+          "endLine": 93,
+          "params": [
+            "properties",
+            "toolCallingManager",
+            "observationRegistry",
+            "interviewSkillsToolCallback"
+          ]
+        },
+        {
+          "name": "getChatClient",
+          "startLine": 115,
+          "endLine": 120,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "getDefaultChatClient",
+          "startLine": 127,
+          "endLine": 129,
+          "params": []
+        },
+        {
+          "name": "getChatClientOrDefault",
+          "startLine": 134,
+          "endLine": 139,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "getPlainChatClient",
+          "startLine": 145,
+          "endLine": 148,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "getVoiceChatClient",
+          "startLine": 154,
+          "endLine": 157,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "reload",
+          "startLine": 162,
+          "endLine": 167,
+          "params": []
+        },
+        {
+          "name": "getEmbeddingModel",
+          "startLine": 169,
+          "endLine": 174,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "getDefaultEmbeddingModel",
+          "startLine": 176,
+          "endLine": 178,
+          "params": []
+        },
+        {
+          "name": "createChatClient",
+          "startLine": 180,
+          "endLine": 194,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "createPlainChatClient",
+          "startLine": 196,
+          "endLine": 202,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "createVoiceChatClient",
+          "startLine": 204,
+          "endLine": 221,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "buildChatModel",
+          "startLine": 223,
+          "endLine": 242,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "createEmbeddingModel",
+          "startLine": 244,
+          "endLine": 275,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "buildDefaultAdvisors",
+          "startLine": 277,
+          "endLine": 312,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "buildToolCallAdvisor",
+          "startLine": 323,
+          "endLine": 333,
+          "params": [
+            "conversationHistoryEnabled"
+          ]
+        },
+        {
+          "name": "buildSafeGuardAdvisor",
+          "startLine": 335,
+          "endLine": 346,
+          "params": []
+        },
+        {
+          "name": "resolveProviderId",
+          "startLine": 348,
+          "endLine": 351,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "resolveDefaultChatProviderId",
+          "startLine": 353,
+          "endLine": 361,
+          "params": []
+        },
+        {
+          "name": "resolveDefaultEmbeddingProviderId",
+          "startLine": 363,
+          "endLine": 375,
+          "params": []
+        },
+        {
+          "name": "loadProviderOrThrow",
+          "startLine": 377,
+          "endLine": 394,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "loadProviderFromPropertiesOrThrow",
+          "startLine": 396,
+          "endLine": 414,
+          "params": [
+            "providerId"
+          ]
+        },
+        {
+          "name": "isBlank",
+          "startLine": 416,
+          "endLine": 418,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "resolveEmbeddingDimensions",
+          "startLine": 420,
+          "endLine": 425,
+          "params": [
+            "configuredDimensions"
+          ]
+        },
+        {
+          "name": "looksLikeChatModel",
+          "startLine": 427,
+          "endLine": 435,
+          "params": [
+            "model"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "LlmProviderRegistry",
+          "startLine": 47,
+          "endLine": 448,
+          "methods": [
+            "LlmProviderRegistry",
+            "LlmProviderRegistry",
+            "getChatClient",
+            "getDefaultChatClient",
+            "getChatClientOrDefault",
+            "getPlainChatClient",
+            "getVoiceChatClient",
+            "reload",
+            "getEmbeddingModel",
+            "getDefaultEmbeddingModel",
+            "createChatClient",
+            "createPlainChatClient",
+            "createVoiceChatClient",
+            "buildChatModel",
+            "createEmbeddingModel",
+            "buildDefaultAdvisors",
+            "buildToolCallAdvisor",
+            "buildSafeGuardAdvisor",
+            "resolveProviderId",
+            "resolveDefaultChatProviderId",
+            "resolveDefaultEmbeddingProviderId",
+            "loadProviderOrThrow",
+            "loadProviderFromPropertiesOrThrow",
+            "isBlank",
+            "resolveEmbeddingDimensions",
+            "looksLikeChatModel"
+          ],
+          "properties": [
+            "properties",
+            "clientCache",
+            "embeddingModelCache",
+            "providerRepository",
+            "globalSettingRepository",
+            "encryptionService",
+            "toolCallingManager",
+            "observationRegistry",
+            "interviewSkillsToolCallback",
+            "RECOMMENDED_EMBEDDING_MODELS"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LlmProviderRegistry",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "LlmProviderRegistry",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "getChatClient",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "getDefaultChatClient",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "getChatClientOrDefault",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "getPlainChatClient",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "getVoiceChatClient",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "reload",
+          "line": 162,
+          "isDefault": false
+        },
+        {
+          "name": "getEmbeddingModel",
+          "line": 169,
+          "isDefault": false
+        },
+        {
+          "name": "getDefaultEmbeddingModel",
+          "line": 176,
+          "isDefault": false
+        },
+        {
+          "name": "LlmProviderRegistry",
+          "line": 47,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getChatClient",
+          "callee": "clientCache.computeIfAbsent",
+          "lineNumber": 116
+        },
+        {
+          "caller": "getChatClient",
+          "callee": "log.info",
+          "lineNumber": 117
+        },
+        {
+          "caller": "getChatClient",
+          "callee": "createChatClient",
+          "lineNumber": 118
+        },
+        {
+          "caller": "getDefaultChatClient",
+          "callee": "getChatClient",
+          "lineNumber": 128
+        },
+        {
+          "caller": "getDefaultChatClient",
+          "callee": "resolveDefaultChatProviderId",
+          "lineNumber": 128
+        },
+        {
+          "caller": "getChatClientOrDefault",
+          "callee": "providerId.isBlank",
+          "lineNumber": 135
+        },
+        {
+          "caller": "getChatClientOrDefault",
+          "callee": "getChatClient",
+          "lineNumber": 136
+        },
+        {
+          "caller": "getChatClientOrDefault",
+          "callee": "getDefaultChatClient",
+          "lineNumber": 138
+        },
+        {
+          "caller": "getPlainChatClient",
+          "callee": "resolveProviderId",
+          "lineNumber": 146
+        },
+        {
+          "caller": "getPlainChatClient",
+          "callee": "clientCache.computeIfAbsent",
+          "lineNumber": 147
+        },
+        {
+          "caller": "getPlainChatClient",
+          "callee": "createPlainChatClient",
+          "lineNumber": 147
+        },
+        {
+          "caller": "getVoiceChatClient",
+          "callee": "resolveProviderId",
+          "lineNumber": 155
+        },
+        {
+          "caller": "getVoiceChatClient",
+          "callee": "clientCache.computeIfAbsent",
+          "lineNumber": 156
+        },
+        {
+          "caller": "getVoiceChatClient",
+          "callee": "createVoiceChatClient",
+          "lineNumber": 156
+        },
+        {
+          "caller": "reload",
+          "callee": "clientCache.size",
+          "lineNumber": 163
+        },
+        {
+          "caller": "reload",
+          "callee": "embeddingModelCache.size",
+          "lineNumber": 163
+        },
+        {
+          "caller": "reload",
+          "callee": "clientCache.clear",
+          "lineNumber": 164
+        },
+        {
+          "caller": "reload",
+          "callee": "embeddingModelCache.clear",
+          "lineNumber": 165
+        },
+        {
+          "caller": "reload",
+          "callee": "log.info",
+          "lineNumber": 166
+        },
+        {
+          "caller": "getEmbeddingModel",
+          "callee": "embeddingModelCache.computeIfAbsent",
+          "lineNumber": 170
+        },
+        {
+          "caller": "getEmbeddingModel",
+          "callee": "log.info",
+          "lineNumber": 171
+        },
+        {
+          "caller": "getEmbeddingModel",
+          "callee": "createEmbeddingModel",
+          "lineNumber": 172
+        },
+        {
+          "caller": "getDefaultEmbeddingModel",
+          "callee": "getEmbeddingModel",
+          "lineNumber": 177
+        },
+        {
+          "caller": "getDefaultEmbeddingModel",
+          "callee": "resolveDefaultEmbeddingProviderId",
+          "lineNumber": 177
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "buildChatModel",
+          "lineNumber": 181
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "ChatClient.builder",
+          "lineNumber": 183
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "builder.defaultToolCallbacks",
+          "lineNumber": 185
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "buildDefaultAdvisors",
+          "lineNumber": 187
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "advisors.isEmpty",
+          "lineNumber": 188
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "builder.defaultAdvisors",
+          "lineNumber": 189
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "advisors.toArray",
+          "lineNumber": 189
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "log.info",
+          "lineNumber": 190
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "advisors.size",
+          "lineNumber": 190
+        },
+        {
+          "caller": "createChatClient",
+          "callee": "builder.build",
+          "lineNumber": 193
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "buildChatModel",
+          "lineNumber": 197
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "ChatClient.builder",
+          "lineNumber": 198
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "buildSafeGuardAdvisor().ifPresent",
+          "lineNumber": 199
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "buildSafeGuardAdvisor",
+          "lineNumber": 199
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "builder.defaultAdvisors",
+          "lineNumber": 199
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "log.info",
+          "lineNumber": 200
+        },
+        {
+          "caller": "createPlainChatClient",
+          "callee": "builder.build",
+          "lineNumber": 201
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "buildChatModel",
+          "lineNumber": 205
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "ChatClient.builder",
+          "lineNumber": 207
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "builder.defaultToolCallbacks",
+          "lineNumber": 209
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "new ArrayList<>",
+          "lineNumber": 211
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "advisors.add",
+          "lineNumber": 213
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "buildToolCallAdvisor",
+          "lineNumber": 213
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "buildSafeGuardAdvisor().ifPresent",
+          "lineNumber": 215
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "buildSafeGuardAdvisor",
+          "lineNumber": 215
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "advisors.isEmpty",
+          "lineNumber": 216
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "builder.defaultAdvisors",
+          "lineNumber": 217
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "advisors.toArray",
+          "lineNumber": 217
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "log.info",
+          "lineNumber": 219
+        },
+        {
+          "caller": "createVoiceChatClient",
+          "callee": "builder.build",
+          "lineNumber": 220
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "loadProviderOrThrow",
+          "lineNumber": 224
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "log.info",
+          "lineNumber": 225
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.baseUrl",
+          "lineNumber": 226
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.model",
+          "lineNumber": 226
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "ApiPathResolver.buildOpenAiApi",
+          "lineNumber": 228
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.baseUrl",
+          "lineNumber": 228
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.apiKey",
+          "lineNumber": 228
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "OpenAiChatOptions.builder()\n                .model(config.model())\n                .temperature(config.temperature() != null ? config.temperature() : 0.2).build",
+          "lineNumber": 230
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "OpenAiChatOptions.builder()\n                .model(config.model()).temperature",
+          "lineNumber": 230
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "OpenAiChatOptions.builder().model",
+          "lineNumber": 230
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "OpenAiChatOptions.builder",
+          "lineNumber": 230
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.model",
+          "lineNumber": 231
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.temperature",
+          "lineNumber": 232
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "config.temperature",
+          "lineNumber": 232
+        },
+        {
+          "caller": "buildChatModel",
+          "callee": "new OpenAiChatModel",
+          "lineNumber": 235
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "loadProviderOrThrow",
+          "lineNumber": 245
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.supportsEmbedding",
+          "lineNumber": 246
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "isBlank",
+          "lineNumber": 246
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingModel",
+          "lineNumber": 246
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "new BusinessException",
+          "lineNumber": 247
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "looksLikeChatModel",
+          "lineNumber": 250
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingModel",
+          "lineNumber": 250
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "RECOMMENDED_EMBEDDING_MODELS.get",
+          "lineNumber": 251
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "providerId.toLowerCase",
+          "lineNumber": 251
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "new BusinessException",
+          "lineNumber": 255
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingModel",
+          "lineNumber": 257
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "log.info",
+          "lineNumber": 259
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.baseUrl",
+          "lineNumber": 260
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingModel",
+          "lineNumber": 260
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "ApiPathResolver.buildOpenAiApi",
+          "lineNumber": 262
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.baseUrl",
+          "lineNumber": 262
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.apiKey",
+          "lineNumber": 262
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "OpenAiEmbeddingOptions.builder()\n            .model(config.embeddingModel())\n            .dimensions(resolveEmbeddingDimensions(config.embeddingDimensions())).build",
+          "lineNumber": 263
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "OpenAiEmbeddingOptions.builder()\n            .model(config.embeddingModel()).dimensions",
+          "lineNumber": 263
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "OpenAiEmbeddingOptions.builder().model",
+          "lineNumber": 263
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "OpenAiEmbeddingOptions.builder",
+          "lineNumber": 263
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingModel",
+          "lineNumber": 264
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "resolveEmbeddingDimensions",
+          "lineNumber": 265
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "config.embeddingDimensions",
+          "lineNumber": 265
+        },
+        {
+          "caller": "createEmbeddingModel",
+          "callee": "new OpenAiEmbeddingModel",
+          "lineNumber": 268
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "properties.getAdvisors",
+          "lineNumber": 278
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.isEnabled",
+          "lineNumber": 279
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "List.of",
+          "lineNumber": 280
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "new ArrayList<>",
+          "lineNumber": 283
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.isToolCallEnabled",
+          "lineNumber": 285
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "advisors.add",
+          "lineNumber": 287
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "buildToolCallAdvisor",
+          "lineNumber": 287
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.isToolCallConversationHistoryEnabled",
+          "lineNumber": 288
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "log.warn",
+          "lineNumber": 291
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.isMessageChatMemoryEnabled",
+          "lineNumber": 295
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "Math.max",
+          "lineNumber": 296
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.getMessageChatMemoryMaxMessages",
+          "lineNumber": 296
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "MessageChatMemoryAdvisor.builder(\n                MessageWindowChatMemory.builder()\n                    .maxMessages(maxMessages)\n                    .build()\n            ).build",
+          "lineNumber": 297
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "MessageChatMemoryAdvisor.builder",
+          "lineNumber": 297
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "MessageWindowChatMemory.builder()\n                    .maxMessages(maxMessages).build",
+          "lineNumber": 298
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "MessageWindowChatMemory.builder().maxMessages",
+          "lineNumber": 298
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "MessageWindowChatMemory.builder",
+          "lineNumber": 298
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "advisors.add",
+          "lineNumber": 302
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "config.isSimpleLoggerEnabled",
+          "lineNumber": 305
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "advisors.add",
+          "lineNumber": 306
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "new SimpleLoggerAdvisor",
+          "lineNumber": 306
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "buildSafeGuardAdvisor().ifPresent",
+          "lineNumber": 309
+        },
+        {
+          "caller": "buildDefaultAdvisors",
+          "callee": "buildSafeGuardAdvisor",
+          "lineNumber": 309
+        },
+        {
+          "caller": "buildToolCallAdvisor",
+          "callee": "ToolCallAdvisor.builder()\n                .toolCallingManager(toolCallingManager).advisorOrder",
+          "lineNumber": 324
+        },
+        {
+          "caller": "buildToolCallAdvisor",
+          "callee": "ToolCallAdvisor.builder().toolCallingManager",
+          "lineNumber": 324
+        },
+        {
+          "caller": "buildToolCallAdvisor",
+          "callee": "ToolCallAdvisor.builder",
+          "lineNumber": 324
+        },
+        {
+          "caller": "buildToolCallAdvisor",
+          "callee": "builder.disableInternalConversationHistory",
+          "lineNumber": 329
+        },
+        {
+          "caller": "buildToolCallAdvisor",
+          "callee": "builder.build",
+          "lineNumber": 332
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "properties.getAdvisors",
+          "lineNumber": 336
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "config.isSafeguardEnabled",
+          "lineNumber": 337
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "Optional.empty",
+          "lineNumber": 338
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "SafeGuardAdvisor.builder()\n            .sensitiveWords(config.getSafeguardWords())\n            .failureResponse(\"抱歉，我只能协助面试相关的任务。\")\n            .order(100).build",
+          "lineNumber": 340
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "SafeGuardAdvisor.builder()\n            .sensitiveWords(config.getSafeguardWords())\n            .failureResponse(\"抱歉，我只能协助面试相关的任务。\").order",
+          "lineNumber": 340
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "SafeGuardAdvisor.builder()\n            .sensitiveWords(config.getSafeguardWords()).failureResponse",
+          "lineNumber": 340
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "SafeGuardAdvisor.builder().sensitiveWords",
+          "lineNumber": 340
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "SafeGuardAdvisor.builder",
+          "lineNumber": 340
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "config.getSafeguardWords",
+          "lineNumber": 341
+        },
+        {
+          "caller": "buildSafeGuardAdvisor",
+          "callee": "Optional.of",
+          "lineNumber": 345
+        },
+        {
+          "caller": "resolveProviderId",
+          "callee": "providerId.isBlank",
+          "lineNumber": 349
+        },
+        {
+          "caller": "resolveProviderId",
+          "callee": "resolveDefaultChatProviderId",
+          "lineNumber": 350
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "properties.getDefaultProvider",
+          "lineNumber": 355
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID)\n            .map(LlmGlobalSettingEntity::getDefaultChatProviderId)\n            .filter(id -> !isBlank(id)).orElse",
+          "lineNumber": 357
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID)\n            .map(LlmGlobalSettingEntity::getDefaultChatProviderId).filter",
+          "lineNumber": 357
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID).map",
+          "lineNumber": 357
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "globalSettingRepository.findById",
+          "lineNumber": 357
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "isBlank",
+          "lineNumber": 359
+        },
+        {
+          "caller": "resolveDefaultChatProviderId",
+          "callee": "properties.getDefaultProvider",
+          "lineNumber": 360
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "isBlank",
+          "lineNumber": 365
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultEmbeddingProvider",
+          "lineNumber": 365
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultEmbeddingProvider",
+          "lineNumber": 366
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultProvider",
+          "lineNumber": 367
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID)\n            .map(LlmGlobalSettingEntity::getDefaultEmbeddingProviderId)\n            .filter(id -> !isBlank(id)).orElseGet",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID)\n            .map(LlmGlobalSettingEntity::getDefaultEmbeddingProviderId).filter",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "globalSettingRepository.findById(LlmGlobalSettingEntity.SINGLETON_ID).map",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "globalSettingRepository.findById",
+          "lineNumber": 369
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "isBlank",
+          "lineNumber": 371
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "isBlank",
+          "lineNumber": 372
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultEmbeddingProvider",
+          "lineNumber": 372
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultEmbeddingProvider",
+          "lineNumber": 373
+        },
+        {
+          "caller": "resolveDefaultEmbeddingProviderId",
+          "callee": "properties.getDefaultProvider",
+          "lineNumber": 374
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "loadProviderFromPropertiesOrThrow",
+          "lineNumber": 379
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "providerRepository.findById(providerId)\n            .filter(LlmProviderEntity::isEnabled).orElseThrow",
+          "lineNumber": 381
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "providerRepository.findById(providerId).filter",
+          "lineNumber": 381
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "providerRepository.findById",
+          "lineNumber": 381
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "new IllegalArgumentException",
+          "lineNumber": 383
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "new ProviderSnapshot",
+          "lineNumber": 384
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getId",
+          "lineNumber": 385
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getBaseUrl",
+          "lineNumber": 386
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "encryptionService.decrypt",
+          "lineNumber": 387
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getApiKeyNonce",
+          "lineNumber": 387
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getApiKeyCiphertext",
+          "lineNumber": 387
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getModel",
+          "lineNumber": 388
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getEmbeddingModel",
+          "lineNumber": 389
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getEmbeddingDimensions",
+          "lineNumber": 390
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.isSupportsEmbedding",
+          "lineNumber": 391
+        },
+        {
+          "caller": "loadProviderOrThrow",
+          "callee": "entity.getTemperature",
+          "lineNumber": 392
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "properties.getProviders().get",
+          "lineNumber": 397
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "properties.getProviders",
+          "lineNumber": 397
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "log.error",
+          "lineNumber": 399
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "new IllegalArgumentException",
+          "lineNumber": 400
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "Boolean.TRUE.equals",
+          "lineNumber": 402
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getSupportsEmbedding",
+          "lineNumber": 402
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "isBlank",
+          "lineNumber": 403
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getEmbeddingModel",
+          "lineNumber": 403
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "new ProviderSnapshot",
+          "lineNumber": 404
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getBaseUrl",
+          "lineNumber": 406
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getApiKey",
+          "lineNumber": 407
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getModel",
+          "lineNumber": 408
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getEmbeddingModel",
+          "lineNumber": 409
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getEmbeddingDimensions",
+          "lineNumber": 410
+        },
+        {
+          "caller": "loadProviderFromPropertiesOrThrow",
+          "callee": "config.getTemperature",
+          "lineNumber": 412
+        },
+        {
+          "caller": "isBlank",
+          "callee": "value.isBlank",
+          "lineNumber": 417
+        },
+        {
+          "caller": "resolveEmbeddingDimensions",
+          "callee": "properties.getEmbeddingDimensions",
+          "lineNumber": 424
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "model.toLowerCase",
+          "lineNumber": 428
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 429
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 430
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 431
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 432
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 433
+        },
+        {
+          "caller": "looksLikeChatModel",
+          "callee": "lower.startsWith",
+          "lineNumber": 434
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 11,
+        "functionCount": 26,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 123,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "PromptSanitizer",
+          "startLine": 24,
+          "endLine": 26,
+          "params": [
+            "properties"
+          ]
+        },
+        {
+          "name": "sanitize",
+          "startLine": 60,
+          "endLine": 94,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "wrapWithDelimiters",
+          "startLine": 101,
+          "endLine": 106,
+          "params": [
+            "label",
+            "text"
+          ]
+        },
+        {
+          "name": "detectInjectionAttempt",
+          "startLine": 111,
+          "endLine": 117,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "isSanitizerEnabled",
+          "startLine": 119,
+          "endLine": 122,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PromptSanitizer",
+          "startLine": 17,
+          "endLine": 123,
+          "methods": [
+            "PromptSanitizer",
+            "sanitize",
+            "wrapWithDelimiters",
+            "detectInjectionAttempt",
+            "isSanitizerEnabled"
+          ],
+          "properties": [
+            "log",
+            "properties",
+            "ROLE_INJECTION_PATTERN",
+            "INJECTION_PHRASE_PATTERN",
+            "DELIMITER_INJECTION_PATTERN",
+            "BOUNDARY_TAG_PATTERN"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PromptSanitizer",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "sanitize",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "wrapWithDelimiters",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "detectInjectionAttempt",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "PromptSanitizer",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sanitize",
+          "callee": "text.isBlank",
+          "lineNumber": 61
+        },
+        {
+          "caller": "sanitize",
+          "callee": "isSanitizerEnabled",
+          "lineNumber": 64
+        },
+        {
+          "caller": "sanitize",
+          "callee": "ROLE_INJECTION_PATTERN.matcher",
+          "lineNumber": 71
+        },
+        {
+          "caller": "sanitize",
+          "callee": "roleMatcher.find",
+          "lineNumber": 72
+        },
+        {
+          "caller": "sanitize",
+          "callee": "roleMatcher.replaceAll",
+          "lineNumber": 74
+        },
+        {
+          "caller": "sanitize",
+          "callee": "INJECTION_PHRASE_PATTERN.matcher",
+          "lineNumber": 76
+        },
+        {
+          "caller": "sanitize",
+          "callee": "phraseMatcher.find",
+          "lineNumber": 77
+        },
+        {
+          "caller": "sanitize",
+          "callee": "phraseMatcher.replaceAll",
+          "lineNumber": 79
+        },
+        {
+          "caller": "sanitize",
+          "callee": "DELIMITER_INJECTION_PATTERN.matcher",
+          "lineNumber": 81
+        },
+        {
+          "caller": "sanitize",
+          "callee": "delimMatcher.find",
+          "lineNumber": 82
+        },
+        {
+          "caller": "sanitize",
+          "callee": "delimMatcher.replaceAll",
+          "lineNumber": 83
+        },
+        {
+          "caller": "sanitize",
+          "callee": "BOUNDARY_TAG_PATTERN.matcher",
+          "lineNumber": 85
+        },
+        {
+          "caller": "sanitize",
+          "callee": "tagMatcher.find",
+          "lineNumber": 86
+        },
+        {
+          "caller": "sanitize",
+          "callee": "tagMatcher.replaceAll",
+          "lineNumber": 87
+        },
+        {
+          "caller": "sanitize",
+          "callee": "log.warn",
+          "lineNumber": 91
+        },
+        {
+          "caller": "sanitize",
+          "callee": "text.length",
+          "lineNumber": 91
+        },
+        {
+          "caller": "wrapWithDelimiters",
+          "callee": "UUID.randomUUID().toString().substring",
+          "lineNumber": 102
+        },
+        {
+          "caller": "wrapWithDelimiters",
+          "callee": "UUID.randomUUID().toString",
+          "lineNumber": 102
+        },
+        {
+          "caller": "wrapWithDelimiters",
+          "callee": "UUID.randomUUID",
+          "lineNumber": 102
+        },
+        {
+          "caller": "detectInjectionAttempt",
+          "callee": "text.isBlank",
+          "lineNumber": 112
+        },
+        {
+          "caller": "detectInjectionAttempt",
+          "callee": "ROLE_INJECTION_PATTERN.matcher(text).find",
+          "lineNumber": 115
+        },
+        {
+          "caller": "detectInjectionAttempt",
+          "callee": "ROLE_INJECTION_PATTERN.matcher",
+          "lineNumber": 115
+        },
+        {
+          "caller": "detectInjectionAttempt",
+          "callee": "INJECTION_PHRASE_PATTERN.matcher(text).find",
+          "lineNumber": 116
+        },
+        {
+          "caller": "detectInjectionAttempt",
+          "callee": "INJECTION_PHRASE_PATTERN.matcher",
+          "lineNumber": 116
+        },
+        {
+          "caller": "isSanitizerEnabled",
+          "callee": "properties.getAdvisors",
+          "lineNumber": 120
+        },
+        {
+          "caller": "isSanitizerEnabled",
+          "callee": "properties.getAdvisors().isPromptSanitizerEnabled",
+          "lineNumber": 121
+        },
+        {
+          "caller": "isSanitizerEnabled",
+          "callee": "properties.getAdvisors",
+          "lineNumber": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "PromptSecurityConstants",
+          "startLine": 11,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PromptSecurityConstants",
+          "startLine": 9,
+          "endLine": 33,
+          "methods": [
+            "PromptSecurityConstants"
+          ],
+          "properties": [
+            "ANTI_INJECTION_INSTRUCTION",
+            "DATA_BOUNDARY_INSTRUCTION"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ANTI_INJECTION_INSTRUCTION",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "DATA_BOUNDARY_INSTRUCTION",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "PromptSecurityConstants",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 284,
+      "nonEmptyLines": 260,
+      "functions": [
+        {
+          "name": "StructuredOutputInvoker",
+          "startLine": 46,
+          "endLine": 57,
+          "params": [
+            "properties",
+            "meterRegistry"
+          ]
+        },
+        {
+          "name": "invoke",
+          "startLine": 72,
+          "endLine": 120,
+          "params": [
+            "chatClient",
+            "systemPromptWithFormat",
+            "userPrompt",
+            "outputConverter",
+            "errorCode",
+            "errorPrefix",
+            "logContext",
+            "log"
+          ]
+        },
+        {
+          "name": "convertWithRepair",
+          "startLine": 131,
+          "endLine": 155,
+          "params": [
+            "content",
+            "outputConverter",
+            "logContext",
+            "log"
+          ]
+        },
+        {
+          "name": "repairUnescapedQuotesInJsonStrings",
+          "startLine": 162,
+          "endLine": 203,
+          "params": [
+            "content"
+          ]
+        },
+        {
+          "name": "isLikelyJsonStringTerminator",
+          "startLine": 206,
+          "endLine": 216,
+          "params": [
+            "content",
+            "start"
+          ]
+        },
+        {
+          "name": "buildRetrySystemPrompt",
+          "startLine": 218,
+          "endLine": 236,
+          "params": [
+            "systemPromptWithFormat",
+            "lastError"
+          ]
+        },
+        {
+          "name": "sanitizeErrorMessage",
+          "startLine": 238,
+          "endLine": 244,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "recordAttempt",
+          "startLine": 246,
+          "endLine": 254,
+          "params": [
+            "contextTag",
+            "status"
+          ]
+        },
+        {
+          "name": "recordInvocation",
+          "startLine": 256,
+          "endLine": 264,
+          "params": [
+            "contextTag",
+            "status",
+            "startNanos"
+          ]
+        },
+        {
+          "name": "isMetricsAvailable",
+          "startLine": 266,
+          "endLine": 268,
+          "params": []
+        },
+        {
+          "name": "normalizeContextTag",
+          "startLine": 270,
+          "endLine": 283,
+          "params": [
+            "raw"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "StructuredOutputInvoker",
+          "startLine": 19,
+          "endLine": 284,
+          "methods": [
+            "StructuredOutputInvoker",
+            "invoke",
+            "convertWithRepair",
+            "repairUnescapedQuotesInJsonStrings",
+            "isLikelyJsonStringTerminator",
+            "buildRetrySystemPrompt",
+            "sanitizeErrorMessage",
+            "recordAttempt",
+            "recordInvocation",
+            "isMetricsAvailable",
+            "normalizeContextTag"
+          ],
+          "properties": [
+            "STRICT_JSON_INSTRUCTION",
+            "METRIC_INVOCATIONS",
+            "METRIC_ATTEMPTS",
+            "METRIC_LATENCY",
+            "STATUS_SUCCESS",
+            "STATUS_FAILURE",
+            "MAX_CONTEXT_TAG_LENGTH",
+            "NON_ALNUM_PATTERN",
+            "MULTI_UNDERSCORE",
+            "maxAttempts",
+            "includeLastErrorInRetryPrompt",
+            "retryUseRepairPrompt",
+            "retryAppendStrictJsonInstruction",
+            "errorMessageMaxLength",
+            "metricsEnabled",
+            "meterRegistry"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StructuredOutputInvoker",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "invoke",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "StructuredOutputInvoker",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "Math.max",
+          "lineNumber": 50
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.getStructuredMaxAttempts",
+          "lineNumber": 50
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.isStructuredIncludeLastError",
+          "lineNumber": 51
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.isStructuredRetryUseRepairPrompt",
+          "lineNumber": 52
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.isStructuredRetryAppendStrictJsonInstruction",
+          "lineNumber": 53
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "Math.max",
+          "lineNumber": 54
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.getStructuredErrorMessageMaxLength",
+          "lineNumber": 54
+        },
+        {
+          "caller": "StructuredOutputInvoker",
+          "callee": "properties.isStructuredMetricsEnabled",
+          "lineNumber": 55
+        },
+        {
+          "caller": "invoke",
+          "callee": "System.nanoTime",
+          "lineNumber": 82
+        },
+        {
+          "caller": "invoke",
+          "callee": "normalizeContextTag",
+          "lineNumber": 83
+        },
+        {
+          "caller": "invoke",
+          "callee": "buildRetrySystemPrompt",
+          "lineNumber": 90
+        },
+        {
+          "caller": "invoke",
+          "callee": "chatClient.prompt()\n                    .system(attemptSystemPrompt)\n                    .user(userPrompt)\n                    .call().content",
+          "lineNumber": 93
+        },
+        {
+          "caller": "invoke",
+          "callee": "chatClient.prompt()\n                    .system(attemptSystemPrompt)\n                    .user(userPrompt).call",
+          "lineNumber": 93
+        },
+        {
+          "caller": "invoke",
+          "callee": "chatClient.prompt()\n                    .system(attemptSystemPrompt).user",
+          "lineNumber": 93
+        },
+        {
+          "caller": "invoke",
+          "callee": "chatClient.prompt().system",
+          "lineNumber": 93
+        },
+        {
+          "caller": "invoke",
+          "callee": "chatClient.prompt",
+          "lineNumber": 93
+        },
+        {
+          "caller": "invoke",
+          "callee": "convertWithRepair",
+          "lineNumber": 98
+        },
+        {
+          "caller": "invoke",
+          "callee": "recordAttempt",
+          "lineNumber": 99
+        },
+        {
+          "caller": "invoke",
+          "callee": "recordInvocation",
+          "lineNumber": 100
+        },
+        {
+          "caller": "invoke",
+          "callee": "recordAttempt",
+          "lineNumber": 104
+        },
+        {
+          "caller": "invoke",
+          "callee": "log.warn",
+          "lineNumber": 106
+        },
+        {
+          "caller": "invoke",
+          "callee": "e.getMessage",
+          "lineNumber": 107
+        },
+        {
+          "caller": "invoke",
+          "callee": "log.error",
+          "lineNumber": 109
+        },
+        {
+          "caller": "invoke",
+          "callee": "e.getMessage",
+          "lineNumber": 110
+        },
+        {
+          "caller": "invoke",
+          "callee": "recordInvocation",
+          "lineNumber": 115
+        },
+        {
+          "caller": "invoke",
+          "callee": "new BusinessException",
+          "lineNumber": 116
+        },
+        {
+          "caller": "invoke",
+          "callee": "lastError.getMessage",
+          "lineNumber": 118
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "outputConverter.convert",
+          "lineNumber": 140
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "repairUnescapedQuotesInJsonStrings",
+          "lineNumber": 143
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "repaired.equals",
+          "lineNumber": 144
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "outputConverter.convert",
+          "lineNumber": 146
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "log.warn",
+          "lineNumber": 147
+        },
+        {
+          "caller": "convertWithRepair",
+          "callee": "firstError.addSuppressed",
+          "lineNumber": 150
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "content.isBlank",
+          "lineNumber": 163
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "new StringBuilder",
+          "lineNumber": 166
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "content.length",
+          "lineNumber": 166
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "content.length",
+          "lineNumber": 169
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "content.charAt",
+          "lineNumber": 170
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 175
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 180
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 186
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "isLikelyJsonStringTerminator",
+          "lineNumber": 191
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 193
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 196
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.append",
+          "lineNumber": 200
+        },
+        {
+          "caller": "repairUnescapedQuotesInJsonStrings",
+          "callee": "repaired.toString",
+          "lineNumber": 202
+        },
+        {
+          "caller": "isLikelyJsonStringTerminator",
+          "callee": "content.length",
+          "lineNumber": 207
+        },
+        {
+          "caller": "isLikelyJsonStringTerminator",
+          "callee": "content.charAt",
+          "lineNumber": 208
+        },
+        {
+          "caller": "isLikelyJsonStringTerminator",
+          "callee": "Character.isWhitespace",
+          "lineNumber": 210
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "new StringBuilder(systemPromptWithFormat).append",
+          "lineNumber": 223
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "new StringBuilder",
+          "lineNumber": 223
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.append(STRICT_JSON_INSTRUCTION).append",
+          "lineNumber": 227
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.append",
+          "lineNumber": 227
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.append",
+          "lineNumber": 229
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "lastError.getMessage",
+          "lineNumber": 231
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.append(\"\\n上次失败原因：\").append",
+          "lineNumber": 232
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.append",
+          "lineNumber": 232
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "sanitizeErrorMessage",
+          "lineNumber": 233
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "lastError.getMessage",
+          "lineNumber": 233
+        },
+        {
+          "caller": "buildRetrySystemPrompt",
+          "callee": "prompt.toString",
+          "lineNumber": 235
+        },
+        {
+          "caller": "sanitizeErrorMessage",
+          "callee": "message.replace('\\n', ' ').replace('\\r', ' ').trim",
+          "lineNumber": 239
+        },
+        {
+          "caller": "sanitizeErrorMessage",
+          "callee": "message.replace('\\n', ' ').replace",
+          "lineNumber": 239
+        },
+        {
+          "caller": "sanitizeErrorMessage",
+          "callee": "message.replace",
+          "lineNumber": 239
+        },
+        {
+          "caller": "sanitizeErrorMessage",
+          "callee": "oneLine.length",
+          "lineNumber": 240
+        },
+        {
+          "caller": "sanitizeErrorMessage",
+          "callee": "oneLine.substring",
+          "lineNumber": 241
+        },
+        {
+          "caller": "recordAttempt",
+          "callee": "isMetricsAvailable",
+          "lineNumber": 247
+        },
+        {
+          "caller": "recordAttempt",
+          "callee": "meterRegistry.counter(\n            METRIC_ATTEMPTS,\n            Tags.of(\"context\", contextTag, \"status\", status)\n        ).increment",
+          "lineNumber": 250
+        },
+        {
+          "caller": "recordAttempt",
+          "callee": "meterRegistry.counter",
+          "lineNumber": 250
+        },
+        {
+          "caller": "recordAttempt",
+          "callee": "Tags.of",
+          "lineNumber": 252
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "isMetricsAvailable",
+          "lineNumber": 257
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "Tags.of",
+          "lineNumber": 260
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "meterRegistry.counter(METRIC_INVOCATIONS, tags).increment",
+          "lineNumber": 261
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "meterRegistry.counter",
+          "lineNumber": 261
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "meterRegistry.timer(METRIC_LATENCY, tags).record",
+          "lineNumber": 262
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "meterRegistry.timer",
+          "lineNumber": 262
+        },
+        {
+          "caller": "recordInvocation",
+          "callee": "System.nanoTime",
+          "lineNumber": 263
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "raw.isBlank",
+          "lineNumber": 271
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "source.toLowerCase(Locale.ROOT).trim().replace",
+          "lineNumber": 272
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "source.toLowerCase(Locale.ROOT).trim",
+          "lineNumber": 272
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "source.toLowerCase",
+          "lineNumber": 272
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "NON_ALNUM_PATTERN.matcher(normalized).replaceAll",
+          "lineNumber": 273
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "NON_ALNUM_PATTERN.matcher",
+          "lineNumber": 273
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "MULTI_UNDERSCORE.matcher(normalized).replaceAll",
+          "lineNumber": 274
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "MULTI_UNDERSCORE.matcher",
+          "lineNumber": 274
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "normalized.replaceAll",
+          "lineNumber": 275
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "normalized.isBlank",
+          "lineNumber": 276
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "normalized.length",
+          "lineNumber": 279
+        },
+        {
+          "caller": "normalizeContextTag",
+          "callee": "normalized.substring",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 11,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "classes": [
+        {
+          "name": "StructuredOutputProperties",
+          "startLine": 7,
+          "endLine": 18,
+          "methods": [],
+          "properties": [
+            "structuredMaxAttempts",
+            "structuredIncludeLastError",
+            "structuredRetryUseRepairPrompt",
+            "structuredRetryAppendStrictJsonInstruction",
+            "structuredErrorMessageMaxLength",
+            "structuredMetricsEnabled"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StructuredOutputProperties",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/annotation/RateLimit.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 119,
+      "nonEmptyLines": 107,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 264,
+      "nonEmptyLines": 229,
+      "functions": [
+        {
+          "name": "init",
+          "startLine": 52,
+          "endLine": 56,
+          "params": []
+        },
+        {
+          "name": "loadScript",
+          "startLine": 58,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "around",
+          "startLine": 66,
+          "endLine": 90,
+          "params": [
+            "joinPoint"
+          ]
+        },
+        {
+          "name": "executeRateLimitScript",
+          "startLine": 92,
+          "endLine": 126,
+          "params": [
+            "key",
+            "nowMs",
+            "requestId",
+            "intervalMs",
+            "count"
+          ]
+        },
+        {
+          "name": "calculateIntervalMs",
+          "startLine": 128,
+          "endLine": 136,
+          "params": [
+            "interval",
+            "unit"
+          ]
+        },
+        {
+          "name": "convertToLong",
+          "startLine": 138,
+          "endLine": 152,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "generateKey",
+          "startLine": 154,
+          "endLine": 163,
+          "params": [
+            "className",
+            "methodName",
+            "dimension"
+          ]
+        },
+        {
+          "name": "handleRateLimitExceeded",
+          "startLine": 165,
+          "endLine": 191,
+          "params": [
+            "joinPoint",
+            "rateLimit",
+            "key"
+          ]
+        },
+        {
+          "name": "findFallbackMethod",
+          "startLine": 193,
+          "endLine": 213,
+          "params": [
+            "joinPoint",
+            "fallbackName"
+          ]
+        },
+        {
+          "name": "getClientIp",
+          "startLine": 215,
+          "endLine": 242,
+          "params": []
+        },
+        {
+          "name": "getCurrentUserId",
+          "startLine": 244,
+          "endLine": 263,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "RateLimitAspect",
+          "startLine": 31,
+          "endLine": 264,
+          "methods": [
+            "init",
+            "loadScript",
+            "around",
+            "executeRateLimitScript",
+            "calculateIntervalMs",
+            "convertToLong",
+            "generateKey",
+            "handleRateLimitExceeded",
+            "findFallbackMethod",
+            "getClientIp",
+            "getCurrentUserId"
+          ],
+          "properties": [
+            "redissonClient",
+            "LUA_SCRIPT",
+            "luaScriptSha",
+            "rScript"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "init",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "around",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "RateLimitAspect",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "init",
+          "callee": "redissonClient.getScript",
+          "lineNumber": 54
+        },
+        {
+          "caller": "init",
+          "callee": "loadScript",
+          "lineNumber": 55
+        },
+        {
+          "caller": "loadScript",
+          "callee": "rScript.scriptLoad",
+          "lineNumber": 59
+        },
+        {
+          "caller": "loadScript",
+          "callee": "log.info",
+          "lineNumber": 60
+        },
+        {
+          "caller": "around",
+          "callee": "joinPoint.getSignature",
+          "lineNumber": 69
+        },
+        {
+          "caller": "around",
+          "callee": "signature.getMethod",
+          "lineNumber": 70
+        },
+        {
+          "caller": "around",
+          "callee": "method.getDeclaringClass().getSimpleName",
+          "lineNumber": 71
+        },
+        {
+          "caller": "around",
+          "callee": "method.getDeclaringClass",
+          "lineNumber": 71
+        },
+        {
+          "caller": "around",
+          "callee": "method.getName",
+          "lineNumber": 72
+        },
+        {
+          "caller": "around",
+          "callee": "method.getAnnotationsByType",
+          "lineNumber": 74
+        },
+        {
+          "caller": "around",
+          "callee": "System.currentTimeMillis",
+          "lineNumber": 75
+        },
+        {
+          "caller": "around",
+          "callee": "UUID.randomUUID().toString",
+          "lineNumber": 76
+        },
+        {
+          "caller": "around",
+          "callee": "UUID.randomUUID",
+          "lineNumber": 76
+        },
+        {
+          "caller": "around",
+          "callee": "calculateIntervalMs",
+          "lineNumber": 79
+        },
+        {
+          "caller": "around",
+          "callee": "rule.interval",
+          "lineNumber": 79
+        },
+        {
+          "caller": "around",
+          "callee": "rule.timeUnit",
+          "lineNumber": 79
+        },
+        {
+          "caller": "around",
+          "callee": "generateKey",
+          "lineNumber": 80
+        },
+        {
+          "caller": "around",
+          "callee": "rule.dimension",
+          "lineNumber": 80
+        },
+        {
+          "caller": "around",
+          "callee": "executeRateLimitScript",
+          "lineNumber": 82
+        },
+        {
+          "caller": "around",
+          "callee": "rule.count",
+          "lineNumber": 82
+        },
+        {
+          "caller": "around",
+          "callee": "handleRateLimitExceeded",
+          "lineNumber": 85
+        },
+        {
+          "caller": "around",
+          "callee": "joinPoint.proceed",
+          "lineNumber": 89
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "Collections.singletonList",
+          "lineNumber": 93
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "String.valueOf",
+          "lineNumber": 95
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "String.valueOf",
+          "lineNumber": 96
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "String.valueOf",
+          "lineNumber": 97
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "String.valueOf",
+          "lineNumber": 98
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "rScript.evalSha",
+          "lineNumber": 103
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "convertToLong",
+          "lineNumber": 110
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "e.getMessage",
+          "lineNumber": 113
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "e.getMessage().contains",
+          "lineNumber": 113
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "e.getMessage",
+          "lineNumber": 113
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "loadScript",
+          "lineNumber": 114
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "rScript.evalSha",
+          "lineNumber": 115
+        },
+        {
+          "caller": "executeRateLimitScript",
+          "callee": "convertToLong",
+          "lineNumber": 122
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "n.longValue",
+          "lineNumber": 140
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "Long.parseLong",
+          "lineNumber": 144
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "log.warn",
+          "lineNumber": 146
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "log.warn",
+          "lineNumber": 150
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "obj.getClass().getName",
+          "lineNumber": 150
+        },
+        {
+          "caller": "convertToLong",
+          "callee": "obj.getClass",
+          "lineNumber": 150
+        },
+        {
+          "caller": "generateKey",
+          "callee": "getClientIp",
+          "lineNumber": 160
+        },
+        {
+          "caller": "generateKey",
+          "callee": "getCurrentUserId",
+          "lineNumber": 161
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getSignature().getName",
+          "lineNumber": 167
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getSignature",
+          "lineNumber": 167
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback().isEmpty",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "findFallbackMethod",
+          "lineNumber": 171
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback",
+          "lineNumber": 171
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "log.debug",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getTarget().getClass().getSimpleName",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getTarget().getClass",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getTarget",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback",
+          "lineNumber": 176
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "fallbackMethod.getParameterCount",
+          "lineNumber": 177
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "fallbackMethod.invoke",
+          "lineNumber": 178
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getTarget",
+          "lineNumber": 178
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getArgs",
+          "lineNumber": 178
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "fallbackMethod.invoke",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "joinPoint.getTarget",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "log.error",
+          "lineNumber": 184
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.fallback",
+          "lineNumber": 184
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "log.debug",
+          "lineNumber": 188
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.count",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.interval",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "rateLimit.timeUnit",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleRateLimitExceeded",
+          "callee": "new RateLimitExceededException",
+          "lineNumber": 190
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "joinPoint.getTarget().getClass",
+          "lineNumber": 194
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "joinPoint.getTarget",
+          "lineNumber": 194
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "joinPoint.getSignature",
+          "lineNumber": 195
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "signature.getParameterTypes",
+          "lineNumber": 196
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "targetClass.getDeclaredMethod",
+          "lineNumber": 199
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "method.setAccessible",
+          "lineNumber": 200
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "targetClass.getDeclaredMethod",
+          "lineNumber": 204
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "method.setAccessible",
+          "lineNumber": 205
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "log.warn",
+          "lineNumber": 208
+        },
+        {
+          "caller": "findFallbackMethod",
+          "callee": "targetClass.getSimpleName",
+          "lineNumber": 209
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "RequestContextHolder.getRequestAttributes",
+          "lineNumber": 216
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "attributes.getRequest",
+          "lineNumber": 221
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "request.getHeader",
+          "lineNumber": 222
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.isEmpty",
+          "lineNumber": 224
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "\"unknown\".equalsIgnoreCase",
+          "lineNumber": 224
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "request.getHeader",
+          "lineNumber": 225
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.isEmpty",
+          "lineNumber": 227
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "\"unknown\".equalsIgnoreCase",
+          "lineNumber": 227
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "request.getHeader",
+          "lineNumber": 228
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.isEmpty",
+          "lineNumber": 230
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "\"unknown\".equalsIgnoreCase",
+          "lineNumber": 230
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "request.getHeader",
+          "lineNumber": 231
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.isEmpty",
+          "lineNumber": 233
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "\"unknown\".equalsIgnoreCase",
+          "lineNumber": 233
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "request.getRemoteAddr",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.contains",
+          "lineNumber": 237
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.split(\",\")[0].trim",
+          "lineNumber": 238
+        },
+        {
+          "caller": "getClientIp",
+          "callee": "ip.split",
+          "lineNumber": 238
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "RequestContextHolder.getRequestAttributes",
+          "lineNumber": 245
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "attributes.getRequest",
+          "lineNumber": 250
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "request.getAttribute",
+          "lineNumber": 252
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "userId.toString",
+          "lineNumber": 254
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "request.getHeader",
+          "lineNumber": 257
+        },
+        {
+          "caller": "getCurrentUserId",
+          "callee": "userId.toString",
+          "lineNumber": 259
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 11,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 222,
+      "nonEmptyLines": 191,
+      "functions": [
+        {
+          "name": "AbstractStreamConsumer",
+          "startLine": 27,
+          "endLine": 29,
+          "params": [
+            "redisService"
+          ]
+        },
+        {
+          "name": "init",
+          "startLine": 31,
+          "endLine": 54,
+          "params": []
+        },
+        {
+          "name": "shutdown",
+          "startLine": 60,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "startConsumer",
+          "startLine": 74,
+          "endLine": 83,
+          "params": []
+        },
+        {
+          "name": "consumeLoop",
+          "startLine": 89,
+          "endLine": 108,
+          "params": []
+        },
+        {
+          "name": "processMessage",
+          "startLine": 119,
+          "endLine": 153,
+          "params": [
+            "messageId",
+            "data"
+          ]
+        },
+        {
+          "name": "parseRetryCount",
+          "startLine": 161,
+          "endLine": 167,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "truncateError",
+          "startLine": 175,
+          "endLine": 180,
+          "params": [
+            "error"
+          ]
+        },
+        {
+          "name": "ackMessage",
+          "startLine": 187,
+          "endLine": 193,
+          "params": [
+            "messageId"
+          ]
+        },
+        {
+          "name": "redisService",
+          "startLine": 195,
+          "endLine": 197,
+          "params": []
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 199,
+          "endLine": 199,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 201,
+          "endLine": 201,
+          "params": []
+        },
+        {
+          "name": "groupName",
+          "startLine": 203,
+          "endLine": 203,
+          "params": []
+        },
+        {
+          "name": "consumerPrefix",
+          "startLine": 205,
+          "endLine": 205,
+          "params": []
+        },
+        {
+          "name": "threadName",
+          "startLine": 207,
+          "endLine": 207,
+          "params": []
+        },
+        {
+          "name": "parsePayload",
+          "startLine": 209,
+          "endLine": 209,
+          "params": [
+            "messageId",
+            "data"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 211,
+          "endLine": 211,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markProcessing",
+          "startLine": 213,
+          "endLine": 213,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "processBusiness",
+          "startLine": 215,
+          "endLine": 215,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markCompleted",
+          "startLine": 217,
+          "endLine": 217,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markFailed",
+          "startLine": 219,
+          "endLine": 219,
+          "params": [
+            "payload",
+            "error"
+          ]
+        },
+        {
+          "name": "retryMessage",
+          "startLine": 221,
+          "endLine": 221,
+          "params": [
+            "payload",
+            "retryCount"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AbstractStreamConsumer",
+          "startLine": 18,
+          "endLine": 222,
+          "methods": [
+            "AbstractStreamConsumer",
+            "init",
+            "shutdown",
+            "startConsumer",
+            "consumeLoop",
+            "processMessage",
+            "parseRetryCount",
+            "truncateError",
+            "ackMessage",
+            "redisService",
+            "taskDisplayName",
+            "streamKey",
+            "groupName",
+            "consumerPrefix",
+            "threadName",
+            "parsePayload",
+            "payloadIdentifier",
+            "markProcessing",
+            "processBusiness",
+            "markCompleted",
+            "markFailed",
+            "retryMessage"
+          ],
+          "properties": [
+            "redisService",
+            "running",
+            "executorService",
+            "consumerName"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "init",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "shutdown",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "AbstractStreamConsumer",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "init",
+          "callee": "consumerPrefix",
+          "lineNumber": 34
+        },
+        {
+          "caller": "init",
+          "callee": "UUID.randomUUID().toString().substring",
+          "lineNumber": 34
+        },
+        {
+          "caller": "init",
+          "callee": "UUID.randomUUID().toString",
+          "lineNumber": 34
+        },
+        {
+          "caller": "init",
+          "callee": "UUID.randomUUID",
+          "lineNumber": 34
+        },
+        {
+          "caller": "init",
+          "callee": "new ThreadPoolExecutor",
+          "lineNumber": 36
+        },
+        {
+          "caller": "init",
+          "callee": "new LinkedBlockingQueue<>",
+          "lineNumber": 41
+        },
+        {
+          "caller": "init",
+          "callee": "new Thread",
+          "lineNumber": 43
+        },
+        {
+          "caller": "init",
+          "callee": "threadName",
+          "lineNumber": 43
+        },
+        {
+          "caller": "init",
+          "callee": "t.setDaemon",
+          "lineNumber": 44
+        },
+        {
+          "caller": "init",
+          "callee": "new ThreadPoolExecutor.AbortPolicy",
+          "lineNumber": 47
+        },
+        {
+          "caller": "init",
+          "callee": "running.set",
+          "lineNumber": 51
+        },
+        {
+          "caller": "init",
+          "callee": "executorService.submit",
+          "lineNumber": 52
+        },
+        {
+          "caller": "init",
+          "callee": "log.info",
+          "lineNumber": 53
+        },
+        {
+          "caller": "init",
+          "callee": "taskDisplayName",
+          "lineNumber": 53
+        },
+        {
+          "caller": "shutdown",
+          "callee": "running.set",
+          "lineNumber": 62
+        },
+        {
+          "caller": "shutdown",
+          "callee": "executorService.shutdown",
+          "lineNumber": 64
+        },
+        {
+          "caller": "shutdown",
+          "callee": "log.info",
+          "lineNumber": 66
+        },
+        {
+          "caller": "shutdown",
+          "callee": "taskDisplayName",
+          "lineNumber": 66
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "redisService.createStreamGroup",
+          "lineNumber": 76
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "streamKey",
+          "lineNumber": 76
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "groupName",
+          "lineNumber": 76
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "log.info",
+          "lineNumber": 77
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "groupName",
+          "lineNumber": 77
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "log.warn",
+          "lineNumber": 79
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "groupName",
+          "lineNumber": 79
+        },
+        {
+          "caller": "startConsumer",
+          "callee": "consumeLoop",
+          "lineNumber": 82
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "running.get",
+          "lineNumber": 90
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "redisService.streamConsumeMessages",
+          "lineNumber": 92
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "streamKey",
+          "lineNumber": 93
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "groupName",
+          "lineNumber": 94
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "Thread.currentThread().isInterrupted",
+          "lineNumber": 101
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "Thread.currentThread",
+          "lineNumber": 101
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "log.info",
+          "lineNumber": 102
+        },
+        {
+          "caller": "consumeLoop",
+          "callee": "log.error",
+          "lineNumber": 105
+        },
+        {
+          "caller": "processMessage",
+          "callee": "parsePayload",
+          "lineNumber": 120
+        },
+        {
+          "caller": "processMessage",
+          "callee": "ackMessage",
+          "lineNumber": 122
+        },
+        {
+          "caller": "processMessage",
+          "callee": "parseRetryCount",
+          "lineNumber": 126
+        },
+        {
+          "caller": "processMessage",
+          "callee": "log.info",
+          "lineNumber": 127
+        },
+        {
+          "caller": "processMessage",
+          "callee": "taskDisplayName",
+          "lineNumber": 128
+        },
+        {
+          "caller": "processMessage",
+          "callee": "payloadIdentifier",
+          "lineNumber": 128
+        },
+        {
+          "caller": "processMessage",
+          "callee": "markProcessing",
+          "lineNumber": 133
+        },
+        {
+          "caller": "processMessage",
+          "callee": "processBusiness",
+          "lineNumber": 135
+        },
+        {
+          "caller": "processMessage",
+          "callee": "markCompleted",
+          "lineNumber": 137
+        },
+        {
+          "caller": "processMessage",
+          "callee": "ackMessage",
+          "lineNumber": 139
+        },
+        {
+          "caller": "processMessage",
+          "callee": "log.info",
+          "lineNumber": 140
+        },
+        {
+          "caller": "processMessage",
+          "callee": "taskDisplayName",
+          "lineNumber": 140
+        },
+        {
+          "caller": "processMessage",
+          "callee": "payloadIdentifier",
+          "lineNumber": 140
+        },
+        {
+          "caller": "processMessage",
+          "callee": "log.error",
+          "lineNumber": 142
+        },
+        {
+          "caller": "processMessage",
+          "callee": "taskDisplayName",
+          "lineNumber": 142
+        },
+        {
+          "caller": "processMessage",
+          "callee": "payloadIdentifier",
+          "lineNumber": 142
+        },
+        {
+          "caller": "processMessage",
+          "callee": "retryMessage",
+          "lineNumber": 144
+        },
+        {
+          "caller": "processMessage",
+          "callee": "markFailed",
+          "lineNumber": 146
+        },
+        {
+          "caller": "processMessage",
+          "callee": "truncateError",
+          "lineNumber": 146
+        },
+        {
+          "caller": "processMessage",
+          "callee": "taskDisplayName",
+          "lineNumber": 147
+        },
+        {
+          "caller": "processMessage",
+          "callee": "e.getMessage",
+          "lineNumber": 147
+        },
+        {
+          "caller": "processMessage",
+          "callee": "ackMessage",
+          "lineNumber": 151
+        },
+        {
+          "caller": "parseRetryCount",
+          "callee": "Integer.parseInt",
+          "lineNumber": 163
+        },
+        {
+          "caller": "parseRetryCount",
+          "callee": "data.getOrDefault",
+          "lineNumber": 163
+        },
+        {
+          "caller": "truncateError",
+          "callee": "error.length",
+          "lineNumber": 179
+        },
+        {
+          "caller": "truncateError",
+          "callee": "error.substring",
+          "lineNumber": 179
+        },
+        {
+          "caller": "ackMessage",
+          "callee": "redisService.streamAck",
+          "lineNumber": 189
+        },
+        {
+          "caller": "ackMessage",
+          "callee": "streamKey",
+          "lineNumber": 189
+        },
+        {
+          "caller": "ackMessage",
+          "callee": "groupName",
+          "lineNumber": 189
+        },
+        {
+          "caller": "ackMessage",
+          "callee": "log.error",
+          "lineNumber": 191
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 22,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "AbstractStreamProducer",
+          "startLine": 18,
+          "endLine": 20,
+          "params": [
+            "redisService"
+          ]
+        },
+        {
+          "name": "sendTask",
+          "startLine": 22,
+          "endLine": 36,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "truncateError",
+          "startLine": 38,
+          "endLine": 43,
+          "params": [
+            "error"
+          ]
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 46,
+          "endLine": 46,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 48,
+          "endLine": 48,
+          "params": []
+        },
+        {
+          "name": "buildMessage",
+          "startLine": 50,
+          "endLine": 50,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 53,
+          "endLine": 53,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "onSendFailed",
+          "startLine": 56,
+          "endLine": 56,
+          "params": [
+            "payload",
+            "error"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AbstractStreamProducer",
+          "startLine": 13,
+          "endLine": 57,
+          "methods": [
+            "AbstractStreamProducer",
+            "sendTask",
+            "truncateError",
+            "taskDisplayName",
+            "streamKey",
+            "buildMessage",
+            "payloadIdentifier",
+            "onSendFailed"
+          ],
+          "properties": [
+            "redisService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AbstractStreamProducer",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sendTask",
+          "callee": "redisService.streamAdd",
+          "lineNumber": 24
+        },
+        {
+          "caller": "sendTask",
+          "callee": "streamKey",
+          "lineNumber": 25
+        },
+        {
+          "caller": "sendTask",
+          "callee": "buildMessage",
+          "lineNumber": 26
+        },
+        {
+          "caller": "sendTask",
+          "callee": "log.info",
+          "lineNumber": 29
+        },
+        {
+          "caller": "sendTask",
+          "callee": "taskDisplayName",
+          "lineNumber": 30
+        },
+        {
+          "caller": "sendTask",
+          "callee": "payloadIdentifier",
+          "lineNumber": 30
+        },
+        {
+          "caller": "sendTask",
+          "callee": "log.error",
+          "lineNumber": 32
+        },
+        {
+          "caller": "sendTask",
+          "callee": "taskDisplayName",
+          "lineNumber": 33
+        },
+        {
+          "caller": "sendTask",
+          "callee": "payloadIdentifier",
+          "lineNumber": 33
+        },
+        {
+          "caller": "sendTask",
+          "callee": "e.getMessage",
+          "lineNumber": 33
+        },
+        {
+          "caller": "sendTask",
+          "callee": "onSendFailed",
+          "lineNumber": 34
+        },
+        {
+          "caller": "sendTask",
+          "callee": "e.getMessage",
+          "lineNumber": 34
+        },
+        {
+          "caller": "truncateError",
+          "callee": "error.length",
+          "lineNumber": 42
+        },
+        {
+          "caller": "truncateError",
+          "callee": "error.substring",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "getUploadDir",
+          "startLine": 18,
+          "endLine": 20,
+          "params": []
+        },
+        {
+          "name": "setUploadDir",
+          "startLine": 22,
+          "endLine": 24,
+          "params": [
+            "uploadDir"
+          ]
+        },
+        {
+          "name": "getAllowedTypes",
+          "startLine": 26,
+          "endLine": 28,
+          "params": []
+        },
+        {
+          "name": "setAllowedTypes",
+          "startLine": 30,
+          "endLine": 32,
+          "params": [
+            "allowedTypes"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppConfigProperties",
+          "startLine": 11,
+          "endLine": 33,
+          "methods": [
+            "getUploadDir",
+            "setUploadDir",
+            "getAllowedTypes",
+            "setAllowedTypes"
+          ],
+          "properties": [
+            "uploadDir",
+            "allowedTypes"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getUploadDir",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "setUploadDir",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "getAllowedTypes",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "setAllowedTypes",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "AppConfigProperties",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "CorsConfig",
+          "startLine": 20,
+          "endLine": 22,
+          "params": [
+            "corsProperties"
+          ]
+        },
+        {
+          "name": "corsFilter",
+          "startLine": 24,
+          "endLine": 42,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CorsConfig",
+          "startLine": 15,
+          "endLine": 43,
+          "methods": [
+            "CorsConfig",
+            "corsFilter"
+          ],
+          "properties": [
+            "corsProperties"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CorsConfig",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "corsFilter",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "CorsConfig",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "corsFilter",
+          "callee": "new CorsConfiguration",
+          "lineNumber": 26
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "corsProperties.getAllowedOrigins",
+          "lineNumber": 28
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "Arrays.stream(allowedOrigins.split(\",\"))\n              .map(String::trim).forEach",
+          "lineNumber": 29
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "Arrays.stream(allowedOrigins.split(\",\")).map",
+          "lineNumber": 29
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "Arrays.stream",
+          "lineNumber": 29
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "allowedOrigins.split",
+          "lineNumber": 29
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "config.setAllowedMethods",
+          "lineNumber": 33
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "List.of",
+          "lineNumber": 33
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "config.setAllowedHeaders",
+          "lineNumber": 34
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "List.of",
+          "lineNumber": 34
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "config.setAllowCredentials",
+          "lineNumber": 35
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "config.setMaxAge",
+          "lineNumber": 36
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "new UrlBasedCorsConfigurationSource",
+          "lineNumber": 38
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "source.registerCorsConfiguration",
+          "lineNumber": 39
+        },
+        {
+          "caller": "corsFilter",
+          "callee": "new CorsFilter",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 10,
+      "classes": [
+        {
+          "name": "CorsProperties",
+          "startLine": 7,
+          "endLine": 13,
+          "methods": [],
+          "properties": [
+            "allowedOrigins"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CorsProperties",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "objectMapper",
+          "startLine": 14,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "JacksonConfig",
+          "startLine": 11,
+          "endLine": 18,
+          "methods": [
+            "objectMapper"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "objectMapper",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "JacksonConfig",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "objectMapper",
+          "callee": "new ObjectMapper",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "embeddingModel",
+          "startLine": 16,
+          "endLine": 30,
+          "params": [
+            "registry"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "LlmEmbeddingConfig",
+          "startLine": 12,
+          "endLine": 31,
+          "methods": [
+            "embeddingModel"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "embeddingModel",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "LlmEmbeddingConfig",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "embeddingModel",
+          "callee": "log.info",
+          "lineNumber": 18
+        },
+        {
+          "caller": "embeddingModel",
+          "callee": "new EmbeddingModel",
+          "lineNumber": 19
+        },
+        {
+          "caller": "call",
+          "callee": "registry.getDefaultEmbeddingModel().call",
+          "lineNumber": 22
+        },
+        {
+          "caller": "call",
+          "callee": "registry.getDefaultEmbeddingModel",
+          "lineNumber": 22
+        },
+        {
+          "caller": "embed",
+          "callee": "registry.getDefaultEmbeddingModel().embed",
+          "lineNumber": 27
+        },
+        {
+          "caller": "embed",
+          "callee": "registry.getDefaultEmbeddingModel",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 59,
+      "classes": [
+        {
+          "name": "LlmProviderProperties",
+          "startLine": 10,
+          "endLine": 70,
+          "methods": [],
+          "properties": [
+            "defaultProvider",
+            "defaultEmbeddingProvider",
+            "embeddingDimensions",
+            "providers",
+            "advisors",
+            "configYamlPath",
+            "configEnvPath",
+            "security"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LlmProviderProperties",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "functions": [
+        {
+          "name": "customOpenAPI",
+          "startLine": 11,
+          "endLine": 18,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "OpenApiConfig",
+          "startLine": 8,
+          "endLine": 19,
+          "methods": [
+            "customOpenAPI"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "customOpenAPI",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "OpenApiConfig",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "customOpenAPI",
+          "callee": "new OpenAPI().info",
+          "lineNumber": 13
+        },
+        {
+          "caller": "customOpenAPI",
+          "callee": "new OpenAPI",
+          "lineNumber": 13
+        },
+        {
+          "caller": "customOpenAPI",
+          "callee": "new Info()\n                        .title(\"智能 AI 面试官平台 API\")\n                        .description(\"简历分析、模拟面试、知识库管理 RESTful API 文档\").version",
+          "lineNumber": 14
+        },
+        {
+          "caller": "customOpenAPI",
+          "callee": "new Info()\n                        .title(\"智能 AI 面试官平台 API\").description",
+          "lineNumber": 14
+        },
+        {
+          "caller": "customOpenAPI",
+          "callee": "new Info().title",
+          "lineNumber": 14
+        },
+        {
+          "caller": "customOpenAPI",
+          "callee": "new Info",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/S3Config.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "s3Client",
+          "startLine": 22,
+          "endLine": 35,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "S3Config",
+          "startLine": 16,
+          "endLine": 36,
+          "methods": [
+            "s3Client"
+          ],
+          "properties": [
+            "storageConfig"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "s3Client",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "S3Config",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "s3Client",
+          "callee": "AwsBasicCredentials.create",
+          "lineNumber": 24
+        },
+        {
+          "caller": "s3Client",
+          "callee": "storageConfig.getAccessKey",
+          "lineNumber": 25
+        },
+        {
+          "caller": "s3Client",
+          "callee": "storageConfig.getSecretKey",
+          "lineNumber": 26
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder()\n            .endpointOverride(URI.create(storageConfig.getEndpoint()))\n            .region(Region.of(storageConfig.getRegion()))\n            .credentialsProvider(StaticCredentialsProvider.create(credentials))\n                .forcePathStyle(true).build",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder()\n            .endpointOverride(URI.create(storageConfig.getEndpoint()))\n            .region(Region.of(storageConfig.getRegion()))\n            .credentialsProvider(StaticCredentialsProvider.create(credentials)).forcePathStyle",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder()\n            .endpointOverride(URI.create(storageConfig.getEndpoint()))\n            .region(Region.of(storageConfig.getRegion())).credentialsProvider",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder()\n            .endpointOverride(URI.create(storageConfig.getEndpoint())).region",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder().endpointOverride",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "S3Client.builder",
+          "lineNumber": 29
+        },
+        {
+          "caller": "s3Client",
+          "callee": "URI.create",
+          "lineNumber": 30
+        },
+        {
+          "caller": "s3Client",
+          "callee": "storageConfig.getEndpoint",
+          "lineNumber": 30
+        },
+        {
+          "caller": "s3Client",
+          "callee": "Region.of",
+          "lineNumber": 31
+        },
+        {
+          "caller": "s3Client",
+          "callee": "storageConfig.getRegion",
+          "lineNumber": 31
+        },
+        {
+          "caller": "s3Client",
+          "callee": "StaticCredentialsProvider.create",
+          "lineNumber": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    }
+  ]
+}

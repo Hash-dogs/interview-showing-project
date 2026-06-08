@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "language": "java",
+      "sizeLines": 510,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "language": "java",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "language": "java",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "language": "java",
+      "sizeLines": 676,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "language": "java",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "language": "java",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "language": "java",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "language": "java",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java",
+      "language": "java",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "language": "java",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "language": "java",
+      "sizeLines": 435,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "language": "java",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "language": "java",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "language": "java",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "language": "java",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "language": "java",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "language": "java",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java",
+      "language": "java",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java",
+      "language": "java",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java",
+      "language": "java",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "language": "java",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "language": "java",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java": [],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java": [],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java": [],
+    "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java": [],
+    "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java": [],
+    "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java": []
+  }
+}

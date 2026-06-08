@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "service:app/Dockerfile",
+      "type": "service",
+      "name": "Dockerfile",
+      "filePath": "app/Dockerfile",
+      "summary": "定义服务: builder, eclipse-temurin",
+      "tags": [
+        "dockerfile",
+        "infra",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:app/Dockerfile:eclipse-temurin",
+      "type": "service",
+      "name": "eclipse-temurin",
+      "filePath": "app/Dockerfile",
+      "summary": "服务 eclipse-temurin (镜像: eclipse-temurin:21-jre)",
+      "tags": [
+        "service",
+        "docker"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

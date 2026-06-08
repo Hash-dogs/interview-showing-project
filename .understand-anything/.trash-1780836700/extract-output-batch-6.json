@@ -1,0 +1,255 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "Overview",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Additional Resources",
+          "level": 1,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 161,
+      "nonEmptyLines": 123,
+      "sections": [
+        {
+          "heading": "AI Agent 开发面试参考",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、Agent 基础",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Agent 定义与核心架构",
+          "level": 3,
+          "line": 5
+        },
+        {
+          "heading": "Agent vs 传统编程 vs 工作流",
+          "level": 3,
+          "line": 10
+        },
+        {
+          "heading": "Agent 范式",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "多 Agent 系统",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "安全",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "二、LLM 调用",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "Token 与上下文窗口",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "采样参数",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Function Calling",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "结构化输出与流式输出",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "成本优化",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "三、MCP 协议",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "MCP 定位",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "MCP 四大核心能力",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "架构与传输",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "生产实践",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "四、RAG 检索增强",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "基本原理",
+          "level": 3,
+          "line": 87
+        },
+        {
+          "heading": "分块与 Embedding",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "向量检索",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "局限与治理",
+          "level": 3,
+          "line": 103
+        },
+        {
+          "heading": "五、上下文工程",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "概念",
+          "level": 3,
+          "line": 111
+        },
+        {
+          "heading": "六层 Harness 架构",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "Token 预算与设计模式",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "实践案例",
+          "level": 3,
+          "line": 129
+        },
+        {
+          "heading": "面试高频追问",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Agent 基础",
+          "level": 3,
+          "line": 138
+        },
+        {
+          "heading": "LLM 调用",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "MCP 协议",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "RAG",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "上下文工程",
+          "level": 3,
+          "line": 158
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 34
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 34,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "displayName",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "display",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "categories",
+          "level": 1,
+          "line": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}

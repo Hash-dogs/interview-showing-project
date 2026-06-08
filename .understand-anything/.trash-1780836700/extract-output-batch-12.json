@@ -1,0 +1,7376 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 254,
+      "nonEmptyLines": 222,
+      "functions": [
+        {
+          "name": "saveSession",
+          "startLine": 100,
+          "endLine": 116,
+          "params": [
+            "sessionId",
+            "resumeText",
+            "resumeId",
+            "questions",
+            "currentIndex",
+            "status"
+          ]
+        },
+        {
+          "name": "getSession",
+          "startLine": 121,
+          "endLine": 129,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "updateSessionStatus",
+          "startLine": 134,
+          "endLine": 147,
+          "params": [
+            "sessionId",
+            "status"
+          ]
+        },
+        {
+          "name": "updateCurrentIndex",
+          "startLine": 152,
+          "endLine": 159,
+          "params": [
+            "sessionId",
+            "currentIndex"
+          ]
+        },
+        {
+          "name": "updateQuestions",
+          "startLine": 164,
+          "endLine": 175,
+          "params": [
+            "sessionId",
+            "questions"
+          ]
+        },
+        {
+          "name": "deleteSession",
+          "startLine": 180,
+          "endLine": 190,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "findUnfinishedSessionId",
+          "startLine": 195,
+          "endLine": 209,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "refreshSessionTTL",
+          "startLine": 214,
+          "endLine": 217,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "exists",
+          "startLine": 222,
+          "endLine": 225,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "buildSessionKey",
+          "startLine": 229,
+          "endLine": 231,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "buildResumeSessionKey",
+          "startLine": 233,
+          "endLine": 235,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "saveResumeSessionMapping",
+          "startLine": 237,
+          "endLine": 240,
+          "params": [
+            "resumeId",
+            "sessionId"
+          ]
+        },
+        {
+          "name": "removeResumeSessionMapping",
+          "startLine": 242,
+          "endLine": 249,
+          "params": [
+            "resumeId",
+            "sessionId"
+          ]
+        },
+        {
+          "name": "isUnfinishedStatus",
+          "startLine": 251,
+          "endLine": 253,
+          "params": [
+            "status"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSessionCache",
+          "startLine": 24,
+          "endLine": 254,
+          "methods": [
+            "saveSession",
+            "getSession",
+            "updateSessionStatus",
+            "updateCurrentIndex",
+            "updateQuestions",
+            "deleteSession",
+            "findUnfinishedSessionId",
+            "refreshSessionTTL",
+            "exists",
+            "buildSessionKey",
+            "buildResumeSessionKey",
+            "saveResumeSessionMapping",
+            "removeResumeSessionMapping",
+            "isUnfinishedStatus"
+          ],
+          "properties": [
+            "redisService",
+            "objectMapper",
+            "SESSION_KEY_PREFIX",
+            "RESUME_SESSION_KEY_PREFIX",
+            "SESSION_TTL"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "saveSession",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getSession",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "updateSessionStatus",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "updateCurrentIndex",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "updateQuestions",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "deleteSession",
+          "line": 180,
+          "isDefault": false
+        },
+        {
+          "name": "findUnfinishedSessionId",
+          "line": 195,
+          "isDefault": false
+        },
+        {
+          "name": "refreshSessionTTL",
+          "line": 214,
+          "isDefault": false
+        },
+        {
+          "name": "exists",
+          "line": 222,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSessionCache",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CachedSession",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 82
+        },
+        {
+          "caller": "CachedSession",
+          "callee": "new BusinessException",
+          "lineNumber": 84
+        },
+        {
+          "caller": "getQuestions",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 90
+        },
+        {
+          "caller": "getQuestions",
+          "callee": "new TypeReference<>",
+          "lineNumber": 90
+        },
+        {
+          "caller": "getQuestions",
+          "callee": "new BusinessException",
+          "lineNumber": 92
+        },
+        {
+          "caller": "saveSession",
+          "callee": "buildSessionKey",
+          "lineNumber": 103
+        },
+        {
+          "caller": "saveSession",
+          "callee": "new CachedSession",
+          "lineNumber": 104
+        },
+        {
+          "caller": "saveSession",
+          "callee": "redisService.set",
+          "lineNumber": 108
+        },
+        {
+          "caller": "saveSession",
+          "callee": "isUnfinishedStatus",
+          "lineNumber": 111
+        },
+        {
+          "caller": "saveSession",
+          "callee": "saveResumeSessionMapping",
+          "lineNumber": 112
+        },
+        {
+          "caller": "saveSession",
+          "callee": "log.debug",
+          "lineNumber": 115
+        },
+        {
+          "caller": "getSession",
+          "callee": "buildSessionKey",
+          "lineNumber": 122
+        },
+        {
+          "caller": "getSession",
+          "callee": "redisService.get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "getSession",
+          "callee": "log.debug",
+          "lineNumber": 125
+        },
+        {
+          "caller": "getSession",
+          "callee": "Optional.of",
+          "lineNumber": 126
+        },
+        {
+          "caller": "getSession",
+          "callee": "Optional.empty",
+          "lineNumber": 128
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "getSession(sessionId).ifPresent",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "getSession",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "session.setStatus",
+          "lineNumber": 136
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "buildSessionKey",
+          "lineNumber": 137
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "redisService.set",
+          "lineNumber": 138
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "isUnfinishedStatus",
+          "lineNumber": 141
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "session.getResumeId",
+          "lineNumber": 141
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "removeResumeSessionMapping",
+          "lineNumber": 142
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "session.getResumeId",
+          "lineNumber": 142
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "log.debug",
+          "lineNumber": 145
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "getSession(sessionId).ifPresent",
+          "lineNumber": 153
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "getSession",
+          "lineNumber": 153
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "session.setCurrentIndex",
+          "lineNumber": 154
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "buildSessionKey",
+          "lineNumber": 155
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "redisService.set",
+          "lineNumber": 156
+        },
+        {
+          "caller": "updateCurrentIndex",
+          "callee": "log.debug",
+          "lineNumber": 157
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "getSession(sessionId).ifPresent",
+          "lineNumber": 165
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "getSession",
+          "lineNumber": 165
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "session.setQuestionsJson",
+          "lineNumber": 167
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 167
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "buildSessionKey",
+          "lineNumber": 168
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "redisService.set",
+          "lineNumber": 169
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "log.debug",
+          "lineNumber": 170
+        },
+        {
+          "caller": "updateQuestions",
+          "callee": "log.error",
+          "lineNumber": 172
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "getSession(sessionId).ifPresent",
+          "lineNumber": 181
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "getSession",
+          "lineNumber": 181
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "session.getResumeId",
+          "lineNumber": 182
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "removeResumeSessionMapping",
+          "lineNumber": 183
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "session.getResumeId",
+          "lineNumber": 183
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "buildSessionKey",
+          "lineNumber": 187
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "redisService.delete",
+          "lineNumber": 188
+        },
+        {
+          "caller": "deleteSession",
+          "callee": "log.debug",
+          "lineNumber": 189
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "buildResumeSessionKey",
+          "lineNumber": 196
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "redisService.get",
+          "lineNumber": 197
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "getSession",
+          "lineNumber": 200
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "sessionOpt.isPresent",
+          "lineNumber": 201
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "isUnfinishedStatus",
+          "lineNumber": 201
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "sessionOpt.get().getStatus",
+          "lineNumber": 201
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "sessionOpt.get",
+          "lineNumber": 201
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "Optional.of",
+          "lineNumber": 202
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "redisService.delete",
+          "lineNumber": 205
+        },
+        {
+          "caller": "findUnfinishedSessionId",
+          "callee": "Optional.empty",
+          "lineNumber": 208
+        },
+        {
+          "caller": "refreshSessionTTL",
+          "callee": "buildSessionKey",
+          "lineNumber": 215
+        },
+        {
+          "caller": "refreshSessionTTL",
+          "callee": "redisService.expire",
+          "lineNumber": 216
+        },
+        {
+          "caller": "exists",
+          "callee": "buildSessionKey",
+          "lineNumber": 223
+        },
+        {
+          "caller": "exists",
+          "callee": "redisService.exists",
+          "lineNumber": 224
+        },
+        {
+          "caller": "saveResumeSessionMapping",
+          "callee": "buildResumeSessionKey",
+          "lineNumber": 238
+        },
+        {
+          "caller": "saveResumeSessionMapping",
+          "callee": "redisService.set",
+          "lineNumber": 239
+        },
+        {
+          "caller": "removeResumeSessionMapping",
+          "callee": "buildResumeSessionKey",
+          "lineNumber": 243
+        },
+        {
+          "caller": "removeResumeSessionMapping",
+          "callee": "redisService.get",
+          "lineNumber": 244
+        },
+        {
+          "caller": "removeResumeSessionMapping",
+          "callee": "sessionId.equals",
+          "lineNumber": 246
+        },
+        {
+          "caller": "removeResumeSessionMapping",
+          "callee": "redisService.delete",
+          "lineNumber": 247
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 406,
+      "nonEmptyLines": 356,
+      "functions": [
+        {
+          "name": "set",
+          "startLine": 45,
+          "endLine": 50,
+          "params": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "name": "set",
+          "startLine": 55,
+          "endLine": 58,
+          "params": [
+            "key",
+            "value",
+            "ttl"
+          ]
+        },
+        {
+          "name": "get",
+          "startLine": 63,
+          "endLine": 66,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "getOrLoad",
+          "startLine": 71,
+          "endLine": 81,
+          "params": [
+            "key",
+            "ttl",
+            "loader"
+          ]
+        },
+        {
+          "name": "delete",
+          "startLine": 86,
+          "endLine": 88,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "exists",
+          "startLine": 93,
+          "endLine": 95,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "expire",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "key",
+            "ttl"
+          ]
+        },
+        {
+          "name": "getTimeToLive",
+          "startLine": 107,
+          "endLine": 109,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "hSet",
+          "startLine": 116,
+          "endLine": 119,
+          "params": [
+            "key",
+            "field",
+            "value"
+          ]
+        },
+        {
+          "name": "hGet",
+          "startLine": 124,
+          "endLine": 127,
+          "params": [
+            "key",
+            "field"
+          ]
+        },
+        {
+          "name": "hGetAll",
+          "startLine": 132,
+          "endLine": 135,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "hDelete",
+          "startLine": 140,
+          "endLine": 143,
+          "params": [
+            "key",
+            "field"
+          ]
+        },
+        {
+          "name": "hExists",
+          "startLine": 148,
+          "endLine": 151,
+          "params": [
+            "key",
+            "field"
+          ]
+        },
+        {
+          "name": "getLock",
+          "startLine": 158,
+          "endLine": 160,
+          "params": [
+            "lockKey"
+          ]
+        },
+        {
+          "name": "tryLock",
+          "startLine": 165,
+          "endLine": 173,
+          "params": [
+            "lockKey",
+            "waitTime",
+            "leaseTime",
+            "unit"
+          ]
+        },
+        {
+          "name": "unlock",
+          "startLine": 178,
+          "endLine": 183,
+          "params": [
+            "lockKey"
+          ]
+        },
+        {
+          "name": "executeWithLock",
+          "startLine": 188,
+          "endLine": 204,
+          "params": [
+            "lockKey",
+            "waitTime",
+            "leaseTime",
+            "unit",
+            "operation"
+          ]
+        },
+        {
+          "name": "streamConsumeMessages",
+          "startLine": 233,
+          "endLine": 268,
+          "params": [
+            "streamKey",
+            "groupName",
+            "consumerName",
+            "count",
+            "blockTimeoutMs",
+            "processor"
+          ]
+        },
+        {
+          "name": "createStreamGroup",
+          "startLine": 273,
+          "endLine": 287,
+          "params": [
+            "streamKey",
+            "groupName"
+          ]
+        },
+        {
+          "name": "streamAdd",
+          "startLine": 292,
+          "endLine": 294,
+          "params": [
+            "streamKey",
+            "message"
+          ]
+        },
+        {
+          "name": "streamAdd",
+          "startLine": 304,
+          "endLine": 313,
+          "params": [
+            "streamKey",
+            "message",
+            "maxLen"
+          ]
+        },
+        {
+          "name": "streamReadGroup",
+          "startLine": 318,
+          "endLine": 323,
+          "params": [
+            "streamKey",
+            "groupName",
+            "consumerName",
+            "count"
+          ]
+        },
+        {
+          "name": "streamAck",
+          "startLine": 328,
+          "endLine": 331,
+          "params": [
+            "streamKey",
+            "groupName"
+          ]
+        },
+        {
+          "name": "streamLen",
+          "startLine": 336,
+          "endLine": 339,
+          "params": [
+            "streamKey"
+          ]
+        },
+        {
+          "name": "getAtomicLong",
+          "startLine": 346,
+          "endLine": 348,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "increment",
+          "startLine": 353,
+          "endLine": 355,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "decrement",
+          "startLine": 360,
+          "endLine": 362,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "listRightPush",
+          "startLine": 369,
+          "endLine": 372,
+          "params": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "name": "listGetAll",
+          "startLine": 377,
+          "endLine": 380,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "getClient",
+          "startLine": 387,
+          "endLine": 389,
+          "params": []
+        },
+        {
+          "name": "deleteByPattern",
+          "startLine": 394,
+          "endLine": 397,
+          "params": [
+            "pattern"
+          ]
+        },
+        {
+          "name": "findKeysByPattern",
+          "startLine": 402,
+          "endLine": 405,
+          "params": [
+            "pattern"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "RedisService",
+          "startLine": 33,
+          "endLine": 406,
+          "methods": [
+            "set",
+            "set",
+            "get",
+            "getOrLoad",
+            "delete",
+            "exists",
+            "expire",
+            "getTimeToLive",
+            "hSet",
+            "hGet",
+            "hGetAll",
+            "hDelete",
+            "hExists",
+            "getLock",
+            "tryLock",
+            "unlock",
+            "executeWithLock",
+            "streamConsumeMessages",
+            "createStreamGroup",
+            "streamAdd",
+            "streamAdd",
+            "streamReadGroup",
+            "streamAck",
+            "streamLen",
+            "getAtomicLong",
+            "increment",
+            "decrement",
+            "listRightPush",
+            "listGetAll",
+            "getClient",
+            "deleteByPattern",
+            "findKeysByPattern"
+          ],
+          "properties": [
+            "redissonClient"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "set",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "set",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "get",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getOrLoad",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "delete",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "exists",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "expire",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "getTimeToLive",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "hSet",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "hGet",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "hGetAll",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "hDelete",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "hExists",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "getLock",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "tryLock",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "unlock",
+          "line": 178,
+          "isDefault": false
+        },
+        {
+          "name": "executeWithLock",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "streamConsumeMessages",
+          "line": 233,
+          "isDefault": false
+        },
+        {
+          "name": "createStreamGroup",
+          "line": 273,
+          "isDefault": false
+        },
+        {
+          "name": "streamAdd",
+          "line": 292,
+          "isDefault": false
+        },
+        {
+          "name": "streamAdd",
+          "line": 304,
+          "isDefault": false
+        },
+        {
+          "name": "streamReadGroup",
+          "line": 318,
+          "isDefault": false
+        },
+        {
+          "name": "streamAck",
+          "line": 328,
+          "isDefault": false
+        },
+        {
+          "name": "streamLen",
+          "line": 336,
+          "isDefault": false
+        },
+        {
+          "name": "getAtomicLong",
+          "line": 346,
+          "isDefault": false
+        },
+        {
+          "name": "increment",
+          "line": 353,
+          "isDefault": false
+        },
+        {
+          "name": "decrement",
+          "line": 360,
+          "isDefault": false
+        },
+        {
+          "name": "listRightPush",
+          "line": 369,
+          "isDefault": false
+        },
+        {
+          "name": "listGetAll",
+          "line": 377,
+          "isDefault": false
+        },
+        {
+          "name": "getClient",
+          "line": 387,
+          "isDefault": false
+        },
+        {
+          "name": "deleteByPattern",
+          "line": 394,
+          "isDefault": false
+        },
+        {
+          "name": "findKeysByPattern",
+          "line": 402,
+          "isDefault": false
+        },
+        {
+          "name": "RedisService",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "set",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 48
+        },
+        {
+          "caller": "set",
+          "callee": "bucket.set",
+          "lineNumber": 49
+        },
+        {
+          "caller": "set",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 56
+        },
+        {
+          "caller": "set",
+          "callee": "bucket.set",
+          "lineNumber": 57
+        },
+        {
+          "caller": "get",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 64
+        },
+        {
+          "caller": "get",
+          "callee": "bucket.get",
+          "lineNumber": 65
+        },
+        {
+          "caller": "getOrLoad",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 72
+        },
+        {
+          "caller": "getOrLoad",
+          "callee": "bucket.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getOrLoad",
+          "callee": "loader.apply",
+          "lineNumber": 75
+        },
+        {
+          "caller": "getOrLoad",
+          "callee": "bucket.set",
+          "lineNumber": 77
+        },
+        {
+          "caller": "delete",
+          "callee": "redissonClient.getBucket(key).delete",
+          "lineNumber": 87
+        },
+        {
+          "caller": "delete",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 87
+        },
+        {
+          "caller": "exists",
+          "callee": "redissonClient.getBucket(key).isExists",
+          "lineNumber": 94
+        },
+        {
+          "caller": "exists",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 94
+        },
+        {
+          "caller": "expire",
+          "callee": "redissonClient.getBucket(key).expire",
+          "lineNumber": 101
+        },
+        {
+          "caller": "expire",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 101
+        },
+        {
+          "caller": "getTimeToLive",
+          "callee": "redissonClient.getBucket(key).remainTimeToLive",
+          "lineNumber": 108
+        },
+        {
+          "caller": "getTimeToLive",
+          "callee": "redissonClient.getBucket",
+          "lineNumber": 108
+        },
+        {
+          "caller": "hSet",
+          "callee": "redissonClient.getMap",
+          "lineNumber": 117
+        },
+        {
+          "caller": "hSet",
+          "callee": "map.put",
+          "lineNumber": 118
+        },
+        {
+          "caller": "hGet",
+          "callee": "redissonClient.getMap",
+          "lineNumber": 125
+        },
+        {
+          "caller": "hGet",
+          "callee": "map.get",
+          "lineNumber": 126
+        },
+        {
+          "caller": "hGetAll",
+          "callee": "redissonClient.getMap",
+          "lineNumber": 133
+        },
+        {
+          "caller": "hGetAll",
+          "callee": "map.readAllMap",
+          "lineNumber": 134
+        },
+        {
+          "caller": "hDelete",
+          "callee": "redissonClient.getMap",
+          "lineNumber": 141
+        },
+        {
+          "caller": "hDelete",
+          "callee": "map.remove",
+          "lineNumber": 142
+        },
+        {
+          "caller": "hExists",
+          "callee": "redissonClient.getMap",
+          "lineNumber": 149
+        },
+        {
+          "caller": "hExists",
+          "callee": "map.containsKey",
+          "lineNumber": 150
+        },
+        {
+          "caller": "getLock",
+          "callee": "redissonClient.getLock",
+          "lineNumber": 159
+        },
+        {
+          "caller": "tryLock",
+          "callee": "redissonClient.getLock",
+          "lineNumber": 166
+        },
+        {
+          "caller": "tryLock",
+          "callee": "lock.tryLock",
+          "lineNumber": 168
+        },
+        {
+          "caller": "tryLock",
+          "callee": "Thread.currentThread().interrupt",
+          "lineNumber": 170
+        },
+        {
+          "caller": "tryLock",
+          "callee": "Thread.currentThread",
+          "lineNumber": 170
+        },
+        {
+          "caller": "unlock",
+          "callee": "redissonClient.getLock",
+          "lineNumber": 179
+        },
+        {
+          "caller": "unlock",
+          "callee": "lock.isHeldByCurrentThread",
+          "lineNumber": 180
+        },
+        {
+          "caller": "unlock",
+          "callee": "lock.unlock",
+          "lineNumber": 181
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "redissonClient.getLock",
+          "lineNumber": 190
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "lock.tryLock",
+          "lineNumber": 192
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "operation.execute",
+          "lineNumber": 194
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "lock.unlock",
+          "lineNumber": 196
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "new BusinessException",
+          "lineNumber": 199
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "Thread.currentThread().interrupt",
+          "lineNumber": 201
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "Thread.currentThread",
+          "lineNumber": 201
+        },
+        {
+          "caller": "executeWithLock",
+          "callee": "new BusinessException",
+          "lineNumber": 202
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 241
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "stream.readGroup",
+          "lineNumber": 246
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "StreamReadGroupArgs.neverDelivered()\n                    .count(count).timeout",
+          "lineNumber": 249
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "StreamReadGroupArgs.neverDelivered().count",
+          "lineNumber": 249
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "StreamReadGroupArgs.neverDelivered",
+          "lineNumber": 249
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "Duration.ofMillis",
+          "lineNumber": 251
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "messages.isEmpty",
+          "lineNumber": 259
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "messages.entrySet",
+          "lineNumber": 263
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "processor.process",
+          "lineNumber": 264
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "entry.getKey",
+          "lineNumber": 264
+        },
+        {
+          "caller": "streamConsumeMessages",
+          "callee": "entry.getValue",
+          "lineNumber": 264
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 274
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "stream.createGroup",
+          "lineNumber": 276
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "StreamCreateGroupArgs.name(groupName).makeStream",
+          "lineNumber": 276
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "StreamCreateGroupArgs.name",
+          "lineNumber": 276
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "log.info",
+          "lineNumber": 277
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "e.getMessage",
+          "lineNumber": 281
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "e.getMessage().contains",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "e.getMessage",
+          "lineNumber": 282
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "log.warn",
+          "lineNumber": 285
+        },
+        {
+          "caller": "createStreamGroup",
+          "callee": "e.getMessage",
+          "lineNumber": 285
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "streamAdd",
+          "lineNumber": 293
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 305
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "StreamAddArgs.entries",
+          "lineNumber": 306
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "args.trimNonStrict().maxLen",
+          "lineNumber": 308
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "args.trimNonStrict",
+          "lineNumber": 308
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "stream.add",
+          "lineNumber": 310
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "log.debug",
+          "lineNumber": 311
+        },
+        {
+          "caller": "streamAdd",
+          "callee": "messageId.toString",
+          "lineNumber": 312
+        },
+        {
+          "caller": "streamReadGroup",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 320
+        },
+        {
+          "caller": "streamReadGroup",
+          "callee": "stream.readGroup",
+          "lineNumber": 321
+        },
+        {
+          "caller": "streamReadGroup",
+          "callee": "StreamReadGroupArgs.neverDelivered().count",
+          "lineNumber": 322
+        },
+        {
+          "caller": "streamReadGroup",
+          "callee": "StreamReadGroupArgs.neverDelivered",
+          "lineNumber": 322
+        },
+        {
+          "caller": "streamAck",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 329
+        },
+        {
+          "caller": "streamAck",
+          "callee": "stream.ack",
+          "lineNumber": 330
+        },
+        {
+          "caller": "streamLen",
+          "callee": "redissonClient.getStream",
+          "lineNumber": 337
+        },
+        {
+          "caller": "streamLen",
+          "callee": "stream.size",
+          "lineNumber": 338
+        },
+        {
+          "caller": "getAtomicLong",
+          "callee": "redissonClient.getAtomicLong",
+          "lineNumber": 347
+        },
+        {
+          "caller": "increment",
+          "callee": "redissonClient.getAtomicLong(key).incrementAndGet",
+          "lineNumber": 354
+        },
+        {
+          "caller": "increment",
+          "callee": "redissonClient.getAtomicLong",
+          "lineNumber": 354
+        },
+        {
+          "caller": "decrement",
+          "callee": "redissonClient.getAtomicLong(key).decrementAndGet",
+          "lineNumber": 361
+        },
+        {
+          "caller": "decrement",
+          "callee": "redissonClient.getAtomicLong",
+          "lineNumber": 361
+        },
+        {
+          "caller": "listRightPush",
+          "callee": "redissonClient.getList",
+          "lineNumber": 370
+        },
+        {
+          "caller": "listRightPush",
+          "callee": "list.add",
+          "lineNumber": 371
+        },
+        {
+          "caller": "listGetAll",
+          "callee": "redissonClient.getList",
+          "lineNumber": 378
+        },
+        {
+          "caller": "listGetAll",
+          "callee": "list.readAll",
+          "lineNumber": 379
+        },
+        {
+          "caller": "deleteByPattern",
+          "callee": "redissonClient.getKeys",
+          "lineNumber": 395
+        },
+        {
+          "caller": "deleteByPattern",
+          "callee": "keys.deleteByPattern",
+          "lineNumber": 396
+        },
+        {
+          "caller": "findKeysByPattern",
+          "callee": "redissonClient.getKeys",
+          "lineNumber": 403
+        },
+        {
+          "caller": "findKeysByPattern",
+          "callee": "keys.getKeys",
+          "lineNumber": 404
+        },
+        {
+          "caller": "findKeysByPattern",
+          "callee": "KeysScanOptions.defaults().pattern",
+          "lineNumber": 404
+        },
+        {
+          "caller": "findKeysByPattern",
+          "callee": "KeysScanOptions.defaults",
+          "lineNumber": 404
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 33,
+        "functionCount": 32,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 187,
+      "nonEmptyLines": 170,
+      "functions": [
+        {
+          "name": "listSessions",
+          "startLine": 51,
+          "endLine": 57,
+          "params": []
+        },
+        {
+          "name": "createSession",
+          "startLine": 62,
+          "endLine": 69,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "getSession",
+          "startLine": 74,
+          "endLine": 78,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getCurrentQuestion",
+          "startLine": 83,
+          "endLine": 86,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "submitAnswer",
+          "startLine": 91,
+          "endLine": 102,
+          "params": [
+            "sessionId",
+            "body"
+          ]
+        },
+        {
+          "name": "getReport",
+          "startLine": 107,
+          "endLine": 112,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "findUnfinishedSession",
+          "startLine": 118,
+          "endLine": 121,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "saveAnswer",
+          "startLine": 126,
+          "endLine": 136,
+          "params": [
+            "sessionId",
+            "body"
+          ]
+        },
+        {
+          "name": "completeInterview",
+          "startLine": 141,
+          "endLine": 146,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getInterviewDetail",
+          "startLine": 152,
+          "endLine": 156,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "exportInterviewPdf",
+          "startLine": 161,
+          "endLine": 176,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "deleteInterview",
+          "startLine": 181,
+          "endLine": 186,
+          "params": [
+            "sessionId"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewController",
+          "startLine": 38,
+          "endLine": 187,
+          "methods": [
+            "listSessions",
+            "createSession",
+            "getSession",
+            "getCurrentQuestion",
+            "submitAnswer",
+            "getReport",
+            "findUnfinishedSession",
+            "saveAnswer",
+            "completeInterview",
+            "getInterviewDetail",
+            "exportInterviewPdf",
+            "deleteInterview"
+          ],
+          "properties": [
+            "sessionService",
+            "historyService",
+            "persistenceService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "listSessions",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "createSession",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "getSession",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "getCurrentQuestion",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "submitAnswer",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "getReport",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "findUnfinishedSession",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "saveAnswer",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "completeInterview",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "getInterviewDetail",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "exportInterviewPdf",
+          "line": 161,
+          "isDefault": false
+        },
+        {
+          "name": "deleteInterview",
+          "line": 181,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewController",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "listSessions",
+          "callee": "persistenceService.findAll().stream()\n            .map(SessionListItemDTO::from).toList",
+          "lineNumber": 53
+        },
+        {
+          "caller": "listSessions",
+          "callee": "persistenceService.findAll().stream().map",
+          "lineNumber": 53
+        },
+        {
+          "caller": "listSessions",
+          "callee": "persistenceService.findAll().stream",
+          "lineNumber": 53
+        },
+        {
+          "caller": "listSessions",
+          "callee": "persistenceService.findAll",
+          "lineNumber": 53
+        },
+        {
+          "caller": "listSessions",
+          "callee": "Result.success",
+          "lineNumber": 56
+        },
+        {
+          "caller": "createSession",
+          "callee": "log.info",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "request.questionCount",
+          "lineNumber": 66
+        },
+        {
+          "caller": "createSession",
+          "callee": "sessionService.createSession",
+          "lineNumber": 67
+        },
+        {
+          "caller": "createSession",
+          "callee": "Result.success",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getSession",
+          "callee": "sessionService.getSession",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getSession",
+          "callee": "Result.success",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "Result.success",
+          "lineNumber": 85
+        },
+        {
+          "caller": "getCurrentQuestion",
+          "callee": "sessionService.getCurrentQuestionResponse",
+          "lineNumber": 85
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "body.get",
+          "lineNumber": 96
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "body.get",
+          "lineNumber": 97
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "log.info",
+          "lineNumber": 98
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "new SubmitAnswerRequest",
+          "lineNumber": 99
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "sessionService.submitAnswer",
+          "lineNumber": 100
+        },
+        {
+          "caller": "submitAnswer",
+          "callee": "Result.success",
+          "lineNumber": 101
+        },
+        {
+          "caller": "getReport",
+          "callee": "log.info",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getReport",
+          "callee": "sessionService.generateReport",
+          "lineNumber": 110
+        },
+        {
+          "caller": "getReport",
+          "callee": "Result.success",
+          "lineNumber": 111
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "Result.success",
+          "lineNumber": 120
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "sessionService.findUnfinishedSessionOrThrow",
+          "lineNumber": 120
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "body.get",
+          "lineNumber": 130
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "body.get",
+          "lineNumber": 131
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "log.info",
+          "lineNumber": 132
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "new SubmitAnswerRequest",
+          "lineNumber": 133
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionService.saveAnswer",
+          "lineNumber": 134
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "Result.success",
+          "lineNumber": 135
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "log.info",
+          "lineNumber": 143
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "sessionService.completeInterview",
+          "lineNumber": 144
+        },
+        {
+          "caller": "completeInterview",
+          "callee": "Result.success",
+          "lineNumber": 145
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "historyService.getInterviewDetail",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "Result.success",
+          "lineNumber": 155
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "historyService.exportInterviewPdf",
+          "lineNumber": 164
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "URLEncoder.encode",
+          "lineNumber": 165
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.ok()\n                .header(HttpHeaders.CONTENT_DISPOSITION, \"attachment; filename*=UTF-8''\" + filename)\n                .contentType(MediaType.APPLICATION_PDF).body",
+          "lineNumber": 168
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.ok()\n                .header(HttpHeaders.CONTENT_DISPOSITION, \"attachment; filename*=UTF-8''\" + filename).contentType",
+          "lineNumber": 168
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.ok().header",
+          "lineNumber": 168
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.ok",
+          "lineNumber": 168
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "log.error",
+          "lineNumber": 173
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.internalServerError().build",
+          "lineNumber": 174
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "ResponseEntity.internalServerError",
+          "lineNumber": 174
+        },
+        {
+          "caller": "deleteInterview",
+          "callee": "log.info",
+          "lineNumber": 183
+        },
+        {
+          "caller": "deleteInterview",
+          "callee": "persistenceService.deleteSessionBySessionId",
+          "lineNumber": 184
+        },
+        {
+          "caller": "deleteInterview",
+          "callee": "Result.success",
+          "lineNumber": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 13,
+        "functionCount": 12,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 184,
+      "nonEmptyLines": 158,
+      "functions": [
+        {
+          "name": "EvaluateStreamConsumer",
+          "startLine": 40,
+          "endLine": 54,
+          "params": [
+            "redisService",
+            "sessionRepository",
+            "evaluationService",
+            "persistenceService",
+            "objectMapper",
+            "llmProviderRegistry"
+          ]
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 58,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 63,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "groupName",
+          "startLine": 68,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "consumerPrefix",
+          "startLine": 73,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "threadName",
+          "startLine": 78,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "parsePayload",
+          "startLine": 83,
+          "endLine": 91,
+          "params": [
+            "messageId",
+            "data"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 93,
+          "endLine": 96,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markProcessing",
+          "startLine": 98,
+          "endLine": 101,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "processBusiness",
+          "startLine": 103,
+          "endLine": 134,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markCompleted",
+          "startLine": 136,
+          "endLine": 139,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "markFailed",
+          "startLine": 141,
+          "endLine": 144,
+          "params": [
+            "payload",
+            "error"
+          ]
+        },
+        {
+          "name": "retryMessage",
+          "startLine": 146,
+          "endLine": 166,
+          "params": [
+            "payload",
+            "retryCount"
+          ]
+        },
+        {
+          "name": "updateEvaluateStatus",
+          "startLine": 171,
+          "endLine": 182,
+          "params": [
+            "sessionId",
+            "status",
+            "error"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "EvaluateStreamConsumer",
+          "startLine": 30,
+          "endLine": 184,
+          "methods": [
+            "EvaluateStreamConsumer",
+            "taskDisplayName",
+            "streamKey",
+            "groupName",
+            "consumerPrefix",
+            "threadName",
+            "parsePayload",
+            "payloadIdentifier",
+            "markProcessing",
+            "processBusiness",
+            "markCompleted",
+            "markFailed",
+            "retryMessage",
+            "updateEvaluateStatus"
+          ],
+          "properties": [
+            "sessionRepository",
+            "evaluationService",
+            "persistenceService",
+            "objectMapper",
+            "llmProviderRegistry"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "EvaluateStreamConsumer",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "EvaluateStreamConsumer",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parsePayload",
+          "callee": "data.get",
+          "lineNumber": 85
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "log.warn",
+          "lineNumber": 87
+        },
+        {
+          "caller": "parsePayload",
+          "callee": "new EvaluatePayload",
+          "lineNumber": 90
+        },
+        {
+          "caller": "payloadIdentifier",
+          "callee": "payload.sessionId",
+          "lineNumber": 95
+        },
+        {
+          "caller": "markProcessing",
+          "callee": "updateEvaluateStatus",
+          "lineNumber": 100
+        },
+        {
+          "caller": "markProcessing",
+          "callee": "payload.sessionId",
+          "lineNumber": 100
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "payload.sessionId",
+          "lineNumber": 105
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "sessionRepository.findBySessionIdWithResume",
+          "lineNumber": 106
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "sessionOpt.isEmpty",
+          "lineNumber": 107
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "log.warn",
+          "lineNumber": 108
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "sessionOpt.get",
+          "lineNumber": 112
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 113
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "session.getQuestionsJson",
+          "lineNumber": 114
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "new TypeReference<>",
+          "lineNumber": 115
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "persistenceService.findAnswersBySessionId",
+          "lineNumber": 118
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "answer.getQuestionIndex",
+          "lineNumber": 120
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "questions.size",
+          "lineNumber": 121
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "questions.get",
+          "lineNumber": 122
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "questions.set",
+          "lineNumber": 123
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "question.withAnswer",
+          "lineNumber": 123
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "answer.getUserAnswer",
+          "lineNumber": 123
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "session.getLlmProvider",
+          "lineNumber": 128
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "llmProviderRegistry.getChatClientOrDefault",
+          "lineNumber": 129
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "session.getResume",
+          "lineNumber": 131
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "session.getResume().getResumeText",
+          "lineNumber": 131
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "session.getResume",
+          "lineNumber": 131
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "evaluationService.evaluateInterview",
+          "lineNumber": 132
+        },
+        {
+          "caller": "processBusiness",
+          "callee": "persistenceService.saveReport",
+          "lineNumber": 133
+        },
+        {
+          "caller": "markCompleted",
+          "callee": "updateEvaluateStatus",
+          "lineNumber": 138
+        },
+        {
+          "caller": "markCompleted",
+          "callee": "payload.sessionId",
+          "lineNumber": 138
+        },
+        {
+          "caller": "markFailed",
+          "callee": "updateEvaluateStatus",
+          "lineNumber": 143
+        },
+        {
+          "caller": "markFailed",
+          "callee": "payload.sessionId",
+          "lineNumber": 143
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "payload.sessionId",
+          "lineNumber": 148
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "Map.of",
+          "lineNumber": 150
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "String.valueOf",
+          "lineNumber": 152
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "redisService().streamAdd",
+          "lineNumber": 155
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "redisService",
+          "lineNumber": 155
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "log.info",
+          "lineNumber": 160
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "log.error",
+          "lineNumber": 163
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "e.getMessage",
+          "lineNumber": 163
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "updateEvaluateStatus",
+          "lineNumber": 164
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "truncateError",
+          "lineNumber": 164
+        },
+        {
+          "caller": "retryMessage",
+          "callee": "e.getMessage",
+          "lineNumber": 164
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.findBySessionId(sessionId).ifPresent",
+          "lineNumber": 173
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 173
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateStatus",
+          "lineNumber": 174
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateError",
+          "lineNumber": 175
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.save",
+          "lineNumber": 176
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "log.debug",
+          "lineNumber": 177
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "log.error",
+          "lineNumber": 180
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "e.getMessage",
+          "lineNumber": 180
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 65,
+      "functions": [
+        {
+          "name": "EvaluateStreamProducer",
+          "startLine": 23,
+          "endLine": 26,
+          "params": [
+            "redisService",
+            "sessionRepository"
+          ]
+        },
+        {
+          "name": "sendEvaluateTask",
+          "startLine": 33,
+          "endLine": 35,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "taskDisplayName",
+          "startLine": 37,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "streamKey",
+          "startLine": 42,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "buildMessage",
+          "startLine": 47,
+          "endLine": 53,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "payloadIdentifier",
+          "startLine": 55,
+          "endLine": 58,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "onSendFailed",
+          "startLine": 60,
+          "endLine": 63,
+          "params": [
+            "sessionId",
+            "error"
+          ]
+        },
+        {
+          "name": "updateEvaluateStatus",
+          "startLine": 68,
+          "endLine": 76,
+          "params": [
+            "sessionId",
+            "status",
+            "error"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "EvaluateStreamProducer",
+          "startLine": 17,
+          "endLine": 77,
+          "methods": [
+            "EvaluateStreamProducer",
+            "sendEvaluateTask",
+            "taskDisplayName",
+            "streamKey",
+            "buildMessage",
+            "payloadIdentifier",
+            "onSendFailed",
+            "updateEvaluateStatus"
+          ],
+          "properties": [
+            "sessionRepository"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "EvaluateStreamProducer",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "sendEvaluateTask",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "EvaluateStreamProducer",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sendEvaluateTask",
+          "callee": "sendTask",
+          "lineNumber": 34
+        },
+        {
+          "caller": "buildMessage",
+          "callee": "Map.of",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onSendFailed",
+          "callee": "updateEvaluateStatus",
+          "lineNumber": 62
+        },
+        {
+          "caller": "onSendFailed",
+          "callee": "truncateError",
+          "lineNumber": 62
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.findBySessionId(sessionId).ifPresent",
+          "lineNumber": 69
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 69
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateStatus",
+          "lineNumber": 70
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateError",
+          "lineNumber": 72
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "error.length",
+          "lineNumber": 72
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "error.substring",
+          "lineNumber": 72
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.save",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 8,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 23,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 156,
+      "nonEmptyLines": 119,
+      "functions": [
+        {
+          "name": "onCreate",
+          "startLine": 63,
+          "endLine": 66,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 69,
+          "endLine": 71,
+          "params": []
+        },
+        {
+          "name": "setId",
+          "startLine": 73,
+          "endLine": 75,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getSession",
+          "startLine": 77,
+          "endLine": 79,
+          "params": []
+        },
+        {
+          "name": "setSession",
+          "startLine": 81,
+          "endLine": 83,
+          "params": [
+            "session"
+          ]
+        },
+        {
+          "name": "getQuestionIndex",
+          "startLine": 85,
+          "endLine": 87,
+          "params": []
+        },
+        {
+          "name": "setQuestionIndex",
+          "startLine": 89,
+          "endLine": 91,
+          "params": [
+            "questionIndex"
+          ]
+        },
+        {
+          "name": "getQuestion",
+          "startLine": 93,
+          "endLine": 95,
+          "params": []
+        },
+        {
+          "name": "setQuestion",
+          "startLine": 97,
+          "endLine": 99,
+          "params": [
+            "question"
+          ]
+        },
+        {
+          "name": "getCategory",
+          "startLine": 101,
+          "endLine": 103,
+          "params": []
+        },
+        {
+          "name": "setCategory",
+          "startLine": 105,
+          "endLine": 107,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getUserAnswer",
+          "startLine": 109,
+          "endLine": 111,
+          "params": []
+        },
+        {
+          "name": "setUserAnswer",
+          "startLine": 113,
+          "endLine": 115,
+          "params": [
+            "userAnswer"
+          ]
+        },
+        {
+          "name": "getScore",
+          "startLine": 117,
+          "endLine": 119,
+          "params": []
+        },
+        {
+          "name": "setScore",
+          "startLine": 121,
+          "endLine": 123,
+          "params": [
+            "score"
+          ]
+        },
+        {
+          "name": "getFeedback",
+          "startLine": 125,
+          "endLine": 127,
+          "params": []
+        },
+        {
+          "name": "setFeedback",
+          "startLine": 129,
+          "endLine": 131,
+          "params": [
+            "feedback"
+          ]
+        },
+        {
+          "name": "getReferenceAnswer",
+          "startLine": 133,
+          "endLine": 135,
+          "params": []
+        },
+        {
+          "name": "setReferenceAnswer",
+          "startLine": 137,
+          "endLine": 139,
+          "params": [
+            "referenceAnswer"
+          ]
+        },
+        {
+          "name": "getKeyPointsJson",
+          "startLine": 141,
+          "endLine": 143,
+          "params": []
+        },
+        {
+          "name": "setKeyPointsJson",
+          "startLine": 145,
+          "endLine": 147,
+          "params": [
+            "keyPointsJson"
+          ]
+        },
+        {
+          "name": "getAnsweredAt",
+          "startLine": 149,
+          "endLine": 151,
+          "params": []
+        },
+        {
+          "name": "setAnsweredAt",
+          "startLine": 153,
+          "endLine": 155,
+          "params": [
+            "answeredAt"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewAnswerEntity",
+          "startLine": 10,
+          "endLine": 156,
+          "methods": [
+            "onCreate",
+            "getId",
+            "setId",
+            "getSession",
+            "setSession",
+            "getQuestionIndex",
+            "setQuestionIndex",
+            "getQuestion",
+            "setQuestion",
+            "getCategory",
+            "setCategory",
+            "getUserAnswer",
+            "setUserAnswer",
+            "getScore",
+            "setScore",
+            "getFeedback",
+            "setFeedback",
+            "getReferenceAnswer",
+            "setReferenceAnswer",
+            "getKeyPointsJson",
+            "setKeyPointsJson",
+            "getAnsweredAt",
+            "setAnsweredAt"
+          ],
+          "properties": [
+            "id",
+            "session",
+            "questionIndex",
+            "question",
+            "category",
+            "userAnswer",
+            "score",
+            "feedback",
+            "referenceAnswer",
+            "keyPointsJson",
+            "answeredAt"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getId",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "setId",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "getSession",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "setSession",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "getQuestionIndex",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "setQuestionIndex",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "getQuestion",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "setQuestion",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "getCategory",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "setCategory",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "getUserAnswer",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "setUserAnswer",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "getScore",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "setScore",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "getFeedback",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "setFeedback",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "getReferenceAnswer",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "setReferenceAnswer",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "getKeyPointsJson",
+          "line": 141,
+          "isDefault": false
+        },
+        {
+          "name": "setKeyPointsJson",
+          "line": 145,
+          "isDefault": false
+        },
+        {
+          "name": "getAnsweredAt",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "setAnsweredAt",
+          "line": 153,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewAnswerEntity",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 23,
+        "functionCount": 23,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 38,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "callGraph": [
+        {
+          "caller": "create",
+          "callee": "new InterviewQuestionDTO",
+          "lineNumber": 34
+        },
+        {
+          "caller": "create",
+          "callee": "new InterviewQuestionDTO",
+          "lineNumber": 39
+        },
+        {
+          "caller": "withAnswer",
+          "callee": "new InterviewQuestionDTO",
+          "lineNumber": 43
+        },
+        {
+          "caller": "withEvaluation",
+          "callee": "new InterviewQuestionDTO",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 286,
+      "nonEmptyLines": 218,
+      "functions": [
+        {
+          "name": "onCreate",
+          "startLine": 112,
+          "endLine": 115,
+          "params": []
+        },
+        {
+          "name": "getId",
+          "startLine": 118,
+          "endLine": 120,
+          "params": []
+        },
+        {
+          "name": "setId",
+          "startLine": 122,
+          "endLine": 124,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getSessionId",
+          "startLine": 126,
+          "endLine": 128,
+          "params": []
+        },
+        {
+          "name": "setSessionId",
+          "startLine": 130,
+          "endLine": 132,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getResumeId",
+          "startLine": 134,
+          "endLine": 136,
+          "params": []
+        },
+        {
+          "name": "getResume",
+          "startLine": 138,
+          "endLine": 140,
+          "params": []
+        },
+        {
+          "name": "setResume",
+          "startLine": 142,
+          "endLine": 144,
+          "params": [
+            "resume"
+          ]
+        },
+        {
+          "name": "getTotalQuestions",
+          "startLine": 146,
+          "endLine": 148,
+          "params": []
+        },
+        {
+          "name": "setTotalQuestions",
+          "startLine": 150,
+          "endLine": 152,
+          "params": [
+            "totalQuestions"
+          ]
+        },
+        {
+          "name": "getCurrentQuestionIndex",
+          "startLine": 154,
+          "endLine": 156,
+          "params": []
+        },
+        {
+          "name": "setCurrentQuestionIndex",
+          "startLine": 158,
+          "endLine": 160,
+          "params": [
+            "currentQuestionIndex"
+          ]
+        },
+        {
+          "name": "getStatus",
+          "startLine": 162,
+          "endLine": 164,
+          "params": []
+        },
+        {
+          "name": "setStatus",
+          "startLine": 166,
+          "endLine": 168,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "getQuestionsJson",
+          "startLine": 170,
+          "endLine": 172,
+          "params": []
+        },
+        {
+          "name": "setQuestionsJson",
+          "startLine": 174,
+          "endLine": 176,
+          "params": [
+            "questionsJson"
+          ]
+        },
+        {
+          "name": "getOverallScore",
+          "startLine": 178,
+          "endLine": 180,
+          "params": []
+        },
+        {
+          "name": "setOverallScore",
+          "startLine": 182,
+          "endLine": 184,
+          "params": [
+            "overallScore"
+          ]
+        },
+        {
+          "name": "getOverallFeedback",
+          "startLine": 186,
+          "endLine": 188,
+          "params": []
+        },
+        {
+          "name": "setOverallFeedback",
+          "startLine": 190,
+          "endLine": 192,
+          "params": [
+            "overallFeedback"
+          ]
+        },
+        {
+          "name": "getStrengthsJson",
+          "startLine": 194,
+          "endLine": 196,
+          "params": []
+        },
+        {
+          "name": "setStrengthsJson",
+          "startLine": 198,
+          "endLine": 200,
+          "params": [
+            "strengthsJson"
+          ]
+        },
+        {
+          "name": "getImprovementsJson",
+          "startLine": 202,
+          "endLine": 204,
+          "params": []
+        },
+        {
+          "name": "setImprovementsJson",
+          "startLine": 206,
+          "endLine": 208,
+          "params": [
+            "improvementsJson"
+          ]
+        },
+        {
+          "name": "getReferenceAnswersJson",
+          "startLine": 210,
+          "endLine": 212,
+          "params": []
+        },
+        {
+          "name": "setReferenceAnswersJson",
+          "startLine": 214,
+          "endLine": 216,
+          "params": [
+            "referenceAnswersJson"
+          ]
+        },
+        {
+          "name": "getAnswers",
+          "startLine": 218,
+          "endLine": 220,
+          "params": []
+        },
+        {
+          "name": "setAnswers",
+          "startLine": 222,
+          "endLine": 224,
+          "params": [
+            "answers"
+          ]
+        },
+        {
+          "name": "getCreatedAt",
+          "startLine": 226,
+          "endLine": 228,
+          "params": []
+        },
+        {
+          "name": "setCreatedAt",
+          "startLine": 230,
+          "endLine": 232,
+          "params": [
+            "createdAt"
+          ]
+        },
+        {
+          "name": "getCompletedAt",
+          "startLine": 234,
+          "endLine": 236,
+          "params": []
+        },
+        {
+          "name": "setCompletedAt",
+          "startLine": 238,
+          "endLine": 240,
+          "params": [
+            "completedAt"
+          ]
+        },
+        {
+          "name": "getEvaluateStatus",
+          "startLine": 242,
+          "endLine": 244,
+          "params": []
+        },
+        {
+          "name": "setEvaluateStatus",
+          "startLine": 246,
+          "endLine": 248,
+          "params": [
+            "evaluateStatus"
+          ]
+        },
+        {
+          "name": "getEvaluateError",
+          "startLine": 250,
+          "endLine": 252,
+          "params": []
+        },
+        {
+          "name": "setEvaluateError",
+          "startLine": 254,
+          "endLine": 256,
+          "params": [
+            "evaluateError"
+          ]
+        },
+        {
+          "name": "getLlmProvider",
+          "startLine": 258,
+          "endLine": 260,
+          "params": []
+        },
+        {
+          "name": "setLlmProvider",
+          "startLine": 262,
+          "endLine": 264,
+          "params": [
+            "llmProvider"
+          ]
+        },
+        {
+          "name": "getSkillId",
+          "startLine": 266,
+          "endLine": 268,
+          "params": []
+        },
+        {
+          "name": "setSkillId",
+          "startLine": 270,
+          "endLine": 272,
+          "params": [
+            "skillId"
+          ]
+        },
+        {
+          "name": "getDifficulty",
+          "startLine": 274,
+          "endLine": 276,
+          "params": []
+        },
+        {
+          "name": "setDifficulty",
+          "startLine": 278,
+          "endLine": 280,
+          "params": [
+            "difficulty"
+          ]
+        },
+        {
+          "name": "addAnswer",
+          "startLine": 282,
+          "endLine": 285,
+          "params": [
+            "answer"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewSessionEntity",
+          "startLine": 14,
+          "endLine": 286,
+          "methods": [
+            "onCreate",
+            "getId",
+            "setId",
+            "getSessionId",
+            "setSessionId",
+            "getResumeId",
+            "getResume",
+            "setResume",
+            "getTotalQuestions",
+            "setTotalQuestions",
+            "getCurrentQuestionIndex",
+            "setCurrentQuestionIndex",
+            "getStatus",
+            "setStatus",
+            "getQuestionsJson",
+            "setQuestionsJson",
+            "getOverallScore",
+            "setOverallScore",
+            "getOverallFeedback",
+            "setOverallFeedback",
+            "getStrengthsJson",
+            "setStrengthsJson",
+            "getImprovementsJson",
+            "setImprovementsJson",
+            "getReferenceAnswersJson",
+            "setReferenceAnswersJson",
+            "getAnswers",
+            "setAnswers",
+            "getCreatedAt",
+            "setCreatedAt",
+            "getCompletedAt",
+            "setCompletedAt",
+            "getEvaluateStatus",
+            "setEvaluateStatus",
+            "getEvaluateError",
+            "setEvaluateError",
+            "getLlmProvider",
+            "setLlmProvider",
+            "getSkillId",
+            "setSkillId",
+            "getDifficulty",
+            "setDifficulty",
+            "addAnswer"
+          ],
+          "properties": [
+            "id",
+            "sessionId",
+            "skillId",
+            "difficulty",
+            "resumeId",
+            "resume",
+            "totalQuestions",
+            "currentQuestionIndex",
+            "status",
+            "questionsJson",
+            "overallScore",
+            "overallFeedback",
+            "strengthsJson",
+            "improvementsJson",
+            "referenceAnswersJson",
+            "answers",
+            "createdAt",
+            "completedAt",
+            "evaluateStatus",
+            "evaluateError",
+            "llmProvider"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getId",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "setId",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "getSessionId",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "setSessionId",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "getResumeId",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "getResume",
+          "line": 138,
+          "isDefault": false
+        },
+        {
+          "name": "setResume",
+          "line": 142,
+          "isDefault": false
+        },
+        {
+          "name": "getTotalQuestions",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "setTotalQuestions",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "getCurrentQuestionIndex",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "setCurrentQuestionIndex",
+          "line": 158,
+          "isDefault": false
+        },
+        {
+          "name": "getStatus",
+          "line": 162,
+          "isDefault": false
+        },
+        {
+          "name": "setStatus",
+          "line": 166,
+          "isDefault": false
+        },
+        {
+          "name": "getQuestionsJson",
+          "line": 170,
+          "isDefault": false
+        },
+        {
+          "name": "setQuestionsJson",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "getOverallScore",
+          "line": 178,
+          "isDefault": false
+        },
+        {
+          "name": "setOverallScore",
+          "line": 182,
+          "isDefault": false
+        },
+        {
+          "name": "getOverallFeedback",
+          "line": 186,
+          "isDefault": false
+        },
+        {
+          "name": "setOverallFeedback",
+          "line": 190,
+          "isDefault": false
+        },
+        {
+          "name": "getStrengthsJson",
+          "line": 194,
+          "isDefault": false
+        },
+        {
+          "name": "setStrengthsJson",
+          "line": 198,
+          "isDefault": false
+        },
+        {
+          "name": "getImprovementsJson",
+          "line": 202,
+          "isDefault": false
+        },
+        {
+          "name": "setImprovementsJson",
+          "line": 206,
+          "isDefault": false
+        },
+        {
+          "name": "getReferenceAnswersJson",
+          "line": 210,
+          "isDefault": false
+        },
+        {
+          "name": "setReferenceAnswersJson",
+          "line": 214,
+          "isDefault": false
+        },
+        {
+          "name": "getAnswers",
+          "line": 218,
+          "isDefault": false
+        },
+        {
+          "name": "setAnswers",
+          "line": 222,
+          "isDefault": false
+        },
+        {
+          "name": "getCreatedAt",
+          "line": 226,
+          "isDefault": false
+        },
+        {
+          "name": "setCreatedAt",
+          "line": 230,
+          "isDefault": false
+        },
+        {
+          "name": "getCompletedAt",
+          "line": 234,
+          "isDefault": false
+        },
+        {
+          "name": "setCompletedAt",
+          "line": 238,
+          "isDefault": false
+        },
+        {
+          "name": "getEvaluateStatus",
+          "line": 242,
+          "isDefault": false
+        },
+        {
+          "name": "setEvaluateStatus",
+          "line": 246,
+          "isDefault": false
+        },
+        {
+          "name": "getEvaluateError",
+          "line": 250,
+          "isDefault": false
+        },
+        {
+          "name": "setEvaluateError",
+          "line": 254,
+          "isDefault": false
+        },
+        {
+          "name": "getLlmProvider",
+          "line": 258,
+          "isDefault": false
+        },
+        {
+          "name": "setLlmProvider",
+          "line": 262,
+          "isDefault": false
+        },
+        {
+          "name": "getSkillId",
+          "line": 266,
+          "isDefault": false
+        },
+        {
+          "name": "setSkillId",
+          "line": 270,
+          "isDefault": false
+        },
+        {
+          "name": "getDifficulty",
+          "line": 274,
+          "isDefault": false
+        },
+        {
+          "name": "setDifficulty",
+          "line": 278,
+          "isDefault": false
+        },
+        {
+          "name": "addAnswer",
+          "line": 282,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewSessionEntity",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onCreate",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 114
+        },
+        {
+          "caller": "addAnswer",
+          "callee": "answers.add",
+          "lineNumber": 283
+        },
+        {
+          "caller": "addAnswer",
+          "callee": "answer.setSession",
+          "lineNumber": 284
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 43,
+        "functionCount": 43,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 39,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 36,
+      "callGraph": [
+        {
+          "caller": "from",
+          "callee": "new SessionListItemDTO",
+          "lineNumber": 25
+        },
+        {
+          "caller": "from",
+          "callee": "e.getSessionId",
+          "lineNumber": 26
+        },
+        {
+          "caller": "from",
+          "callee": "e.getSkillId",
+          "lineNumber": 27
+        },
+        {
+          "caller": "from",
+          "callee": "e.getDifficulty",
+          "lineNumber": 28
+        },
+        {
+          "caller": "from",
+          "callee": "e.getResumeId",
+          "lineNumber": 29
+        },
+        {
+          "caller": "from",
+          "callee": "e.getTotalQuestions",
+          "lineNumber": 30
+        },
+        {
+          "caller": "from",
+          "callee": "e.getTotalQuestions",
+          "lineNumber": 30
+        },
+        {
+          "caller": "from",
+          "callee": "e.getStatus",
+          "lineNumber": 31
+        },
+        {
+          "caller": "from",
+          "callee": "e.getEvaluateStatus",
+          "lineNumber": 32
+        },
+        {
+          "caller": "from",
+          "callee": "e.getEvaluateError",
+          "lineNumber": 33
+        },
+        {
+          "caller": "from",
+          "callee": "e.getOverallScore",
+          "lineNumber": 34
+        },
+        {
+          "caller": "from",
+          "callee": "e.getCreatedAt",
+          "lineNumber": 35
+        },
+        {
+          "caller": "from",
+          "callee": "e.getCompletedAt",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 16,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 29,
+      "classes": [
+        {
+          "name": "InterviewAnswerRepository",
+          "startLine": 14,
+          "endLine": 36,
+          "methods": [
+            "findBySessionOrderByQuestionIndex",
+            "findBySessionIdOrderByQuestionIndex",
+            "findBySession_SessionIdOrderByQuestionIndex",
+            "findBySession_SessionIdAndQuestionIndex"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewAnswerRepository",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 64,
+      "classes": [
+        {
+          "name": "InterviewSessionRepository",
+          "startLine": 18,
+          "endLine": 77,
+          "methods": [
+            "findBySessionId",
+            "findBySessionIdWithResume",
+            "findByResumeOrderByCreatedAtDesc",
+            "findByResumeIdOrderByCreatedAtDesc",
+            "findTop10ByResumeIdOrderByCreatedAtDesc",
+            "findFirstByResumeIdAndStatusInOrderByCreatedAtDesc",
+            "findByResumeIdAndStatusIn",
+            "findAllByOrderByCreatedAtDesc",
+            "findTop10BySkillIdOrderByCreatedAtDesc",
+            "findTop10ByResumeIdAndSkillIdOrderByCreatedAtDesc"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewSessionRepository",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 109,
+      "nonEmptyLines": 96,
+      "functions": [
+        {
+          "name": "AnswerEvaluationService",
+          "startLine": 37,
+          "endLine": 43,
+          "params": [
+            "unifiedEvaluationService",
+            "persistenceService",
+            "skillService"
+          ]
+        },
+        {
+          "name": "evaluateInterview",
+          "startLine": 55,
+          "endLine": 86,
+          "params": [
+            "chatClient",
+            "sessionId",
+            "resumeText",
+            "questions"
+          ]
+        },
+        {
+          "name": "toInterviewReportDTO",
+          "startLine": 88,
+          "endLine": 108,
+          "params": [
+            "report"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AnswerEvaluationService",
+          "startLine": 26,
+          "endLine": 109,
+          "methods": [
+            "AnswerEvaluationService",
+            "evaluateInterview",
+            "toInterviewReportDTO"
+          ],
+          "properties": [
+            "unifiedEvaluationService",
+            "persistenceService",
+            "skillService"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AnswerEvaluationService",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "evaluateInterview",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "AnswerEvaluationService",
+          "line": 26,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "evaluateInterview",
+          "callee": "log.info",
+          "lineNumber": 57
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "questions.size",
+          "lineNumber": 57
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "questions.stream()\n                .map(q -> new QaRecord(q.questionIndex(), q.question(), q.category(), q.userAnswer())).toList",
+          "lineNumber": 61
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "questions.stream().map",
+          "lineNumber": 61
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "questions.stream",
+          "lineNumber": 61
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "new QaRecord",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "q.questionIndex",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "q.question",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "q.category",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "q.userAnswer",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "skillService.buildEvaluationReferenceSectionSafe",
+          "lineNumber": 66
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "persistenceService.findBySessionId(sessionId)//通过sessionID获取session，便于下一步获取skillID\n                    .map(s -> s.getSkillId()).orElse",
+          "lineNumber": 67
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "persistenceService.findBySessionId(sessionId).map",
+          "lineNumber": 67
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "persistenceService.findBySessionId",
+          "lineNumber": 67
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "s.getSkillId",
+          "lineNumber": 68
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "unifiedEvaluationService.evaluate",
+          "lineNumber": 73
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "toInterviewReportDTO",
+          "lineNumber": 78
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "log.error",
+          "lineNumber": 82
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "e.getMessage",
+          "lineNumber": 82
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "new BusinessException",
+          "lineNumber": 83
+        },
+        {
+          "caller": "evaluateInterview",
+          "callee": "e.getMessage",
+          "lineNumber": 84
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "new InterviewReportDTO",
+          "lineNumber": 89
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.sessionId",
+          "lineNumber": 90
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.totalQuestions",
+          "lineNumber": 91
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.overallScore",
+          "lineNumber": 92
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.categoryScores().stream()\n                .map(cs -> new CategoryScore(cs.category(), cs.score(), cs.questionCount())).toList",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.categoryScores().stream().map",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.categoryScores().stream",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.categoryScores",
+          "lineNumber": 93
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "new CategoryScore",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "cs.category",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "cs.score",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "cs.questionCount",
+          "lineNumber": 94
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.questionDetails().stream()\n                .map(qe -> new QuestionEvaluation(qe.questionIndex(), qe.question(), qe.category(),\n                    qe.userAnswer(), qe.score(), qe.feedback())).toList",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.questionDetails().stream().map",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.questionDetails().stream",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.questionDetails",
+          "lineNumber": 96
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "new QuestionEvaluation",
+          "lineNumber": 97
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.questionIndex",
+          "lineNumber": 97
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.question",
+          "lineNumber": 97
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.category",
+          "lineNumber": 97
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.userAnswer",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.score",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "qe.feedback",
+          "lineNumber": 98
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.overallFeedback",
+          "lineNumber": 100
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.strengths",
+          "lineNumber": 101
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.improvements",
+          "lineNumber": 102
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.referenceAnswers().stream()\n                .map(ra -> new ReferenceAnswer(ra.questionIndex(), ra.question(),\n                    ra.referenceAnswer(), ra.keyPoints())).toList",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.referenceAnswers().stream().map",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.referenceAnswers().stream",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "report.referenceAnswers",
+          "lineNumber": 103
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "new ReferenceAnswer",
+          "lineNumber": 104
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "ra.questionIndex",
+          "lineNumber": 104
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "ra.question",
+          "lineNumber": 104
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "ra.referenceAnswer",
+          "lineNumber": 105
+        },
+        {
+          "caller": "toInterviewReportDTO",
+          "callee": "ra.keyPoints",
+          "lineNumber": 105
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 162,
+      "nonEmptyLines": 144,
+      "functions": [
+        {
+          "name": "getInterviewDetail",
+          "startLine": 38,
+          "endLine": 74,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "buildAnswerDetailList",
+          "startLine": 80,
+          "endLine": 120,
+          "params": [
+            "allQuestions",
+            "answers"
+          ]
+        },
+        {
+          "name": "extractKeyPoints",
+          "startLine": 125,
+          "endLine": 127,
+          "params": [
+            "answer"
+          ]
+        },
+        {
+          "name": "parseJson",
+          "startLine": 132,
+          "endLine": 142,
+          "params": [
+            "json",
+            "typeRef"
+          ]
+        },
+        {
+          "name": "exportInterviewPdf",
+          "startLine": 147,
+          "endLine": 160,
+          "params": [
+            "sessionId"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewHistoryService",
+          "startLine": 25,
+          "endLine": 161,
+          "methods": [
+            "getInterviewDetail",
+            "buildAnswerDetailList",
+            "extractKeyPoints",
+            "parseJson",
+            "exportInterviewPdf"
+          ],
+          "properties": [
+            "interviewPersistenceService",
+            "pdfExportService",
+            "objectMapper",
+            "interviewMapper"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getInterviewDetail",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "exportInterviewPdf",
+          "line": 147,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewHistoryService",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getInterviewDetail",
+          "callee": "interviewPersistenceService.findBySessionId",
+          "lineNumber": 39
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "sessionOpt.isEmpty",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new BusinessException",
+          "lineNumber": 41
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "sessionOpt.get",
+          "lineNumber": 44
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "parseJson",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getQuestionsJson",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new TypeReference<>",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "parseJson",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getStrengthsJson",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new TypeReference<>",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "parseJson",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getImprovementsJson",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new TypeReference<>",
+          "lineNumber": 49
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "parseJson",
+          "lineNumber": 50
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getReferenceAnswersJson",
+          "lineNumber": 50
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new TypeReference<>",
+          "lineNumber": 50
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "parseJson",
+          "lineNumber": 53
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getQuestionsJson",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "new TypeReference<>",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "buildAnswerDetailList",
+          "lineNumber": 60
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "session.getAnswers",
+          "lineNumber": 62
+        },
+        {
+          "caller": "getInterviewDetail",
+          "callee": "interviewMapper.toDetailDTO",
+          "lineNumber": 66
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "allQuestions.isEmpty",
+          "lineNumber": 84
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "interviewMapper.toAnswerDetailDTOList",
+          "lineNumber": 86
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "answers.stream().collect",
+          "lineNumber": 90
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "answers.stream",
+          "lineNumber": 90
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "java.util.stream.Collectors.toMap",
+          "lineNumber": 91
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "allQuestions.stream()\n            .map(question -> {\n                InterviewAnswerEntity answer = answerMap.get(question.questionIndex());\n                if (answer != null) {\n                    // 用户已回答，使用答案数据\n                    return interviewMapper.toAnswerDetailDTO(answer, extractKeyPoints(answer));\n                } else {\n                    // 用户未回答，构建空答案\n                    return new InterviewDetailDTO.AnswerDetailDTO(\n                        question.questionIndex(),\n                        question.question(),\n                        question.category(),\n                        null,  // userAnswer\n                        question.score() != null ? question.score() : 0,  // score\n                        question.feedback(),  // feedback\n                        null,  // referenceAnswer\n                        null,  // keyPoints\n                        null   // answeredAt\n                    );\n                }\n            }).toList",
+          "lineNumber": 98
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "allQuestions.stream().map",
+          "lineNumber": 98
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "allQuestions.stream",
+          "lineNumber": 98
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "answerMap.get",
+          "lineNumber": 100
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.questionIndex",
+          "lineNumber": 100
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "interviewMapper.toAnswerDetailDTO",
+          "lineNumber": 103
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "extractKeyPoints",
+          "lineNumber": 103
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "new InterviewDetailDTO.AnswerDetailDTO",
+          "lineNumber": 106
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.questionIndex",
+          "lineNumber": 107
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.question",
+          "lineNumber": 108
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.category",
+          "lineNumber": 109
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.score",
+          "lineNumber": 111
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.score",
+          "lineNumber": 111
+        },
+        {
+          "caller": "buildAnswerDetailList",
+          "callee": "question.feedback",
+          "lineNumber": 112
+        },
+        {
+          "caller": "extractKeyPoints",
+          "callee": "parseJson",
+          "lineNumber": 126
+        },
+        {
+          "caller": "extractKeyPoints",
+          "callee": "answer.getKeyPointsJson",
+          "lineNumber": 126
+        },
+        {
+          "caller": "extractKeyPoints",
+          "callee": "new TypeReference<>",
+          "lineNumber": 126
+        },
+        {
+          "caller": "parseJson",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 137
+        },
+        {
+          "caller": "parseJson",
+          "callee": "log.error",
+          "lineNumber": 139
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "interviewPersistenceService.findBySessionId",
+          "lineNumber": 148
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "sessionOpt.isEmpty",
+          "lineNumber": 149
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "new BusinessException",
+          "lineNumber": 150
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "sessionOpt.get",
+          "lineNumber": 153
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "pdfExportService.exportInterviewReport",
+          "lineNumber": 155
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "log.error",
+          "lineNumber": 157
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "new BusinessException",
+          "lineNumber": 158
+        },
+        {
+          "caller": "exportInterviewPdf",
+          "callee": "e.getMessage",
+          "lineNumber": 158
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 362,
+      "nonEmptyLines": 320,
+      "functions": [
+        {
+          "name": "saveSession",
+          "startLine": 46,
+          "endLine": 78,
+          "params": [
+            "sessionId",
+            "resumeId",
+            "totalQuestions",
+            "questions",
+            "llmProvider",
+            "skillId",
+            "difficulty"
+          ]
+        },
+        {
+          "name": "updateSessionStatus",
+          "startLine": 83,
+          "endLine": 95,
+          "params": [
+            "sessionId",
+            "status"
+          ]
+        },
+        {
+          "name": "updateEvaluateStatus",
+          "startLine": 100,
+          "endLine": 114,
+          "params": [
+            "sessionId",
+            "status",
+            "error"
+          ]
+        },
+        {
+          "name": "updateCurrentQuestionIndex",
+          "startLine": 119,
+          "endLine": 128,
+          "params": [
+            "sessionId",
+            "index"
+          ]
+        },
+        {
+          "name": "saveAnswer",
+          "startLine": 133,
+          "endLine": 162,
+          "params": [
+            "sessionId",
+            "questionIndex",
+            "question",
+            "category",
+            "userAnswer",
+            "score",
+            "feedback"
+          ]
+        },
+        {
+          "name": "saveReport",
+          "startLine": 167,
+          "endLine": 244,
+          "params": [
+            "sessionId",
+            "report"
+          ]
+        },
+        {
+          "name": "findBySessionId",
+          "startLine": 249,
+          "endLine": 251,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "findByResumeId",
+          "startLine": 256,
+          "endLine": 258,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "findAll",
+          "startLine": 263,
+          "endLine": 265,
+          "params": []
+        },
+        {
+          "name": "deleteSessionsByResumeId",
+          "startLine": 272,
+          "endLine": 279,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "deleteSessionBySessionId",
+          "startLine": 286,
+          "endLine": 295,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "findUnfinishedSession",
+          "startLine": 300,
+          "endLine": 306,
+          "params": [
+            "resumeId"
+          ]
+        },
+        {
+          "name": "findAnswersBySessionId",
+          "startLine": 311,
+          "endLine": 313,
+          "params": [
+            "sessionId"
+          ]
+        },
+        {
+          "name": "getHistoricalQuestions",
+          "startLine": 322,
+          "endLine": 361,
+          "params": [
+            "skillId",
+            "resumeId"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewPersistenceService",
+          "startLine": 33,
+          "endLine": 362,
+          "methods": [
+            "saveSession",
+            "updateSessionStatus",
+            "updateEvaluateStatus",
+            "updateCurrentQuestionIndex",
+            "saveAnswer",
+            "saveReport",
+            "findBySessionId",
+            "findByResumeId",
+            "findAll",
+            "deleteSessionsByResumeId",
+            "deleteSessionBySessionId",
+            "findUnfinishedSession",
+            "findAnswersBySessionId",
+            "getHistoricalQuestions"
+          ],
+          "properties": [
+            "sessionRepository",
+            "answerRepository",
+            "resumeRepository",
+            "objectMapper",
+            "MAX_HISTORICAL_QUESTIONS"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "saveSession",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "updateSessionStatus",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "updateEvaluateStatus",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "updateCurrentQuestionIndex",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "saveAnswer",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "saveReport",
+          "line": 167,
+          "isDefault": false
+        },
+        {
+          "name": "findBySessionId",
+          "line": 249,
+          "isDefault": false
+        },
+        {
+          "name": "findByResumeId",
+          "line": 256,
+          "isDefault": false
+        },
+        {
+          "name": "findAll",
+          "line": 263,
+          "isDefault": false
+        },
+        {
+          "name": "deleteSessionsByResumeId",
+          "line": 272,
+          "isDefault": false
+        },
+        {
+          "name": "deleteSessionBySessionId",
+          "line": 286,
+          "isDefault": false
+        },
+        {
+          "name": "findUnfinishedSession",
+          "line": 300,
+          "isDefault": false
+        },
+        {
+          "name": "findAnswersBySessionId",
+          "line": 311,
+          "isDefault": false
+        },
+        {
+          "name": "getHistoricalQuestions",
+          "line": 322,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewPersistenceService",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "saveSession",
+          "callee": "new InterviewSessionEntity",
+          "lineNumber": 54
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setSessionId",
+          "lineNumber": 55
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setTotalQuestions",
+          "lineNumber": 56
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setCurrentQuestionIndex",
+          "lineNumber": 57
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setStatus",
+          "lineNumber": 58
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setQuestionsJson",
+          "lineNumber": 59
+        },
+        {
+          "caller": "saveSession",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 59
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setLlmProvider",
+          "lineNumber": 60
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setSkillId",
+          "lineNumber": 61
+        },
+        {
+          "caller": "saveSession",
+          "callee": "session.setDifficulty",
+          "lineNumber": 62
+        },
+        {
+          "caller": "saveSession",
+          "callee": "resumeRepository.findById",
+          "lineNumber": 66
+        },
+        {
+          "caller": "saveSession",
+          "callee": "resumeOpt.ifPresent",
+          "lineNumber": 67
+        },
+        {
+          "caller": "saveSession",
+          "callee": "sessionRepository.save",
+          "lineNumber": 70
+        },
+        {
+          "caller": "saveSession",
+          "callee": "log.info",
+          "lineNumber": 71
+        },
+        {
+          "caller": "saveSession",
+          "callee": "log.error",
+          "lineNumber": 75
+        },
+        {
+          "caller": "saveSession",
+          "callee": "e.getMessage",
+          "lineNumber": 75
+        },
+        {
+          "caller": "saveSession",
+          "callee": "new BusinessException",
+          "lineNumber": 76
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 85
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "sessionOpt.isPresent",
+          "lineNumber": 86
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "sessionOpt.get",
+          "lineNumber": 87
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "session.setStatus",
+          "lineNumber": 88
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "session.setCompletedAt",
+          "lineNumber": 91
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 91
+        },
+        {
+          "caller": "updateSessionStatus",
+          "callee": "sessionRepository.save",
+          "lineNumber": 93
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 102
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionOpt.isPresent",
+          "lineNumber": 103
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionOpt.get",
+          "lineNumber": 104
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateStatus",
+          "lineNumber": 105
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateError",
+          "lineNumber": 107
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "error.length",
+          "lineNumber": 107
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "error.substring",
+          "lineNumber": 107
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "session.setEvaluateError",
+          "lineNumber": 109
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "sessionRepository.save",
+          "lineNumber": 111
+        },
+        {
+          "caller": "updateEvaluateStatus",
+          "callee": "log.debug",
+          "lineNumber": 112
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 121
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "sessionOpt.isPresent",
+          "lineNumber": 122
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "sessionOpt.get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "session.setCurrentQuestionIndex",
+          "lineNumber": 124
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "session.setStatus",
+          "lineNumber": 125
+        },
+        {
+          "caller": "updateCurrentQuestionIndex",
+          "callee": "sessionRepository.save",
+          "lineNumber": 126
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 137
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionOpt.isEmpty",
+          "lineNumber": 138
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "new BusinessException",
+          "lineNumber": 139
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answerRepository\n            .findBySession_SessionIdAndQuestionIndex(sessionId, questionIndex).orElseGet",
+          "lineNumber": 142
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answerRepository.findBySession_SessionIdAndQuestionIndex",
+          "lineNumber": 142
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "new InterviewAnswerEntity",
+          "lineNumber": 145
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "created.setSession",
+          "lineNumber": 146
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "sessionOpt.get",
+          "lineNumber": 146
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "created.setQuestionIndex",
+          "lineNumber": 147
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answer.setQuestion",
+          "lineNumber": 151
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answer.setCategory",
+          "lineNumber": 152
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answer.setUserAnswer",
+          "lineNumber": 153
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answer.setScore",
+          "lineNumber": 154
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answer.setFeedback",
+          "lineNumber": 155
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "answerRepository.save",
+          "lineNumber": 157
+        },
+        {
+          "caller": "saveAnswer",
+          "callee": "log.info",
+          "lineNumber": 158
+        },
+        {
+          "caller": "saveReport",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 170
+        },
+        {
+          "caller": "saveReport",
+          "callee": "sessionOpt.isEmpty",
+          "lineNumber": 171
+        },
+        {
+          "caller": "saveReport",
+          "callee": "log.warn",
+          "lineNumber": 172
+        },
+        {
+          "caller": "saveReport",
+          "callee": "sessionOpt.get",
+          "lineNumber": 176
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setOverallScore",
+          "lineNumber": 177
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.overallScore",
+          "lineNumber": 177
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setOverallFeedback",
+          "lineNumber": 178
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.overallFeedback",
+          "lineNumber": 178
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setStrengthsJson",
+          "lineNumber": 179
+        },
+        {
+          "caller": "saveReport",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 179
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.strengths",
+          "lineNumber": 179
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setImprovementsJson",
+          "lineNumber": 180
+        },
+        {
+          "caller": "saveReport",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 180
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.improvements",
+          "lineNumber": 180
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setReferenceAnswersJson",
+          "lineNumber": 181
+        },
+        {
+          "caller": "saveReport",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 181
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.referenceAnswers",
+          "lineNumber": 181
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setStatus",
+          "lineNumber": 182
+        },
+        {
+          "caller": "saveReport",
+          "callee": "session.setCompletedAt",
+          "lineNumber": 183
+        },
+        {
+          "caller": "saveReport",
+          "callee": "LocalDateTime.now",
+          "lineNumber": 183
+        },
+        {
+          "caller": "saveReport",
+          "callee": "sessionRepository.save",
+          "lineNumber": 185
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answerRepository.findBySession_SessionIdOrderByQuestionIndex",
+          "lineNumber": 188
+        },
+        {
+          "caller": "saveReport",
+          "callee": "existingAnswers.stream().collect",
+          "lineNumber": 189
+        },
+        {
+          "caller": "saveReport",
+          "callee": "existingAnswers.stream",
+          "lineNumber": 189
+        },
+        {
+          "caller": "saveReport",
+          "callee": "java.util.stream.Collectors.toMap",
+          "lineNumber": 190
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.referenceAnswers().stream().collect",
+          "lineNumber": 197
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.referenceAnswers().stream",
+          "lineNumber": 197
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.referenceAnswers",
+          "lineNumber": 197
+        },
+        {
+          "caller": "saveReport",
+          "callee": "java.util.stream.Collectors.toMap",
+          "lineNumber": 198
+        },
+        {
+          "caller": "saveReport",
+          "callee": "new java.util.ArrayList<>",
+          "lineNumber": 204
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.questionDetails",
+          "lineNumber": 207
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answerMap.get",
+          "lineNumber": 208
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.questionIndex",
+          "lineNumber": 208
+        },
+        {
+          "caller": "saveReport",
+          "callee": "new InterviewAnswerEntity",
+          "lineNumber": 212
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setSession",
+          "lineNumber": 213
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setQuestionIndex",
+          "lineNumber": 214
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.questionIndex",
+          "lineNumber": 214
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setQuestion",
+          "lineNumber": 215
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.question",
+          "lineNumber": 215
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setCategory",
+          "lineNumber": 216
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.category",
+          "lineNumber": 216
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setUserAnswer",
+          "lineNumber": 217
+        },
+        {
+          "caller": "saveReport",
+          "callee": "log.debug",
+          "lineNumber": 218
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.questionIndex",
+          "lineNumber": 218
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setScore",
+          "lineNumber": 222
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.score",
+          "lineNumber": 222
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setFeedback",
+          "lineNumber": 223
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.feedback",
+          "lineNumber": 223
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAnswerMap.get",
+          "lineNumber": 226
+        },
+        {
+          "caller": "saveReport",
+          "callee": "eval.questionIndex",
+          "lineNumber": 226
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setReferenceAnswer",
+          "lineNumber": 228
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAns.referenceAnswer",
+          "lineNumber": 228
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAns.keyPoints",
+          "lineNumber": 229
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAns.keyPoints().isEmpty",
+          "lineNumber": 229
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAns.keyPoints",
+          "lineNumber": 229
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answer.setKeyPointsJson",
+          "lineNumber": 230
+        },
+        {
+          "caller": "saveReport",
+          "callee": "objectMapper.writeValueAsString",
+          "lineNumber": 230
+        },
+        {
+          "caller": "saveReport",
+          "callee": "refAns.keyPoints",
+          "lineNumber": 230
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answersToSave.add",
+          "lineNumber": 234
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answerRepository.saveAll",
+          "lineNumber": 237
+        },
+        {
+          "caller": "saveReport",
+          "callee": "log.info",
+          "lineNumber": 238
+        },
+        {
+          "caller": "saveReport",
+          "callee": "report.overallScore",
+          "lineNumber": 239
+        },
+        {
+          "caller": "saveReport",
+          "callee": "answersToSave.size",
+          "lineNumber": 239
+        },
+        {
+          "caller": "saveReport",
+          "callee": "log.error",
+          "lineNumber": 242
+        },
+        {
+          "caller": "saveReport",
+          "callee": "e.getMessage",
+          "lineNumber": 242
+        },
+        {
+          "caller": "findBySessionId",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 250
+        },
+        {
+          "caller": "findByResumeId",
+          "callee": "sessionRepository.findByResumeIdOrderByCreatedAtDesc",
+          "lineNumber": 257
+        },
+        {
+          "caller": "findAll",
+          "callee": "sessionRepository.findAllByOrderByCreatedAtDesc",
+          "lineNumber": 264
+        },
+        {
+          "caller": "deleteSessionsByResumeId",
+          "callee": "sessionRepository.findByResumeIdOrderByCreatedAtDesc",
+          "lineNumber": 274
+        },
+        {
+          "caller": "deleteSessionsByResumeId",
+          "callee": "sessions.isEmpty",
+          "lineNumber": 275
+        },
+        {
+          "caller": "deleteSessionsByResumeId",
+          "callee": "sessionRepository.deleteAll",
+          "lineNumber": 276
+        },
+        {
+          "caller": "deleteSessionsByResumeId",
+          "callee": "log.info",
+          "lineNumber": 277
+        },
+        {
+          "caller": "deleteSessionsByResumeId",
+          "callee": "sessions.size",
+          "lineNumber": 277
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "sessionRepository.findBySessionId",
+          "lineNumber": 288
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "sessionOpt.isPresent",
+          "lineNumber": 289
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "sessionRepository.delete",
+          "lineNumber": 290
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "sessionOpt.get",
+          "lineNumber": 290
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "log.info",
+          "lineNumber": 291
+        },
+        {
+          "caller": "deleteSessionBySessionId",
+          "callee": "new BusinessException",
+          "lineNumber": 293
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "List.of",
+          "lineNumber": 301
+        },
+        {
+          "caller": "findUnfinishedSession",
+          "callee": "sessionRepository.findFirstByResumeIdAndStatusInOrderByCreatedAtDesc",
+          "lineNumber": 305
+        },
+        {
+          "caller": "findAnswersBySessionId",
+          "callee": "answerRepository.findBySession_SessionIdOrderByQuestionIndex",
+          "lineNumber": 312
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessionRepository.findTop10ByResumeIdAndSkillIdOrderByCreatedAtDesc",
+          "lineNumber": 325
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessionRepository.findTop10BySkillIdOrderByCreatedAtDesc",
+          "lineNumber": 327
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "log.info",
+          "lineNumber": 330
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.size",
+          "lineNumber": 330
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "new LinkedHashSet<>",
+          "lineNumber": 332
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream()\n            .map(InterviewSessionEntity::getQuestionsJson)//取出其中的question json。::是方法应用，可以装话为lambda表达式:: 是方法引用，等价于 session -> session.getQuestionsJson()\n            .filter(json -> json != null && !json.isEmpty())//过滤掉空json\n             //flatmap是一对多转换并把转换后结果铺平为一维，普通map一般是二维的（一般是一次对话的问题归为一行，每一列对应一次对话）\n            .flatMap(json -> {//将所有问题转换为一个个的history question数据类对象\n                try {\n                    //将json字段转化为DTO类对象\n                    List<InterviewQuestionDTO> questions = objectMapper.readValue(json,\n                        new TypeReference<List<InterviewQuestionDTO>>() {});\n                    return questions.stream()\n                        .filter(q -> !q.isFollowUp())//过滤掉追问问题\n                        .map(q -> new HistoricalQuestion(q.question(), q.type(), q.topicSummary()));//这一步转化为history question。\n                } catch (Exception e) {\n                    log.error(\"解析历史问题JSON失败\", e);\n                    return java.util.stream.Stream.<HistoricalQuestion>empty();\n                }\n            })\n            .filter(hq -> seen.add(hq.question()))//对于多个对话问题间去重（利用LinkedHashSet集合特性，顺序录入且不能重复）\n            .limit(MAX_HISTORICAL_QUESTIONS).toList",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream()\n            .map(InterviewSessionEntity::getQuestionsJson)//取出其中的question json。::是方法应用，可以装话为lambda表达式:: 是方法引用，等价于 session -> session.getQuestionsJson()\n            .filter(json -> json != null && !json.isEmpty())//过滤掉空json\n             //flatmap是一对多转换并把转换后结果铺平为一维，普通map一般是二维的（一般是一次对话的问题归为一行，每一列对应一次对话）\n            .flatMap(json -> {//将所有问题转换为一个个的history question数据类对象\n                try {\n                    //将json字段转化为DTO类对象\n                    List<InterviewQuestionDTO> questions = objectMapper.readValue(json,\n                        new TypeReference<List<InterviewQuestionDTO>>() {});\n                    return questions.stream()\n                        .filter(q -> !q.isFollowUp())//过滤掉追问问题\n                        .map(q -> new HistoricalQuestion(q.question(), q.type(), q.topicSummary()));//这一步转化为history question。\n                } catch (Exception e) {\n                    log.error(\"解析历史问题JSON失败\", e);\n                    return java.util.stream.Stream.<HistoricalQuestion>empty();\n                }\n            })\n            .filter(hq -> seen.add(hq.question())).limit",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream()\n            .map(InterviewSessionEntity::getQuestionsJson)//取出其中的question json。::是方法应用，可以装话为lambda表达式:: 是方法引用，等价于 session -> session.getQuestionsJson()\n            .filter(json -> json != null && !json.isEmpty())//过滤掉空json\n             //flatmap是一对多转换并把转换后结果铺平为一维，普通map一般是二维的（一般是一次对话的问题归为一行，每一列对应一次对话）\n            .flatMap(json -> {//将所有问题转换为一个个的history question数据类对象\n                try {\n                    //将json字段转化为DTO类对象\n                    List<InterviewQuestionDTO> questions = objectMapper.readValue(json,\n                        new TypeReference<List<InterviewQuestionDTO>>() {});\n                    return questions.stream()\n                        .filter(q -> !q.isFollowUp())//过滤掉追问问题\n                        .map(q -> new HistoricalQuestion(q.question(), q.type(), q.topicSummary()));//这一步转化为history question。\n                } catch (Exception e) {\n                    log.error(\"解析历史问题JSON失败\", e);\n                    return java.util.stream.Stream.<HistoricalQuestion>empty();\n                }\n            }).filter",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream()\n            .map(InterviewSessionEntity::getQuestionsJson)//取出其中的question json。::是方法应用，可以装话为lambda表达式:: 是方法引用，等价于 session -> session.getQuestionsJson()\n            .filter(json -> json != null && !json.isEmpty()).flatMap",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream()\n            .map(InterviewSessionEntity::getQuestionsJson).filter",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream().map",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "sessions.stream",
+          "lineNumber": 334
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "json.isEmpty",
+          "lineNumber": 336
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "objectMapper.readValue",
+          "lineNumber": 341
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "new TypeReference<List<InterviewQuestionDTO>>",
+          "lineNumber": 342
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "questions.stream()\n                        .filter(q -> !q.isFollowUp()).map",
+          "lineNumber": 343
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "questions.stream().filter",
+          "lineNumber": 343
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "questions.stream",
+          "lineNumber": 343
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "q.isFollowUp",
+          "lineNumber": 344
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "new HistoricalQuestion",
+          "lineNumber": 345
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "q.question",
+          "lineNumber": 345
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "q.type",
+          "lineNumber": 345
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "q.topicSummary",
+          "lineNumber": 345
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "log.error",
+          "lineNumber": 347
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "java.util.stream.Stream.empty",
+          "lineNumber": 348
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "seen.add",
+          "lineNumber": 351
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "hq.question",
+          "lineNumber": 351
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "log.info",
+          "lineNumber": 355
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "result.size",
+          "lineNumber": 355
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "result.stream().collect",
+          "lineNumber": 356
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "result.stream",
+          "lineNumber": 356
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "java.util.stream.Collectors.groupingBy",
+          "lineNumber": 356
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "hq.type",
+          "lineNumber": 357
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "hq.type",
+          "lineNumber": 357
+        },
+        {
+          "caller": "getHistoricalQuestions",
+          "callee": "java.util.stream.Collectors.counting",
+          "lineNumber": 358
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 15,
+        "functionCount": 14,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "classes": [
+        {
+          "name": "InterviewQuestionProperties",
+          "startLine": 7,
+          "endLine": 17,
+          "methods": [],
+          "properties": [
+            "followUpCount",
+            "questionSystemPromptPath",
+            "questionUserPromptPath",
+            "resumeQuestionSystemPromptPath",
+            "resumeQuestionUserPromptPath"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewQuestionProperties",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "language": "java",
+      "fileCategory": "code",
+      "totalLines": 692,
+      "nonEmptyLines": 615,
+      "functions": [
+        {
+          "name": "InterviewQuestionService",
+          "startLine": 100,
+          "endLine": 119,
+          "params": [
+            "structuredOutputInvoker",
+            "skillService",
+            "properties",
+            "resourceLoader",
+            "llmProviderRegistry",
+            "promptSanitizer"
+          ]
+        },
+        {
+          "name": "loadTemplate",
+          "startLine": 122,
+          "endLine": 124,
+          "params": [
+            "loader",
+            "location"
+          ]
+        },
+        {
+          "name": "destroy",
+          "startLine": 127,
+          "endLine": 130,
+          "params": []
+        },
+        {
+          "name": "generateQuestionsBySkill",
+          "startLine": 148,
+          "endLine": 313,
+          "params": [
+            "llmProvider",
+            "skillId",
+            "difficulty",
+            "resumeText",
+            "questionCount",
+            "historicalQuestions",
+            "customCategories",
+            "jdText"
+          ]
+        },
+        {
+          "name": "generateResumeQuestions",
+          "startLine": 326,
+          "endLine": 361,
+          "params": [
+            "questionClient",
+            "resumeText",
+            "questionCount",
+            "skill",
+            "difficultyDesc",
+            "historicalSection"
+          ]
+        },
+        {
+          "name": "generateDirectionOnly",
+          "startLine": 373,
+          "endLine": 420,
+          "params": [
+            "questionClient",
+            "skill",
+            "difficultyDesc",
+            "questionCount",
+            "historicalSection"
+          ]
+        },
+        {
+          "name": "mergeQuestionBatches",
+          "startLine": 428,
+          "endLine": 447,
+          "params": [
+            "first",
+            "second"
+          ]
+        },
+        {
+          "name": "resolveSkill",
+          "startLine": 457,
+          "endLine": 463,
+          "params": [
+            "skillId",
+            "customCategories",
+            "jdText"
+          ]
+        },
+        {
+          "name": "resolveDifficulty",
+          "startLine": 471,
+          "endLine": 475,
+          "params": [
+            "difficulty"
+          ]
+        },
+        {
+          "name": "convertToQuestions",
+          "startLine": 483,
+          "endLine": 509,
+          "params": [
+            "dto"
+          ]
+        },
+        {
+          "name": "capToMainCount",
+          "startLine": 516,
+          "endLine": 541,
+          "params": [
+            "questions",
+            "maxMainCount"
+          ]
+        },
+        {
+          "name": "generateFallbackQuestions",
+          "startLine": 549,
+          "endLine": 584,
+          "params": [
+            "skill",
+            "count"
+          ]
+        },
+        {
+          "name": "buildHistoricalSection",
+          "startLine": 591,
+          "endLine": 618,
+          "params": [
+            "historicalQuestions"
+          ]
+        },
+        {
+          "name": "buildJdSection",
+          "startLine": 626,
+          "endLine": 633,
+          "params": [
+            "sourceJd"
+          ]
+        },
+        {
+          "name": "buildSkillPersonaSection",
+          "startLine": 641,
+          "endLine": 648,
+          "params": [
+            "skill"
+          ]
+        },
+        {
+          "name": "sanitizeFollowUps",
+          "startLine": 656,
+          "endLine": 665,
+          "params": [
+            "followUps"
+          ]
+        },
+        {
+          "name": "buildFollowUpCategory",
+          "startLine": 674,
+          "endLine": 677,
+          "params": [
+            "category",
+            "order"
+          ]
+        },
+        {
+          "name": "buildDefaultFollowUp",
+          "startLine": 686,
+          "endLine": 691,
+          "params": [
+            "mainQuestion",
+            "order"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InterviewQuestionService",
+          "startLine": 43,
+          "endLine": 692,
+          "methods": [
+            "InterviewQuestionService",
+            "loadTemplate",
+            "destroy",
+            "generateQuestionsBySkill",
+            "generateResumeQuestions",
+            "generateDirectionOnly",
+            "mergeQuestionBatches",
+            "resolveSkill",
+            "resolveDifficulty",
+            "convertToQuestions",
+            "capToMainCount",
+            "generateFallbackQuestions",
+            "buildHistoricalSection",
+            "buildJdSection",
+            "buildSkillPersonaSection",
+            "sanitizeFollowUps",
+            "buildFollowUpCategory",
+            "buildDefaultFollowUp"
+          ],
+          "properties": [
+            "log",
+            "DEFAULT_QUESTION_TYPE",
+            "MAX_FOLLOW_UP_COUNT",
+            "RESUME_QUESTION_RATIO",
+            "GENERIC_MODE_SYSTEM_APPEND",
+            "DIFFICULTY_DESCRIPTIONS",
+            "GENERIC_FALLBACK_QUESTIONS",
+            "skillSystemPromptTemplate",
+            "skillUserPromptTemplate",
+            "resumeSystemPromptTemplate",
+            "resumeUserPromptTemplate",
+            "outputConverter",
+            "structuredOutputInvoker",
+            "skillService",
+            "llmProviderRegistry",
+            "promptSanitizer",
+            "questionExecutor",
+            "followUpCount"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "InterviewQuestionService",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "generateQuestionsBySkill",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "InterviewQuestionService",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "Executors.newVirtualThreadPerTaskExecutor",
+          "lineNumber": 112
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "loadTemplate",
+          "lineNumber": 113
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "properties.getQuestionSystemPromptPath",
+          "lineNumber": 113
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "loadTemplate",
+          "lineNumber": 114
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "properties.getQuestionUserPromptPath",
+          "lineNumber": 114
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "loadTemplate",
+          "lineNumber": 115
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "properties.getResumeQuestionSystemPromptPath",
+          "lineNumber": 115
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "loadTemplate",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "properties.getResumeQuestionUserPromptPath",
+          "lineNumber": 116
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "new BeanOutputConverter<>",
+          "lineNumber": 117
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "Math.max",
+          "lineNumber": 118
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "Math.min",
+          "lineNumber": 118
+        },
+        {
+          "caller": "InterviewQuestionService",
+          "callee": "properties.getFollowUpCount",
+          "lineNumber": 118
+        },
+        {
+          "caller": "loadTemplate",
+          "callee": "new PromptTemplate",
+          "lineNumber": 123
+        },
+        {
+          "caller": "loadTemplate",
+          "callee": "loader.getResource(location).getContentAsString",
+          "lineNumber": 123
+        },
+        {
+          "caller": "loadTemplate",
+          "callee": "loader.getResource",
+          "lineNumber": 123
+        },
+        {
+          "caller": "destroy",
+          "callee": "questionExecutor.shutdownNow",
+          "lineNumber": 129
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resolveSkill",
+          "lineNumber": 158
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resolveDifficulty",
+          "lineNumber": 159
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "llmProviderRegistry.getPlainChatClient",
+          "lineNumber": 161
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeText.isBlank",
+          "lineNumber": 163
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "buildHistoricalSection",
+          "lineNumber": 164
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateDirectionOnly",
+          "lineNumber": 167
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "Math.max",
+          "lineNumber": 173
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "Math.round",
+          "lineNumber": 173
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.info",
+          "lineNumber": 176
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "CompletableFuture.supplyAsync",
+          "lineNumber": 180
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateResumeQuestions",
+          "lineNumber": 181
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "CompletableFuture.supplyAsync",
+          "lineNumber": 186
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateDirectionOnly",
+          "lineNumber": 187
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "CompletableFuture.allOf(resumeFuture, directionFuture).join",
+          "lineNumber": 227
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "CompletableFuture.allOf",
+          "lineNumber": 227
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.debug",
+          "lineNumber": 232
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "e.getCause",
+          "lineNumber": 232
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeFuture.isCompletedExceptionally",
+          "lineNumber": 236
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionFuture.isCompletedExceptionally",
+          "lineNumber": 237
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.error",
+          "lineNumber": 243
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateFallbackQuestions",
+          "lineNumber": 244
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.warn",
+          "lineNumber": 249
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionFuture.join",
+          "lineNumber": 250
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.size",
+          "lineNumber": 252
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.subList",
+          "lineNumber": 254
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.size",
+          "lineNumber": 258
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.stream()\n                    .filter(q -> !q.isFollowUp())//过滤掉追问问题\n                    .map(q -> new HistoricalQuestion(q.question(), q.type(), q.topicSummary())).toList",
+          "lineNumber": 260
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.stream()\n                    .filter(q -> !q.isFollowUp()).map",
+          "lineNumber": 260
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.stream().filter",
+          "lineNumber": 260
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.stream",
+          "lineNumber": 260
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.isFollowUp",
+          "lineNumber": 261
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "new HistoricalQuestion",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.question",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.type",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.topicSummary",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "buildHistoricalSection",
+          "lineNumber": 264
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateDirectionOnly",
+          "lineNumber": 265
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "mergeQuestionBatches",
+          "lineNumber": 268
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.warn",
+          "lineNumber": 273
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeFuture.join",
+          "lineNumber": 274
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.isEmpty",
+          "lineNumber": 276
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.warn",
+          "lineNumber": 278
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateFallbackQuestions",
+          "lineNumber": 279
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.size",
+          "lineNumber": 282
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.subList",
+          "lineNumber": 283
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.size",
+          "lineNumber": 287
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.stream()\n                    .filter(q -> !q.isFollowUp())//过滤掉追问问题\n                    .map(q -> new HistoricalQuestion(q.question(), q.type(), q.topicSummary())).toList",
+          "lineNumber": 288
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.stream()\n                    .filter(q -> !q.isFollowUp()).map",
+          "lineNumber": 288
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.stream().filter",
+          "lineNumber": 288
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.stream",
+          "lineNumber": 288
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.isFollowUp",
+          "lineNumber": 289
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "new HistoricalQuestion",
+          "lineNumber": 290
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.question",
+          "lineNumber": 290
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.type",
+          "lineNumber": 290
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "q.topicSummary",
+          "lineNumber": 290
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "buildHistoricalSection",
+          "lineNumber": 292
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateResumeQuestions",
+          "lineNumber": 293
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "mergeQuestionBatches",
+          "lineNumber": 296
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeFuture.join",
+          "lineNumber": 300
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionFuture.join",
+          "lineNumber": 301
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.isEmpty",
+          "lineNumber": 303
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.isEmpty",
+          "lineNumber": 303
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.warn",
+          "lineNumber": 304
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "generateFallbackQuestions",
+          "lineNumber": 305
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "mergeQuestionBatches",
+          "lineNumber": 309
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "log.info",
+          "lineNumber": 310
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "resumeQuestions.size",
+          "lineNumber": 311
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "directionQuestions.size",
+          "lineNumber": 311
+        },
+        {
+          "caller": "generateQuestionsBySkill",
+          "callee": "merged.size",
+          "lineNumber": 311
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "new HashMap<>",
+          "lineNumber": 330
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 331
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 332
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 333
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "skill.name",
+          "lineNumber": 333
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 334
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "skill.description",
+          "lineNumber": 334
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "skill.description",
+          "lineNumber": 334
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 335
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 336
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "variables.put",
+          "lineNumber": 337
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "resumeSystemPromptTemplate.render",
+          "lineNumber": 339
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "buildSkillPersonaSection",
+          "lineNumber": 340
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "outputConverter.getFormat",
+          "lineNumber": 341
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "resumeUserPromptTemplate.render",
+          "lineNumber": 342
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "structuredOutputInvoker.invoke",
+          "lineNumber": 345
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "convertToQuestions",
+          "lineNumber": 350
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "capToMainCount",
+          "lineNumber": 351
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "log.info",
+          "lineNumber": 352
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "questions.stream().filter(q -> !q.isFollowUp()).count",
+          "lineNumber": 353
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "questions.stream().filter",
+          "lineNumber": 353
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "questions.stream",
+          "lineNumber": 353
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "q.isFollowUp",
+          "lineNumber": 353
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "log.error",
+          "lineNumber": 358
+        },
+        {
+          "caller": "generateResumeQuestions",
+          "callee": "e.getMessage",
+          "lineNumber": 358
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skillService.calculateAllocation",
+          "lineNumber": 376
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.categories",
+          "lineNumber": 376
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skillService.buildAllocationDescription",
+          "lineNumber": 377
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.categories",
+          "lineNumber": 377
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "log.info",
+          "lineNumber": 379
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.id",
+          "lineNumber": 380
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "new HashMap<>",
+          "lineNumber": 383
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 384
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 385
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 386
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 387
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.name",
+          "lineNumber": 387
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 388
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.description",
+          "lineNumber": 388
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.description",
+          "lineNumber": 388
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 389
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 390
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 391
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skillService.buildReferenceSection",
+          "lineNumber": 391
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "variables.put",
+          "lineNumber": 392
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "buildJdSection",
+          "lineNumber": 392
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skill.sourceJd",
+          "lineNumber": 392
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skillSystemPromptTemplate.render",
+          "lineNumber": 394
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "buildSkillPersonaSection",
+          "lineNumber": 395
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "outputConverter.getFormat",
+          "lineNumber": 397
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "skillUserPromptTemplate.render",
+          "lineNumber": 398
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "structuredOutputInvoker.invoke",
+          "lineNumber": 400
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "convertToQuestions",
+          "lineNumber": 405
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream().filter(q -> !q.isFollowUp()).count",
+          "lineNumber": 406
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream().filter",
+          "lineNumber": 406
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream",
+          "lineNumber": 406
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "q.isFollowUp",
+          "lineNumber": 406
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "log.warn",
+          "lineNumber": 407
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "generateFallbackQuestions",
+          "lineNumber": 408
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "capToMainCount",
+          "lineNumber": 410
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "log.info",
+          "lineNumber": 411
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream().filter(q -> !q.isFollowUp()).count",
+          "lineNumber": 412
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream().filter",
+          "lineNumber": 412
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "questions.stream",
+          "lineNumber": 412
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "q.isFollowUp",
+          "lineNumber": 412
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "log.error",
+          "lineNumber": 417
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "e.getMessage",
+          "lineNumber": 417
+        },
+        {
+          "caller": "generateDirectionOnly",
+          "callee": "generateFallbackQuestions",
+          "lineNumber": 418
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "second.isEmpty",
+          "lineNumber": 430
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "first.isEmpty",
+          "lineNumber": 433
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "first.size",
+          "lineNumber": 436
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "new ArrayList<>",
+          "lineNumber": 437
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.questionIndex",
+          "lineNumber": 439
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.parentQuestionIndex",
+          "lineNumber": 440
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.parentQuestionIndex",
+          "lineNumber": 441
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "merged.add",
+          "lineNumber": 442
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 442
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.question",
+          "lineNumber": 443
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.type",
+          "lineNumber": 443
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.category",
+          "lineNumber": 443
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.topicSummary",
+          "lineNumber": 444
+        },
+        {
+          "caller": "mergeQuestionBatches",
+          "callee": "q.isFollowUp",
+          "lineNumber": 444
+        },
+        {
+          "caller": "resolveSkill",
+          "callee": "InterviewSkillService.CUSTOM_SKILL_ID.equals",
+          "lineNumber": 458
+        },
+        {
+          "caller": "resolveSkill",
+          "callee": "customCategories.isEmpty",
+          "lineNumber": 459
+        },
+        {
+          "caller": "resolveSkill",
+          "callee": "skillService.buildCustomSkill",
+          "lineNumber": 460
+        },
+        {
+          "caller": "resolveSkill",
+          "callee": "skillService.getSkill",
+          "lineNumber": 462
+        },
+        {
+          "caller": "resolveDifficulty",
+          "callee": "DIFFICULTY_DESCRIPTIONS.getOrDefault",
+          "lineNumber": 472
+        },
+        {
+          "caller": "resolveDifficulty",
+          "callee": "DIFFICULTY_DESCRIPTIONS.get",
+          "lineNumber": 474
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "new ArrayList<>",
+          "lineNumber": 484
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "dto.questions",
+          "lineNumber": 487
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "dto.questions",
+          "lineNumber": 491
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.question",
+          "lineNumber": 492
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.question().isBlank",
+          "lineNumber": 492
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.question",
+          "lineNumber": 492
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.type",
+          "lineNumber": 495
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.type().isBlank",
+          "lineNumber": 495
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.type",
+          "lineNumber": 495
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.type().toUpperCase",
+          "lineNumber": 495
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.type",
+          "lineNumber": 495
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "questions.add",
+          "lineNumber": 497
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 497
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.question",
+          "lineNumber": 497
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.category",
+          "lineNumber": 497
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.topicSummary",
+          "lineNumber": 497
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "sanitizeFollowUps",
+          "lineNumber": 499
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.followUps",
+          "lineNumber": 499
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "followUps.size",
+          "lineNumber": 500
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "questions.add",
+          "lineNumber": 501
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 501
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "followUps.get",
+          "lineNumber": 502
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "buildFollowUpCategory",
+          "lineNumber": 503
+        },
+        {
+          "caller": "convertToQuestions",
+          "callee": "q.category",
+          "lineNumber": 503
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "questions.stream().filter(q -> !q.isFollowUp()).count",
+          "lineNumber": 518
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "questions.stream().filter",
+          "lineNumber": 518
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "questions.stream",
+          "lineNumber": 518
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "q.isFollowUp",
+          "lineNumber": 518
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "log.warn",
+          "lineNumber": 522
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "new ArrayList<>",
+          "lineNumber": 528
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "q.isFollowUp",
+          "lineNumber": 531
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "capped.add",
+          "lineNumber": 537
+        },
+        {
+          "caller": "capToMainCount",
+          "callee": "log.info",
+          "lineNumber": 539
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "skill.categories",
+          "lineNumber": 550
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "List.of",
+          "lineNumber": 550
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "new ArrayList<>",
+          "lineNumber": 551
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "categories.isEmpty",
+          "lineNumber": 554
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "categories.get",
+          "lineNumber": 557
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "categories.size",
+          "lineNumber": 557
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "cat.label",
+          "lineNumber": 558
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "questions.add",
+          "lineNumber": 559
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 559
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "cat.key",
+          "lineNumber": 559
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "cat.label",
+          "lineNumber": 559
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "questions.add",
+          "lineNumber": 562
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 562
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "buildDefaultFollowUp",
+          "lineNumber": 563
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "cat.key",
+          "lineNumber": 564
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "buildFollowUpCategory",
+          "lineNumber": 564
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "cat.label",
+          "lineNumber": 564
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "Math.min",
+          "lineNumber": 572
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "questions.add",
+          "lineNumber": 574
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 574
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "questions.add",
+          "lineNumber": 577
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "InterviewQuestionDTO.create",
+          "lineNumber": 577
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "buildDefaultFollowUp",
+          "lineNumber": 578
+        },
+        {
+          "caller": "generateFallbackQuestions",
+          "callee": "buildFollowUpCategory",
+          "lineNumber": 579
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "historicalQuestions.isEmpty",
+          "lineNumber": 592
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "new HashMap<>",
+          "lineNumber": 596
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.type",
+          "lineNumber": 598
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.type().isBlank",
+          "lineNumber": 598
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.type",
+          "lineNumber": 598
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.type",
+          "lineNumber": 598
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.topicSummary",
+          "lineNumber": 599
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "summary.isBlank",
+          "lineNumber": 600
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "hq.question",
+          "lineNumber": 601
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "q.length",
+          "lineNumber": 602
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "q.substring",
+          "lineNumber": 602
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "grouped.computeIfAbsent(type, k -> new ArrayList<>()).add",
+          "lineNumber": 604
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "grouped.computeIfAbsent",
+          "lineNumber": 604
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "new ArrayList<>",
+          "lineNumber": 604
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "new StringBuilder",
+          "lineNumber": 611
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "grouped.entrySet",
+          "lineNumber": 612
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.append(\"- \").append(entry.getKey()).append",
+          "lineNumber": 613
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.append(\"- \").append",
+          "lineNumber": 613
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.append",
+          "lineNumber": 613
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "entry.getKey",
+          "lineNumber": 613
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.append",
+          "lineNumber": 614
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "String.join",
+          "lineNumber": 614
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "entry.getValue",
+          "lineNumber": 614
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.append",
+          "lineNumber": 615
+        },
+        {
+          "caller": "buildHistoricalSection",
+          "callee": "sb.toString",
+          "lineNumber": 617
+        },
+        {
+          "caller": "buildJdSection",
+          "callee": "sourceJd.isBlank",
+          "lineNumber": 627
+        },
+        {
+          "caller": "buildJdSection",
+          "callee": "promptSanitizer.wrapWithDelimiters",
+          "lineNumber": 632
+        },
+        {
+          "caller": "buildJdSection",
+          "callee": "promptSanitizer.sanitize",
+          "lineNumber": 632
+        },
+        {
+          "caller": "buildSkillPersonaSection",
+          "callee": "skill.persona",
+          "lineNumber": 642
+        },
+        {
+          "caller": "buildSkillPersonaSection",
+          "callee": "skill.persona().isBlank",
+          "lineNumber": 642
+        },
+        {
+          "caller": "buildSkillPersonaSection",
+          "callee": "skill.persona",
+          "lineNumber": 642
+        },
+        {
+          "caller": "buildSkillPersonaSection",
+          "callee": "promptSanitizer.wrapWithDelimiters",
+          "lineNumber": 647
+        },
+        {
+          "caller": "buildSkillPersonaSection",
+          "callee": "skill.persona",
+          "lineNumber": 647
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.isEmpty",
+          "lineNumber": 657
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "List.of",
+          "lineNumber": 658
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.stream()\n            .filter(item -> item != null && !item.isBlank())\n            .map(String::trim)\n            .limit(followUpCount).collect",
+          "lineNumber": 660
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.stream()\n            .filter(item -> item != null && !item.isBlank())\n            .map(String::trim).limit",
+          "lineNumber": 660
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.stream()\n            .filter(item -> item != null && !item.isBlank()).map",
+          "lineNumber": 660
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.stream().filter",
+          "lineNumber": 660
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "followUps.stream",
+          "lineNumber": 660
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "item.isBlank",
+          "lineNumber": 661
+        },
+        {
+          "caller": "sanitizeFollowUps",
+          "callee": "Collectors.toList",
+          "lineNumber": 664
+        },
+        {
+          "caller": "buildFollowUpCategory",
+          "callee": "category.isBlank",
+          "lineNumber": 675
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 18,
+        "classCount": 1
+      }
+    }
+  ]
+}

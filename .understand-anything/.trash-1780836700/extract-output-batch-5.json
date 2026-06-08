@@ -1,0 +1,1071 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 19,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/main/resources/skills/_shared/references/algorithm-data-structures.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 36,
+      "nonEmptyLines": 29,
+      "sections": [
+        {
+          "heading": "算法与数据结构（统一参考）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、口述作答标准（文字/语音面试）",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "二、数组/链表",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "三、哈希/堆/栈/队列",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "四、树/图",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "五、动态规划（DP）",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "六、贪心/回溯",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "七、设计题（算法建模）",
+          "level": 2,
+          "line": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/browser.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "浏览器原理面试重点（渲染 + 缓存 + 安全 + 性能）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "渲染流水线",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "浏览器缓存",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "网络与协议",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "安全",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "性能监控与优化",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/database.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 44,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "数据库通用面试重点（关系型 + NoSQL 选型）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "事务与隔离级别",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "索引",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "SQL 优化",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "分库分表",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "读写分离",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "NoSQL 选型",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/db-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "数据库设计面试重点（建模 + 索引 + 演进）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "数据建模与范式",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "索引设计策略",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "冷热数据分层",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "扩容与迁移",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "软删除与审计",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/design-pattern.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 32,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "设计模式面试重点",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "创建型",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "结构型",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "行为型",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "设计原则",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "框架中的设计模式",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/distributed.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "分布式系统面试重点",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "基础理论",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "共识算法",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "分布式锁",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "分布式事务",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "分布式 ID",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "API 网关与 RPC",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "一致性哈希",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/django-flask.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 43,
+      "nonEmptyLines": 36,
+      "sections": [
+        {
+          "heading": "Django/Flask 面试重点（框架 + ORM + 部署）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "框架定位与对比",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "请求生命周期",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "ORM 与查询优化",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "认证、权限与安全",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "缓存与性能",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "部署与运维",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/high-availability.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "高可用面试重点（故障防护 + 容灾 + 可观测性）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "故障检测与主备切换",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "限流、熔断与降级",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "SLA/SLO 与可观测性",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "容量规划与混沌工程",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "异地多活与容灾",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/java.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 52,
+      "nonEmptyLines": 46,
+      "sections": [
+        {
+          "heading": "Java 面试重点（基础 + 集合 + 并发 + JVM）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "基础概念",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "String",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "集合框架",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "并发",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "JVM",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/javascript.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 43,
+      "nonEmptyLines": 36,
+      "sections": [
+        {
+          "heading": "JavaScript 面试重点（基础 + 异步 + 工程化）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "类型与作用域",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "原型与继承",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "异步编程",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "ES6+ 核心特性",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "DOM 与 BOM",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "模块化与工程化",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/mq.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "消息队列面试重点（模型 + 可靠性 + 主流 MQ 对比）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "消息模型",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "投递语义",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "可靠性保障",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "消费积压处理",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "主流 MQ 对比",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "消息中间件架构",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/mysql.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 34,
+      "nonEmptyLines": 28,
+      "sections": [
+        {
+          "heading": "MySQL 面试重点",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "索引",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "事务与 MVCC",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "锁机制",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "存储引擎与日志",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "性能优化",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/network-os.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "网络与操作系统（后端面试核心）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "TCP / HTTP 高频点",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "并发与线程模型",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "内存与 I/O",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/python-basic.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 40,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "Python 面试重点（语言核心 + 并发 + 工程实践）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "数据模型与语法特性",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "迭代器、生成器与装饰器",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "GIL 与并发模型",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "内存管理与垃圾回收",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "类型系统与工程实践",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/react-vue.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 46,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "React/Vue 面试重点（框架核心 + 工程化）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "React 核心机制",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Vue 核心机制",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "状态管理",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "组件设计",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "路由与 SSR",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "工程化",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/redis.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 34,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "Redis 面试重点",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "数据类型与场景",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "持久化与线程模型",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "生产问题",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "分布式锁",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "性能优化",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "集群",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/spring.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 40,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "Spring 面试重点",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "IoC 与 Bean",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "AOP",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Spring MVC",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "事务",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "循环依赖",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Spring Boot",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/system-design-scenarios.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 73,
+      "nonEmptyLines": 58,
+      "sections": [
+        {
+          "heading": "系统设计与场景题（后端通用核心版）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 面试答题通用框架（先说这个）",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "2. 高频场景题的标准思路",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "秒杀系统",
+          "level": 3,
+          "line": 10
+        },
+        {
+          "heading": "短链系统",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "Feed 流（推拉模型）",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "站内消息系统",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "延时任务",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "登录风控（密码输错限制）",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "扫码登录 / 第三方登录",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "抢单 / 抢资源并发控制",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "UV/PV 统计",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "去重推荐（大规模）",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "RPC 框架设计",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Session 跨节点共享",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "3. 面试官常追问清单",
+          "level": 2,
+          "line": 68
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "app/src/main/resources/skills/_shared/references/test-development.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 64,
+      "nonEmptyLines": 56,
+      "sections": [
+        {
+          "heading": "测试开发面试重点（测试基础 + 用例设计 + 自动化 + 性能安全）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "测试基础",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "测试用例设计",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "测试类型",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "自动化测试",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "性能测试",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "安全测试",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Bug 处理与协作",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "面试追问模板",
+          "level": 2,
+          "line": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    }
+  ]
+}

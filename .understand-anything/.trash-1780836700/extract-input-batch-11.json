@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "language": "java",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "language": "java",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "language": "java",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java",
+      "language": "java",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/QaRecord.java",
+      "language": "java",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "language": "java",
+      "sizeLines": 546,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "language": "java",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+      "language": "java",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "language": "java",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java",
+      "language": "java",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/result/Result.java",
+      "language": "java",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "language": "java",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "language": "java",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "language": "java",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "language": "java",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "language": "java",
+      "sizeLines": 281,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "language": "java",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "language": "java",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "language": "java",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "language": "java",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "language": "java",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "language": "java",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java": [],
+    "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java": [],
+    "app/src/main/java/interview/guide/common/constant/CommonConstants.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/QaRecord.java": [],
+    "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java": [],
+    "app/src/main/java/interview/guide/common/exception/BusinessException.java": [],
+    "app/src/main/java/interview/guide/common/exception/ErrorCode.java": [],
+    "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java": [],
+    "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java": [],
+    "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java": [],
+    "app/src/main/java/interview/guide/common/result/Result.java": [],
+    "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java": [],
+    "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java": [],
+    "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java": [],
+    "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java": [],
+    "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java": [],
+    "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java": []
+  }
+}

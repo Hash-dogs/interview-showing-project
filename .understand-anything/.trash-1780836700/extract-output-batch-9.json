@@ -1,0 +1,1459 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 12,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "markdown/RAG知识库.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 194,
+      "nonEmptyLines": 175,
+      "sections": [
+        {
+          "heading": "RAG知识库：postgresSQL数据库+pgvector想来数据库插件",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、知识库上传",
+          "level": 2,
+          "line": 4
+        },
+        {
+          "heading": "二、知识库检索",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "知识库相似度查询以及优化",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "1.向量相似度搜索（支持多知识库联查）",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "2. (搜索前)优化一:问题重写(LLM优化查询语句) + 候选回退",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "3. (搜索时)优化二：动态参数",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "4. (搜索后)优化三：短 token 二次内容匹配",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "5. (输出时)优化四：流式输出 SSE推送",
+          "level": 3,
+          "line": 87
+        },
+        {
+          "heading": "补充：",
+          "level": 4,
+          "line": 105
+        },
+        {
+          "heading": "6.（输出时）优化五：探测窗口归一化",
+          "level": 3,
+          "line": 136
+        },
+        {
+          "heading": "RISEN规范的prompt如何书写",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "RAG 召回率低怎么排查？",
+          "level": 2,
+          "line": 161
+        },
+        {
+          "heading": "【1】数据质量检查 (Data Quality)",
+          "level": 3,
+          "line": 162
+        },
+        {
+          "heading": "【2】Query 侧的语义鸿沟 (Query Transformation)",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "【3】向量表征能力 (Embedding Model)",
+          "level": 3,
+          "line": 170
+        },
+        {
+          "heading": "【4】检索策略单一",
+          "level": 3,
+          "line": 173
+        },
+        {
+          "heading": "【5】召回数量 (Top-K) 过小",
+          "level": 3,
+          "line": 176
+        },
+        {
+          "heading": "RAG检索，增强，生成三个环节如何配合实现检索增强",
+          "level": 2,
+          "line": 181
+        },
+        {
+          "heading": "prompt防注入手段",
+          "level": 2,
+          "line": 186
+        },
+        {
+          "heading": "知识库量级上去后如何解决性能下降问题",
+          "level": 2,
+          "line": 190
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    },
+    {
+      "path": "markdown/SQl数据库.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 682,
+      "nonEmptyLines": 508,
+      "sections": [
+        {
+          "heading": "SQl��ϵ�����ݿ�",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "һ����ϵ�����ݿ����֪ʶ",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "��1���ֶ�",
+          "level": 3,
+          "line": 4
+        },
+        {
+          "heading": "��2��E-Rͼ��entity-relationship diagram��",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "��3����ʽ����Ե���ĳһ�ű����������������һ�����ݿ⣩",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "1����һ��ʽ�������ֶε�ֵΨһ������һ�������ֶδ洢���ֵ",
+          "level": 4,
+          "line": 20
+        },
+        {
+          "heading": "2���ڶ���ʽ����һ��ʽ�����ϣ������������Զ���Ĳ��ֺ�������",
+          "level": 4,
+          "line": 25
+        },
+        {
+          "heading": "3��������ʽ���ڶ���ʽ�����ϣ������������Զ���Ĵ��ݺ�������",
+          "level": 4,
+          "line": 37
+        },
+        {
+          "heading": "��ʽ������",
+          "level": 4,
+          "line": 48
+        },
+        {
+          "heading": "��4��sql��NoSQL������",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "����MYSQL",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "��1��SQL���",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "1��DDL��䣺����Ϊ���ű�/��ͼ�����",
+          "level": 4,
+          "line": 68
+        },
+        {
+          "heading": "2��select���",
+          "level": 4,
+          "line": 97
+        },
+        {
+          "heading": "(1) ������ѯ���",
+          "level": 5,
+          "line": 98
+        },
+        {
+          "heading": "(2)�����ѯ��䣨����д������һ�£�",
+          "level": 5,
+          "line": 122
+        },
+        {
+          "heading": "(3)�Ӳ�ѯ��Ƕ�ײ�ѯ",
+          "level": 5,
+          "line": 164
+        },
+        {
+          "heading": "3����ɾ�����",
+          "level": 4,
+          "line": 211
+        },
+        {
+          "heading": "4��Ȩ�����",
+          "level": 4,
+          "line": 231
+        },
+        {
+          "heading": "��2����������",
+          "level": 3,
+          "line": 257
+        },
+        {
+          "heading": "��ֵ����",
+          "level": 4,
+          "line": 258
+        },
+        {
+          "heading": "�ַ�������",
+          "level": 4,
+          "line": 268
+        },
+        {
+          "heading": "����ʱ������",
+          "level": 4,
+          "line": 280
+        },
+        {
+          "heading": "������������",
+          "level": 4,
+          "line": 288
+        },
+        {
+          "heading": "���ԭ���ټǱ�",
+          "level": 4,
+          "line": 298
+        },
+        {
+          "heading": "��3�����������м���",
+          "level": 3,
+          "line": 311
+        },
+        {
+          "heading": "1����������Table-Level Lock��",
+          "level": 4,
+          "line": 312
+        },
+        {
+          "heading": "ʲôʱ��������",
+          "level": 4,
+          "line": 316
+        },
+        {
+          "heading": "�ص�",
+          "level": 4,
+          "line": 328
+        },
+        {
+          "heading": "2���м�����Row-Level Lock��",
+          "level": 4,
+          "line": 335
+        },
+        {
+          "heading": "ʲôʱ��������",
+          "level": 4,
+          "line": 340
+        },
+        {
+          "heading": "�м���������ϸ������",
+          "level": 4,
+          "line": 349
+        },
+        {
+          "heading": "�洢����������",
+          "level": 4,
+          "line": 361
+        },
+        {
+          "heading": "��4��SQL��ͼ",
+          "level": 3,
+          "line": 366
+        },
+        {
+          "heading": "��5��MYSQL����",
+          "level": 3,
+          "line": 392
+        },
+        {
+          "heading": "**1������Ϊʲô��**",
+          "level": 4,
+          "line": 393
+        },
+        {
+          "heading": "**2�������ײ�ʵ�ֽṹ�Ա�**",
+          "level": 4,
+          "line": 404
+        },
+        {
+          "heading": "Hash����keyͨ��Hash�����ܿ��ٶ�λindexʵ������",
+          "level": 5,
+          "line": 405
+        },
+        {
+          "heading": "AVL�����߶�ƽ������������������ڵ�߶Ȳ�಻����1��",
+          "level": 5,
+          "line": 414
+        },
+        {
+          "heading": "������������ƽ���������",
+          "level": 5,
+          "line": 420
+        },
+        {
+          "heading": "B�������нڵ�ȴ��keyҲ���data����B+����ֻ��Ҷ�ӽڵ��� key �� data�������ڽڵ�ֻ��� key��",
+          "level": 5,
+          "line": 427
+        },
+        {
+          "heading": "**3���۴�������Ǿ۴�����**",
+          "level": 4,
+          "line": 441
+        },
+        {
+          "heading": "�۴�������",
+          "level": 5,
+          "line": 442
+        },
+        {
+          "heading": "�Ǿ۴�������",
+          "level": 5,
+          "line": 460
+        },
+        {
+          "heading": "**4����������**",
+          "level": 4,
+          "line": 466
+        },
+        {
+          "heading": "**5��InnoDB��������**",
+          "level": 4,
+          "line": 483
+        },
+        {
+          "heading": "**6������ʧЧ����**",
+          "level": 4,
+          "line": 488
+        },
+        {
+          "heading": "1. ����ǰ׺ԭ���ƻ�",
+          "level": 5,
+          "line": 489
+        },
+        {
+          "heading": "2. ��������ʹ�ú���",
+          "level": 5,
+          "line": 500
+        },
+        {
+          "heading": "3. ��ʽ����ת��",
+          "level": 5,
+          "line": 514
+        },
+        {
+          "heading": "4. LIKE ǰ׺ͨ���",
+          "level": 5,
+          "line": 527
+        },
+        {
+          "heading": "5. OR ���ӣ���һ��û������",
+          "level": 5,
+          "line": 539
+        },
+        {
+          "heading": "6. ��������������",
+          "level": 5,
+          "line": 555
+        },
+        {
+          "heading": "7. ʹ�� != �� <>",
+          "level": 5,
+          "line": 569
+        },
+        {
+          "heading": "8. IS NULL / IS NOT NULL",
+          "level": 5,
+          "line": 581
+        },
+        {
+          "heading": "9. JOIN ʱ�ַ��� / �������һ��",
+          "level": 5,
+          "line": 595
+        },
+        {
+          "heading": "10. �Ż�����Ϊȫ��ɨ�������",
+          "level": 5,
+          "line": 608
+        },
+        {
+          "heading": "ʹ��EXPLAIN������䲢�Ż�",
+          "level": 5,
+          "line": 620
+        },
+        {
+          "heading": "��6��MYSQL��־",
+          "level": 3,
+          "line": 627
+        },
+        {
+          "heading": "��7��MYSQL����",
+          "level": 3,
+          "line": 629
+        },
+        {
+          "heading": "ACID����",
+          "level": 4,
+          "line": 632
+        },
+        {
+          "heading": "�������µ�����",
+          "level": 4,
+          "line": 639
+        },
+        {
+          "heading": "����ȼ�����Ĳ������⣺",
+          "level": 4,
+          "line": 648
+        },
+        {
+          "heading": "��8�������Ż�",
+          "level": 3,
+          "line": 657
+        },
+        {
+          "heading": "��9��������",
+          "level": 3,
+          "line": 665
+        },
+        {
+          "heading": "����PostgresSQL",
+          "level": 2,
+          "line": 669
+        },
+        {
+          "heading": "��1��postgreSQL��MYSQL������",
+          "level": 3,
+          "line": 671
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 67
+      }
+    },
+    {
+      "path": "markdown/redis.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 347,
+      "nonEmptyLines": 268,
+      "sections": [
+        {
+          "heading": "redis",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、redis做缓存的优势",
+          "level": 2,
+          "line": 2
+        },
+        {
+          "heading": "二、Redis 为什么这么快？",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "三、redis实现分布式锁",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "实现方式：",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "2、删除操作常需要先判定锁是否为所需要删除的锁，然后再删除。这里出现两步操作无法确保原子性，所以可用lua脚本实现",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "3、可重入锁：同一个进程有多次获取同一把锁的操作，非重入锁是不和线程绑定的，只有有获取的请求就会锁上而不管其他请求是不是同一个线程。",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "四、redis的value基本数据结构",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "【1】String vs Hash",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "【2】Zset有序集合",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Q1：存储结构",
+          "level": 4,
+          "line": 45
+        },
+        {
+          "heading": "Q2: 底层skip-list跳表实现",
+          "level": 4,
+          "line": 56
+        },
+        {
+          "heading": "Q3:底层为什么要用跳表，而不用平衡树、红黑树或者 B+ 树？",
+          "level": 4,
+          "line": 80
+        },
+        {
+          "heading": "**五、redis持久化操作**",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "【1】RDB",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "【2】AOF",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "六、redis的过期删除策略",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "七、redis内存淘汰策略（当内存超过限额时会淘汰哪些数据）",
+          "level": 2,
+          "line": 140
+        },
+        {
+          "heading": "八、影响redis性能的因素",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "九、redis保持数据一致性方式：",
+          "level": 2,
+          "line": 180
+        },
+        {
+          "heading": "主动更新策略",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "十、redis生产场景各种问题解决方案",
+          "level": 2,
+          "line": 196
+        },
+        {
+          "heading": "【1】缓存穿透问题",
+          "level": 3,
+          "line": 198
+        },
+        {
+          "heading": "【2】缓存雪崩",
+          "level": 3,
+          "line": 207
+        },
+        {
+          "heading": "【3】缓存击穿问题",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "解决办法一、互斥锁",
+          "level": 4,
+          "line": 219
+        },
+        {
+          "heading": "解决办法二、逻辑过期：常用于解决热点商品key失效那一类问题（所以默认提前存入热点key到缓存中）",
+          "level": 4,
+          "line": 222
+        },
+        {
+          "heading": "十一、redis集群",
+          "level": 2,
+          "line": 227
+        },
+        {
+          "heading": "演变历程",
+          "level": 3,
+          "line": 228
+        },
+        {
+          "heading": "分片集群",
+          "level": 3,
+          "line": 233
+        },
+        {
+          "heading": "redis stream",
+          "level": 1,
+          "line": 242
+        },
+        {
+          "heading": "一、基本问题",
+          "level": 2,
+          "line": 243
+        },
+        {
+          "heading": "二、具体实现",
+          "level": 2,
+          "line": 254
+        },
+        {
+          "heading": "接收消息：",
+          "level": 4,
+          "line": 261
+        },
+        {
+          "heading": "三、抽象生产者、消费者（对于简历分析，RAG向量化，模拟面试等场景使用消息队列）",
+          "level": 2,
+          "line": 280
+        },
+        {
+          "heading": "1、producer：组装消息、写入Stream、发送失败后的状态兜底",
+          "level": 3,
+          "line": 281
+        },
+        {
+          "heading": "2、consumer：初始化消费者组、生成唯一consumerName、启动单线程循环、ACK、重试、 错误截断",
+          "level": 3,
+          "line": 282
+        },
+        {
+          "heading": "3. 执行周期：",
+          "level": 3,
+          "line": 283
+        },
+        {
+          "heading": "四、分析重试问题（设置重试最大词数）",
+          "level": 2,
+          "line": 308
+        },
+        {
+          "heading": "五、内存问题（无限制消息队列一定要解决的关键问题！！！）",
+          "level": 2,
+          "line": 333
+        },
+        {
+          "heading": "六、优化点1（TODO）：对于某一个消费者宕机情况下将消息堆放在pending队列中造成内存过大",
+          "level": 2,
+          "line": 343
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 41
+      }
+    },
+    {
+      "path": "markdown/力扣HOT100记录.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 67,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "set��map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "��1��",
+          "level": 2,
+          "line": 2
+        },
+        {
+          "heading": "��2����ĸ��λ��",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "��3�����������",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "˫ָ��",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "��1������0",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "��2����β˫ָ��+��һ�ƶ�����",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "markdown/基础知识.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 297,
+      "nonEmptyLines": 235,
+      "sections": [
+        {
+          "heading": "Java基础知识",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、spring件框架文接口类MultipartFile（文件相关）",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "二、UUID生成（出现于文件存储名称等命名中，防止出现重名覆盖原来文件）",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "三、正则语法：匹配字符+限定符（出现在使用正则对Tika转化的文本进行噪声人工去除）",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "四、record数据类型（java14+引入）",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "五、守护线程（Thread.setDaemon（true））",
+          "level": 2,
+          "line": 71
+        },
+        {
+          "heading": "六、redisson：将redis返回的数据封装为java对象",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "七、Flux数据结构（流式响应返回的结构）",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "八、响应式编程与订阅逻辑",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "九、git指令",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "十、数据存储字段的含义",
+          "level": 2,
+          "line": 166
+        },
+        {
+          "heading": "十一、两种数据库查询框架的结构区别（mybatis与JPA）",
+          "level": 2,
+          "line": 172
+        },
+        {
+          "heading": "十二、stream流方法",
+          "level": 2,
+          "line": 180
+        },
+        {
+          "heading": "十三、布隆过滤器",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "十四、java21+出现的虚拟线程？",
+          "level": 2,
+          "line": 214
+        },
+        {
+          "heading": "1、平台线程",
+          "level": 3,
+          "line": 216
+        },
+        {
+          "heading": "2、虚拟线程",
+          "level": 3,
+          "line": 224
+        },
+        {
+          "heading": "十五、SpringBoot框架定位",
+          "level": 2,
+          "line": 237
+        },
+        {
+          "heading": "1、SpringBoot与SpringMVC",
+          "level": 3,
+          "line": 239
+        },
+        {
+          "heading": "2、tomcat：专属于javaWeb的程序",
+          "level": 3,
+          "line": 244
+        },
+        {
+          "heading": "3、netty；一个在计算机网络运输层的协议框架",
+          "level": 3,
+          "line": 253
+        },
+        {
+          "heading": "大模型基础知识",
+          "level": 1,
+          "line": 257
+        },
+        {
+          "heading": "一、prompt注入方式",
+          "level": 2,
+          "line": 258
+        },
+        {
+          "heading": "二、大模型json输出结果的规范化",
+          "level": 2,
+          "line": 266
+        },
+        {
+          "heading": "三、为什么项目选择SpringAI",
+          "level": 2,
+          "line": 270
+        },
+        {
+          "heading": "四、构建ChatClient和调用AI的区别",
+          "level": 2,
+          "line": 275
+        },
+        {
+          "heading": "五、token含义",
+          "level": 2,
+          "line": 279
+        },
+        {
+          "heading": "六、大模型参数对输出的影响",
+          "level": 2,
+          "line": 287
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 28
+      }
+    },
+    {
+      "path": "markdown/大模型.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 24,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "��ģ��΢��",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "һ��΢����Ԥѵ��",
+          "level": 2,
+          "line": 2
+        },
+        {
+          "heading": "loRa(low rank adaption)��������΢�����Դ�����",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "�����������壺",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "tool calling��·���Ͷ��������������",
+          "level": 3,
+          "line": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "markdown/工具类与注解.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 80,
+      "nonEmptyLines": 62,
+      "sections": [
+        {
+          "heading": "工具类",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、BeanOutputConverter（springAI自带工具类）",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "二、StructuredOutputInvoker（自定义工具类：统一封装结构化输出调用与重试策略。）",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "三、PromptTemplate（映射.st文件进行prompt注入）",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "四、LlmProviderRegistry（构建不同功能的ChatClient）",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "五、异步线程操作CompletableFuture类（结合questionExecutor异步线程池）",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "六、ObjectMapper类（Jackson核心类）",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "注解",
+          "level": 1,
+          "line": 77
+        },
+        {
+          "heading": "一、@Repository(JPA注解类)",
+          "level": 2,
+          "line": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "markdown/模拟面试.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 42,
+      "sections": [
+        {
+          "heading": "AI模拟面试",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、面试出题",
+          "level": 2,
+          "line": 2
+        },
+        {
+          "heading": "历史问题去重方案对比",
+          "level": 3,
+          "line": 3
+        },
+        {
+          "heading": "使用SQL存储而不使用带有memory的chatClient原因：",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "问题异步线程生成",
+          "level": 3,
+          "line": 15
+        },
+        {
+          "heading": "问题兜底",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "二、面试过程缓存与修复",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "缓存一致性策略 = 写入策略 + 淘汰策略",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "写入策略",
+          "level": 4,
+          "line": 30
+        },
+        {
+          "heading": "三、面试结果分批评估",
+          "level": 2,
+          "line": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "markdown/环境配置.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 58,
+      "nonEmptyLines": 50,
+      "sections": [
+        {
+          "heading": "一、postgresSQL数据库+pgvector向量数据库插件",
+          "level": 2,
+          "line": 1
+        },
+        {
+          "heading": "1、docker配置postgresSQL数据库+pgvector向量数据库",
+          "level": 3,
+          "line": 2
+        },
+        {
+          "heading": "2、为什么选择postgresSQL数据库而不是MYSQL数据库",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "二、RustFS",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "安装",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "为什么使用rustfs",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Q1：为什么用对象存储而不是存数据库：",
+          "level": 4,
+          "line": 39
+        },
+        {
+          "heading": "Q2：为什么不存服务器本地磁盘：",
+          "level": 4,
+          "line": 41
+        },
+        {
+          "heading": "Q3：对象存储的核心优势：",
+          "level": 4,
+          "line": 43
+        },
+        {
+          "heading": "对于文件上传删除等操作离不开S3Client类，其中的requestbody是一个关键的类",
+          "level": 3,
+          "line": 50
+        },
+        {
+          "heading": "S3客户端是什么",
+          "level": 3,
+          "line": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "markdown/简历上传与评估.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 142,
+      "nonEmptyLines": 126,
+      "sections": [
+        {
+          "heading": "简历上传",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、上传整体步骤：",
+          "level": 2,
+          "line": 2
+        },
+        {
+          "heading": "简历分析",
+          "level": 1,
+          "line": 57
+        },
+        {
+          "heading": "一、 从各类文件中提取文本 Apache Tika",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "二、 简历简单除噪：",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "三、简历评估结果规范化：对大模型输出的json字符串解析解析和验证",
+          "level": 2,
+          "line": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "markdown/计算机网络.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 67,
+      "nonEmptyLines": 51,
+      "sections": [
+        {
+          "heading": "五层结构：",
+          "level": 2,
+          "line": 1
+        },
+        {
+          "heading": "前后端联调与计算机网络关系",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "常用服务的端口号",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "HTTP与HTTPS区别",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "TCP三次握手",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "【1】三次握手过程",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "半连接和全连接队列（服务端）",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "restful规范",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "markdown/项目简历书写汇总.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 755,
+      "nonEmptyLines": 523,
+      "sections": [
+        {
+          "heading": "面试版本（依据侧重点解析更改）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "后端+AI应用与流式输出",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "侧重后端的架构与设计",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "用于用户认证管理和登录（补充）",
+          "level": 2,
+          "line": 43
+        },
+        {
+          "heading": "面试准备",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "一、智能面试系统 · 模拟面试题",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "Q1. 你用了\"结构感知分块 + 父子分块\"策略，能具体说说这两种分块怎么做的吗？父块和子块在检索时各自承担什么角色？相比其他方案为什么在简历分析场景使用这种分块策略",
+          "level": 4,
+          "line": 56
+        },
+        {
+          "heading": "Q2. pgvector选了HNSW索引，你了解HNSW的基本原理吗？它和IVF-Flat相比有什么取舍？你当时为什么选HNSW而不是直接用暴力扫描？",
+          "level": 4,
+          "line": 65
+        },
+        {
+          "heading": "Q3. 你提到\"口语化问题重写\"来优化检索效果，这一步具体怎么实现的？",
+          "level": 4,
+          "line": 76
+        },
+        {
+          "heading": "Q4. RAG幻觉问题你用了\"短Token二次命中判定\"，能解释一下这个机制是什么意思吗？命中了什么才算通过？",
+          "level": 4,
+          "line": 83
+        },
+        {
+          "heading": "Q5. 你说语义检索准确率提升了35%+，这个数字是怎么测出来的？有没有ground truth数据集，还是主观评估？",
+          "level": 4,
+          "line": 91
+        },
+        {
+          "heading": "二、异步架构模块",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "三、Java 21 / 并发模块",
+          "level": 3,
+          "line": 146
+        },
+        {
+          "heading": "四、提示词工程 / AI安全",
+          "level": 3,
+          "line": 166
+        },
+        {
+          "heading": "五、系统设计与取舍",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "5.20深圳AI公司面试题目准备",
+          "level": 2,
+          "line": 235
+        },
+        {
+          "heading": "一面",
+          "level": 3,
+          "line": 237
+        },
+        {
+          "heading": "5.24济南浪潮公司面试记录与准备",
+          "level": 2,
+          "line": 278
+        },
+        {
+          "heading": "【1】单例类（单类）模式",
+          "level": 3,
+          "line": 279
+        },
+        {
+          "heading": "5.25深圳AI公司面试题目记录与准备",
+          "level": 2,
+          "line": 284
+        },
+        {
+          "heading": "一、高并发优惠券系统高频追问：",
+          "level": 3,
+          "line": 287
+        },
+        {
+          "heading": "二、AI面试系统高频追问：",
+          "level": 3,
+          "line": 294
+        },
+        {
+          "heading": "【1】父子分块策略具体怎么做的？检索时返回父块还是子块？",
+          "level": 4,
+          "line": 296
+        },
+        {
+          "heading": "【2】结构感知分块详细策略",
+          "level": 4,
+          "line": 313
+        },
+        {
+          "heading": "【3】HNSW索引的原理是什么？和IVFFlat有什么区别？",
+          "level": 4,
+          "line": 321
+        },
+        {
+          "heading": "【4】SSE流式输出的探测窗口算法怎么实现的？使用一般的流式输出为什么输出内容容易截断？",
+          "level": 3,
+          "line": 338
+        },
+        {
+          "heading": "【5】Redis Stream做异步解耦，消费失败的重试逻辑怎么设计的？",
+          "level": 3,
+          "line": 353
+        },
+        {
+          "heading": "【3】Java 21虚拟线程：你简历提到了，必须能深入讲——虚拟线程vs平台线程、适用场景、为什么对IO密集型有效",
+          "level": 3,
+          "line": 377
+        },
+        {
+          "heading": "【4】集合：HashMap的树化阈值、ConcurrentHashMap的分段锁演变",
+          "level": 3,
+          "line": 381
+        },
+        {
+          "heading": "【1】了解JUnit5 + Mockito的基本用法，准备一个\"你写过什么测试\"的回答",
+          "level": 3,
+          "line": 395
+        },
+        {
+          "heading": "客路面试准备：",
+          "level": 2,
+          "line": 418
+        },
+        {
+          "heading": "南通福阳科技-软件开发实习生准备",
+          "level": 2,
+          "line": 692
+        },
+        {
+          "heading": "【1】软件开发流程",
+          "level": 3,
+          "line": 693
+        },
+        {
+          "heading": "陌陌面试准备与记录（基础知识偏多）",
+          "level": 2,
+          "line": 697
+        },
+        {
+          "heading": "【1】面向对象三大特性",
+          "level": 3,
+          "line": 698
+        },
+        {
+          "heading": "【2】java可变参数",
+          "level": 3,
+          "line": 703
+        },
+        {
+          "heading": "【3】抽象类和接口",
+          "level": 3,
+          "line": 714
+        },
+        {
+          "heading": "【4】java反射原理",
+          "level": 3,
+          "line": 730
+        },
+        {
+          "heading": "【5】rpc/http接口vs消息队列",
+          "level": 3,
+          "line": 737
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 39
+      }
+    }
+  ]
+}

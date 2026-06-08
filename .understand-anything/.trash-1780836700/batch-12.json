@@ -1,0 +1,4531 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "type": "file",
+      "name": "InterviewSessionCache.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "定义类: InterviewSessionCache",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:saveSession",
+      "type": "function",
+      "name": "saveSession",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 saveSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateSessionStatus",
+      "type": "function",
+      "name": "updateSessionStatus",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 updateSessionStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateCurrentIndex",
+      "type": "function",
+      "name": "updateCurrentIndex",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 updateCurrentIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateQuestions",
+      "type": "function",
+      "name": "updateQuestions",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 updateQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:deleteSession",
+      "type": "function",
+      "name": "deleteSession",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 deleteSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:findUnfinishedSessionId",
+      "type": "function",
+      "name": "findUnfinishedSessionId",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 findUnfinishedSessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:refreshSessionTTL",
+      "type": "function",
+      "name": "refreshSessionTTL",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 refreshSessionTTL",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:exists",
+      "type": "function",
+      "name": "exists",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 exists",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:buildSessionKey",
+      "type": "function",
+      "name": "buildSessionKey",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 buildSessionKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:buildResumeSessionKey",
+      "type": "function",
+      "name": "buildResumeSessionKey",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 buildResumeSessionKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:saveResumeSessionMapping",
+      "type": "function",
+      "name": "saveResumeSessionMapping",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 saveResumeSessionMapping",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:removeResumeSessionMapping",
+      "type": "function",
+      "name": "removeResumeSessionMapping",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 removeResumeSessionMapping",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:isUnfinishedStatus",
+      "type": "function",
+      "name": "isUnfinishedStatus",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "函数 isUnfinishedStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:InterviewSessionCache",
+      "type": "class",
+      "name": "InterviewSessionCache",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "summary": "类 InterviewSessionCache",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "type": "file",
+      "name": "RedisService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "定义类: RedisService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:set",
+      "type": "function",
+      "name": "set",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 set",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:set",
+      "type": "function",
+      "name": "set",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 set",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:get",
+      "type": "function",
+      "name": "get",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 get",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getOrLoad",
+      "type": "function",
+      "name": "getOrLoad",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 getOrLoad",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:delete",
+      "type": "function",
+      "name": "delete",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 delete",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:exists",
+      "type": "function",
+      "name": "exists",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 exists",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:expire",
+      "type": "function",
+      "name": "expire",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 expire",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getTimeToLive",
+      "type": "function",
+      "name": "getTimeToLive",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 getTimeToLive",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hSet",
+      "type": "function",
+      "name": "hSet",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 hSet",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hGet",
+      "type": "function",
+      "name": "hGet",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 hGet",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hGetAll",
+      "type": "function",
+      "name": "hGetAll",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 hGetAll",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hDelete",
+      "type": "function",
+      "name": "hDelete",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 hDelete",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hExists",
+      "type": "function",
+      "name": "hExists",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 hExists",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getLock",
+      "type": "function",
+      "name": "getLock",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 getLock",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:tryLock",
+      "type": "function",
+      "name": "tryLock",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 tryLock",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:unlock",
+      "type": "function",
+      "name": "unlock",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 unlock",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:executeWithLock",
+      "type": "function",
+      "name": "executeWithLock",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 executeWithLock",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamConsumeMessages",
+      "type": "function",
+      "name": "streamConsumeMessages",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamConsumeMessages",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:createStreamGroup",
+      "type": "function",
+      "name": "createStreamGroup",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 createStreamGroup",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAdd",
+      "type": "function",
+      "name": "streamAdd",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamAdd",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAdd",
+      "type": "function",
+      "name": "streamAdd",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamAdd",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamReadGroup",
+      "type": "function",
+      "name": "streamReadGroup",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamReadGroup",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAck",
+      "type": "function",
+      "name": "streamAck",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamAck",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamLen",
+      "type": "function",
+      "name": "streamLen",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 streamLen",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getAtomicLong",
+      "type": "function",
+      "name": "getAtomicLong",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 getAtomicLong",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:increment",
+      "type": "function",
+      "name": "increment",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 increment",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:decrement",
+      "type": "function",
+      "name": "decrement",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 decrement",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:listRightPush",
+      "type": "function",
+      "name": "listRightPush",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 listRightPush",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:listGetAll",
+      "type": "function",
+      "name": "listGetAll",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 listGetAll",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getClient",
+      "type": "function",
+      "name": "getClient",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 getClient",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:deleteByPattern",
+      "type": "function",
+      "name": "deleteByPattern",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 deleteByPattern",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:findKeysByPattern",
+      "type": "function",
+      "name": "findKeysByPattern",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "函数 findKeysByPattern",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:RedisService",
+      "type": "class",
+      "name": "RedisService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "summary": "类 RedisService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "type": "file",
+      "name": "InterviewController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "定义类: InterviewController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:listSessions",
+      "type": "function",
+      "name": "listSessions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 listSessions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:createSession",
+      "type": "function",
+      "name": "createSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 createSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getCurrentQuestion",
+      "type": "function",
+      "name": "getCurrentQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 getCurrentQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:submitAnswer",
+      "type": "function",
+      "name": "submitAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 submitAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getReport",
+      "type": "function",
+      "name": "getReport",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 getReport",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:findUnfinishedSession",
+      "type": "function",
+      "name": "findUnfinishedSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 findUnfinishedSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:saveAnswer",
+      "type": "function",
+      "name": "saveAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 saveAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:completeInterview",
+      "type": "function",
+      "name": "completeInterview",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 completeInterview",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getInterviewDetail",
+      "type": "function",
+      "name": "getInterviewDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 getInterviewDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:exportInterviewPdf",
+      "type": "function",
+      "name": "exportInterviewPdf",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 exportInterviewPdf",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:deleteInterview",
+      "type": "function",
+      "name": "deleteInterview",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "函数 deleteInterview",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/InterviewController.java:InterviewController",
+      "type": "class",
+      "name": "InterviewController",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "summary": "类 InterviewController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "type": "file",
+      "name": "EvaluateStreamConsumer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "定义类: EvaluateStreamConsumer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:EvaluateStreamConsumer",
+      "type": "function",
+      "name": "EvaluateStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 EvaluateStreamConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:groupName",
+      "type": "function",
+      "name": "groupName",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 groupName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:consumerPrefix",
+      "type": "function",
+      "name": "consumerPrefix",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 consumerPrefix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:threadName",
+      "type": "function",
+      "name": "threadName",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 threadName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:parsePayload",
+      "type": "function",
+      "name": "parsePayload",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 parsePayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markProcessing",
+      "type": "function",
+      "name": "markProcessing",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 markProcessing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:processBusiness",
+      "type": "function",
+      "name": "processBusiness",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 processBusiness",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markCompleted",
+      "type": "function",
+      "name": "markCompleted",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 markCompleted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markFailed",
+      "type": "function",
+      "name": "markFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 markFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:retryMessage",
+      "type": "function",
+      "name": "retryMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 retryMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:updateEvaluateStatus",
+      "type": "function",
+      "name": "updateEvaluateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "函数 updateEvaluateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:EvaluateStreamConsumer",
+      "type": "class",
+      "name": "EvaluateStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "summary": "类 EvaluateStreamConsumer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "type": "file",
+      "name": "EvaluateStreamProducer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "定义类: EvaluateStreamProducer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:EvaluateStreamProducer",
+      "type": "function",
+      "name": "EvaluateStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 EvaluateStreamProducer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:sendEvaluateTask",
+      "type": "function",
+      "name": "sendEvaluateTask",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 sendEvaluateTask",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 buildMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:onSendFailed",
+      "type": "function",
+      "name": "onSendFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 onSendFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:updateEvaluateStatus",
+      "type": "function",
+      "name": "updateEvaluateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "函数 updateEvaluateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:EvaluateStreamProducer",
+      "type": "class",
+      "name": "EvaluateStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "summary": "类 EvaluateStreamProducer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java",
+      "type": "file",
+      "name": "CreateInterviewRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/CreateInterviewRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java",
+      "type": "file",
+      "name": "HistoricalQuestion.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/HistoricalQuestion.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "type": "file",
+      "name": "InterviewAnswerEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "定义类: InterviewAnswerEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setId",
+      "type": "function",
+      "name": "setId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setSession",
+      "type": "function",
+      "name": "setSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getQuestionIndex",
+      "type": "function",
+      "name": "getQuestionIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getQuestionIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setQuestionIndex",
+      "type": "function",
+      "name": "setQuestionIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setQuestionIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getQuestion",
+      "type": "function",
+      "name": "getQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setQuestion",
+      "type": "function",
+      "name": "setQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getCategory",
+      "type": "function",
+      "name": "getCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setCategory",
+      "type": "function",
+      "name": "setCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getUserAnswer",
+      "type": "function",
+      "name": "getUserAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getUserAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setUserAnswer",
+      "type": "function",
+      "name": "setUserAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setUserAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getScore",
+      "type": "function",
+      "name": "getScore",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setScore",
+      "type": "function",
+      "name": "setScore",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getFeedback",
+      "type": "function",
+      "name": "getFeedback",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getFeedback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setFeedback",
+      "type": "function",
+      "name": "setFeedback",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setFeedback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getReferenceAnswer",
+      "type": "function",
+      "name": "getReferenceAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getReferenceAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setReferenceAnswer",
+      "type": "function",
+      "name": "setReferenceAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setReferenceAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getKeyPointsJson",
+      "type": "function",
+      "name": "getKeyPointsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getKeyPointsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setKeyPointsJson",
+      "type": "function",
+      "name": "setKeyPointsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setKeyPointsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getAnsweredAt",
+      "type": "function",
+      "name": "getAnsweredAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 getAnsweredAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setAnsweredAt",
+      "type": "function",
+      "name": "setAnsweredAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "函数 setAnsweredAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:InterviewAnswerEntity",
+      "type": "class",
+      "name": "InterviewAnswerEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "summary": "类 InterviewAnswerEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java",
+      "type": "file",
+      "name": "InterviewDetailDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewDetailDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java",
+      "type": "file",
+      "name": "InterviewHistoryItemDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewHistoryItemDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java",
+      "type": "file",
+      "name": "InterviewQuestionDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewQuestionDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java",
+      "type": "file",
+      "name": "InterviewReportDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewReportDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java",
+      "type": "file",
+      "name": "InterviewSessionDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "type": "file",
+      "name": "InterviewSessionEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "定义类: InterviewSessionEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setId",
+      "type": "function",
+      "name": "setId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getSessionId",
+      "type": "function",
+      "name": "getSessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getSessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setSessionId",
+      "type": "function",
+      "name": "setSessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setSessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getResumeId",
+      "type": "function",
+      "name": "getResumeId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getResumeId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getResume",
+      "type": "function",
+      "name": "getResume",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setResume",
+      "type": "function",
+      "name": "setResume",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getTotalQuestions",
+      "type": "function",
+      "name": "getTotalQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getTotalQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setTotalQuestions",
+      "type": "function",
+      "name": "setTotalQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setTotalQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCurrentQuestionIndex",
+      "type": "function",
+      "name": "getCurrentQuestionIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getCurrentQuestionIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCurrentQuestionIndex",
+      "type": "function",
+      "name": "setCurrentQuestionIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setCurrentQuestionIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getStatus",
+      "type": "function",
+      "name": "getStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setStatus",
+      "type": "function",
+      "name": "setStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getQuestionsJson",
+      "type": "function",
+      "name": "getQuestionsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getQuestionsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setQuestionsJson",
+      "type": "function",
+      "name": "setQuestionsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setQuestionsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getOverallScore",
+      "type": "function",
+      "name": "getOverallScore",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getOverallScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setOverallScore",
+      "type": "function",
+      "name": "setOverallScore",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setOverallScore",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getOverallFeedback",
+      "type": "function",
+      "name": "getOverallFeedback",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getOverallFeedback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setOverallFeedback",
+      "type": "function",
+      "name": "setOverallFeedback",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setOverallFeedback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getStrengthsJson",
+      "type": "function",
+      "name": "getStrengthsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getStrengthsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setStrengthsJson",
+      "type": "function",
+      "name": "setStrengthsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setStrengthsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getImprovementsJson",
+      "type": "function",
+      "name": "getImprovementsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getImprovementsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setImprovementsJson",
+      "type": "function",
+      "name": "setImprovementsJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setImprovementsJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getReferenceAnswersJson",
+      "type": "function",
+      "name": "getReferenceAnswersJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getReferenceAnswersJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setReferenceAnswersJson",
+      "type": "function",
+      "name": "setReferenceAnswersJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setReferenceAnswersJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getAnswers",
+      "type": "function",
+      "name": "getAnswers",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getAnswers",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setAnswers",
+      "type": "function",
+      "name": "setAnswers",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setAnswers",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCreatedAt",
+      "type": "function",
+      "name": "getCreatedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getCreatedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCreatedAt",
+      "type": "function",
+      "name": "setCreatedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setCreatedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCompletedAt",
+      "type": "function",
+      "name": "getCompletedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getCompletedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCompletedAt",
+      "type": "function",
+      "name": "setCompletedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setCompletedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getEvaluateStatus",
+      "type": "function",
+      "name": "getEvaluateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getEvaluateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setEvaluateStatus",
+      "type": "function",
+      "name": "setEvaluateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setEvaluateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getEvaluateError",
+      "type": "function",
+      "name": "getEvaluateError",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getEvaluateError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setEvaluateError",
+      "type": "function",
+      "name": "setEvaluateError",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setEvaluateError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getLlmProvider",
+      "type": "function",
+      "name": "getLlmProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getLlmProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setLlmProvider",
+      "type": "function",
+      "name": "setLlmProvider",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setLlmProvider",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getSkillId",
+      "type": "function",
+      "name": "getSkillId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getSkillId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setSkillId",
+      "type": "function",
+      "name": "setSkillId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setSkillId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getDifficulty",
+      "type": "function",
+      "name": "getDifficulty",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 getDifficulty",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setDifficulty",
+      "type": "function",
+      "name": "setDifficulty",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 setDifficulty",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:addAnswer",
+      "type": "function",
+      "name": "addAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "函数 addAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:InterviewSessionEntity",
+      "type": "class",
+      "name": "InterviewSessionEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "summary": "类 InterviewSessionEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java",
+      "type": "file",
+      "name": "ResumeAnalysisResponse.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/ResumeAnalysisResponse.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java",
+      "type": "file",
+      "name": "SessionListItemDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/SessionListItemDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java",
+      "type": "file",
+      "name": "SubmitAnswerRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java",
+      "type": "file",
+      "name": "SubmitAnswerResponse.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/model/SubmitAnswerResponse.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "type": "file",
+      "name": "InterviewAnswerRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "summary": "定义类: InterviewAnswerRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java:InterviewAnswerRepository",
+      "type": "class",
+      "name": "InterviewAnswerRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "summary": "类 InterviewAnswerRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "type": "file",
+      "name": "InterviewSessionRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "summary": "定义类: InterviewSessionRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java:InterviewSessionRepository",
+      "type": "class",
+      "name": "InterviewSessionRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "summary": "类 InterviewSessionRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "type": "file",
+      "name": "AnswerEvaluationService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "summary": "定义类: AnswerEvaluationService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:AnswerEvaluationService",
+      "type": "function",
+      "name": "AnswerEvaluationService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "summary": "函数 AnswerEvaluationService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:evaluateInterview",
+      "type": "function",
+      "name": "evaluateInterview",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "summary": "函数 evaluateInterview",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:toInterviewReportDTO",
+      "type": "function",
+      "name": "toInterviewReportDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "summary": "函数 toInterviewReportDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:AnswerEvaluationService",
+      "type": "class",
+      "name": "AnswerEvaluationService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "summary": "类 AnswerEvaluationService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "type": "file",
+      "name": "InterviewHistoryService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "定义类: InterviewHistoryService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:getInterviewDetail",
+      "type": "function",
+      "name": "getInterviewDetail",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "函数 getInterviewDetail",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:buildAnswerDetailList",
+      "type": "function",
+      "name": "buildAnswerDetailList",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "函数 buildAnswerDetailList",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:extractKeyPoints",
+      "type": "function",
+      "name": "extractKeyPoints",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "函数 extractKeyPoints",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:parseJson",
+      "type": "function",
+      "name": "parseJson",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "函数 parseJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:exportInterviewPdf",
+      "type": "function",
+      "name": "exportInterviewPdf",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "函数 exportInterviewPdf",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:InterviewHistoryService",
+      "type": "class",
+      "name": "InterviewHistoryService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "summary": "类 InterviewHistoryService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "type": "file",
+      "name": "InterviewPersistenceService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "定义类: InterviewPersistenceService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveSession",
+      "type": "function",
+      "name": "saveSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 saveSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateSessionStatus",
+      "type": "function",
+      "name": "updateSessionStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 updateSessionStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateEvaluateStatus",
+      "type": "function",
+      "name": "updateEvaluateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 updateEvaluateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateCurrentQuestionIndex",
+      "type": "function",
+      "name": "updateCurrentQuestionIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 updateCurrentQuestionIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveAnswer",
+      "type": "function",
+      "name": "saveAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 saveAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveReport",
+      "type": "function",
+      "name": "saveReport",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 saveReport",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findBySessionId",
+      "type": "function",
+      "name": "findBySessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 findBySessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findByResumeId",
+      "type": "function",
+      "name": "findByResumeId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 findByResumeId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findAll",
+      "type": "function",
+      "name": "findAll",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 findAll",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:deleteSessionsByResumeId",
+      "type": "function",
+      "name": "deleteSessionsByResumeId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 deleteSessionsByResumeId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:deleteSessionBySessionId",
+      "type": "function",
+      "name": "deleteSessionBySessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 deleteSessionBySessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findUnfinishedSession",
+      "type": "function",
+      "name": "findUnfinishedSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 findUnfinishedSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findAnswersBySessionId",
+      "type": "function",
+      "name": "findAnswersBySessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 findAnswersBySessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:getHistoricalQuestions",
+      "type": "function",
+      "name": "getHistoricalQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "函数 getHistoricalQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:InterviewPersistenceService",
+      "type": "class",
+      "name": "InterviewPersistenceService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "summary": "类 InterviewPersistenceService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "type": "file",
+      "name": "InterviewQuestionProperties.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "summary": "定义类: InterviewQuestionProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java:InterviewQuestionProperties",
+      "type": "class",
+      "name": "InterviewQuestionProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "summary": "类 InterviewQuestionProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "type": "file",
+      "name": "InterviewQuestionService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "定义类: InterviewQuestionService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:InterviewQuestionService",
+      "type": "function",
+      "name": "InterviewQuestionService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 InterviewQuestionService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:loadTemplate",
+      "type": "function",
+      "name": "loadTemplate",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 loadTemplate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 destroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateQuestionsBySkill",
+      "type": "function",
+      "name": "generateQuestionsBySkill",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 generateQuestionsBySkill",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateResumeQuestions",
+      "type": "function",
+      "name": "generateResumeQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 generateResumeQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateDirectionOnly",
+      "type": "function",
+      "name": "generateDirectionOnly",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 generateDirectionOnly",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:mergeQuestionBatches",
+      "type": "function",
+      "name": "mergeQuestionBatches",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 mergeQuestionBatches",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:resolveSkill",
+      "type": "function",
+      "name": "resolveSkill",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 resolveSkill",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:resolveDifficulty",
+      "type": "function",
+      "name": "resolveDifficulty",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 resolveDifficulty",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:convertToQuestions",
+      "type": "function",
+      "name": "convertToQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 convertToQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:capToMainCount",
+      "type": "function",
+      "name": "capToMainCount",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 capToMainCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateFallbackQuestions",
+      "type": "function",
+      "name": "generateFallbackQuestions",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 generateFallbackQuestions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildHistoricalSection",
+      "type": "function",
+      "name": "buildHistoricalSection",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 buildHistoricalSection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildJdSection",
+      "type": "function",
+      "name": "buildJdSection",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 buildJdSection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildSkillPersonaSection",
+      "type": "function",
+      "name": "buildSkillPersonaSection",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 buildSkillPersonaSection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:sanitizeFollowUps",
+      "type": "function",
+      "name": "sanitizeFollowUps",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 sanitizeFollowUps",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildFollowUpCategory",
+      "type": "function",
+      "name": "buildFollowUpCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 buildFollowUpCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildDefaultFollowUp",
+      "type": "function",
+      "name": "buildDefaultFollowUp",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "函数 buildDefaultFollowUp",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:InterviewQuestionService",
+      "type": "class",
+      "name": "InterviewQuestionService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "summary": "类 InterviewQuestionService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:saveSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateSessionStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateCurrentIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:updateQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:deleteSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:findUnfinishedSessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:refreshSessionTTL",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:exists",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:buildSessionKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:buildResumeSessionKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:saveResumeSessionMapping",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:removeResumeSessionMapping",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:isUnfinishedStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/redis/InterviewSessionCache.java:InterviewSessionCache",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:set",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:set",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:get",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getOrLoad",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:delete",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:exists",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:expire",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getTimeToLive",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hSet",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hGet",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hGetAll",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hDelete",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:hExists",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getLock",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:tryLock",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:unlock",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:executeWithLock",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamConsumeMessages",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:createStreamGroup",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAdd",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAdd",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamReadGroup",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamAck",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:streamLen",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getAtomicLong",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:increment",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:decrement",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:listRightPush",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:listGetAll",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:getClient",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:deleteByPattern",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:findKeysByPattern",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/redis/RedisService.java:RedisService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:listSessions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:createSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getCurrentQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:submitAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getReport",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:findUnfinishedSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:saveAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:completeInterview",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:getInterviewDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:exportInterviewPdf",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/InterviewController.java:deleteInterview",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/InterviewController.java:InterviewController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:EvaluateStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:groupName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:consumerPrefix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:threadName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:parsePayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markProcessing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:processBusiness",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:markFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:retryMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:updateEvaluateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamConsumer.java:EvaluateStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:EvaluateStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:sendEvaluateTask",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:buildMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:onSendFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:updateEvaluateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/listener/EvaluateStreamProducer.java:EvaluateStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getQuestionIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setQuestionIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getUserAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setUserAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getFeedback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setFeedback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getReferenceAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setReferenceAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getKeyPointsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setKeyPointsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:getAnsweredAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:setAnsweredAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/model/InterviewAnswerEntity.java:InterviewAnswerEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getSessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setSessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getResumeId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getTotalQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setTotalQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCurrentQuestionIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCurrentQuestionIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getQuestionsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setQuestionsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getOverallScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setOverallScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getOverallFeedback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setOverallFeedback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getStrengthsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setStrengthsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getImprovementsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setImprovementsJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getReferenceAnswersJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setReferenceAnswersJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getAnswers",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setAnswers",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCreatedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCreatedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getCompletedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setCompletedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getEvaluateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setEvaluateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getEvaluateError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setEvaluateError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getLlmProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setLlmProvider",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getSkillId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setSkillId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:getDifficulty",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:setDifficulty",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:addAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/model/InterviewSessionEntity.java:InterviewSessionEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/repository/InterviewAnswerRepository.java:InterviewAnswerRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/repository/InterviewSessionRepository.java:InterviewSessionRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:AnswerEvaluationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:evaluateInterview",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:toInterviewReportDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/AnswerEvaluationService.java:AnswerEvaluationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:getInterviewDetail",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:buildAnswerDetailList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:extractKeyPoints",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:parseJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:exportInterviewPdf",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewHistoryService.java:InterviewHistoryService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateSessionStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateEvaluateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:updateCurrentQuestionIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:saveReport",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findBySessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findByResumeId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findAll",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:deleteSessionsByResumeId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:deleteSessionBySessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findUnfinishedSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:findAnswersBySessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:getHistoricalQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewPersistenceService.java:InterviewPersistenceService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionProperties.java:InterviewQuestionProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:InterviewQuestionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:loadTemplate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:destroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateQuestionsBySkill",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateResumeQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateDirectionOnly",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:mergeQuestionBatches",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:resolveSkill",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:resolveDifficulty",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:convertToQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:capToMainCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:generateFallbackQuestions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildHistoricalSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildJdSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildSkillPersonaSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:sanitizeFollowUps",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildFollowUpCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:buildDefaultFollowUp",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewQuestionService.java:InterviewQuestionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

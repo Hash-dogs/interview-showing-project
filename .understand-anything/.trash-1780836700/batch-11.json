@@ -1,0 +1,2830 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "type": "file",
+      "name": "StorageConfigProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "summary": "定义类: StorageConfigProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/config/StorageConfigProperties.java:StorageConfigProperties",
+      "type": "class",
+      "name": "StorageConfigProperties",
+      "filePath": "app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "summary": "类 StorageConfigProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "type": "file",
+      "name": "AsyncTaskStreamConstants.java",
+      "filePath": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "summary": "定义类: AsyncTaskStreamConstants",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java:AsyncTaskStreamConstants",
+      "type": "function",
+      "name": "AsyncTaskStreamConstants",
+      "filePath": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "summary": "函数 AsyncTaskStreamConstants",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java:AsyncTaskStreamConstants",
+      "type": "class",
+      "name": "AsyncTaskStreamConstants",
+      "filePath": "app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "summary": "类 AsyncTaskStreamConstants",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "type": "file",
+      "name": "CommonConstants.java",
+      "filePath": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "summary": "定义类: CommonConstants",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/constant/CommonConstants.java:CommonConstants",
+      "type": "function",
+      "name": "CommonConstants",
+      "filePath": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "summary": "函数 CommonConstants",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/constant/CommonConstants.java:CommonConstants",
+      "type": "class",
+      "name": "CommonConstants",
+      "filePath": "app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "summary": "类 CommonConstants",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java",
+      "type": "file",
+      "name": "EvaluationReport.java",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/EvaluationReport.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "type": "file",
+      "name": "InterviewEvaluationProperties.java",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "summary": "定义类: InterviewEvaluationProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java:InterviewEvaluationProperties",
+      "type": "class",
+      "name": "InterviewEvaluationProperties",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "summary": "类 InterviewEvaluationProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/evaluation/QaRecord.java",
+      "type": "file",
+      "name": "QaRecord.java",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/QaRecord.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "type": "file",
+      "name": "UnifiedEvaluationService.java",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "定义类: UnifiedEvaluationService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:UnifiedEvaluationService",
+      "type": "function",
+      "name": "UnifiedEvaluationService",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 UnifiedEvaluationService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluate",
+      "type": "function",
+      "name": "evaluate",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 evaluate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluate",
+      "type": "function",
+      "name": "evaluate",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 evaluate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:loadPrompt",
+      "type": "function",
+      "name": "loadPrompt",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 loadPrompt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluateInBatches",
+      "type": "function",
+      "name": "evaluateInBatches",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 evaluateInBatches",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluateBatch",
+      "type": "function",
+      "name": "evaluateBatch",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 evaluateBatch",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildQARecords",
+      "type": "function",
+      "name": "buildQARecords",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 buildQARecords",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeQuestionEvaluations",
+      "type": "function",
+      "name": "mergeQuestionEvaluations",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 mergeQuestionEvaluations",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeOverallFeedback",
+      "type": "function",
+      "name": "mergeOverallFeedback",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 mergeOverallFeedback",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeListItems",
+      "type": "function",
+      "name": "mergeListItems",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 mergeListItems",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:summarizeBatchResults",
+      "type": "function",
+      "name": "summarizeBatchResults",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 summarizeBatchResults",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:sanitizeItems",
+      "type": "function",
+      "name": "sanitizeItems",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 sanitizeItems",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildReport",
+      "type": "function",
+      "name": "buildReport",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 buildReport",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildCategorySummary",
+      "type": "function",
+      "name": "buildCategorySummary",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 buildCategorySummary",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildQuestionHighlights",
+      "type": "function",
+      "name": "buildQuestionHighlights",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "函数 buildQuestionHighlights",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:UnifiedEvaluationService",
+      "type": "class",
+      "name": "UnifiedEvaluationService",
+      "filePath": "app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "summary": "类 UnifiedEvaluationService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "type": "file",
+      "name": "BusinessException.java",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "定义类: BusinessException",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "function",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "函数 BusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "class",
+      "name": "BusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "summary": "类 BusinessException",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+      "type": "file",
+      "name": "ErrorCode.java",
+      "filePath": "app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "type": "file",
+      "name": "GlobalExceptionHandler.java",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "定义类: GlobalExceptionHandler",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleBusinessException",
+      "type": "function",
+      "name": "handleBusinessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleBusinessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleValidationException",
+      "type": "function",
+      "name": "handleValidationException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleValidationException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleBindException",
+      "type": "function",
+      "name": "handleBindException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleBindException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleMaxUploadSizeExceededException",
+      "type": "function",
+      "name": "handleMaxUploadSizeExceededException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleMaxUploadSizeExceededException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleIllegalArgumentException",
+      "type": "function",
+      "name": "handleIllegalArgumentException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleIllegalArgumentException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleResourceAccessException",
+      "type": "function",
+      "name": "handleResourceAccessException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleResourceAccessException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleRestClientException",
+      "type": "function",
+      "name": "handleRestClientException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleRestClientException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleNoResourceFoundException",
+      "type": "function",
+      "name": "handleNoResourceFoundException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleNoResourceFoundException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleHttpRequestMethodNotSupportedException",
+      "type": "function",
+      "name": "handleHttpRequestMethodNotSupportedException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleHttpRequestMethodNotSupportedException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleException",
+      "type": "function",
+      "name": "handleException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "函数 handleException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:GlobalExceptionHandler",
+      "type": "class",
+      "name": "GlobalExceptionHandler",
+      "filePath": "app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "summary": "类 GlobalExceptionHandler",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "type": "file",
+      "name": "RateLimitExceededException.java",
+      "filePath": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "summary": "定义类: RateLimitExceededException",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "function",
+      "name": "RateLimitExceededException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "summary": "函数 RateLimitExceededException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "function",
+      "name": "RateLimitExceededException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "summary": "函数 RateLimitExceededException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "function",
+      "name": "RateLimitExceededException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "summary": "函数 RateLimitExceededException",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "class",
+      "name": "RateLimitExceededException",
+      "filePath": "app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "summary": "类 RateLimitExceededException",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java",
+      "type": "file",
+      "name": "AsyncTaskStatus.java",
+      "filePath": "app/src/main/java/interview/guide/common/model/AsyncTaskStatus.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "type": "file",
+      "name": "Result.java",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "定义类: Result",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:Result",
+      "type": "function",
+      "name": "Result",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 Result",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "function",
+      "name": "success",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 success",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "function",
+      "name": "success",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 success",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "function",
+      "name": "success",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 success",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "function",
+      "name": "error",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 error",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "function",
+      "name": "error",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 error",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "function",
+      "name": "error",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 error",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "function",
+      "name": "error",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 error",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/common/result/Result.java:isSuccess",
+      "type": "function",
+      "name": "isSuccess",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "函数 isSuccess",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/common/result/Result.java:Result",
+      "type": "class",
+      "name": "Result",
+      "filePath": "app/src/main/java/interview/guide/common/result/Result.java",
+      "summary": "类 Result",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "type": "file",
+      "name": "PdfExportService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "定义类: PdfExportService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:createChineseFont",
+      "type": "function",
+      "name": "createChineseFont",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 createChineseFont",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:sanitizeText",
+      "type": "function",
+      "name": "sanitizeText",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 sanitizeText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:exportResumeAnalysis",
+      "type": "function",
+      "name": "exportResumeAnalysis",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 exportResumeAnalysis",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:exportInterviewReport",
+      "type": "function",
+      "name": "exportInterviewReport",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 exportInterviewReport",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:createSectionTitle",
+      "type": "function",
+      "name": "createSectionTitle",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 createSectionTitle",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:addScoreRow",
+      "type": "function",
+      "name": "addScoreRow",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 addScoreRow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:getScoreColor",
+      "type": "function",
+      "name": "getScoreColor",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 getScoreColor",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:getStatusText",
+      "type": "function",
+      "name": "getStatusText",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "函数 getStatusText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:PdfExportService",
+      "type": "class",
+      "name": "PdfExportService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "summary": "类 PdfExportService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "type": "file",
+      "name": "ContentTypeDetectionService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "定义类: ContentTypeDetectionService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:ContentTypeDetectionService",
+      "type": "function",
+      "name": "ContentTypeDetectionService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 ContentTypeDetectionService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "function",
+      "name": "detectContentType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 detectContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "function",
+      "name": "detectContentType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 detectContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "function",
+      "name": "detectContentType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 detectContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isPdf",
+      "type": "function",
+      "name": "isPdf",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 isPdf",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isWordDocument",
+      "type": "function",
+      "name": "isWordDocument",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 isWordDocument",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isPlainText",
+      "type": "function",
+      "name": "isPlainText",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 isPlainText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isMarkdown",
+      "type": "function",
+      "name": "isMarkdown",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "函数 isMarkdown",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:ContentTypeDetectionService",
+      "type": "class",
+      "name": "ContentTypeDetectionService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "summary": "类 ContentTypeDetectionService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "type": "file",
+      "name": "DocumentParseService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "定义类: DocumentParseService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:DocumentParseService",
+      "type": "function",
+      "name": "DocumentParseService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "函数 DocumentParseService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "function",
+      "name": "parseContent",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "函数 parseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "function",
+      "name": "parseContent",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "函数 parseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "function",
+      "name": "parseContent",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "函数 parseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:downloadAndParseContent",
+      "type": "function",
+      "name": "downloadAndParseContent",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "函数 downloadAndParseContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:DocumentParseService",
+      "type": "class",
+      "name": "DocumentParseService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "summary": "类 DocumentParseService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "type": "file",
+      "name": "FileHashService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "定义类: FileHashService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "function",
+      "name": "calculateHash",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "函数 calculateHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "function",
+      "name": "calculateHash",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "函数 calculateHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "function",
+      "name": "calculateHash",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "函数 calculateHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:bytesToHex",
+      "type": "function",
+      "name": "bytesToHex",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "函数 bytesToHex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:FileHashService",
+      "type": "class",
+      "name": "FileHashService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "summary": "类 FileHashService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "type": "file",
+      "name": "FileStorageService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "定义类: FileStorageService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadResume",
+      "type": "function",
+      "name": "uploadResume",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 uploadResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteResume",
+      "type": "function",
+      "name": "deleteResume",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 deleteResume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadKnowledgeBase",
+      "type": "function",
+      "name": "uploadKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 uploadKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteKnowledgeBase",
+      "type": "function",
+      "name": "deleteKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 deleteKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:downloadFile",
+      "type": "function",
+      "name": "downloadFile",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 downloadFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadFile",
+      "type": "function",
+      "name": "uploadFile",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 uploadFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:fileExists",
+      "type": "function",
+      "name": "fileExists",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 fileExists",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:getFileSize",
+      "type": "function",
+      "name": "getFileSize",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 getFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteFile",
+      "type": "function",
+      "name": "deleteFile",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 deleteFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:getFileUrl",
+      "type": "function",
+      "name": "getFileUrl",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 getFileUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:ensureBucketExists",
+      "type": "function",
+      "name": "ensureBucketExists",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 ensureBucketExists",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:generateFileKey",
+      "type": "function",
+      "name": "generateFileKey",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 generateFileKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:sanitizeFilename",
+      "type": "function",
+      "name": "sanitizeFilename",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 sanitizeFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:convertToPinyin",
+      "type": "function",
+      "name": "convertToPinyin",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 convertToPinyin",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:sanitizeChar",
+      "type": "function",
+      "name": "sanitizeChar",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 sanitizeChar",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:capitalize",
+      "type": "function",
+      "name": "capitalize",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "函数 capitalize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:FileStorageService",
+      "type": "class",
+      "name": "FileStorageService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "summary": "类 FileStorageService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "type": "file",
+      "name": "FileValidationService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "定义类: FileValidationService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateFile",
+      "type": "function",
+      "name": "validateFile",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 validateFile",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateContentTypeByList",
+      "type": "function",
+      "name": "validateContentTypeByList",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 validateContentTypeByList",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateContentType",
+      "type": "function",
+      "name": "validateContentType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 validateContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isAllowedType",
+      "type": "function",
+      "name": "isAllowedType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 isAllowedType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isMarkdownExtension",
+      "type": "function",
+      "name": "isMarkdownExtension",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 isMarkdownExtension",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isKnowledgeBaseMimeType",
+      "type": "function",
+      "name": "isKnowledgeBaseMimeType",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "函数 isKnowledgeBaseMimeType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:FileValidationService",
+      "type": "class",
+      "name": "FileValidationService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "summary": "类 FileValidationService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "type": "file",
+      "name": "NoOpEmbeddedDocumentExtractor.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "summary": "定义类: NoOpEmbeddedDocumentExtractor",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:shouldParseEmbedded",
+      "type": "function",
+      "name": "shouldParseEmbedded",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "summary": "函数 shouldParseEmbedded",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:parseEmbedded",
+      "type": "function",
+      "name": "parseEmbedded",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "summary": "函数 parseEmbedded",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:NoOpEmbeddedDocumentExtractor",
+      "type": "class",
+      "name": "NoOpEmbeddedDocumentExtractor",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "summary": "类 NoOpEmbeddedDocumentExtractor",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "type": "file",
+      "name": "TextCleaningService.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "定义类: TextCleaningService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanText",
+      "type": "function",
+      "name": "cleanText",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "函数 cleanText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanTextWithLimit",
+      "type": "function",
+      "name": "cleanTextWithLimit",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "函数 cleanTextWithLimit",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanToSingleLine",
+      "type": "function",
+      "name": "cleanToSingleLine",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "函数 cleanToSingleLine",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:stripHtml",
+      "type": "function",
+      "name": "stripHtml",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "函数 stripHtml",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:TextCleaningService",
+      "type": "class",
+      "name": "TextCleaningService",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "summary": "类 TextCleaningService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "type": "file",
+      "name": "InterviewMapper.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "summary": "定义类: InterviewMapper",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java:InterviewMapper",
+      "type": "class",
+      "name": "InterviewMapper",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "summary": "类 InterviewMapper",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "type": "file",
+      "name": "KnowledgeBaseMapper.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "summary": "定义类: KnowledgeBaseMapper",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java:KnowledgeBaseMapper",
+      "type": "class",
+      "name": "KnowledgeBaseMapper",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "summary": "类 KnowledgeBaseMapper",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "type": "file",
+      "name": "RagChatMapper.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "summary": "定义类: RagChatMapper",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java:RagChatMapper",
+      "type": "class",
+      "name": "RagChatMapper",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "summary": "类 RagChatMapper",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "type": "file",
+      "name": "ResumeMapper.java",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "summary": "定义类: ResumeMapper",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java:ResumeMapper",
+      "type": "class",
+      "name": "ResumeMapper",
+      "filePath": "app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "summary": "类 ResumeMapper",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/common/config/StorageConfigProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/config/StorageConfigProperties.java:StorageConfigProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "target": "function:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java:AsyncTaskStreamConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java",
+      "target": "class:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java:AsyncTaskStreamConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "target": "function:app/src/main/java/interview/guide/common/constant/CommonConstants.java:CommonConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/constant/CommonConstants.java",
+      "target": "class:app/src/main/java/interview/guide/common/constant/CommonConstants.java:CommonConstants",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java",
+      "target": "class:app/src/main/java/interview/guide/common/evaluation/InterviewEvaluationProperties.java:InterviewEvaluationProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:UnifiedEvaluationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:loadPrompt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluateInBatches",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:evaluateBatch",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildQARecords",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeQuestionEvaluations",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeOverallFeedback",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:mergeListItems",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:summarizeBatchResults",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:sanitizeItems",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildReport",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildCategorySummary",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:buildQuestionHighlights",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java",
+      "target": "class:app/src/main/java/interview/guide/common/evaluation/UnifiedEvaluationService.java:UnifiedEvaluationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/BusinessException.java",
+      "target": "class:app/src/main/java/interview/guide/common/exception/BusinessException.java:BusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleBusinessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleValidationException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleBindException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleMaxUploadSizeExceededException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleIllegalArgumentException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleResourceAccessException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleRestClientException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleNoResourceFoundException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleHttpRequestMethodNotSupportedException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:handleException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "target": "class:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java:GlobalExceptionHandler",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "target": "function:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java",
+      "target": "class:app/src/main/java/interview/guide/common/exception/RateLimitExceededException.java:RateLimitExceededException",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:Result",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:success",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:error",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "function:app/src/main/java/interview/guide/common/result/Result.java:isSuccess",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "target": "class:app/src/main/java/interview/guide/common/result/Result.java:Result",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:createChineseFont",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:sanitizeText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:exportResumeAnalysis",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:exportInterviewReport",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:createSectionTitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:addScoreRow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:getScoreColor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:getStatusText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java:PdfExportService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:ContentTypeDetectionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:detectContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isPdf",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isWordDocument",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isPlainText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:isMarkdown",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/ContentTypeDetectionService.java:ContentTypeDetectionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:DocumentParseService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:parseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:downloadAndParseContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/DocumentParseService.java:DocumentParseService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:calculateHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:bytesToHex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/FileHashService.java:FileHashService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteResume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:downloadFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:uploadFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:fileExists",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:getFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:deleteFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:getFileUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:ensureBucketExists",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:generateFileKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:sanitizeFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:convertToPinyin",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:sanitizeChar",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:capitalize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java:FileStorageService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateFile",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateContentTypeByList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:validateContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isAllowedType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isMarkdownExtension",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:isKnowledgeBaseMimeType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/FileValidationService.java:FileValidationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:shouldParseEmbedded",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:parseEmbedded",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/NoOpEmbeddedDocumentExtractor.java:NoOpEmbeddedDocumentExtractor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanTextWithLimit",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:cleanToSingleLine",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "target": "function:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:stripHtml",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/file/TextCleaningService.java:TextCleaningService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/mapper/InterviewMapper.java:InterviewMapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/mapper/KnowledgeBaseMapper.java:KnowledgeBaseMapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/mapper/RagChatMapper.java:RagChatMapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java",
+      "target": "class:app/src/main/java/interview/guide/infrastructure/mapper/ResumeMapper.java:ResumeMapper",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

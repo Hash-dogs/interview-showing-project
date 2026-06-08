@@ -1,0 +1,3712 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+      "type": "file",
+      "name": "VoiceInterviewProperties.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+      "summary": "定义类: VoiceInterviewProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java:VoiceInterviewProperties",
+      "type": "class",
+      "name": "VoiceInterviewProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+      "summary": "类 VoiceInterviewProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "type": "file",
+      "name": "WebSocketConfig.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "summary": "定义类: WebSocketConfig",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java:registerWebSocketHandlers",
+      "type": "function",
+      "name": "registerWebSocketHandlers",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "summary": "函数 registerWebSocketHandlers",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java:WebSocketConfig",
+      "type": "class",
+      "name": "WebSocketConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "summary": "类 WebSocketConfig",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "type": "file",
+      "name": "VoiceInterviewController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "定义类: VoiceInterviewController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:createSession",
+      "type": "function",
+      "name": "createSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 createSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:endSession",
+      "type": "function",
+      "name": "endSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 endSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:pauseSession",
+      "type": "function",
+      "name": "pauseSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 pauseSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:resumeSession",
+      "type": "function",
+      "name": "resumeSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 resumeSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getAllSessions",
+      "type": "function",
+      "name": "getAllSessions",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 getAllSessions",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:deleteSession",
+      "type": "function",
+      "name": "deleteSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 deleteSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getMessages",
+      "type": "function",
+      "name": "getMessages",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 getMessages",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getEvaluation",
+      "type": "function",
+      "name": "getEvaluation",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 getEvaluation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:generateEvaluation",
+      "type": "function",
+      "name": "generateEvaluation",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "函数 generateEvaluation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:VoiceInterviewController",
+      "type": "class",
+      "name": "VoiceInterviewController",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "summary": "类 VoiceInterviewController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+      "type": "file",
+      "name": "CreateSessionRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+      "summary": "定义类: CreateSessionRequest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java:CreateSessionRequest",
+      "type": "class",
+      "name": "CreateSessionRequest",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+      "summary": "类 CreateSessionRequest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+      "type": "file",
+      "name": "SessionMetaDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+      "summary": "定义类: SessionMetaDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java:SessionMetaDTO",
+      "type": "class",
+      "name": "SessionMetaDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+      "summary": "类 SessionMetaDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+      "type": "file",
+      "name": "SessionResponseDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+      "summary": "定义类: SessionResponseDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java:SessionResponseDTO",
+      "type": "class",
+      "name": "SessionResponseDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+      "summary": "类 SessionResponseDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+      "type": "file",
+      "name": "VoiceEvaluationDetailDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+      "summary": "定义类: VoiceEvaluationDetailDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java:VoiceEvaluationDetailDTO",
+      "type": "class",
+      "name": "VoiceEvaluationDetailDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+      "summary": "类 VoiceEvaluationDetailDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+      "type": "file",
+      "name": "VoiceEvaluationStatusDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+      "summary": "定义类: VoiceEvaluationStatusDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java:VoiceEvaluationStatusDTO",
+      "type": "class",
+      "name": "VoiceEvaluationStatusDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+      "summary": "类 VoiceEvaluationStatusDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+      "type": "file",
+      "name": "VoiceInterviewMessageDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+      "summary": "定义类: VoiceInterviewMessageDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java:VoiceInterviewMessageDTO",
+      "type": "class",
+      "name": "VoiceInterviewMessageDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+      "summary": "类 VoiceInterviewMessageDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+      "type": "file",
+      "name": "WebSocketControlMessage.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+      "summary": "定义类: WebSocketControlMessage",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java:WebSocketControlMessage",
+      "type": "class",
+      "name": "WebSocketControlMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+      "summary": "类 WebSocketControlMessage",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+      "type": "file",
+      "name": "WebSocketSubtitleMessage.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+      "summary": "定义类: WebSocketSubtitleMessage",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java:WebSocketSubtitleMessage",
+      "type": "class",
+      "name": "WebSocketSubtitleMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+      "summary": "类 WebSocketSubtitleMessage",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "type": "file",
+      "name": "VoiceInterviewWebSocketHandler.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "定义类: VoiceInterviewWebSocketHandler",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:createUtteranceMergeScheduler",
+      "type": "function",
+      "name": "createUtteranceMergeScheduler",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 createUtteranceMergeScheduler",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:warmupOpeningAudioCache",
+      "type": "function",
+      "name": "warmupOpeningAudioCache",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 warmupOpeningAudioCache",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:preloadOpeningAudio",
+      "type": "function",
+      "name": "preloadOpeningAudio",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 preloadOpeningAudio",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:afterConnectionEstablished",
+      "type": "function",
+      "name": "afterConnectionEstablished",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 afterConnectionEstablished",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:createWelcomeMessage",
+      "type": "function",
+      "name": "createWelcomeMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 createWelcomeMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:toJson",
+      "type": "function",
+      "name": "toJson",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 toJson",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendMessage",
+      "type": "function",
+      "name": "sendMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:triggerOpeningQuestionIfNeeded",
+      "type": "function",
+      "name": "triggerOpeningQuestionIfNeeded",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 triggerOpeningQuestionIfNeeded",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getOpeningWavAudio",
+      "type": "function",
+      "name": "getOpeningWavAudio",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 getOpeningWavAudio",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:synthesizeToWav",
+      "type": "function",
+      "name": "synthesizeToWav",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 synthesizeToWav",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:buildOpeningQuestion",
+      "type": "function",
+      "name": "buildOpeningQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 buildOpeningQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleTextMessage",
+      "type": "function",
+      "name": "handleTextMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handleTextMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 destroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:afterConnectionClosed",
+      "type": "function",
+      "name": "afterConnectionClosed",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 afterConnectionClosed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleTransportError",
+      "type": "function",
+      "name": "handleTransportError",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handleTransportError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:shouldRecoverAsrConnection",
+      "type": "function",
+      "name": "shouldRecoverAsrConnection",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 shouldRecoverAsrConnection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:startDashScopeStt",
+      "type": "function",
+      "name": "startDashScopeStt",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 startDashScopeStt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:restartDashScopeStt",
+      "type": "function",
+      "name": "restartDashScopeStt",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 restartDashScopeStt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleUserAudio",
+      "type": "function",
+      "name": "handleUserAudio",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handleUserAudio",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleSttResult",
+      "type": "function",
+      "name": "handleSttResult",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handleSttResult",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:flushMergedUtteranceToLlm",
+      "type": "function",
+      "name": "flushMergedUtteranceToLlm",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 flushMergedUtteranceToLlm",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:triggerLlmResponse",
+      "type": "function",
+      "name": "triggerLlmResponse",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 triggerLlmResponse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getErrorMessage",
+      "type": "function",
+      "name": "getErrorMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 getErrorMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleControl",
+      "type": "function",
+      "name": "handleControl",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handleControl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendSubtitle",
+      "type": "function",
+      "name": "sendSubtitle",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendSubtitle",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendAudio",
+      "type": "function",
+      "name": "sendAudio",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendAudio",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendTextMessage",
+      "type": "function",
+      "name": "sendTextMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendTextMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendError",
+      "type": "function",
+      "name": "sendError",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendAudioChunk",
+      "type": "function",
+      "name": "sendAudioChunk",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendAudioChunk",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:recordTimerSinceNanos",
+      "type": "function",
+      "name": "recordTimerSinceNanos",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 recordTimerSinceNanos",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:recordTimerMillis",
+      "type": "function",
+      "name": "recordTimerMillis",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 recordTimerMillis",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:incrementCounter",
+      "type": "function",
+      "name": "incrementCounter",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 incrementCounter",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getRegistry",
+      "type": "function",
+      "name": "getRegistry",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 getRegistry",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:checkPauseTimeout",
+      "type": "function",
+      "name": "checkPauseTimeout",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 checkPauseTimeout",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendPauseWarning",
+      "type": "function",
+      "name": "sendPauseWarning",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 sendPauseWarning",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handlePauseTimeout",
+      "type": "function",
+      "name": "handlePauseTimeout",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 handlePauseTimeout",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:extractSessionId",
+      "type": "function",
+      "name": "extractSessionId",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 extractSessionId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getHistory",
+      "type": "function",
+      "name": "getHistory",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 getHistory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getSessionEntity",
+      "type": "function",
+      "name": "getSessionEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 getSessionEntity",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:saveMessage",
+      "type": "function",
+      "name": "saveMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 saveMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:convertPcmToWav",
+      "type": "function",
+      "name": "convertPcmToWav",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 convertPcmToWav",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:writeIntLE",
+      "type": "function",
+      "name": "writeIntLE",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 writeIntLE",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:writeShortLE",
+      "type": "function",
+      "name": "writeShortLE",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "函数 writeShortLE",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:VoiceInterviewWebSocketHandler",
+      "type": "class",
+      "name": "VoiceInterviewWebSocketHandler",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "summary": "类 VoiceInterviewWebSocketHandler",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "type": "file",
+      "name": "VoiceEvaluateStreamConsumer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "定义类: VoiceEvaluateStreamConsumer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:VoiceEvaluateStreamConsumer",
+      "type": "function",
+      "name": "VoiceEvaluateStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 VoiceEvaluateStreamConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:groupName",
+      "type": "function",
+      "name": "groupName",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 groupName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:consumerPrefix",
+      "type": "function",
+      "name": "consumerPrefix",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 consumerPrefix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:threadName",
+      "type": "function",
+      "name": "threadName",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 threadName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:parsePayload",
+      "type": "function",
+      "name": "parsePayload",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 parsePayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markProcessing",
+      "type": "function",
+      "name": "markProcessing",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 markProcessing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:processBusiness",
+      "type": "function",
+      "name": "processBusiness",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 processBusiness",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markCompleted",
+      "type": "function",
+      "name": "markCompleted",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 markCompleted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markFailed",
+      "type": "function",
+      "name": "markFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 markFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:retryMessage",
+      "type": "function",
+      "name": "retryMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "函数 retryMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:VoiceEvaluateStreamConsumer",
+      "type": "class",
+      "name": "VoiceEvaluateStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "summary": "类 VoiceEvaluateStreamConsumer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "type": "file",
+      "name": "VoiceEvaluateStreamProducer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "定义类: VoiceEvaluateStreamProducer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:VoiceEvaluateStreamProducer",
+      "type": "function",
+      "name": "VoiceEvaluateStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 VoiceEvaluateStreamProducer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:sendEvaluateTask",
+      "type": "function",
+      "name": "sendEvaluateTask",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 sendEvaluateTask",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 buildMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:onSendFailed",
+      "type": "function",
+      "name": "onSendFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "函数 onSendFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:VoiceEvaluateStreamProducer",
+      "type": "class",
+      "name": "VoiceEvaluateStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "summary": "类 VoiceEvaluateStreamProducer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "type": "file",
+      "name": "VoiceInterviewEvaluationEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "summary": "定义类: VoiceInterviewEvaluationEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java:VoiceInterviewEvaluationEntity",
+      "type": "class",
+      "name": "VoiceInterviewEvaluationEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "summary": "类 VoiceInterviewEvaluationEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "type": "file",
+      "name": "VoiceInterviewMessageEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "summary": "定义类: VoiceInterviewMessageEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java:VoiceInterviewMessageEntity",
+      "type": "class",
+      "name": "VoiceInterviewMessageEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "summary": "类 VoiceInterviewMessageEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "type": "file",
+      "name": "VoiceInterviewSessionEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "summary": "定义类: VoiceInterviewSessionEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:onUpdate",
+      "type": "function",
+      "name": "onUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "summary": "函数 onUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:VoiceInterviewSessionEntity",
+      "type": "class",
+      "name": "VoiceInterviewSessionEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "summary": "类 VoiceInterviewSessionEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java",
+      "type": "file",
+      "name": "VoiceInterviewSessionStatus.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+      "type": "file",
+      "name": "VoiceInterviewEvaluationRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+      "summary": "定义类: VoiceInterviewEvaluationRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java:VoiceInterviewEvaluationRepository",
+      "type": "class",
+      "name": "VoiceInterviewEvaluationRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+      "summary": "类 VoiceInterviewEvaluationRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+      "type": "file",
+      "name": "VoiceInterviewMessageRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+      "summary": "定义类: VoiceInterviewMessageRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java:VoiceInterviewMessageRepository",
+      "type": "class",
+      "name": "VoiceInterviewMessageRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+      "summary": "类 VoiceInterviewMessageRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+      "type": "file",
+      "name": "VoiceInterviewSessionRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+      "summary": "定义类: VoiceInterviewSessionRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java:VoiceInterviewSessionRepository",
+      "type": "class",
+      "name": "VoiceInterviewSessionRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+      "summary": "类 VoiceInterviewSessionRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "type": "file",
+      "name": "DashscopeLlmService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "定义类: DashscopeLlmService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chat",
+      "type": "function",
+      "name": "chat",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 chat",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chatStream",
+      "type": "function",
+      "name": "chatStream",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 chatStream",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chatStreamSentences",
+      "type": "function",
+      "name": "chatStreamSentences",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 chatStreamSentences",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:buildPromptContext",
+      "type": "function",
+      "name": "buildPromptContext",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 buildPromptContext",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:mapLlmErrorToUserMessage",
+      "type": "function",
+      "name": "mapLlmErrorToUserMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 mapLlmErrorToUserMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:optimizeForVoice",
+      "type": "function",
+      "name": "optimizeForVoice",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 optimizeForVoice",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:normalizeRealtimeText",
+      "type": "function",
+      "name": "normalizeRealtimeText",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 normalizeRealtimeText",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:hasTerminalSince",
+      "type": "function",
+      "name": "hasTerminalSince",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "函数 hasTerminalSince",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:DashscopeLlmService",
+      "type": "class",
+      "name": "DashscopeLlmService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "summary": "类 DashscopeLlmService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "type": "file",
+      "name": "QwenAsrService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "定义类: QwenAsrService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:QwenAsrService",
+      "type": "function",
+      "name": "QwenAsrService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 QwenAsrService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:reload",
+      "type": "function",
+      "name": "reload",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 reload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:applyAsrConfig",
+      "type": "function",
+      "name": "applyAsrConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 applyAsrConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:lockForSession",
+      "type": "function",
+      "name": "lockForSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 lockForSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 init",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscription",
+      "type": "function",
+      "name": "startTranscription",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 startTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscription",
+      "type": "function",
+      "name": "startTranscription",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 startTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:restartTranscription",
+      "type": "function",
+      "name": "restartTranscription",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 restartTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscriptionLocked",
+      "type": "function",
+      "name": "startTranscriptionLocked",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 startTranscriptionLocked",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:sendAudio",
+      "type": "function",
+      "name": "sendAudio",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 sendAudio",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:stopTranscription",
+      "type": "function",
+      "name": "stopTranscription",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 stopTranscription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:hasActiveSession",
+      "type": "function",
+      "name": "hasActiveSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 hasActiveSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 destroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:handleServerEvent",
+      "type": "function",
+      "name": "handleServerEvent",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 handleServerEvent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:dispatchPartialTranscript",
+      "type": "function",
+      "name": "dispatchPartialTranscript",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 dispatchPartialTranscript",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:extractTranscriptPayload",
+      "type": "function",
+      "name": "extractTranscriptPayload",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 extractTranscriptPayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setUrl",
+      "type": "function",
+      "name": "setUrl",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setModel",
+      "type": "function",
+      "name": "setModel",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setApiKey",
+      "type": "function",
+      "name": "setApiKey",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setApiKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setLanguage",
+      "type": "function",
+      "name": "setLanguage",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setLanguage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setFormat",
+      "type": "function",
+      "name": "setFormat",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setFormat",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setSampleRate",
+      "type": "function",
+      "name": "setSampleRate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setSampleRate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setEnableTurnDetection",
+      "type": "function",
+      "name": "setEnableTurnDetection",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setEnableTurnDetection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionType",
+      "type": "function",
+      "name": "setTurnDetectionType",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setTurnDetectionType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionThreshold",
+      "type": "function",
+      "name": "setTurnDetectionThreshold",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setTurnDetectionThreshold",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionSilenceDurationMs",
+      "type": "function",
+      "name": "setTurnDetectionSilenceDurationMs",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "函数 setTurnDetectionSilenceDurationMs",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:QwenAsrService",
+      "type": "class",
+      "name": "QwenAsrService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "summary": "类 QwenAsrService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "type": "file",
+      "name": "QwenTtsService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "定义类: QwenTtsService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:QwenTtsService",
+      "type": "function",
+      "name": "QwenTtsService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 QwenTtsService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:reload",
+      "type": "function",
+      "name": "reload",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 reload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:applyTtsConfig",
+      "type": "function",
+      "name": "applyTtsConfig",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 applyTtsConfig",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:init",
+      "type": "function",
+      "name": "init",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 init",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:synthesize",
+      "type": "function",
+      "name": "synthesize",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 synthesize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:getAudioFormat",
+      "type": "function",
+      "name": "getAudioFormat",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 getAudioFormat",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:destroy",
+      "type": "function",
+      "name": "destroy",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 destroy",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:handleServerEvent",
+      "type": "function",
+      "name": "handleServerEvent",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 handleServerEvent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setModel",
+      "type": "function",
+      "name": "setModel",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setModel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setApiKey",
+      "type": "function",
+      "name": "setApiKey",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setApiKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setVoice",
+      "type": "function",
+      "name": "setVoice",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setVoice",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setFormat",
+      "type": "function",
+      "name": "setFormat",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setFormat",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setSampleRate",
+      "type": "function",
+      "name": "setSampleRate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setSampleRate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setMode",
+      "type": "function",
+      "name": "setMode",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setMode",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setLanguageType",
+      "type": "function",
+      "name": "setLanguageType",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setLanguageType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setSpeechRate",
+      "type": "function",
+      "name": "setSpeechRate",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setSpeechRate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setVolume",
+      "type": "function",
+      "name": "setVolume",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "函数 setVolume",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:QwenTtsService",
+      "type": "class",
+      "name": "QwenTtsService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "summary": "类 QwenTtsService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "type": "file",
+      "name": "VoiceInterviewEvaluationService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "定义类: VoiceInterviewEvaluationService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:generateEvaluation",
+      "type": "function",
+      "name": "generateEvaluation",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 generateEvaluation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:getEvaluation",
+      "type": "function",
+      "name": "getEvaluation",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 getEvaluation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:buildQaRecords",
+      "type": "function",
+      "name": "buildQaRecords",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 buildQaRecords",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:inferCategory",
+      "type": "function",
+      "name": "inferCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 inferCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:saveEvaluationTransactional",
+      "type": "function",
+      "name": "saveEvaluationTransactional",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 saveEvaluationTransactional",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:saveEmptyEvaluationTransactional",
+      "type": "function",
+      "name": "saveEmptyEvaluationTransactional",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 saveEmptyEvaluationTransactional",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:buildDetailDTO",
+      "type": "function",
+      "name": "buildDetailDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 buildDetailDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:VoiceInterviewEvaluationService",
+      "type": "class",
+      "name": "VoiceInterviewEvaluationService",
+      "filePath": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "summary": "类 VoiceInterviewEvaluationService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java:VoiceInterviewProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java:registerWebSocketHandlers",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java:WebSocketConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:createSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:endSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:pauseSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:resumeSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getAllSessions",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:deleteSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getMessages",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:getEvaluation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:generateEvaluation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java:VoiceInterviewController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java:CreateSessionRequest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java:SessionMetaDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java:SessionResponseDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java:VoiceEvaluationDetailDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java:VoiceEvaluationStatusDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java:VoiceInterviewMessageDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java:WebSocketControlMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java:WebSocketSubtitleMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:createUtteranceMergeScheduler",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:warmupOpeningAudioCache",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:preloadOpeningAudio",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:afterConnectionEstablished",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:createWelcomeMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:toJson",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:triggerOpeningQuestionIfNeeded",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getOpeningWavAudio",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:synthesizeToWav",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:buildOpeningQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleTextMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:destroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:afterConnectionClosed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleTransportError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:shouldRecoverAsrConnection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:startDashScopeStt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:restartDashScopeStt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleUserAudio",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleSttResult",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:flushMergedUtteranceToLlm",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:triggerLlmResponse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getErrorMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handleControl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendSubtitle",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendAudio",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendTextMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendAudioChunk",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:recordTimerSinceNanos",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:recordTimerMillis",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:incrementCounter",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getRegistry",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:checkPauseTimeout",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:sendPauseWarning",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:handlePauseTimeout",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:extractSessionId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getHistory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:getSessionEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:saveMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:convertPcmToWav",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:writeIntLE",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:writeShortLE",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java:VoiceInterviewWebSocketHandler",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:VoiceEvaluateStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:groupName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:consumerPrefix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:threadName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:parsePayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markProcessing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:processBusiness",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:markFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:retryMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java:VoiceEvaluateStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:VoiceEvaluateStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:sendEvaluateTask",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:buildMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:onSendFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java:VoiceEvaluateStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java:VoiceInterviewEvaluationEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java:VoiceInterviewMessageEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:onUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java:VoiceInterviewSessionEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java:VoiceInterviewEvaluationRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java:VoiceInterviewMessageRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java:VoiceInterviewSessionRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chat",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chatStream",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:chatStreamSentences",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:buildPromptContext",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:mapLlmErrorToUserMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:optimizeForVoice",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:normalizeRealtimeText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:hasTerminalSince",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java:DashscopeLlmService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:QwenAsrService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:reload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:applyAsrConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:lockForSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:init",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:restartTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:startTranscriptionLocked",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:sendAudio",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:stopTranscription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:hasActiveSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:destroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:handleServerEvent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:dispatchPartialTranscript",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:extractTranscriptPayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setApiKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setLanguage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setFormat",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setSampleRate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setEnableTurnDetection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionThreshold",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:setTurnDetectionSilenceDurationMs",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java:QwenAsrService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:QwenTtsService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:reload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:applyTtsConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:init",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:synthesize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:getAudioFormat",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:destroy",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:handleServerEvent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setModel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setApiKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setVoice",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setFormat",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setSampleRate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setMode",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setLanguageType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setSpeechRate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:setVolume",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java:QwenTtsService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:generateEvaluation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:getEvaluation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:buildQaRecords",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:inferCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:saveEvaluationTransactional",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:saveEmptyEvaluationTransactional",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:buildDetailDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java:VoiceInterviewEvaluationService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

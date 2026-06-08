@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/build.gradle",
+      "language": "gradle",
+      "sizeLines": 154,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/App.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java",
+      "language": "java",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java",
+      "language": "java",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "language": "java",
+      "sizeLines": 448,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java",
+      "language": "java",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java",
+      "language": "java",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "language": "java",
+      "sizeLines": 284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java",
+      "language": "java",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/annotation/RateLimit.java",
+      "language": "java",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java",
+      "language": "java",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "language": "java",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "language": "java",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/AppConfigProperties.java",
+      "language": "java",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/CorsConfig.java",
+      "language": "java",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/CorsProperties.java",
+      "language": "java",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/JacksonConfig.java",
+      "language": "java",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java",
+      "language": "java",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/OpenApiConfig.java",
+      "language": "java",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/common/config/S3Config.java",
+      "language": "java",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    ".gitattributes": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    "app/build.gradle": [],
+    "app/src/main/java/interview/guide/App.java": [],
+    "app/src/main/java/interview/guide/common/ai/AgentUtilsConfiguration.java": [],
+    "app/src/main/java/interview/guide/common/ai/AgentUtilsProperties.java": [],
+    "app/src/main/java/interview/guide/common/ai/ApiPathResolver.java": [],
+    "app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java": [],
+    "app/src/main/java/interview/guide/common/ai/PromptSanitizer.java": [],
+    "app/src/main/java/interview/guide/common/ai/PromptSecurityConstants.java": [],
+    "app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java": [],
+    "app/src/main/java/interview/guide/common/ai/StructuredOutputProperties.java": [],
+    "app/src/main/java/interview/guide/common/annotation/RateLimit.java": [],
+    "app/src/main/java/interview/guide/common/aspect/RateLimitAspect.java": [],
+    "app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java": [],
+    "app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java": [],
+    "app/src/main/java/interview/guide/common/config/AppConfigProperties.java": [],
+    "app/src/main/java/interview/guide/common/config/CorsConfig.java": [],
+    "app/src/main/java/interview/guide/common/config/CorsProperties.java": [],
+    "app/src/main/java/interview/guide/common/config/JacksonConfig.java": [],
+    "app/src/main/java/interview/guide/common/config/LlmEmbeddingConfig.java": [],
+    "app/src/main/java/interview/guide/common/config/LlmProviderProperties.java": [],
+    "app/src/main/java/interview/guide/common/config/OpenApiConfig.java": [],
+    "app/src/main/java/interview/guide/common/config/S3Config.java": []
+  }
+}

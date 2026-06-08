@@ -1,0 +1,217 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/src/test/resources/test-files/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 103,
+      "nonEmptyLines": 79,
+      "sections": [
+        {
+          "heading": "测试文件说明",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "文件列表",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "1. sample-resume.txt",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "2. sample-resume.md",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "测试场景覆盖",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "内容类型",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "结构特征",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "边界情况",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "使用建议",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "单元测试",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "集成测试",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "添加新的测试文件",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "注意事项",
+          "level": 2,
+          "line": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "app/src/test/resources/test-files/sample-resume.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 186,
+      "nonEmptyLines": 141,
+      "sections": [
+        {
+          "heading": "李四 - 全栈工程师",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "📧 联系方式",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "🎓 教育背景",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "💼 工作经历",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "阿里巴巴 | 高级全栈工程师 | 2022.06 - 至今",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "美团 | 全栈工程师 | 2020.07 - 2022.05",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "🚀 项目经验",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "1. 智能客服系统（2023.03 - 2023.10）",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "2. 电商数据分析平台（2022.08 - 2023.02）",
+          "level": 3,
+          "line": 77
+        },
+        {
+          "heading": "3. 微服务框架脚手架（2021.03 - 2021.06）",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "🛠️ 技术栈",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "前端",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "后端",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": "数据库",
+          "level": 3,
+          "line": 127
+        },
+        {
+          "heading": "DevOps",
+          "level": 3,
+          "line": 134
+        },
+        {
+          "heading": "其他",
+          "level": 3,
+          "line": 140
+        },
+        {
+          "heading": "🏆 荣誉与证书",
+          "level": 2,
+          "line": 146
+        },
+        {
+          "heading": "📝 技术文章",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "🎯 个人评价",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "🌟 开源贡献",
+          "level": 2,
+          "line": 174
+        },
+        {
+          "heading": "🎨 个人兴趣",
+          "level": 2,
+          "line": 181
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    },
+    {
+      "path": "app/src/test/resources/test-files/sample-resume.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 75,
+      "nonEmptyLines": 65,
+      "metrics": {}
+    }
+  ]
+}

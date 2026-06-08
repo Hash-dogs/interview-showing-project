@@ -1,0 +1,1363 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/hooks/useInterviewConfig.ts",
+      "type": "file",
+      "name": "useInterviewConfig.ts",
+      "filePath": "frontend/src/hooks/useInterviewConfig.ts",
+      "summary": "定义函数/方法: useInterviewConfig",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/hooks/useInterviewConfig.ts:useInterviewConfig",
+      "type": "function",
+      "name": "useInterviewConfig",
+      "filePath": "frontend/src/hooks/useInterviewConfig.ts",
+      "summary": "函数 useInterviewConfig",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/hooks/useInterviewSchedule.ts",
+      "type": "file",
+      "name": "useInterviewSchedule.ts",
+      "filePath": "frontend/src/hooks/useInterviewSchedule.ts",
+      "summary": "定义函数/方法: useInterviewSchedule",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/hooks/useInterviewSchedule.ts:useInterviewSchedule",
+      "type": "function",
+      "name": "useInterviewSchedule",
+      "filePath": "frontend/src/hooks/useInterviewSchedule.ts",
+      "summary": "函数 useInterviewSchedule",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/hooks/useTheme.ts",
+      "type": "file",
+      "name": "useTheme.ts",
+      "filePath": "frontend/src/hooks/useTheme.ts",
+      "summary": "定义函数/方法: useTheme",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/hooks/useTheme.ts:useTheme",
+      "type": "function",
+      "name": "useTheme",
+      "filePath": "frontend/src/hooks/useTheme.ts",
+      "summary": "函数 useTheme",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "frontend/src/index.css",
+      "summary": "CSS 样式文件",
+      "tags": [
+        "css",
+        "markup",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "frontend/src/main.tsx",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/pages/HistoryPage.tsx",
+      "type": "file",
+      "name": "HistoryPage.tsx",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "定义函数/方法: isAnalyzing, AnalyzeStatusIcon, getAnalyzeStatusText, resumesEqual, HistoryList",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/HistoryPage.tsx:isAnalyzing",
+      "type": "function",
+      "name": "isAnalyzing",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "函数 isAnalyzing",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/HistoryPage.tsx:AnalyzeStatusIcon",
+      "type": "function",
+      "name": "AnalyzeStatusIcon",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "函数 AnalyzeStatusIcon",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/HistoryPage.tsx:getAnalyzeStatusText",
+      "type": "function",
+      "name": "getAnalyzeStatusText",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "函数 getAnalyzeStatusText",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/HistoryPage.tsx:resumesEqual",
+      "type": "function",
+      "name": "resumesEqual",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "函数 resumesEqual",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/HistoryPage.tsx:HistoryList",
+      "type": "function",
+      "name": "HistoryList",
+      "filePath": "frontend/src/pages/HistoryPage.tsx",
+      "summary": "函数 HistoryList",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "type": "file",
+      "name": "InterviewHistoryPage.tsx",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "定义函数/方法: isCompletedStatus, isLiveStatus, isEvaluateCompleted, isEvaluating, isEvaluateFailed",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:isCompletedStatus",
+      "type": "function",
+      "name": "isCompletedStatus",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 isCompletedStatus",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:isLiveStatus",
+      "type": "function",
+      "name": "isLiveStatus",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 isLiveStatus",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluateCompleted",
+      "type": "function",
+      "name": "isEvaluateCompleted",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 isEvaluateCompleted",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluating",
+      "type": "function",
+      "name": "isEvaluating",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 isEvaluating",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluateFailed",
+      "type": "function",
+      "name": "isEvaluateFailed",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 isEvaluateFailed",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:StatusIcon",
+      "type": "function",
+      "name": "StatusIcon",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 StatusIcon",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:getStatusText",
+      "type": "function",
+      "name": "getStatusText",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 getStatusText",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:formatDuration",
+      "type": "function",
+      "name": "formatDuration",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 formatDuration",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 StatCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:TypeBadge",
+      "type": "function",
+      "name": "TypeBadge",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 TypeBadge",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:itemsEqual",
+      "type": "function",
+      "name": "itemsEqual",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 itemsEqual",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHistoryPage.tsx:InterviewHistoryPage",
+      "type": "function",
+      "name": "InterviewHistoryPage",
+      "filePath": "frontend/src/pages/InterviewHistoryPage.tsx",
+      "summary": "函数 InterviewHistoryPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/InterviewHubPage.tsx",
+      "type": "file",
+      "name": "InterviewHubPage.tsx",
+      "filePath": "frontend/src/pages/InterviewHubPage.tsx",
+      "summary": "定义函数/方法: InterviewHubPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewHubPage.tsx:InterviewHubPage",
+      "type": "function",
+      "name": "InterviewHubPage",
+      "filePath": "frontend/src/pages/InterviewHubPage.tsx",
+      "summary": "函数 InterviewHubPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/InterviewPage.tsx",
+      "type": "file",
+      "name": "InterviewPage.tsx",
+      "filePath": "frontend/src/pages/InterviewPage.tsx",
+      "summary": "定义函数/方法: Interview",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewPage.tsx:Interview",
+      "type": "function",
+      "name": "Interview",
+      "filePath": "frontend/src/pages/InterviewPage.tsx",
+      "summary": "函数 Interview",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/InterviewSchedulePage.tsx",
+      "type": "file",
+      "name": "InterviewSchedulePage.tsx",
+      "filePath": "frontend/src/pages/InterviewSchedulePage.tsx",
+      "summary": "定义函数/方法: InterviewSchedulePage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/InterviewSchedulePage.tsx:InterviewSchedulePage",
+      "type": "function",
+      "name": "InterviewSchedulePage",
+      "filePath": "frontend/src/pages/InterviewSchedulePage.tsx",
+      "summary": "函数 InterviewSchedulePage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "type": "file",
+      "name": "KnowledgeBaseManagePage.tsx",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "定义函数/方法: formatFileSize, formatDate, StatusIcon, getStatusText, StatCard",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:formatFileSize",
+      "type": "function",
+      "name": "formatFileSize",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 formatFileSize",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 formatDate",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:StatusIcon",
+      "type": "function",
+      "name": "StatusIcon",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 StatusIcon",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:getStatusText",
+      "type": "function",
+      "name": "getStatusText",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 getStatusText",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 StatCard",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:KnowledgeBaseManagePage",
+      "type": "function",
+      "name": "KnowledgeBaseManagePage",
+      "filePath": "frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "summary": "函数 KnowledgeBaseManagePage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "type": "file",
+      "name": "KnowledgeBaseQueryPage.tsx",
+      "filePath": "frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "summary": "定义函数/方法: KnowledgeBaseQueryPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseQueryPage.tsx:KnowledgeBaseQueryPage",
+      "type": "function",
+      "name": "KnowledgeBaseQueryPage",
+      "filePath": "frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "summary": "函数 KnowledgeBaseQueryPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "type": "file",
+      "name": "KnowledgeBaseUploadPage.tsx",
+      "filePath": "frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "summary": "定义函数/方法: KnowledgeBaseUploadPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/KnowledgeBaseUploadPage.tsx:KnowledgeBaseUploadPage",
+      "type": "function",
+      "name": "KnowledgeBaseUploadPage",
+      "filePath": "frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "summary": "函数 KnowledgeBaseUploadPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/ResumeDetailPage.tsx",
+      "type": "file",
+      "name": "ResumeDetailPage.tsx",
+      "filePath": "frontend/src/pages/ResumeDetailPage.tsx",
+      "summary": "定义函数/方法: ResumeDetailPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/ResumeDetailPage.tsx:ResumeDetailPage",
+      "type": "function",
+      "name": "ResumeDetailPage",
+      "filePath": "frontend/src/pages/ResumeDetailPage.tsx",
+      "summary": "函数 ResumeDetailPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/SettingsPage.tsx",
+      "type": "file",
+      "name": "SettingsPage.tsx",
+      "filePath": "frontend/src/pages/SettingsPage.tsx",
+      "summary": "定义函数/方法: StatusBadge, ConfigRow, SettingsPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/SettingsPage.tsx:StatusBadge",
+      "type": "function",
+      "name": "StatusBadge",
+      "filePath": "frontend/src/pages/SettingsPage.tsx",
+      "summary": "函数 StatusBadge",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/SettingsPage.tsx:ConfigRow",
+      "type": "function",
+      "name": "ConfigRow",
+      "filePath": "frontend/src/pages/SettingsPage.tsx",
+      "summary": "函数 ConfigRow",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/pages/SettingsPage.tsx:SettingsPage",
+      "type": "function",
+      "name": "SettingsPage",
+      "filePath": "frontend/src/pages/SettingsPage.tsx",
+      "summary": "函数 SettingsPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/pages/UploadPage.tsx",
+      "type": "file",
+      "name": "UploadPage.tsx",
+      "filePath": "frontend/src/pages/UploadPage.tsx",
+      "summary": "定义函数/方法: UploadPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/pages/UploadPage.tsx:UploadPage",
+      "type": "function",
+      "name": "UploadPage",
+      "filePath": "frontend/src/pages/UploadPage.tsx",
+      "summary": "函数 UploadPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "type": "file",
+      "name": "VoiceInterviewEvaluationPage.tsx",
+      "filePath": "frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "summary": "定义函数/方法: VoiceInterviewEvaluationPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/pages/VoiceInterviewEvaluationPage.tsx:VoiceInterviewEvaluationPage",
+      "type": "function",
+      "name": "VoiceInterviewEvaluationPage",
+      "filePath": "frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "summary": "函数 VoiceInterviewEvaluationPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/pages/VoiceInterviewPage.tsx",
+      "type": "file",
+      "name": "VoiceInterviewPage.tsx",
+      "filePath": "frontend/src/pages/VoiceInterviewPage.tsx",
+      "summary": "定义函数/方法: VoiceInterviewPage",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:frontend/src/pages/VoiceInterviewPage.tsx:VoiceInterviewPage",
+      "type": "function",
+      "name": "VoiceInterviewPage",
+      "filePath": "frontend/src/pages/VoiceInterviewPage.tsx",
+      "summary": "函数 VoiceInterviewPage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:frontend/src/types/interview.ts",
+      "type": "file",
+      "name": "interview.ts",
+      "filePath": "frontend/src/types/interview.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/types/interviewSchedule.ts",
+      "type": "file",
+      "name": "interviewSchedule.ts",
+      "filePath": "frontend/src/types/interviewSchedule.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/types/llmProvider.ts",
+      "type": "file",
+      "name": "llmProvider.ts",
+      "filePath": "frontend/src/types/llmProvider.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/types/resume.ts",
+      "type": "file",
+      "name": "resume.ts",
+      "filePath": "frontend/src/types/resume.ts",
+      "summary": "TypeScript 源文件",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/utils/date.ts",
+      "type": "file",
+      "name": "date.ts",
+      "filePath": "frontend/src/utils/date.ts",
+      "summary": "定义函数/方法: formatDate, formatDateTime, formatDateOnly",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/utils/date.ts:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "frontend/src/utils/date.ts",
+      "summary": "函数 formatDate",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/date.ts:formatDateTime",
+      "type": "function",
+      "name": "formatDateTime",
+      "filePath": "frontend/src/utils/date.ts",
+      "summary": "函数 formatDateTime",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/date.ts:formatDateOnly",
+      "type": "function",
+      "name": "formatDateOnly",
+      "filePath": "frontend/src/utils/date.ts",
+      "summary": "函数 formatDateOnly",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/utils/score.ts",
+      "type": "file",
+      "name": "score.ts",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "定义函数/方法: calculatePercentage, normalizeScore, isDarkMode, getScoreColor, getScoreProgressColor",
+      "tags": [
+        "typescript",
+        "code",
+        "ts",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:calculatePercentage",
+      "type": "function",
+      "name": "calculatePercentage",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 calculatePercentage",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:normalizeScore",
+      "type": "function",
+      "name": "normalizeScore",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 normalizeScore",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:isDarkMode",
+      "type": "function",
+      "name": "isDarkMode",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 isDarkMode",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:getScoreColor",
+      "type": "function",
+      "name": "getScoreColor",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 getScoreColor",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:getScoreProgressColor",
+      "type": "function",
+      "name": "getScoreProgressColor",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 getScoreProgressColor",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils/score.ts:getScoreTextColor",
+      "type": "function",
+      "name": "getScoreTextColor",
+      "filePath": "frontend/src/utils/score.ts",
+      "summary": "函数 getScoreTextColor",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/utils/skillIcons.tsx",
+      "type": "file",
+      "name": "skillIcons.tsx",
+      "filePath": "frontend/src/utils/skillIcons.tsx",
+      "summary": "定义函数/方法: getSkillIcon",
+      "tags": [
+        "typescript",
+        "code",
+        "tsx",
+        "frontend"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/utils/skillIcons.tsx:getSkillIcon",
+      "type": "function",
+      "name": "getSkillIcon",
+      "filePath": "frontend/src/utils/skillIcons.tsx",
+      "summary": "函数 getSkillIcon",
+      "tags": [
+        "function",
+        "typescript"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/hooks/useInterviewConfig.ts",
+      "target": "function:frontend/src/hooks/useInterviewConfig.ts:useInterviewConfig",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/hooks/useInterviewSchedule.ts",
+      "target": "function:frontend/src/hooks/useInterviewSchedule.ts:useInterviewSchedule",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/hooks/useTheme.ts",
+      "target": "function:frontend/src/hooks/useTheme.ts:useTheme",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/HistoryPage.tsx",
+      "target": "function:frontend/src/pages/HistoryPage.tsx:isAnalyzing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/HistoryPage.tsx",
+      "target": "function:frontend/src/pages/HistoryPage.tsx:AnalyzeStatusIcon",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/HistoryPage.tsx",
+      "target": "function:frontend/src/pages/HistoryPage.tsx:getAnalyzeStatusText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/HistoryPage.tsx",
+      "target": "function:frontend/src/pages/HistoryPage.tsx:resumesEqual",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/HistoryPage.tsx",
+      "target": "function:frontend/src/pages/HistoryPage.tsx:HistoryList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:isCompletedStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:isLiveStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluateCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluating",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:isEvaluateFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:StatusIcon",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:getStatusText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:formatDuration",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:StatCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:TypeBadge",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:itemsEqual",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHistoryPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHistoryPage.tsx:InterviewHistoryPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewHubPage.tsx",
+      "target": "function:frontend/src/pages/InterviewHubPage.tsx:InterviewHubPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewPage.tsx",
+      "target": "function:frontend/src/pages/InterviewPage.tsx:Interview",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/InterviewSchedulePage.tsx",
+      "target": "function:frontend/src/pages/InterviewSchedulePage.tsx:InterviewSchedulePage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:formatFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:formatDate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:StatusIcon",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:getStatusText",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:StatCard",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseManagePage.tsx:KnowledgeBaseManagePage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseQueryPage.tsx:KnowledgeBaseQueryPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "target": "function:frontend/src/pages/KnowledgeBaseUploadPage.tsx:KnowledgeBaseUploadPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/ResumeDetailPage.tsx",
+      "target": "function:frontend/src/pages/ResumeDetailPage.tsx:ResumeDetailPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/SettingsPage.tsx",
+      "target": "function:frontend/src/pages/SettingsPage.tsx:StatusBadge",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/SettingsPage.tsx",
+      "target": "function:frontend/src/pages/SettingsPage.tsx:ConfigRow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/SettingsPage.tsx",
+      "target": "function:frontend/src/pages/SettingsPage.tsx:SettingsPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/UploadPage.tsx",
+      "target": "function:frontend/src/pages/UploadPage.tsx:UploadPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "target": "function:frontend/src/pages/VoiceInterviewEvaluationPage.tsx:VoiceInterviewEvaluationPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/pages/VoiceInterviewPage.tsx",
+      "target": "function:frontend/src/pages/VoiceInterviewPage.tsx:VoiceInterviewPage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/date.ts",
+      "target": "function:frontend/src/utils/date.ts:formatDate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/date.ts",
+      "target": "function:frontend/src/utils/date.ts:formatDateTime",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/date.ts",
+      "target": "function:frontend/src/utils/date.ts:formatDateOnly",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:calculatePercentage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:normalizeScore",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:isDarkMode",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:getScoreColor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:getScoreProgressColor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/score.ts",
+      "target": "function:frontend/src/utils/score.ts:getScoreTextColor",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:frontend/src/utils/skillIcons.tsx",
+      "target": "function:frontend/src/utils/skillIcons.tsx:getSkillIcon",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    }
+  ]
+}

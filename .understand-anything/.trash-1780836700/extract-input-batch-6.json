@@ -1,0 +1,28 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md",
+      "language": "markdown",
+      "sizeLines": 161,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/resources/skills/ai-agent-dev/SKILL.md": [],
+    "app/src/main/resources/skills/ai-agent-dev/ai-agent-dev.md": [],
+    "app/src/main/resources/skills/ai-agent-dev/skill.meta.yml": []
+  }
+}

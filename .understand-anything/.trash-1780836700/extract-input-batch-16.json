@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java",
+      "language": "java",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java",
+      "language": "java",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java",
+      "language": "java",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java",
+      "language": "java",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java",
+      "language": "java",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java",
+      "language": "java",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java",
+      "language": "java",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java",
+      "language": "java",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java",
+      "language": "java",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java",
+      "language": "java",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java",
+      "language": "java",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java",
+      "language": "java",
+      "sizeLines": 1169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java",
+      "language": "java",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java",
+      "language": "java",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java",
+      "language": "java",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java",
+      "language": "java",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java",
+      "language": "java",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java",
+      "language": "java",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java",
+      "language": "java",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java",
+      "language": "java",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java",
+      "language": "java",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java",
+      "language": "java",
+      "sizeLines": 248,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java",
+      "language": "java",
+      "sizeLines": 632,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java",
+      "language": "java",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java",
+      "language": "java",
+      "sizeLines": 240,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/java/interview/guide/modules/voiceinterview/config/VoiceInterviewProperties.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/config/WebSocketConfig.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/controller/VoiceInterviewController.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/CreateSessionRequest.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionMetaDTO.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/SessionResponseDTO.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationDetailDTO.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceEvaluationStatusDTO.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/VoiceInterviewMessageDTO.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketControlMessage.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/dto/WebSocketSubtitleMessage.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/handler/VoiceInterviewWebSocketHandler.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamConsumer.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/listener/VoiceEvaluateStreamProducer.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewEvaluationEntity.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewMessageEntity.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionEntity.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/model/VoiceInterviewSessionStatus.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewEvaluationRepository.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewMessageRepository.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/repository/VoiceInterviewSessionRepository.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/DashscopeLlmService.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenAsrService.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/QwenTtsService.java": [],
+    "app/src/main/java/interview/guide/modules/voiceinterview/service/VoiceInterviewEvaluationService.java": []
+  }
+}

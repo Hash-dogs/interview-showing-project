@@ -1,0 +1,182 @@
+{
+  "projectRoot": "d:/coding_world/javaguide_project/interviewer_showing_type/interviewer-project-master",
+  "batchFiles": [
+    {
+      "path": "app/src/main/resources/skills/java-backend-tencent/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/java-backend-tencent/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 45,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/java-backend/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/java-backend/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 35,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/python-backend/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/python-backend/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/system-design/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/system-design/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/main/resources/skills/test-development/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 20,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/main/resources/skills/test-development/skill.meta.yml",
+      "language": "yaml",
+      "sizeLines": 40,
+      "fileCategory": "config"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/AppTest.java",
+      "language": "java",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java",
+      "language": "java",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java",
+      "language": "java",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java",
+      "language": "java",
+      "sizeLines": 214,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java",
+      "language": "java",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java",
+      "language": "java",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java",
+      "language": "java",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java",
+      "language": "java",
+      "sizeLines": 403,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java",
+      "language": "java",
+      "sizeLines": 420,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/infrastructure/file/README.md",
+      "language": "markdown",
+      "sizeLines": 307,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java",
+      "language": "java",
+      "sizeLines": 408,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java",
+      "language": "java",
+      "sizeLines": 592,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java",
+      "language": "java",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java",
+      "language": "java",
+      "sizeLines": 471,
+      "fileCategory": "code"
+    },
+    {
+      "path": "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java",
+      "language": "java",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "app/src/main/resources/skills/java-backend-tencent/SKILL.md": [],
+    "app/src/main/resources/skills/java-backend-tencent/skill.meta.yml": [],
+    "app/src/main/resources/skills/java-backend/SKILL.md": [],
+    "app/src/main/resources/skills/java-backend/skill.meta.yml": [],
+    "app/src/main/resources/skills/python-backend/SKILL.md": [],
+    "app/src/main/resources/skills/python-backend/skill.meta.yml": [],
+    "app/src/main/resources/skills/system-design/SKILL.md": [],
+    "app/src/main/resources/skills/system-design/skill.meta.yml": [],
+    "app/src/main/resources/skills/test-development/SKILL.md": [],
+    "app/src/main/resources/skills/test-development/skill.meta.yml": [],
+    "app/src/test/java/interview/guide/AppTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/ApiPathResolverTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryPathIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/common/ai/LlmProviderRegistryTest.java": [],
+    "app/src/test/java/interview/guide/common/aspect/RateLimitIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/common/aspect/RateLimitScriptTest.java": [],
+    "app/src/test/java/interview/guide/common/exception/RateLimitExceededExceptionTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/DocumentParseIntegrationTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/DocumentParseServiceTest.java": [],
+    "app/src/test/java/interview/guide/infrastructure/file/README.md": [],
+    "app/src/test/java/interview/guide/infrastructure/file/TextCleaningServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/knowledgebase/service/KnowledgeBaseVectorServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/llmprovider/controller/LlmProviderControllerTest.java": [],
+    "app/src/test/java/interview/guide/modules/llmprovider/service/LlmProviderConfigServiceTest.java": [],
+    "app/src/test/java/interview/guide/modules/voiceinterview/integration/VoiceInterviewIntegrationTest.java": []
+  }
+}

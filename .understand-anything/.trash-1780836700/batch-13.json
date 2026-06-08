@@ -1,0 +1,3880 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "type": "file",
+      "name": "InterviewSessionService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "定义类: InterviewSessionService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:createSession",
+      "type": "function",
+      "name": "createSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 createSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 getSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:findUnfinishedSession",
+      "type": "function",
+      "name": "findUnfinishedSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 findUnfinishedSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:findUnfinishedSessionOrThrow",
+      "type": "function",
+      "name": "findUnfinishedSessionOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 findUnfinishedSessionOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:restoreSessionFromDatabase",
+      "type": "function",
+      "name": "restoreSessionFromDatabase",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 restoreSessionFromDatabase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:restoreSessionFromEntity",
+      "type": "function",
+      "name": "restoreSessionFromEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 restoreSessionFromEntity",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:convertStatus",
+      "type": "function",
+      "name": "convertStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 convertStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getCurrentQuestionResponse",
+      "type": "function",
+      "name": "getCurrentQuestionResponse",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 getCurrentQuestionResponse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getCurrentQuestion",
+      "type": "function",
+      "name": "getCurrentQuestion",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 getCurrentQuestion",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:submitAnswer",
+      "type": "function",
+      "name": "submitAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 submitAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:saveAnswer",
+      "type": "function",
+      "name": "saveAnswer",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 saveAnswer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:completeInterview",
+      "type": "function",
+      "name": "completeInterview",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 completeInterview",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getOrRestoreSession",
+      "type": "function",
+      "name": "getOrRestoreSession",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 getOrRestoreSession",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:generateReport",
+      "type": "function",
+      "name": "generateReport",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 generateReport",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:toDTO",
+      "type": "function",
+      "name": "toDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "函数 toDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:InterviewSessionService",
+      "type": "class",
+      "name": "InterviewSessionService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "summary": "类 InterviewSessionService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "type": "file",
+      "name": "InterviewSkillController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "定义类: InterviewSkillController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:InterviewSkillController",
+      "type": "function",
+      "name": "InterviewSkillController",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "函数 InterviewSkillController",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:listSkills",
+      "type": "function",
+      "name": "listSkills",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "函数 listSkills",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:getSkill",
+      "type": "function",
+      "name": "getSkill",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "函数 getSkill",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:parseJd",
+      "type": "function",
+      "name": "parseJd",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "函数 parseJd",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:InterviewSkillController",
+      "type": "class",
+      "name": "InterviewSkillController",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "summary": "类 InterviewSkillController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "type": "file",
+      "name": "InterviewSkillProperties.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "summary": "定义类: InterviewSkillProperties",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java:InterviewSkillProperties",
+      "type": "function",
+      "name": "InterviewSkillProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "summary": "函数 InterviewSkillProperties",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java:InterviewSkillProperties",
+      "type": "class",
+      "name": "InterviewSkillProperties",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "summary": "类 InterviewSkillProperties",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "type": "file",
+      "name": "InterviewSkillService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "定义类: InterviewSkillService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:InterviewSkillService",
+      "type": "function",
+      "name": "InterviewSkillService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 InterviewSkillService",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadPresetSkills",
+      "type": "function",
+      "name": "loadPresetSkills",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 loadPresetSkills",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildCategoryRefIndex",
+      "type": "function",
+      "name": "buildCategoryRefIndex",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildCategoryRefIndex",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:getAllSkills",
+      "type": "function",
+      "name": "getAllSkills",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 getAllSkills",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:getSkill",
+      "type": "function",
+      "name": "getSkill",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 getSkill",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildCustomSkill",
+      "type": "function",
+      "name": "buildCustomSkill",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildCustomSkill",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:parseJd",
+      "type": "function",
+      "name": "parseJd",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 parseJd",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceFileList",
+      "type": "function",
+      "name": "buildReferenceFileList",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildReferenceFileList",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:calculateAllocation",
+      "type": "function",
+      "name": "calculateAllocation",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 calculateAllocation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:calculateAllocation",
+      "type": "function",
+      "name": "calculateAllocation",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 calculateAllocation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildAllocationDescription",
+      "type": "function",
+      "name": "buildAllocationDescription",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildAllocationDescription",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceSection",
+      "type": "function",
+      "name": "buildReferenceSection",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildReferenceSection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildEvaluationReferenceSection",
+      "type": "function",
+      "name": "buildEvaluationReferenceSection",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildEvaluationReferenceSection",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildEvaluationReferenceSectionSafe",
+      "type": "function",
+      "name": "buildEvaluationReferenceSectionSafe",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildEvaluationReferenceSectionSafe",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceSectionInternal",
+      "type": "function",
+      "name": "buildReferenceSectionInternal",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildReferenceSectionInternal",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadClasspathPrompt",
+      "type": "function",
+      "name": "loadClasspathPrompt",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 loadClasspathPrompt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:parseSkillDefinition",
+      "type": "function",
+      "name": "parseSkillDefinition",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 parseSkillDefinition",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadSkillMetaDefinition",
+      "type": "function",
+      "name": "loadSkillMetaDefinition",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 loadSkillMetaDefinition",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:extractSkillId",
+      "type": "function",
+      "name": "extractSkillId",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 extractSkillId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadReferenceContent",
+      "type": "function",
+      "name": "loadReferenceContent",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 loadReferenceContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:resolveReferenceLocations",
+      "type": "function",
+      "name": "resolveReferenceLocations",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 resolveReferenceLocations",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:addSkillReferenceLocations",
+      "type": "function",
+      "name": "addSkillReferenceLocations",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 addSkillReferenceLocations",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildSharedReferenceLocation",
+      "type": "function",
+      "name": "buildSharedReferenceLocation",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 buildSharedReferenceLocation",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:readReferenceContent",
+      "type": "function",
+      "name": "readReferenceContent",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 readReferenceContent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:isSafeReferencePath",
+      "type": "function",
+      "name": "isSafeReferencePath",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 isSafeReferencePath",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:sanitizeCategoryKey",
+      "type": "function",
+      "name": "sanitizeCategoryKey",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 sanitizeCategoryKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:sanitizeCategoryLabel",
+      "type": "function",
+      "name": "sanitizeCategoryLabel",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 sanitizeCategoryLabel",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:toSkillDTO",
+      "type": "function",
+      "name": "toSkillDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "函数 toSkillDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:InterviewSkillService",
+      "type": "class",
+      "name": "InterviewSkillService",
+      "filePath": "app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "summary": "类 InterviewSkillService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "type": "file",
+      "name": "InterviewScheduleController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "定义类: InterviewScheduleController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:parse",
+      "type": "function",
+      "name": "parse",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 parse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 create",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:getById",
+      "type": "function",
+      "name": "getById",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 getById",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:getAll",
+      "type": "function",
+      "name": "getAll",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 getAll",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:update",
+      "type": "function",
+      "name": "update",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 update",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:delete",
+      "type": "function",
+      "name": "delete",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 delete",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:updateStatus",
+      "type": "function",
+      "name": "updateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "函数 updateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:InterviewScheduleController",
+      "type": "class",
+      "name": "InterviewScheduleController",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "summary": "类 InterviewScheduleController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "type": "file",
+      "name": "CreateInterviewRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "summary": "定义类: CreateInterviewRequest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java:CreateInterviewRequest",
+      "type": "class",
+      "name": "CreateInterviewRequest",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "summary": "类 CreateInterviewRequest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "type": "file",
+      "name": "InterviewScheduleDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "summary": "定义类: InterviewScheduleDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java:InterviewScheduleDTO",
+      "type": "class",
+      "name": "InterviewScheduleDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "summary": "类 InterviewScheduleDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "type": "file",
+      "name": "InterviewScheduleEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "summary": "定义类: InterviewScheduleEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:onUpdate",
+      "type": "function",
+      "name": "onUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "summary": "函数 onUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:InterviewScheduleEntity",
+      "type": "class",
+      "name": "InterviewScheduleEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "summary": "类 InterviewScheduleEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java",
+      "type": "file",
+      "name": "InterviewStatus.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewStatus.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "type": "file",
+      "name": "ParseRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "summary": "定义类: ParseRequest",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java:ParseRequest",
+      "type": "class",
+      "name": "ParseRequest",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "summary": "类 ParseRequest",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "type": "file",
+      "name": "ParseResponse.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "summary": "定义类: ParseResponse",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java:ParseResponse",
+      "type": "class",
+      "name": "ParseResponse",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "summary": "类 ParseResponse",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "type": "file",
+      "name": "InterviewScheduleRepository.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "summary": "定义类: InterviewScheduleRepository",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java:InterviewScheduleRepository",
+      "type": "class",
+      "name": "InterviewScheduleRepository",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "summary": "类 InterviewScheduleRepository",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "type": "file",
+      "name": "InterviewParseService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "定义类: InterviewParseService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parse",
+      "type": "function",
+      "name": "parse",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parse",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:tryRuleParsing",
+      "type": "function",
+      "name": "tryRuleParsing",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 tryRuleParsing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseFeishu",
+      "type": "function",
+      "name": "parseFeishu",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseFeishu",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseTencent",
+      "type": "function",
+      "name": "parseTencent",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseTencent",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseZoom",
+      "type": "function",
+      "name": "parseZoom",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseZoom",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseWithAI",
+      "type": "function",
+      "name": "parseWithAI",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseWithAI",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseDateTime",
+      "type": "function",
+      "name": "parseDateTime",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseDateTime",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseRoundNumber",
+      "type": "function",
+      "name": "parseRoundNumber",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 parseRoundNumber",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:isValidResult",
+      "type": "function",
+      "name": "isValidResult",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "函数 isValidResult",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:InterviewParseService",
+      "type": "class",
+      "name": "InterviewParseService",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "summary": "类 InterviewParseService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "very_complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "type": "file",
+      "name": "InterviewScheduleService.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "定义类: InterviewScheduleService",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 create",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:update",
+      "type": "function",
+      "name": "update",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 update",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:delete",
+      "type": "function",
+      "name": "delete",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 delete",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:updateStatus",
+      "type": "function",
+      "name": "updateStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 updateStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getAll",
+      "type": "function",
+      "name": "getAll",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 getAll",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getById",
+      "type": "function",
+      "name": "getById",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 getById",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getByIdOrThrow",
+      "type": "function",
+      "name": "getByIdOrThrow",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 getByIdOrThrow",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:toDTO",
+      "type": "function",
+      "name": "toDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "函数 toDTO",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:InterviewScheduleService",
+      "type": "class",
+      "name": "InterviewScheduleService",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "summary": "类 InterviewScheduleService",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "type": "file",
+      "name": "ScheduleStatusUpdater.java",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "summary": "定义类: ScheduleStatusUpdater",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java:updateExpiredInterviews",
+      "type": "function",
+      "name": "updateExpiredInterviews",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "summary": "函数 updateExpiredInterviews",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java:ScheduleStatusUpdater",
+      "type": "class",
+      "name": "ScheduleStatusUpdater",
+      "filePath": "app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "summary": "类 ScheduleStatusUpdater",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "type": "file",
+      "name": "KnowledgeBaseController.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "定义类: KnowledgeBaseController",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getAllKnowledgeBases",
+      "type": "function",
+      "name": "getAllKnowledgeBases",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getAllKnowledgeBases",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getKnowledgeBase",
+      "type": "function",
+      "name": "getKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:deleteKnowledgeBase",
+      "type": "function",
+      "name": "deleteKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 deleteKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:queryKnowledgeBase",
+      "type": "function",
+      "name": "queryKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 queryKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:queryKnowledgeBaseStream",
+      "type": "function",
+      "name": "queryKnowledgeBaseStream",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 queryKnowledgeBaseStream",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getAllCategories",
+      "type": "function",
+      "name": "getAllCategories",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getAllCategories",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getByCategory",
+      "type": "function",
+      "name": "getByCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getByCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getUncategorized",
+      "type": "function",
+      "name": "getUncategorized",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getUncategorized",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:updateCategory",
+      "type": "function",
+      "name": "updateCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 updateCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:uploadKnowledgeBase",
+      "type": "function",
+      "name": "uploadKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 uploadKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:downloadKnowledgeBase",
+      "type": "function",
+      "name": "downloadKnowledgeBase",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 downloadKnowledgeBase",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:search",
+      "type": "function",
+      "name": "search",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 search",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getStatistics",
+      "type": "function",
+      "name": "getStatistics",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 getStatistics",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:revectorize",
+      "type": "function",
+      "name": "revectorize",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "函数 revectorize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:KnowledgeBaseController",
+      "type": "class",
+      "name": "KnowledgeBaseController",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "summary": "类 KnowledgeBaseController",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "type": "file",
+      "name": "VectorizeStreamConsumer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "定义类: VectorizeStreamConsumer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:VectorizeStreamConsumer",
+      "type": "function",
+      "name": "VectorizeStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 VectorizeStreamConsumer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:groupName",
+      "type": "function",
+      "name": "groupName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 groupName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:consumerPrefix",
+      "type": "function",
+      "name": "consumerPrefix",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 consumerPrefix",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:threadName",
+      "type": "function",
+      "name": "threadName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 threadName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:parsePayload",
+      "type": "function",
+      "name": "parsePayload",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 parsePayload",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markProcessing",
+      "type": "function",
+      "name": "markProcessing",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 markProcessing",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:processBusiness",
+      "type": "function",
+      "name": "processBusiness",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 processBusiness",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markCompleted",
+      "type": "function",
+      "name": "markCompleted",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 markCompleted",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markFailed",
+      "type": "function",
+      "name": "markFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 markFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:retryMessage",
+      "type": "function",
+      "name": "retryMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 retryMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:updateVectorStatus",
+      "type": "function",
+      "name": "updateVectorStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "函数 updateVectorStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:VectorizeStreamConsumer",
+      "type": "class",
+      "name": "VectorizeStreamConsumer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "summary": "类 VectorizeStreamConsumer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "type": "file",
+      "name": "VectorizeStreamProducer.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "定义类: VectorizeStreamProducer",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:VectorizeStreamProducer",
+      "type": "function",
+      "name": "VectorizeStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 VectorizeStreamProducer",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:sendVectorizeTask",
+      "type": "function",
+      "name": "sendVectorizeTask",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 sendVectorizeTask",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:taskDisplayName",
+      "type": "function",
+      "name": "taskDisplayName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 taskDisplayName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:streamKey",
+      "type": "function",
+      "name": "streamKey",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 streamKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:buildMessage",
+      "type": "function",
+      "name": "buildMessage",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 buildMessage",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:payloadIdentifier",
+      "type": "function",
+      "name": "payloadIdentifier",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 payloadIdentifier",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:onSendFailed",
+      "type": "function",
+      "name": "onSendFailed",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 onSendFailed",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:updateVectorStatus",
+      "type": "function",
+      "name": "updateVectorStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "函数 updateVectorStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:VectorizeStreamProducer",
+      "type": "class",
+      "name": "VectorizeStreamProducer",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "summary": "类 VectorizeStreamProducer",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "type": "file",
+      "name": "KnowledgeBaseEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "定义类: KnowledgeBaseEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getId",
+      "type": "function",
+      "name": "getId",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setId",
+      "type": "function",
+      "name": "setId",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setId",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getFileHash",
+      "type": "function",
+      "name": "getFileHash",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getFileHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setFileHash",
+      "type": "function",
+      "name": "setFileHash",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setFileHash",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getName",
+      "type": "function",
+      "name": "getName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setName",
+      "type": "function",
+      "name": "setName",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setName",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getOriginalFilename",
+      "type": "function",
+      "name": "getOriginalFilename",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getOriginalFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setOriginalFilename",
+      "type": "function",
+      "name": "setOriginalFilename",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setOriginalFilename",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getFileSize",
+      "type": "function",
+      "name": "getFileSize",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setFileSize",
+      "type": "function",
+      "name": "setFileSize",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setFileSize",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getContentType",
+      "type": "function",
+      "name": "getContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setContentType",
+      "type": "function",
+      "name": "setContentType",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setContentType",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getStorageKey",
+      "type": "function",
+      "name": "getStorageKey",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getStorageKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setStorageKey",
+      "type": "function",
+      "name": "setStorageKey",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setStorageKey",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getStorageUrl",
+      "type": "function",
+      "name": "getStorageUrl",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getStorageUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setStorageUrl",
+      "type": "function",
+      "name": "setStorageUrl",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setStorageUrl",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getUploadedAt",
+      "type": "function",
+      "name": "getUploadedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getUploadedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setUploadedAt",
+      "type": "function",
+      "name": "setUploadedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setUploadedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getLastAccessedAt",
+      "type": "function",
+      "name": "getLastAccessedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getLastAccessedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setLastAccessedAt",
+      "type": "function",
+      "name": "setLastAccessedAt",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setLastAccessedAt",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getAccessCount",
+      "type": "function",
+      "name": "getAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setAccessCount",
+      "type": "function",
+      "name": "setAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getQuestionCount",
+      "type": "function",
+      "name": "getQuestionCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getQuestionCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setQuestionCount",
+      "type": "function",
+      "name": "setQuestionCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setQuestionCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:incrementAccessCount",
+      "type": "function",
+      "name": "incrementAccessCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 incrementAccessCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:incrementQuestionCount",
+      "type": "function",
+      "name": "incrementQuestionCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 incrementQuestionCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getCategory",
+      "type": "function",
+      "name": "getCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setCategory",
+      "type": "function",
+      "name": "setCategory",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setCategory",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getVectorStatus",
+      "type": "function",
+      "name": "getVectorStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getVectorStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setVectorStatus",
+      "type": "function",
+      "name": "setVectorStatus",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setVectorStatus",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getVectorError",
+      "type": "function",
+      "name": "getVectorError",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getVectorError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setVectorError",
+      "type": "function",
+      "name": "setVectorError",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setVectorError",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getChunkCount",
+      "type": "function",
+      "name": "getChunkCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 getChunkCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setChunkCount",
+      "type": "function",
+      "name": "setChunkCount",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "函数 setChunkCount",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:KnowledgeBaseEntity",
+      "type": "class",
+      "name": "KnowledgeBaseEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "summary": "类 KnowledgeBaseEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java",
+      "type": "file",
+      "name": "KnowledgeBaseListItemDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseListItemDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java",
+      "type": "file",
+      "name": "KnowledgeBaseStatsDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseStatsDTO.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java",
+      "type": "file",
+      "name": "QueryRequest.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryRequest.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java",
+      "type": "file",
+      "name": "QueryResponse.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/QueryResponse.java",
+      "summary": "Java 源文件",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "type": "file",
+      "name": "RagChatDTO.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "summary": "定义类: RagChatDTO",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java:RagChatDTO",
+      "type": "class",
+      "name": "RagChatDTO",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "summary": "类 RagChatDTO",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "type": "file",
+      "name": "RagChatMessageEntity.java",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "summary": "定义类: RagChatMessageEntity",
+      "tags": [
+        "java",
+        "code",
+        "app"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:onCreate",
+      "type": "function",
+      "name": "onCreate",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "summary": "函数 onCreate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:onUpdate",
+      "type": "function",
+      "name": "onUpdate",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "summary": "函数 onUpdate",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:getTypeString",
+      "type": "function",
+      "name": "getTypeString",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "summary": "函数 getTypeString",
+      "tags": [
+        "function",
+        "java"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:RagChatMessageEntity",
+      "type": "class",
+      "name": "RagChatMessageEntity",
+      "filePath": "app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "summary": "类 RagChatMessageEntity",
+      "tags": [
+        "class",
+        "java"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:createSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:findUnfinishedSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:findUnfinishedSessionOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:restoreSessionFromDatabase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:restoreSessionFromEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:convertStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getCurrentQuestionResponse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getCurrentQuestion",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:submitAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:saveAnswer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:completeInterview",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:getOrRestoreSession",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:generateReport",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:toDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/service/InterviewSessionService.java:InterviewSessionService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:InterviewSkillController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:listSkills",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:getSkill",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:parseJd",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillController.java:InterviewSkillController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java:InterviewSkillProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillProperties.java:InterviewSkillProperties",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:InterviewSkillService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadPresetSkills",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildCategoryRefIndex",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:getAllSkills",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:getSkill",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildCustomSkill",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:parseJd",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceFileList",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:calculateAllocation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:calculateAllocation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildAllocationDescription",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildEvaluationReferenceSection",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildEvaluationReferenceSectionSafe",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildReferenceSectionInternal",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadClasspathPrompt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:parseSkillDefinition",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadSkillMetaDefinition",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:extractSkillId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:loadReferenceContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:resolveReferenceLocations",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:addSkillReferenceLocations",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:buildSharedReferenceLocation",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:readReferenceContent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:isSafeReferencePath",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:sanitizeCategoryKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:sanitizeCategoryLabel",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:toSkillDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interview/skill/InterviewSkillService.java:InterviewSkillService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:parse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:create",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:getById",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:getAll",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:update",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:delete",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:updateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/InterviewScheduleController.java:InterviewScheduleController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/CreateInterviewRequest.java:CreateInterviewRequest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleDTO.java:InterviewScheduleDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:onUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/InterviewScheduleEntity.java:InterviewScheduleEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseRequest.java:ParseRequest",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/model/ParseResponse.java:ParseResponse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/repository/InterviewScheduleRepository.java:InterviewScheduleRepository",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parse",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:tryRuleParsing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseFeishu",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseTencent",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseZoom",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseWithAI",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseDateTime",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:parseRoundNumber",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:isValidResult",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewParseService.java:InterviewParseService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:create",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:update",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:delete",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:updateStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getAll",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getById",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:getByIdOrThrow",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:toDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/InterviewScheduleService.java:InterviewScheduleService",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "target": "function:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java:updateExpiredInterviews",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java",
+      "target": "class:app/src/main/java/interview/guide/modules/interviewschedule/service/ScheduleStatusUpdater.java:ScheduleStatusUpdater",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getAllKnowledgeBases",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:deleteKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:queryKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:queryKnowledgeBaseStream",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getAllCategories",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getByCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getUncategorized",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:updateCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:uploadKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:downloadKnowledgeBase",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:search",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:getStatistics",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:revectorize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/KnowledgeBaseController.java:KnowledgeBaseController",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:VectorizeStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:groupName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:consumerPrefix",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:threadName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:parsePayload",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markProcessing",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:processBusiness",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markCompleted",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:markFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:retryMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:updateVectorStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamConsumer.java:VectorizeStreamConsumer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:VectorizeStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:sendVectorizeTask",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:taskDisplayName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:streamKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:buildMessage",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:payloadIdentifier",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:onSendFailed",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:updateVectorStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/listener/VectorizeStreamProducer.java:VectorizeStreamProducer",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setId",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getFileHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setFileHash",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setName",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getOriginalFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setOriginalFilename",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setFileSize",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setContentType",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getStorageKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setStorageKey",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getStorageUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setStorageUrl",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getUploadedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setUploadedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getLastAccessedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setLastAccessedAt",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getQuestionCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setQuestionCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:incrementAccessCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:incrementQuestionCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setCategory",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getVectorStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setVectorStatus",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getVectorError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setVectorError",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:getChunkCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:setChunkCount",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/KnowledgeBaseEntity.java:KnowledgeBaseEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatDTO.java:RagChatDTO",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:onCreate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:onUpdate",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "target": "function:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:getTypeString",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains function"
+      }
+    },
+    {
+      "source": "file:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java",
+      "target": "class:app/src/main/java/interview/guide/modules/knowledgebase/model/RagChatMessageEntity.java:RagChatMessageEntity",
+      "type": "contains",
+      "weight": 1,
+      "metadata": {
+        "relationship": "file contains class"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+[
+  {
+    "order": 1,
+    "title": "项目概览",
+    "description": "开始于 README 文档，了解项目整体目标、技术栈、功能模块和架构设计理念。",
+    "nodeIds": [
+      "document:README.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "后端应用入口",
+    "description": "Spring Boot 应用入口类，了解后端如何启动和配置组件扫描。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/App.java"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "前端应用入口",
+    "description": "React 应用启动入口（main.tsx）和根组件（App.tsx），了解前端路由和整体布局。",
+    "nodeIds": [
+      "file:frontend/src/main.tsx",
+      "file:frontend/src/App.tsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "通用基础设施 — AI集成",
+    "description": "LLM Provider 注册管理、结构化输出重试、提示词净化等AI集成核心组件，支撑所有AI功能。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/common/ai/LlmProviderRegistry.java",
+      "file:app/src/main/java/interview/guide/common/ai/StructuredOutputInvoker.java",
+      "config:app/src/main/resources/application.yml"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "统一响应与异常处理",
+    "description": "统一的API响应包装（Result&lt;T&gt;）、业务异常体系（ErrorCode、BusinessException）和全局异常处理器。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/common/result/Result.java",
+      "file:app/src/main/java/interview/guide/common/exception/ErrorCode.java",
+      "file:app/src/main/java/interview/guide/common/exception/GlobalExceptionHandler.java",
+      "file:app/src/main/java/interview/guide/common/exception/BusinessException.java"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "简历管理模块",
+    "description": "简历上传、解析、AI评分和去重模块。前端上传页面和后端ResumeController/Services处理异步分析流程。",
+    "nodeIds": [
+      "file:frontend/src/pages/UploadPage.tsx",
+      "file:frontend/src/pages/ResumeDetailPage.tsx",
+      "file:frontend/src/api/resume.ts"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "模拟面试模块",
+    "description": "AI模拟面试核心功能：选择面试方向、AI出题、用户作答、评估和报告导出。包含Controller、Service和数据模型。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/modules/interview/InterviewController.java",
+      "file:frontend/src/pages/InterviewPage.tsx",
+      "file:frontend/src/pages/InterviewHubPage.tsx",
+      "file:frontend/src/components/InterviewPanel.tsx"
+    ]
+  },
+  {
+    "order": 8,
+    "title": "RAG 知识库",
+    "description": "知识库文档上传、向量化、RAG查询和聊天功能。基于pgvector实现语义检索。",
+    "nodeIds": [
+      "file:frontend/src/pages/KnowledgeBaseUploadPage.tsx",
+      "file:frontend/src/pages/KnowledgeBaseQueryPage.tsx",
+      "file:frontend/src/pages/KnowledgeBaseManagePage.tsx",
+      "file:frontend/src/api/knowledgebase.ts"
+    ]
+  },
+  {
+    "order": 9,
+    "title": "语音面试模块",
+    "description": "WebSocket实时语音面试，集成ASR语音识别和TTS语音合成，支持多轮对话评估。",
+    "nodeIds": [
+      "file:frontend/src/pages/VoiceInterviewPage.tsx",
+      "file:frontend/src/pages/VoiceInterviewEvaluationPage.tsx",
+      "file:frontend/src/api/voiceInterview.ts"
+    ]
+  },
+  {
+    "order": 10,
+    "title": "面试日程管理",
+    "description": "面试邀请管理、日历视图展示、AI解析面试邮件并自动创建日程。",
+    "nodeIds": [
+      "file:frontend/src/pages/InterviewSchedulePage.tsx",
+      "file:frontend/src/api/interviewSchedule.ts"
+    ]
+  },
+  {
+    "order": 11,
+    "title": "异步任务处理",
+    "description": "基于Redis Stream的异步任务处理框架，用于简历分析和知识库向量化等耗时操作的解耦。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/common/async/AbstractStreamProducer.java",
+      "file:app/src/main/java/interview/guide/common/async/AbstractStreamConsumer.java",
+      "file:app/src/main/java/interview/guide/common/constant/AsyncTaskStreamConstants.java"
+    ]
+  },
+  {
+    "order": 12,
+    "title": "AI面试技能定义（Prompts）",
+    "description": "定义10+面试方向的SKILL.md文件和提示词模板，涵盖Java、前端、算法、系统设计等领域。",
+    "nodeIds": []
+  },
+  {
+    "order": 13,
+    "title": "基础设施与部署",
+    "description": "Docker Compose编排6个服务（后端、前端、PostgreSQL、Redis、RustFS），一键本地部署。",
+    "nodeIds": [
+      "service:app/Dockerfile",
+      "service:frontend/Dockerfile"
+    ]
+  },
+  {
+    "order": 14,
+    "title": "文件存储与导出",
+    "description": "S3兼容的对象存储服务（RustFS/MinIO）用于简历和报告存储，PdfExportService用于PDF报告导出。",
+    "nodeIds": [
+      "file:app/src/main/java/interview/guide/infrastructure/file/FileStorageService.java",
+      "file:app/src/main/java/interview/guide/infrastructure/export/PdfExportService.java"
+    ]
+  }
+]

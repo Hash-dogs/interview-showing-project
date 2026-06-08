@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "document:app/src/test/resources/test-files/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "app/src/test/resources/test-files/README.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:app/src/test/resources/test-files/sample-resume.md",
+      "type": "document",
+      "name": "sample-resume.md",
+      "filePath": "app/src/test/resources/test-files/sample-resume.md",
+      "summary": "Markdown 文档",
+      "tags": [
+        "markdown",
+        "docs",
+        "md",
+        "app"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:app/src/test/resources/test-files/sample-resume.txt",
+      "type": "document",
+      "name": "sample-resume.txt",
+      "filePath": "app/src/test/resources/test-files/sample-resume.txt",
+      "summary": "sample-resume.txt 文件",
+      "tags": [
+        "txt",
+        "docs",
+        "app"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}
